@@ -7,7 +7,9 @@ Simple, mobile-first session browser and schedule builder for KubeCon + CloudNat
 - Browse by day, search, filter by track, level and venue
 - ☆ sessions to build your schedule; overlaps are flagged
 - Export picks to calendar (.ics) or copy a link to move them to another device
-- Picks are stored in your browser (localStorage)
+- Picks are stored in your browser (localStorage), with optional sync across devices via a
+  secret GitHub Gist: tap ☁, create a token with only the `gist` scope, and paste it on each device.
+  Changes merge per session by timestamp, so removing a pick on one device carries over to the others.
 
 ## Data
 

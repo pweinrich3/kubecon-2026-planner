@@ -12,11 +12,12 @@
 <body>
 <header class="top">
   <div class="bar">
-    <h1>KubeCon NA '26</h1>
+    <h1>KubeCon '26</h1>
     <nav class="views">
       <button data-view="browse" class="on">Browse</button>
       <button data-view="mine">My Schedule <span id="mineCount" class="count">0</span></button>
     </nav>
+    <button id="syncBtn" class="syncbtn" data-act="sync-open" aria-label="Sync settings">☁</button>
   </div>
   <div class="days" id="days"></div>
   <div id="browseControls">
@@ -40,8 +41,15 @@
 
 <dialog id="detail">
   <div class="sheet">
-    <button class="close" id="closeDetail" aria-label="Close">✕</button>
+    <button class="close" aria-label="Close">✕</button>
     <div id="detailBody"></div>
+  </div>
+</dialog>
+
+<dialog id="syncDlg">
+  <div class="sheet">
+    <button class="close" aria-label="Close">✕</button>
+    <div id="syncBody"></div>
   </div>
 </dialog>
 

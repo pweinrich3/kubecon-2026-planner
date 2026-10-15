@@ -1,7 +1,11 @@
 (() => {
   const TZ = "America/Denver"; // Salt Lake City venue time; schedule times are in this zone
-  const LS_PICKS = "kc26.picks";
+  const LS_PICKS = "kc26.picks"; // legacy: plain array of ids
+  const LS_LOG = "kc26.pickLog"; // { [id]: { on: bool, t: ms } } — mergeable across devices
+  const LS_SYNC = "kc26.sync";
   const LS_UI = "kc26.ui";
+  const GIST_FILE = "kubecon-2026-planner-picks.json";
+  const TOKEN_URL = "https://github.com/settings/tokens/new?scopes=gist&description=KubeCon%202026%20Planner%20sync";
   const $ = (s) => document.querySelector(s);
 
   const store = {
@@ -11,7 +15,14 @@
 
   let sessions = [];
   let byId = new Map();
-  let picks = new Set(store.get(LS_PICKS, []));
+  let dataInfo = null; // { source, updated } from sessions.json
+  let pickLog = store.get(LS_LOG, null) || Object.fromEntries(store.get(LS_PICKS, []).map((id) => [id, { on: true, t: 1 }]));
+  let picks = new Set();
+  const derivePicks = () => {
+    picks = new Set(Object.keys(pickLog).filter((id) => pickLog[id].on && (!byId.size || byId.has(id))));
+  };
+  derivePicks();
+  const sync = Object.assign({ token: "", gistId: "", last: null, error: "" }, store.get(LS_SYNC, {}));
   const ui = Object.assign(
     { view: "browse", day: null, q: "", track: "", level: "", venue: "", hidePast: false, hideClash: false },
     store.get(LS_UI, {})
@@ -51,8 +62,14 @@
   }
 
   function save() {
-    store.set(LS_PICKS, [...picks]);
+    store.set(LS_LOG, pickLog);
     store.set(LS_UI, ui);
+  }
+
+  function setPick(id, on) {
+    pickLog[id] = { on, t: Date.now() };
+    derivePicks();
+    queueSync();
   }
 
   // ---------- rendering ----------
@@ -61,9 +78,9 @@
     const clashes = clashesFor(s);
     const clash = clashes.length > 0;
     const chips = [s.track, s.level, ...s.tags].filter(Boolean).map((t) => `<span class="chip">${esc(t)}</span>`).join("");
-    const warn = clash
-      ? `<div class="warn">⚠ ${picked ? "Overlaps" : "Clashes with"}: ${clashes.map((c) => esc(c.title)).join("; ")}</div>`
-      : "";
+    const warn = !clash ? ""
+      : picked ? `<div class="warn">⚠ Overlaps: ${clashes.map((c) => esc(c.title)).join("; ")}</div>`
+      : `<div class="warn">⚠ Clashes with ${clashes.length} of your picks</div>`;
     return `<div class="card${picked ? " picked" : ""}${picked && clash ? " clash" : ""}" style="--trk:${trackColor(s.track)}">
       <div class="main" data-open="${s.id}">
         <div class="t">${esc(s.title)}</div>
@@ -173,7 +190,7 @@
   }
 
   function toggle(id) {
-    picks.has(id) ? picks.delete(id) : picks.add(id);
+    setPick(id, !picks.has(id));
     render();
     if ($("#detail").open) openDetail($("#detail").dataset.id);
   }
@@ -218,9 +235,173 @@
     history.replaceState(null, "", location.pathname);
     const fresh = ids.filter((id) => !picks.has(id));
     if (fresh.length && confirm(`Import ${fresh.length} session(s) into your schedule?`)) {
-      fresh.forEach((id) => picks.add(id));
+      fresh.forEach((id) => setPick(id, true));
       ui.view = "mine";
     }
+  }
+
+  // ---------- GitHub Gist sync ----------
+  // Each device keeps a log of {on, t} per session; logs merge by newest timestamp,
+  // so un-starring on one device isn't undone by a stale copy on another.
+  let syncing = false, syncAgain = false, syncTimer;
+
+  const validLog = (o) => Object.fromEntries(Object.entries(o || {}).filter(
+    ([id, v]) => /^\d+$/.test(id) && v && typeof v.on === "boolean" && Number.isFinite(v.t)
+  ));
+  const mergeLogs = (a, b) => {
+    const out = { ...a };
+    for (const [id, v] of Object.entries(b)) if (!out[id] || v.t > out[id].t) out[id] = v;
+    return out;
+  };
+  const sameLog = (a, b) => {
+    const ka = Object.keys(a), kb = Object.keys(b);
+    return ka.length === kb.length && ka.every((id) => b[id] && b[id].on === a[id].on && b[id].t === a[id].t);
+  };
+
+  async function gh(path, opts = {}) {
+    const r = await fetch("https://api.github.com" + path, {
+      ...opts,
+      cache: "no-store",
+      headers: { Authorization: `Bearer ${sync.token}`, Accept: "application/vnd.github+json" },
+    });
+    if (!r.ok) {
+      const err = new Error(
+        r.status === 401 ? "GitHub rejected the token (expired or revoked?)."
+        : r.status === 403 ? "Token is missing the gist scope, or GitHub rate-limited the request."
+        : `GitHub error ${r.status}.`
+      );
+      err.status = r.status;
+      throw err;
+    }
+    return r.json();
+  }
+
+  async function findOrCreateGist() {
+    for (let page = 1; page <= 10; page++) {
+      const list = await gh(`/gists?per_page=100&page=${page}`);
+      const g = list.find((g) => g.files && g.files[GIST_FILE]);
+      if (g) return g.id;
+      if (list.length < 100) break;
+    }
+    const g = await gh("/gists", {
+      method: "POST",
+      body: JSON.stringify({
+        description: "KubeCon NA 2026 Planner: my picks (synced by the app, don't rename)",
+        public: false,
+        files: { [GIST_FILE]: { content: JSON.stringify({ picks: {} }) } },
+      }),
+    });
+    return g.id;
+  }
+
+  async function readGist() {
+    let g;
+    try {
+      g = await gh(`/gists/${sync.gistId}`);
+    } catch (e) {
+      if (e.status !== 404) throw e;
+      sync.gistId = await findOrCreateGist(); // gist was deleted; start a new one
+      return {};
+    }
+    const f = g.files[GIST_FILE];
+    if (!f) return {};
+    const text = f.truncated ? await (await fetch(f.raw_url, { cache: "no-store" })).text() : f.content;
+    try { return validLog(JSON.parse(text).picks); } catch { return {}; }
+  }
+
+  async function runSync() {
+    if (!sync.token) return;
+    if (syncing) { syncAgain = true; return; }
+    syncing = true;
+    renderSyncStatus("Syncing…");
+    try {
+      if (!sync.gistId) sync.gistId = await findOrCreateGist();
+      const remote = await readGist();
+      const merged = mergeLogs(pickLog, remote);
+      if (!sameLog(merged, remote)) {
+        await gh(`/gists/${sync.gistId}`, {
+          method: "PATCH",
+          body: JSON.stringify({ files: { [GIST_FILE]: { content: JSON.stringify({ picks: merged }, null, 1) } } }),
+        });
+      }
+      // Merge again in case the user starred something while we were waiting on the network.
+      const next = mergeLogs(pickLog, merged);
+      if (!sameLog(next, pickLog)) {
+        pickLog = next;
+        derivePicks();
+        render();
+      }
+      sync.last = new Date().toISOString();
+      sync.error = "";
+    } catch (e) {
+      sync.error = navigator.onLine === false ? "Offline: will sync when you're back online." : e.message;
+    } finally {
+      syncing = false;
+      store.set(LS_SYNC, sync);
+      renderSyncStatus();
+      if (syncAgain) { syncAgain = false; runSync(); }
+    }
+  }
+
+  function queueSync() {
+    if (!sync.token) return;
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(runSync, 1000);
+  }
+
+  function renderSyncStatus(msg) {
+    const btn = $("#syncBtn");
+    btn.className = "syncbtn" + (!sync.token ? "" : sync.error ? " err" : " ok");
+    btn.title = !sync.token ? "Sync is off" : sync.error || "Synced";
+    if ($("#syncDlg").open) renderSyncDialog(msg);
+    renderFoot();
+  }
+
+  function renderSyncDialog(msg) {
+    const last = sync.last ? new Date(sync.last).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" }) : "never";
+    const status = msg || (sync.error ? `<span class="bad">⚠ ${esc(sync.error)}</span>` : `✓ Last synced ${esc(last)}`);
+    $("#syncBody").innerHTML = sync.token
+      ? `<h3>Sync is on</h3>
+        <p class="m">${status}</p>
+        <p class="m">Your picks are stored in a <a href="https://gist.github.com/${esc(sync.gistId)}" target="_blank" rel="noopener">secret gist</a> in your GitHub account. They sync automatically when you star a session or open the app.</p>
+        <div class="tools">
+          <button data-act="sync-now">⟳ Sync now</button>
+          <button data-act="sync-off">Turn off on this device</button>
+        </div>`
+      : `<h3>Sync across devices</h3>
+        <p class="m">Keep your picks in sync between your phone and laptop by storing them in a secret GitHub Gist in your account.</p>
+        <ol class="steps">
+          <li><a href="${TOKEN_URL}" target="_blank" rel="noopener">Create a GitHub token ↗</a>. The <b>gist</b> scope is already selected; leave everything else off and set the expiration past Nov 12. Then generate and copy it.</li>
+          <li>Paste it below. Do this once on each device.</li>
+        </ol>
+        <input id="tokenIn" type="password" placeholder="ghp_…" autocomplete="off" spellcheck="false">
+        <button class="bigstar on" data-act="sync-connect">Connect</button>
+        ${msg || sync.error ? `<p class="m">${msg || `<span class="bad">⚠ ${esc(sync.error)}</span>`}</p>` : ""}
+        <p class="m small">The token stays in this browser only and can only read/write your gists. You can revoke it anytime in GitHub settings.</p>`;
+  }
+
+  async function connectSync() {
+    const token = $("#tokenIn").value.trim();
+    if (!token) return;
+    Object.assign(sync, { token, gistId: "", error: "", last: null });
+    await runSync();
+    if (sync.error && /rejected|scope/.test(sync.error)) {
+      sync.token = ""; // don't keep a token that doesn't work
+      store.set(LS_SYNC, sync);
+    }
+    renderSyncStatus();
+  }
+
+  function disconnectSync() {
+    if (!confirm("Turn off sync on this device? Your picks stay here and in the gist.")) return;
+    Object.assign(sync, { token: "", gistId: "", error: "", last: null });
+    store.set(LS_SYNC, sync);
+    renderSyncStatus();
+  }
+
+  function renderFoot() {
+    if (!dataInfo) return;
+    $("#foot").innerHTML = `Schedule data from <a href="${esc(dataInfo.source)}" target="_blank" rel="noopener">events.linuxfoundation.org</a> · updated ${new Date(dataInfo.updated).toLocaleString()}<br>Times shown in venue time (Mountain). Picks are ${sync.token ? "synced via your GitHub Gist" : "saved on this device. Tap ☁ to sync"}.`;
   }
 
   // ---------- events ----------
@@ -233,9 +414,18 @@
     else if (t.dataset.view) { ui.view = t.dataset.view; render(); window.scrollTo(0, 0); }
     else if (t.dataset.act === "ics") exportIcs();
     else if (t.dataset.act === "share") share();
+    else if (t.dataset.act === "sync-open") { renderSyncDialog(); $("#syncDlg").showModal(); }
+    else if (t.dataset.act === "sync-connect") connectSync();
+    else if (t.dataset.act === "sync-now") runSync();
+    else if (t.dataset.act === "sync-off") disconnectSync();
   });
-  $("#closeDetail").onclick = () => $("#detail").close();
-  $("#detail").addEventListener("click", (e) => { if (e.target.id === "detail") $("#detail").close(); });
+  for (const id of ["detail", "syncDlg"]) {
+    const dlg = document.getElementById(id);
+    dlg.querySelector(".close").onclick = () => dlg.close();
+    dlg.addEventListener("click", (e) => { if (e.target === dlg) dlg.close(); });
+  }
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") runSync(); });
+  window.addEventListener("online", runSync);
 
   let qTimer;
   $("#q").addEventListener("input", (e) => {
@@ -279,16 +469,17 @@
     .then((data) => {
       sessions = data.sessions;
       byId = new Map(sessions.map((s) => [s.id, s]));
-      for (const id of [...picks]) if (!byId.has(id)) picks.delete(id); // drop sessions removed from the schedule
+      derivePicks(); // hides picks for sessions removed from the schedule
       const uniq = (f) => [...new Set(sessions.map(f).filter(Boolean))].sort();
       fillSelect("#fTrack", uniq((s) => s.track));
       fillSelect("#fLevel", uniq((s) => s.level));
       fillSelect("#fVenue", uniq((s) => venueOf(s.room)));
       syncControls();
       importFromHash();
-      const upd = new Date(data.updated);
-      $("#foot").innerHTML = `Schedule data from <a href="${esc(data.source)}" target="_blank" rel="noopener">events.linuxfoundation.org</a> · updated ${upd.toLocaleString()}<br>Times shown in venue time (Mountain). Picks are saved on this device.`;
+      dataInfo = { source: data.source, updated: data.updated };
       render();
+      renderSyncStatus();
+      runSync();
     })
     .catch(() => { $("#list").innerHTML = `<div class="empty">Couldn't load the schedule. Pull to refresh.</div>`; });
 })();
