@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b316a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>KubeCon NA 2026 Planner</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☸️</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="bar">
+    <h1>KubeCon NA '26</h1>
+    <nav class="views">
+      <button data-view="browse" class="on">Browse</button>
+      <button data-view="mine">My Schedule <span id="mineCount" class="count">0</span></button>
+    </nav>
+  </div>
+  <div class="days" id="days"></div>
+  <div id="browseControls">
+    <div class="searchrow">
+      <input id="q" type="search" placeholder="Search titles, speakers, topics…" autocomplete="off">
+      <button id="filterBtn" class="iconbtn" aria-expanded="false">Filters<span id="filterDot" class="dot" hidden></span></button>
+    </div>
+    <div id="filters" class="filters" hidden>
+      <label>Track <select id="fTrack"><option value="">All tracks</option></select></label>
+      <label>Level <select id="fLevel"><option value="">Any</option></select></label>
+      <label>Venue <select id="fVenue"><option value="">All venues</option></select></label>
+      <label class="chk"><input type="checkbox" id="fPast"> Hide sessions that have ended</label>
+      <label class="chk"><input type="checkbox" id="fConflict"> Hide sessions that clash with my picks</label>
+      <button id="clearFilters" class="link">Clear filters</button>
+    </div>
+  </div>
+</header>
+
+<main id="list"></main>
+<p class="foot" id="foot"></p>
+
+<dialog id="detail">
+  <div class="sheet">
+    <button class="close" id="closeDetail" aria-label="Close">✕</button>
+    <div id="detailBody"></div>
+  </div>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>
