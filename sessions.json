@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-16T19:33:33Z",
+ "updated": "2026-10-16T22:52:13Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2243,7 +2243,8 @@
    "speakers": [
     "Kat Cosgrove",
     "Maciej Szulik",
-    "Paco Xu"
+    "Paco Xu",
+    "Michael McCune"
    ],
    "track": "Maintainer Track",
    "level": "",
@@ -2396,6 +2397,28 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294771"
+  },
+  {
+   "id": "1364870",
+   "title": "🚩 An Introduction to Capture The Flag",
+   "start": "2026-11-10T11:30:00",
+   "end": "2026-11-10T13:30:00",
+   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [
+    "Fabian Kammel",
+    "Vicente Herrera"
+   ],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "An Introduction to Capture The Flag",
+    "The Cloud Native Capture The Flag (CTF) is available to all KubeCon + CloudNativeCon attendees. In preparation for playing the game, you are invited to attend an introductory session.",
+    "This session introduces CTF competitions for newcomers: any experience level is welcome. We will share tips and tricks for completing these challenges and work through a practice scenario together. You can play solo or with a friend!",
+    "Learn more about how to participate in Capture The Flag: https://ctf.control-plane.io/events/kubecon-na-26/"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1364870"
   },
   {
    "id": "1334784",
@@ -5109,6 +5132,24 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362609"
   },
   {
+   "id": "1364853",
+   "title": "CLBO: ClashLoopBackOff",
+   "start": "2026-11-10T18:00:00",
+   "end": "2026-11-10T19:15:00",
+   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Come and watch a competition of two people using their technical ingenuity and creativity to solve a challenge put forth by the Scheduler (host). Time is limited and stakes are high, as this isn’t just a “live demo” for the masses. Over the course of twenty minutes, competitors will attempt to resolve a broken cluster, or deploy a service to production. At the end of the time, entries will be judged on four categories. Each category will be rated on Stability, Resiliency, Flexibility, and Observability.",
+    "Participants won’t know what challenge they’ll be given ahead of time but will be informed whether certain cloud resources or APIs will need to be enabled and available. Pre-creating any helpful scripts, code, or cloud resources is strictly prohibited. During the competition, the Scheduler will bounce between the participants’ screens, engage with the audience, and ask questions of the participants live.",
+    "Join us, root for our competitors, and feel free to engage live!"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1364853"
+  },
+  {
    "id": "1289736",
    "title": "🎉 #KubeCrawl + #CloudNativeFest",
    "start": "2026-11-10T18:00:00",
@@ -5998,6 +6039,24 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362623"
+  },
+  {
+   "id": "1364875",
+   "title": "🚩Capture The Flag Experience",
+   "start": "2026-11-11T11:30:00",
+   "end": "2026-11-11T13:30:00",
+   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "The Capture The Flag (CTF) experience runs concurrently to KubeCon + CloudNativeCon North America 2026!",
+    "Delve deeper into the dark and mysterious world of Cloud Native security! Exploit a supply chain attack and start your journey deep inside the target infrastructure, utilize your position to hunt and collect the flags, and hopefully learn something new and wryly amusing along the way!",
+    "Attendees can play three increasingly treacherous and demanding scenarios to bushwhack their way through the dense jungle of Cloud Native security. Everybody is welcome, from beginner to seasoned veterans, as we venture amongst the low-hanging fruits of insecure configuration and scale the lofty peaks of cluster compromise!"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1364875"
   },
   {
    "id": "1334851",
@@ -6986,7 +7045,8 @@
    "end": "2026-11-11T14:45:00",
    "room": "Salt Palace | Level 2 | 254",
    "speakers": [
-    "Jesper Joergensen"
+    "Jesper Joergensen",
+    "Karunasri Garigipati"
    ],
    "track": "Experiences",
    "level": "",
@@ -8006,6 +8066,25 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1336097"
+  },
+  {
+   "id": "1364856",
+   "title": "CLBO: ClashLoopBackOff: Attendee Edition",
+   "start": "2026-11-11T15:15:00",
+   "end": "2026-11-11T16:15:00",
+   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Come and join a competition of people using their technical ingenuity and creativity to solve a challenge put forth by the Scheduler (host). Time is limited and stakes are high, as this isn’t just a “live demo” for the masses.",
+    "Over the course of twenty minutes, competitors will attempt to resolve a broken cluster, or deploy a service to production. At the end of the time, entries will be judged on four categories. Each category will be rated on Stability, Resiliency, Flexibility, and Observability.",
+    "Participants won’t know what challenge they’ll be given ahead of time but any cloud resources or APIs will given out before the challenge is announced. During the competition, the Scheduler will engage with the audience, ask questions, and perhaps engage in some light roasting of good and bad ideas.",
+    "Join us, root for our competitors, and feel free to engage live!"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1364856"
   },
   {
    "id": "1250936",
