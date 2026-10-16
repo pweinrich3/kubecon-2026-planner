@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-15T23:32:11Z",
+ "updated": "2026-10-16T04:32:21Z",
  "sessions": [
   {
    "id": "1304040",
@@ -3437,7 +3437,6 @@
    "end": "2026-11-10T15:20:00",
    "room": "Salt Palace | Level 1 | Grand Ballroom GI",
    "speakers": [
-    "Meghana Kaushal",
     "Dolis Sharma"
    ],
    "track": "Platform Engineering",
@@ -4735,7 +4734,8 @@
    "end": "2026-11-10T18:00:00",
    "room": "Salt Palace | Level 1 | Grand Ballroom J",
    "speakers": [
-    "Catherine Paganini"
+    "Catherine Paganini",
+    "Jay Jackson"
    ],
    "track": "Inclusion + Accessibility",
    "level": "Any Level",
@@ -4756,8 +4756,7 @@
    "end": "2026-11-10T18:00:00",
    "room": "Salt Palace | Level 1 | 151",
    "speakers": [
-    "Zixuan Feng",
-    "Anita Sarma"
+    "Zixuan Feng"
    ],
    "track": "Cloud Native Experience",
    "level": "Any Level",
@@ -6980,6 +6979,28 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362678"
   },
   {
+   "id": "1360833",
+   "title": "Git, APIs, and Kubernetes: Where Should Platform Configuration Live",
+   "start": "2026-11-11T14:20:00",
+   "end": "2026-11-11T14:45:00",
+   "room": "Salt Palace | Level 2 | 254",
+   "speakers": [
+    "Jesper Joergensen"
+   ],
+   "track": "Experiences",
+   "level": "",
+   "tags": [
+    "BoF"
+   ],
+   "description": [
+    "Git is often described as the source of truth for Kubernetes platforms, but it is rarely the only system involved. Developers make changes through portals and CLIs, CI systems update deployments, operators reconcile resources, and AI agents increasingly need to inspect and modify platform state. Each interface raises the same question: where does authoritative configuration actually live?",
+    "Join platform practitioners from Salesforce, Heroku and ConfigHub for a discussion of API-driven configuration, configuration as data, GitOps, and Kubernetes-native control planes. We will compare how these models represent intent, materialize configuration, publish releases, reconcile live state, and preserve an auditable history of change.",
+    "Bring your own platform architecture, lessons, and strong opinions."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1360833"
+  },
+  {
    "id": "1289696",
    "title": "Crossplane – The Cloud Native Framework for Platform Engineering",
    "start": "2026-11-11T14:20:00",
@@ -8713,7 +8734,7 @@
    "room": "Salt Palace | Level 2 | 255 BC",
    "speakers": [
     "Karena Angell",
-    "Sean Horgan"
+    "Alex Chircop"
    ],
    "track": "AI Inference + Agentic",
    "level": "Any Level",
@@ -9117,7 +9138,8 @@
    "end": "2026-11-12T09:43:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
-    "Jago Macleod"
+    "Jago Macleod",
+    "Shaun Hopper"
    ],
    "track": "Keynote Sessions",
    "level": "",
@@ -9706,15 +9728,15 @@
   },
   {
    "id": "1243227",
-   "title": "The Most Boring Talk at KubeCon – and the One That Will Save Your Job",
+   "title": "The Most Boring Talk at KubeCon – And the One That Will Save Your Job",
    "start": "2026-11-12T11:00:00",
    "end": "2026-11-12T12:20:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom A",
    "speakers": [
     "Lev Andelman",
     "Regina Voloshin",
-    "Mandi Walls",
-    "Cortney Nickerson"
+    "Cortney Nickerson",
+    "Julie Gunderson"
    ],
    "track": "📚 Tutorials",
    "level": "Advanced",
