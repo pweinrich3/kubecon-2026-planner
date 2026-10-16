@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-16T04:32:21Z",
+ "updated": "2026-10-16T13:15:50Z",
  "sessions": [
   {
    "id": "1304040",
@@ -7488,7 +7488,7 @@
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
    "speakers": [
     "Jakub Suchy",
-    "Hélène Durand"
+    "Héléne Durand"
    ],
    "track": "Sponsor Demo Theater",
    "level": "",
@@ -10034,8 +10034,8 @@
    "end": "2026-11-12T12:20:00",
    "room": "Salt Palace | Level 2 | 250 A-C",
    "speakers": [
-    "Dominik Marcinski",
-    "Heba Elayoty"
+    "Heba Elayoty",
+    "Dominik Marcinski"
    ],
    "track": "Maintainer Track",
    "level": "",
