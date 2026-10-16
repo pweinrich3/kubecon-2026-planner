@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-16T13:15:50Z",
+ "updated": "2026-10-16T19:33:33Z",
  "sessions": [
   {
    "id": "1304040",
@@ -5805,7 +5805,8 @@
    "end": "2026-11-11T11:30:00",
    "room": "Salt Palace | Level 2 | 250 D-F",
    "speakers": [
-    "Rajith Attapattu"
+    "Rajith Attapattu",
+    "Warwick Peatey"
    ],
    "track": "Maintainer Track",
    "level": "",
@@ -8232,6 +8233,27 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1237600"
+  },
+  {
+   "id": "1363966",
+   "title": "Exploring Telemetry Quality",
+   "start": "2026-11-11T16:10:00",
+   "end": "2026-11-11T16:40:00",
+   "room": "Salt Palace | Level 2 | 254",
+   "speakers": [
+    "Jacob Aronoff"
+   ],
+   "track": "Experiences",
+   "level": "",
+   "tags": [
+    "BoF"
+   ],
+   "description": [
+    "How do we ensure the quality of our telemetry?",
+    "Topics to be included but open to other topics during the session."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363966"
   },
   {
    "id": "1289664",
