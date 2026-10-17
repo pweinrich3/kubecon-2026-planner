@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-16T22:52:13Z",
+ "updated": "2026-10-17T18:30:42Z",
  "sessions": [
   {
    "id": "1304040",
@@ -7046,7 +7046,8 @@
    "room": "Salt Palace | Level 2 | 254",
    "speakers": [
     "Jesper Joergensen",
-    "Karunasri Garigipati"
+    "Karunasri Garigipati",
+    "Joe Kutner"
    ],
    "track": "Experiences",
    "level": "",
