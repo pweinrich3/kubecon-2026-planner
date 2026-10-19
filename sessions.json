@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-19T15:36:10Z",
+ "updated": "2026-10-19T21:03:18Z",
  "sessions": [
   {
    "id": "1304040",
@@ -278,35 +278,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289762"
   },
   {
-   "id": "1339971",
-   "title": "Hands-On with Apple Open Source Tooling Hosted by Apple | SEPARATE REGISTRATION REQUIRED",
-   "start": "2026-11-09T09:00:00",
-   "end": "2026-11-09T15:00:00",
-   "room": "Off-Site Location",
-   "speakers": [],
-   "track": "Sponsor-hosted Co-located Events",
-   "level": "",
-   "tags": [],
-   "description": [
-    "Join Apple engineers to explore two cloud-native open source tools: Pkl for type-safe configuration as code, and Container for building and running Linux containers on Mac. Connect directly with project maintainers and get hands-on experience with these tools.",
-    "We will host two sessions as part of this workshop series. Please register for each session separately:",
-    "10:00 AM – 11:30 AM – Using Pkl to tame your configuration web\n12:00 PM – 01:00 PM – Lunch Break (food provided)\n01:00 PM – 02:30 PM – Container Install Meetup",
-    "To learn more please visit https://s.apple.com/dr0i6H2GM7\nFor questions regarding this event, please contact: (email on official site)",
-    "Please note that this is an off-site Sponsor-hosted Co-located event."
-   ],
-   "links": [
-    {
-     "label": "Website",
-     "url": "https://s.apple.com/dr0i6H2GM7"
-    },
-    {
-     "label": "Location Map",
-     "url": "https://www.google.com/maps/place/Utah+Museum+of+Contemporary+Art/@40.7683501,-111.8973103,16z/data=!3m1!4b1!4m6!3m5!1s0x8752f50640f09e71:0xb9773cedf80c8d30!8m2!3d40.7683461!4d-111.8947354!16s%2Fg%2F11b8_pfyp2?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D"
-    }
-   ],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1339971"
-  },
-  {
    "id": "1289780",
    "title": "Agentics Day: MCP + Agents Hosted by CNCF – Full Day Event | ALL ACCESS PASS REQUIRED",
    "start": "2026-11-09T09:00:00",
@@ -503,6 +474,35 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289828"
+  },
+  {
+   "id": "1339971",
+   "title": "Hands-On with Apple Open Source Tooling Hosted by Apple | SEPARATE REGISTRATION REQUIRED",
+   "start": "2026-11-09T09:30:00",
+   "end": "2026-11-09T15:00:00",
+   "room": "Off-Site Location",
+   "speakers": [],
+   "track": "Sponsor-hosted Co-located Events",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Join Apple engineers to explore two cloud-native open source tools: Pkl for type-safe configuration as code, and Container for building and running Linux containers on Mac. Connect directly with project maintainers and get hands-on experience with these tools.",
+    "We will host two sessions as part of this workshop series. Please register for each session separately:",
+    "10:00 AM – 11:30 AM – Using Pkl to tame your configuration web\n12:00 PM – 01:00 PM – Lunch Break (food provided)\n01:00 PM – 02:30 PM – Container Install Meetup",
+    "To learn more please visit https://s.apple.com/dr0i6H2GM7\nFor questions regarding this event, please contact: (email on official site)",
+    "Please note that this is an off-site Sponsor-hosted Co-located event."
+   ],
+   "links": [
+    {
+     "label": "Website",
+     "url": "https://s.apple.com/dr0i6H2GM7"
+    },
+    {
+     "label": "Location Map",
+     "url": "https://www.google.com/maps/place/Utah+Museum+of+Contemporary+Art/@40.7683501,-111.8973103,16z/data=!3m1!4b1!4m6!3m5!1s0x8752f50640f09e71:0xb9773cedf80c8d30!8m2!3d40.7683461!4d-111.8947354!16s%2Fg%2F11b8_pfyp2?entry=ttu&g_ep=EgoyMDI2MDkxNi4wIKXMDSoASAFQAw%3D%3D"
+    }
+   ],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1339971"
   },
   {
    "id": "1289832",
@@ -963,6 +963,36 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289889"
+  },
+  {
+   "id": "1367685",
+   "title": "Stateful Done Right Hosted by Cockroach Labs | SEPARATE REGISTRATION REQUIRED",
+   "start": "2026-11-09T12:00:00",
+   "end": "2026-11-09T16:00:00",
+   "room": "Off-Site Location",
+   "speakers": [],
+   "track": "Sponsor-hosted Co-located Events",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Please note that this is an off-site Sponsor-hosted Co-located event.",
+    "Location: Le Méridien Salt Lake City Downtown, 131 S 300 W, Salt Lake City, UT 84101",
+    "On Kubernetes, pets get names and a human on call at 3 a.m. — cattle get managed by the herd. Your database should be cattle. Join our Day 0 workshop at KubeCon 2026 and get hands-on with stateful workloads done right: go from \"why are databases on K8s so hard?\" to running a production-grade, self-healing CockroachDB cluster with the GA CockroachDB Kubernetes Operator. Because CockroachDB is symmetric — every node is equal, with no primary to fail over — the Operator manages each node as a CrdbNode custom resource, not a StatefulSet, so any node can be replaced, rescheduled, or lost without ceremony. You'll deploy, scale, break, and recover a distributed SQL cluster live — and watch it heal itself. Designed for platform engineers and SREs who run stateful workloads on Kubernetes.",
+    "Instructors: Felipe Gutierrez and Nathan Zamecnik\nDate: November 9\nLocation: Le Meridien SLC\n12:00–1:00 PM: Lunch & Registration\n1:00–4:00 PM: Workshop",
+    "Learn more: https://events.cockroachlabs.com/cockroachlabs-kubecon-workshop",
+    "For questions regarding this event, please contact: (email on official site)"
+   ],
+   "links": [
+    {
+     "label": "Website",
+     "url": "https://events.cockroachlabs.com/cockroachlabs-kubecon-workshop"
+    },
+    {
+     "label": "Location Map",
+     "url": "https://maps.app.goo.gl/HDkTYVTG5RKeNBia7"
+    }
+   ],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1367685"
   },
   {
    "id": "1328916",
@@ -5295,7 +5325,8 @@
     "Sponsored"
    ],
    "description": [
-    "Enterprise AI never sits still. Thousands of agents, models, and applications spike, idle, scale, and redeploy every minute, each with its own needs, each affecting the others. It is too vast and too unpredictable for humans to manage. The answer is infrastructure that runs itself, and the thing that makes that safe is context: knowing how each workload behaves, what it depends on, and what it talks to before any action is taken. In this keynote, Yodar Shafrir shows how context, from a single workload to the whole system, becomes autonomous orchestration that keeps enterprise AI reliable and performant for what comes next."
+    "Enterprise AI never sits still. Thousands of agents, tools, models, and applications spike, idle, scale, and redeploy every minute, each with its own needs, each affecting the others. Managing production AI infrastructure manually has become impossible. The answer is infrastructure that runs autonomously, and that depends on real-time context: knowing how each workload behaves, what it needs, and what it talks to before any action is taken.",
+    "Yodar Shafrir shows how context, from a single workload to the whole system, becomes autonomous orchestration that keeps enterprise AI reliable and performant, and puts platform teams in command of the system instead of chasing it."
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1301748"
@@ -7047,7 +7078,8 @@
    "speakers": [
     "Jesper Joergensen",
     "Karunasri Garigipati",
-    "Joe Kutner"
+    "Joe Kutner",
+    "Rishabh Wason"
    ],
    "track": "Experiences",
    "level": "",
@@ -7792,6 +7824,29 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289667"
+  },
+  {
+   "id": "1367762",
+   "title": "Dockerfiles Made Software Reproducible. What Makes an Agent Reproducible?",
+   "start": "2026-11-11T15:10:00",
+   "end": "2026-11-11T15:40:00",
+   "room": "Salt Palace | Level 2 | 254",
+   "speakers": [
+    "Eli Aleyner"
+   ],
+   "track": "Experiences",
+   "level": "",
+   "tags": [
+    "BoF"
+   ],
+   "description": [
+    "Ten years ago, the OCI gave the industry one image format, so an image built on one machine runs on any other. Agents break that promise. An agent installs packages, calls APIs, and uses credentials to finish a task. Each time it needs more access, someone opens a firewall rule or pastes in a token. Months later, nobody can say what the agent is allowed to do, and a teammate cannot rebuild the setup.",
+    "Locking an agent in a box is only half the answer. An agent that can reach nothing is useless, so the real work is saying exactly what it may reach: this API but not deletes, this credential only for this host. That takes a policy language expressive enough for how people actually use agents. It also takes a runtime that is separate from the agent, so the rules are enforced by something the agent cannot rewrite or talk its way past.",
+    "This session shows one approach. A Kit is an ordinary OCI image that carries an agent, its tools, and a typed list of the permissions it asks for. A runtime reads that list and decides what to grant. In a live demo, a change in permissions appears as a diff a reviewer can reject, and a request the policy denies is blocked outside the agent. The Kit spec is open source under Apache 2.0, and Docker has committed to bringing it to the CNCF.",
+    "The session ends on the open questions. How expressive should the policy language be? What should a runtime be required to enforce? How do you test that it does? Attendees leave knowing how to try Kits and where to shape the spec."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1367762"
   },
   {
    "id": "1249814",
