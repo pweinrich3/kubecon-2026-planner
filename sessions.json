@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-17T18:30:42Z",
+ "updated": "2026-10-19T15:36:10Z",
  "sessions": [
   {
    "id": "1304040",
@@ -7496,7 +7496,12 @@
    "description": [
     "As AI infrastructure scales, performance depends not just on GPU count, but on where GPUs sit in the network. Training loses efficiency when collective operations cross spine boundaries. Inference can become bandwidth-limited when tensor-parallel workers are placed outside a shared fabric. Disaggregated inference adds KV cache movement between prefill and decode pools.\nTopology-aware scheduling can address these problems and is becoming prominent across Kubernetes-native and Slurm-backed AI platforms. Kueue and KAI Scheduler bring topology-aware placement to Kubernetes; Slinky connects Kubernetes workflows to Slurm. Across those paths, the same prerequisite is assumed rather than solved: accurate, current topology data published in the cluster.\nIn this talk, we show how Topograph discovers network topology across cloud and on-prem environments and publishes it into Kubernetes and Slinky/Slurm, giving each scheduling layer the information it needs for placement decisions."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/dsx-ai-factory/topograph"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1234985"
   },
   {
