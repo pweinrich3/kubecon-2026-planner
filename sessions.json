@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-20T04:51:38Z",
+ "updated": "2026-10-20T20:00:18Z",
  "sessions": [
   {
    "id": "1304040",
@@ -215,22 +215,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1345255"
   },
   {
-   "id": "1289955",
-   "title": "Project Lightning Talk Opening/ Intro",
-   "start": "2026-11-09T09:00:00",
-   "end": "2026-11-09T09:05:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "Robert Sirchia"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289955"
-  },
-  {
    "id": "1289758",
    "title": "CiliumCon Hosted by CNCF – Half Day Event | ALL ACCESS PASS REQUIRED",
    "start": "2026-11-09T09:00:00",
@@ -438,42 +422,20 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289774"
   },
   {
-   "id": "1289969",
-   "title": "Project Lightning Talk – Project Overview",
-   "start": "2026-11-09T09:07:00",
-   "end": "2026-11-09T09:12:00",
+   "id": "1289955",
+   "title": "Project Lightning Talk Opening/ Intro",
+   "start": "2026-11-09T09:30:00",
+   "end": "2026-11-09T09:35:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [],
+   "speakers": [
+    "Robert Sirchia"
+   ],
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [],
    "description": [],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289969"
-  },
-  {
-   "id": "1289828",
-   "title": "Kubernetes under Fire: Igniting Performance and Burning Through Bottlenecks with Kube-Burner",
-   "start": "2026-11-09T09:24:00",
-   "end": "2026-11-09T09:29:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "Andrew Collins"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [
-    "kube-burner"
-   ],
-   "description": [
-    "What happens when your Kubernetes cluster is pushed to its limits—does it scale or break in unexpected ways?",
-    "In this lightning talk, I’ll show how kube-burner is used to stress-test clusters, uncover performance bottlenecks, and catch regressions early.",
-    "Through quick examples, you’ll see how to run benchmarks, capture meaningful metrics, and identify issues like resource startup latencies and control plane slowdowns.",
-    "We’ll also highlight its role in upstream efforts like Kubernetes SIG KubeVirt and SIG Scalability, along with the project’s current scope and upcoming areas of development.",
-    "If you care about scalability and performance, this session gives you a fast, practical starting point."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289828"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289955"
   },
   {
    "id": "1339971",
@@ -505,10 +467,48 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1339971"
   },
   {
+   "id": "1289969",
+   "title": "Project Lightning Talk – Project Overview",
+   "start": "2026-11-09T09:37:00",
+   "end": "2026-11-09T09:52:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289969"
+  },
+  {
+   "id": "1289828",
+   "title": "Kubernetes under Fire: Igniting Performance and Burning Through Bottlenecks with Kube-Burner",
+   "start": "2026-11-09T09:54:00",
+   "end": "2026-11-09T09:59:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Andrew Collins"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "kube-burner"
+   ],
+   "description": [
+    "What happens when your Kubernetes cluster is pushed to its limits—does it scale or break in unexpected ways?",
+    "In this lightning talk, I’ll show how kube-burner is used to stress-test clusters, uncover performance bottlenecks, and catch regressions early.",
+    "Through quick examples, you’ll see how to run benchmarks, capture meaningful metrics, and identify issues like resource startup latencies and control plane slowdowns.",
+    "We’ll also highlight its role in upstream efforts like Kubernetes SIG KubeVirt and SIG Scalability, along with the project’s current scope and upcoming areas of development.",
+    "If you care about scalability and performance, this session gives you a fast, practical starting point."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289828"
+  },
+  {
    "id": "1289832",
    "title": "OpenChoreo: Developer Platform for Both Humans and Agents",
-   "start": "2026-11-09T09:31:00",
-   "end": "2026-11-09T09:36:00",
+   "start": "2026-11-09T10:01:00",
+   "end": "2026-11-09T10:06:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Sameera Jayasoma"
@@ -529,8 +529,8 @@
   {
    "id": "1289833",
    "title": "Ubiquitous Edge Computing: KubeEdge Industrial Cases Sharing",
-   "start": "2026-11-09T09:38:00",
-   "end": "2026-11-09T09:43:00",
+   "start": "2026-11-09T10:08:00",
+   "end": "2026-11-09T10:13:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Hongbing Zhang"
@@ -549,8 +549,8 @@
   {
    "id": "1289834",
    "title": "Cloud Native MySQL",
-   "start": "2026-11-09T09:45:00",
-   "end": "2026-11-09T09:50:00",
+   "start": "2026-11-09T10:15:00",
+   "end": "2026-11-09T10:20:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Matt Lord"
@@ -569,8 +569,8 @@
   {
    "id": "1289835",
    "title": "Celebrate Flux's 10 Years!",
-   "start": "2026-11-09T09:52:00",
-   "end": "2026-11-09T09:57:00",
+   "start": "2026-11-09T10:22:00",
+   "end": "2026-11-09T10:27:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Tamao Nakahara"
@@ -589,8 +589,8 @@
   {
    "id": "1289892",
    "title": "Container Builds at Scale with Buildpacks",
-   "start": "2026-11-09T09:59:00",
-   "end": "2026-11-09T10:04:00",
+   "start": "2026-11-09T10:29:00",
+   "end": "2026-11-09T10:34:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Joe Kutner"
@@ -606,89 +606,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289892"
-  },
-  {
-   "id": "1289836",
-   "title": "Simplifying Distributed LLM Serving: What's New in KServe",
-   "start": "2026-11-09T10:06:00",
-   "end": "2026-11-09T10:11:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "Gavrish Prabhu"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [
-    "KServe"
-   ],
-   "description": [
-    "As generative AI reshapes how organizations build and deploy intelligent applications, the demands on model serving infrastructure keep rising, teams need distributed execution, efficient autoscaling, and multi-tenant isolation, all without adding operational complexity. This session explores how KServe, a CNCF incubating project, continues evolving to meet these challenges head-on.",
-    "We're excited to walk through latest releases of KServe. These releases introduce multi-node inference without requiring a Ray head node, LeaderWorkerSet-based autoscaling for distributed workloads, and an upgrade to llm-d v0.6 for disaggregated prefill/decode serving. It also adds OpenAI Responses API routing, namespace-scoped ModelCache for multi-tenant model caching, and all the latest vLLM features, alongside meaningful security hardening across the platform.",
-    "Join us to see how KServe is simplifying production-grade LLM serving, one release at a time."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289836"
-  },
-  {
-   "id": "1289915",
-   "title": "Extending the Immutable OS: Adding Tools to Flatcar with Systemd-Sysext",
-   "start": "2026-11-09T10:13:00",
-   "end": "2026-11-09T10:18:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "Jan Bronicki"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [
-    "Flatcar Container Linux"
-   ],
-   "description": [
-    "Immutable operating systems make Kubernetes nodes much more predictable, but they also introduce a problem for new users: a read-only root filesystem. When you need to install debugging tools, eBPF tracers, or custom storage drivers, the usual habit of running a package manager just does not work.",
-    "This 5-minute talk shows a practical way to solve this using system extensions (systemd-sysext) in Flatcar Container Linux. I will explain how system extensions let platform teams dynamically overlay binaries onto a read-only OS at runtime. This keeps the atomic update model intact and respects the rules of immutability. You will walk away knowing how to keep your host OS strictly versioned while still having the flexibility to handle day-to-day debugging and hardware enablement."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289915"
-  },
-  {
-   "id": "1289870",
-   "title": "Monitoring Power at Planet Scale with Kepler",
-   "start": "2026-11-09T10:20:00",
-   "end": "2026-11-09T10:25:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "Niki Manoledaki"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [
-    "Kepler"
-   ],
-   "description": [
-    "Kepler is a CNCF Sandbox project that monitors power usage and attributes it to Pods and other resources in Kubernetes clusters. Adoption is growing: it is used by leading Linux Foundation Project Sylva's telco carriers to optimize CNFs on bare metal, and by CERN to optimize the environmental impact of their MLOps against their sustainability KPIs. Yet while Kepler took a step forward in accuracy during the rewrite, we had to take a big step backward for the virtual machine use case, since we lost the trained model server (hint: we're solving this). What challenges and opportunities lie ahead for the project?"
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289870"
-  },
-  {
-   "id": "1331660",
-   "title": "Maintaining at Agent Speed with Hive Commons",
-   "start": "2026-11-09T10:27:00",
-   "end": "2026-11-09T10:32:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "Andy Anderson"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [
-    "Hive Commons"
-   ],
-   "description": [
-    "In the last 90 days Hive Commons merged 5,292 pull requests across 433 releases in 17 repositories. 3,772 of them were opened by autonomous agents that triage the issue, write the fix, and merge through the same CI gates a human contributor faces. Five minutes on what that actually changes for a maintainer: what the agents handle well, what they consistently get wrong, and why the failures are almost never the code they write."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1331660"
   },
   {
    "id": "1336214",
@@ -714,10 +631,107 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1336214"
   },
   {
+   "id": "1289836",
+   "title": "Simplifying Distributed LLM Serving: What's New in KServe",
+   "start": "2026-11-09T10:36:00",
+   "end": "2026-11-09T10:41:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Gavrish Prabhu"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "KServe"
+   ],
+   "description": [
+    "As generative AI reshapes how organizations build and deploy intelligent applications, the demands on model serving infrastructure keep rising, teams need distributed execution, efficient autoscaling, and multi-tenant isolation, all without adding operational complexity. This session explores how KServe, a CNCF incubating project, continues evolving to meet these challenges head-on.",
+    "We're excited to walk through latest releases of KServe. These releases introduce multi-node inference without requiring a Ray head node, LeaderWorkerSet-based autoscaling for distributed workloads, and an upgrade to llm-d v0.6 for disaggregated prefill/decode serving. It also adds OpenAI Responses API routing, namespace-scoped ModelCache for multi-tenant model caching, and all the latest vLLM features, alongside meaningful security hardening across the platform.",
+    "Join us to see how KServe is simplifying production-grade LLM serving, one release at a time."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289836"
+  },
+  {
+   "id": "1289915",
+   "title": "Extending the Immutable OS: Adding Tools to Flatcar with Systemd-Sysext",
+   "start": "2026-11-09T10:43:00",
+   "end": "2026-11-09T10:48:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Jan Bronicki"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "Flatcar Container Linux"
+   ],
+   "description": [
+    "Immutable operating systems make Kubernetes nodes much more predictable, but they also introduce a problem for new users: a read-only root filesystem. When you need to install debugging tools, eBPF tracers, or custom storage drivers, the usual habit of running a package manager just does not work.",
+    "This 5-minute talk shows a practical way to solve this using system extensions (systemd-sysext) in Flatcar Container Linux. I will explain how system extensions let platform teams dynamically overlay binaries onto a read-only OS at runtime. This keeps the atomic update model intact and respects the rules of immutability. You will walk away knowing how to keep your host OS strictly versioned while still having the flexibility to handle day-to-day debugging and hardware enablement."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289915"
+  },
+  {
+   "id": "1352094",
+   "title": "BREAK",
+   "start": "2026-11-09T10:48:00",
+   "end": "2026-11-09T11:03:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1352094"
+  },
+  {
+   "id": "1289870",
+   "title": "Monitoring Power at Planet Scale with Kepler",
+   "start": "2026-11-09T11:03:00",
+   "end": "2026-11-09T11:08:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Niki Manoledaki"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "Kepler"
+   ],
+   "description": [
+    "Kepler is a CNCF Sandbox project that monitors power usage and attributes it to Pods and other resources in Kubernetes clusters. Adoption is growing: it is used by leading Linux Foundation Project Sylva's telco carriers to optimize CNFs on bare metal, and by CERN to optimize the environmental impact of their MLOps against their sustainability KPIs. Yet while Kepler took a step forward in accuracy during the rewrite, we had to take a big step backward for the virtual machine use case, since we lost the trained model server (hint: we're solving this). What challenges and opportunities lie ahead for the project?"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289870"
+  },
+  {
+   "id": "1331660",
+   "title": "Maintaining at Agent Speed with Hive Commons",
+   "start": "2026-11-09T11:10:00",
+   "end": "2026-11-09T11:15:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Andy Anderson"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "Hive Commons"
+   ],
+   "description": [
+    "In the last 90 days Hive Commons merged 5,292 pull requests across 433 releases in 17 repositories. 3,772 of them were opened by autonomous agents that triage the issue, write the fix, and merge through the same CI gates a human contributor faces. Five minutes on what that actually changes for a maintainer: what the agents handle well, what they consistently get wrong, and why the failures are almost never the code they write."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1331660"
+  },
+  {
    "id": "1289872",
    "title": "From Kernel to Kubectl in 30 Seconds: eBPF Observability with Inspektor Gadget",
-   "start": "2026-11-09T10:34:00",
-   "end": "2026-11-09T10:39:00",
+   "start": "2026-11-09T11:17:00",
+   "end": "2026-11-09T11:22:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Qasim Sarfraz"
@@ -736,8 +750,8 @@
   {
    "id": "1289874",
    "title": "Fluent Bit: The Evolution of High-Performance Telemetry Pipelines",
-   "start": "2026-11-09T10:41:00",
-   "end": "2026-11-09T10:46:00",
+   "start": "2026-11-09T11:24:00",
+   "end": "2026-11-09T11:29:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Eduardo Silva"
@@ -758,8 +772,8 @@
   {
    "id": "1289875",
    "title": "LitmusChaos 2026: What’s New & What’s Next",
-   "start": "2026-11-09T10:48:00",
-   "end": "2026-11-09T10:53:00",
+   "start": "2026-11-09T11:31:00",
+   "end": "2026-11-09T11:36:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Pritesh Kiri"
@@ -777,24 +791,10 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289875"
   },
   {
-   "id": "1352094",
-   "title": "BREAK",
-   "start": "2026-11-09T10:55:00",
-   "end": "2026-11-09T11:10:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1352094"
-  },
-  {
    "id": "1289876",
    "title": "Architecture Without Gatekeepers: Decoupling for Neutrality",
-   "start": "2026-11-09T11:10:00",
-   "end": "2026-11-09T11:15:00",
+   "start": "2026-11-09T11:38:00",
+   "end": "2026-11-09T11:43:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Marcin Gwozdz"
@@ -813,8 +813,8 @@
   {
    "id": "1289877",
    "title": "Secure Your Agents in 5 Minutes: Durable Execution with Cadence",
-   "start": "2026-11-09T11:17:00",
-   "end": "2026-11-09T11:22:00",
+   "start": "2026-11-09T11:45:00",
+   "end": "2026-11-09T11:50:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Diana Zawadzki"
@@ -835,8 +835,8 @@
   {
    "id": "1289878",
    "title": "Scaling Across the Horizon: Dynamic Hardware Composability for Distributed LLM Inference via CoHDI",
-   "start": "2026-11-09T11:24:00",
-   "end": "2026-11-09T11:29:00",
+   "start": "2026-11-09T11:52:00",
+   "end": "2026-11-09T11:57:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Hidetsugu Sugiyama"
@@ -856,8 +856,8 @@
   {
    "id": "1289881",
    "title": "k8gb Is Growing up: Incubating Global Load Balancing for Kubernetes",
-   "start": "2026-11-09T11:31:00",
-   "end": "2026-11-09T11:36:00",
+   "start": "2026-11-09T11:59:00",
+   "end": "2026-11-09T12:04:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Fabrizio Sgura"
@@ -875,94 +875,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289881"
-  },
-  {
-   "id": "1289883",
-   "title": "Multiclusterize in 5",
-   "start": "2026-11-09T11:38:00",
-   "end": "2026-11-09T11:43:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "August Simonelli"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [
-    "Open Cluster Management"
-   ],
-   "description": [
-    "You have a controller that solves a real problem on one cluster. Your job is to get it running on all of them – consistently, with config per cluster, without touching each cluster individually. Think it's not possible? Think again.",
-    "The Open Cluster Management (OCM) add-on framework makes this declarative: three objects, one placement binding, and the hub does the rest. In this session we build a real add-on live, using an agentic skill to scaffold and explain each piece as it goes. By the end, a controller that ran on one cluster is running on all of them.",
-    "You will leave with a working mental model of ClusterManagementAddOn, AddOnDeploymentConfig, and AddOnTemplate and an actual agentic skill you can use with OCM."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289883"
-  },
-  {
-   "id": "1289885",
-   "title": "Multi-Cluster Orchestration System: Karmada Updates and Use Cases",
-   "start": "2026-11-09T11:45:00",
-   "end": "2026-11-09T11:50:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "Michas Szacillo"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [
-    "Karmada"
-   ],
-   "description": [
-    "Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds.",
-    "In this presentation, the maintainer of the Karmada project will share:"
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289885"
-  },
-  {
-   "id": "1289886",
-   "title": "K3s Lightning Update",
-   "start": "2026-11-09T11:52:00",
-   "end": "2026-11-09T11:57:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "Orlin Vasilev"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [
-    "K3s"
-   ],
-   "description": [
-    "Join the K3s maintainers for a rapid update on the lightweight Kubernetes distribution designed for IoT, edge, and resource-constrained environments. We’ll highlight recent releases, key improvements in performance, security, and usability, and how the project continues to simplify Kubernetes at the edge.",
-    "We’ll also give a sneak peek at what’s coming next, including upcoming features, roadmap priorities, and opportunities for the community to contribute. Get a fast, clear snapshot of where K3s is today and where it’s headed tomorrow."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289886"
-  },
-  {
-   "id": "1289889",
-   "title": "What Changes When Crossplane Adoption Gets Real",
-   "start": "2026-11-09T11:59:00",
-   "end": "2026-11-09T12:04:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "Mitchell Davis",
-    "Jared Watts"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [
-    "Crossplane"
-   ],
-   "description": [
-    "Building a Crossplane control plane is one thing. Getting real teams at a risk-averse enterprise to start using it is another.",
-    "In this lightning talk, the platform lead at a large insurance company will walk through their successful Crossplane end-user adoption story, focusing on what they learned and what they had to change once they left the prototype stage and actual developer teams started using the platform for real.",
-    "We'll learn about the shift from Jira-driven requests to self-service infrastructure that truly empowers app teams, how to design composition APIs your devs can actually use, and some hard lessons on abstractions, defaults, ownership, and support. Anyone working to drive real adoption of an internal platform will leave with ideas to put to work right away.",
-    "If a large, risk-averse insurance company can make Crossplane a platform its teams rely on, yours can too. Come hear the field notes from an adopter who has taken Crossplane to real enterprise scale."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289889"
   },
   {
    "id": "1367685",
@@ -1019,91 +931,92 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1328916"
   },
   {
-   "id": "1289890",
-   "title": "etcd Operator, Rebuilt and Ready",
+   "id": "1289883",
+   "title": "Multiclusterize in 5",
    "start": "2026-11-09T12:06:00",
    "end": "2026-11-09T12:11:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "Arka Saha"
+    "August Simonelli"
    ],
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [
-    "etcd"
+    "Open Cluster Management"
    ],
    "description": [
-    "Learn about the latest etcd-operator development and features. We've completely refactored the operator to use custom controllers and the new version can now automagically handle your failed cluster members for you. It's the etcd operator we've always wanted. We'll share development milestones, current feature set, and user experience."
+    "You have a controller that solves a real problem on one cluster. Your job is to get it running on all of them – consistently, with config per cluster, without touching each cluster individually. Think it's not possible? Think again.",
+    "The Open Cluster Management (OCM) add-on framework makes this declarative: three objects, one placement binding, and the hub does the rest. In this session we build a real add-on live, using an agentic skill to scaffold and explain each piece as it goes. By the end, a controller that ran on one cluster is running on all of them.",
+    "You will leave with a working mental model of ClusterManagementAddOn, AddOnDeploymentConfig, and AddOnTemplate and an actual agentic skill you can use with OCM."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289890"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289883"
   },
   {
-   "id": "1289891",
-   "title": "Is Service Mesh for Everyone?",
+   "id": "1289885",
+   "title": "Multi-Cluster Orchestration System: Karmada Updates and Use Cases",
    "start": "2026-11-09T12:13:00",
    "end": "2026-11-09T12:18:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "Phil Henderson"
+    "Michas Szacillo"
    ],
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [
-    "Linkerd"
+    "Karmada"
    ],
    "description": [
-    "For the past decade, service meshes have existed. Starting with Linkerd, it burst into a new type of software with many competitors. But now, in 2026, do we even need service meshes anymore or are they legacy software? Should it go the way of a monolith?\nIn a thunder clap of a talk we'll cover who service mesh is for, and where you can find out more"
+    "Karmada (Kubernetes Armada) is a Kubernetes management system that enables you to run your cloud-native applications across multiple Kubernetes clusters and clouds.",
+    "In this presentation, the maintainer of the Karmada project will share:"
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289891"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289885"
   },
   {
-   "id": "1289972",
-   "title": "Meshery: Your Cluster as a Knowledge Graph, Not a Pile of YAML",
+   "id": "1289886",
+   "title": "K3s Lightning Update",
    "start": "2026-11-09T12:20:00",
    "end": "2026-11-09T12:25:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "Yash Sharma"
+    "Orlin Vasilev"
    ],
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [
-    "Meshery"
+    "K3s"
    ],
    "description": [
-    "Your cluster is not a pile of YAML files. It's a graph: workloads, custom resources, network policies, and RBAC all relate, and most breakage lives in those relationships, not in any single file. Meshery models Kubernetes and CNCF resources as an ontology and renders that graph visually in Kanvas.",
-    "Now a new consumer needs that graph: AI agents. Asked to design and manage Kubernetes, they operate blind, generating YAML one file at a time with no model of how anything relates. The result: configurations that are individually valid and collectively broken.",
-    "Meshery maintainer Yash Sharma will show how Meshery exposes its relationship model to agents through MCP (Model Context Protocol), so an agent reasons over a real map of your infrastructure instead of guessing, and validates its proposals against OPA policies before anything ships.",
-    "One idea, one takeaway: the knowledge graph that makes clusters visual for humans is what agents need to stop hallucinating your infrastructure."
+    "Join the K3s maintainers for a rapid update on the lightweight Kubernetes distribution designed for IoT, edge, and resource-constrained environments. We’ll highlight recent releases, key improvements in performance, security, and usability, and how the project continues to simplify Kubernetes at the edge.",
+    "We’ll also give a sneak peek at what’s coming next, including upcoming features, roadmap priorities, and opportunities for the community to contribute. Get a fast, clear snapshot of where K3s is today and where it’s headed tomorrow."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289972"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289886"
   },
   {
-   "id": "1289893",
-   "title": "Envoy Turns 10: From Lyft’s Sidecar to the Front Door of AI",
+   "id": "1289889",
+   "title": "What Changes When Crossplane Adoption Gets Real",
    "start": "2026-11-09T12:27:00",
    "end": "2026-11-09T12:32:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "Erica Hughberg"
+    "Mitchell Davis",
+    "Jared Watts"
    ],
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [
-    "Envoy"
+    "Crossplane"
    ],
    "description": [
-    "Ten years ago, Envoy was open-sourced, solving one company’s microservices networking problems.",
-    "Today it’s the data plane underneath much of the internet — powering service meshes, API gateways, and now the infrastructure layer for AI traffic.",
-    "This lightning talk marks Envoy’s 10th anniversary with a fast tour of the project in 2026: the core proxy’s evolution, dynamic modules enabling Rust extensions without recompiling, and a thriving sub-project family including Envoy Gateway and the newly GA Envoy AI Gateway.",
-    "Then, a look ahead: agents calling models, models calling tools, and platforms needing governance over all of it.",
-    "Ten years in, Envoy’s second decade is just getting started and here’s how to be part of it."
+    "Building a Crossplane control plane is one thing. Getting real teams at a risk-averse enterprise to start using it is another.",
+    "In this lightning talk, the platform lead at a large insurance company will walk through their successful Crossplane end-user adoption story, focusing on what they learned and what they had to change once they left the prototype stage and actual developer teams started using the platform for real.",
+    "We'll learn about the shift from Jira-driven requests to self-service infrastructure that truly empowers app teams, how to design composition APIs your devs can actually use, and some hard lessons on abstractions, defaults, ownership, and support. Anyone working to drive real adoption of an internal platform will leave with ideas to put to work right away.",
+    "If a large, risk-averse insurance company can make Crossplane a platform its teams rely on, yours can too. Come hear the field notes from an adopter who has taken Crossplane to real enterprise scale."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289893"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289889"
   },
   {
    "id": "1356091",
@@ -1157,46 +1070,44 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1309279"
   },
   {
-   "id": "1325640",
-   "title": "Rego Without Borders: Breaking Down Language Barriers for Security Policy",
+   "id": "1289890",
+   "title": "etcd Operator, Rebuilt and Ready",
    "start": "2026-11-09T12:34:00",
    "end": "2026-11-09T12:39:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "Philip Conrad"
+    "Arka Saha"
    ],
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [
-    "Open Policy Agent (OPA)"
+    "etcd"
    ],
    "description": [
-    "OPA has long been the policy engine of choice for cloud native security, but it's usually ran as a sidecar. Our Go SDK changed things by letting you embed OPA directly inside your (Go) application, no sidecar required. Now, using the Rego Intermediate Representation (Rego IR), the compiler can generate runtime execution plans that other languages can consume natively. The result? Rego-powered security policy running natively in Swift and Java applications too. This lightning talk walks through how IR works, why it matters for performance, and what it means for bringing consistent security policy to more language runtimes than ever before."
+    "Learn about the latest etcd-operator development and features. We've completely refactored the operator to use custom controllers and the new version can now automagically handle your failed cluster members for you. It's the etcd operator we've always wanted. We'll share development milestones, current feature set, and user experience."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1325640"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289890"
   },
   {
-   "id": "1289896",
-   "title": "KitOps: The Whole Kit for AI Agents",
+   "id": "1289891",
+   "title": "Is Service Mesh for Everyone?",
    "start": "2026-11-09T12:41:00",
    "end": "2026-11-09T12:46:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "Gorkem Ercan"
+    "Phil Henderson"
    ],
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [
-    "KitOps"
+    "Linkerd"
    ],
    "description": [
-    "An AI agent is not one thing. Its model, prompts, skill files, MCP servers, and code live in different places: Git repos, object storage, hardcoded strings, loose config files. There is no single package that pins down \"\"this is the agent, this exact combination.\"\" So when something breaks, nobody can answer the basic question: what was actually running?",
-    "KitOps, a CNCF Sandbox project, began by packaging AI/ML models as OCI artifacts called ModelKits. Now it goes further. A ModelKit can bundle agent skills, prompts, MCP servers, and code into one versioned, immutable OCI artifact, and it does not need to include a model at all. Write a short Kitfile, run `kit pack`, and push to any registry you already use. Tags like `:v2.1` or `:champion` apply to the whole agent, not scattered pieces. Sign it with Cosign. Pull it anywhere and get back the exact known-good state.",
-    "In five minutes, I'll show what changed and demo a Kitfile that packages an agent with no model."
+    "For the past decade, service meshes have existed. Starting with Linkerd, it burst into a new type of software with many competitors. But now, in 2026, do we even need service meshes anymore or are they legacy software? Should it go the way of a monolith?\nIn a thunder clap of a talk we'll cover who service mesh is for, and where you can find out more"
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289896"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289891"
   },
   {
    "id": "1339249",
@@ -1262,8 +1173,8 @@
   {
    "id": "1289970",
    "title": "Project Lightning Talk – Project Overview",
-   "start": "2026-11-09T13:30:00",
-   "end": "2026-11-09T13:35:00",
+   "start": "2026-11-09T13:37:00",
+   "end": "2026-11-09T13:42:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [],
    "track": "Project Lightning Talks",
@@ -1274,46 +1185,27 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289970"
   },
   {
-   "id": "1289897",
-   "title": "What’s New in Kairos, 2026 Edition",
-   "start": "2026-11-09T13:47:00",
-   "end": "2026-11-09T13:52:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "William Rizzo"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [
-    "Kairos"
-   ],
-   "description": [
-    "Kairos started as a framework that lets you take familiar Linux distributions like Ubuntu, Fedora, and more, and turn them into immutable, image-based operating systems for Kubernetes anywhere: edge, cloud, or on-prem. After years of pushing these distros to their limits, we realized we’d learned enough to define what really matters for building dependable image-based systems. That’s why we took the next leap and built our own distribution: Hadron, a lightweight musl + systemd Linux now in the CNCF.",
-    "This update will introduce Hadron publicly and highlight everything new in Kairos since the last project session."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289897"
-  },
-  {
-   "id": "1289901",
-   "title": "Kyverno: The Supercharged Future of Cloud Native Policy as Code",
+   "id": "1289972",
+   "title": "Meshery: Your Cluster as a Knowledge Graph, Not a Pile of YAML",
    "start": "2026-11-09T13:54:00",
    "end": "2026-11-09T13:59:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "Suhani ‎"
+    "Yash Sharma"
    ],
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [
-    "Kyverno"
+    "Meshery"
    ],
    "description": [
-    "This session explores how Kyverno supercharges Common Expression Language (CEL) to deliver advanced resource lifecycle management for Kubernetes and beyond.",
-    "While native Kubernetes handles basic validation checks, it stops short of what enterprise platforms require. Attendees will see how Kyverno bridges these gaps—empowering platform teams with complex validations, mutative rules, dynamic resource generation, and deep context-awareness (such as image metadata lookups and external API calls). Finally, the session showcases how Kyverno is expanding its footprint beyond Kubernetes clusters, allowing organizations to write unified, high-performance policies that secure the entire cloud-native ecosystem."
+    "Your cluster is not a pile of YAML files. It's a graph: workloads, custom resources, network policies, and RBAC all relate, and most breakage lives in those relationships, not in any single file. Meshery models Kubernetes and CNCF resources as an ontology and renders that graph visually in Kanvas.",
+    "Now a new consumer needs that graph: AI agents. Asked to design and manage Kubernetes, they operate blind, generating YAML one file at a time with no model of how anything relates. The result: configurations that are individually valid and collectively broken.",
+    "Meshery maintainer Yash Sharma will show how Meshery exposes its relationship model to agents through MCP (Model Context Protocol), so an agent reasons over a real map of your infrastructure instead of guessing, and validates its proposals against OPA policies before anything ships.",
+    "One idea, one takeaway: the knowledge graph that makes clusters visual for humans is what agents need to stop hallucinating your infrastructure."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289901"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289972"
   },
   {
    "id": "1328984",
@@ -1337,10 +1229,118 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1328984"
   },
   {
-   "id": "1289902",
-   "title": "Lightning Harbor Update",
+   "id": "1289893",
+   "title": "Envoy Turns 10: From Lyft’s Sidecar to the Front Door of AI",
    "start": "2026-11-09T14:01:00",
    "end": "2026-11-09T14:06:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Erica Hughberg"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "Envoy"
+   ],
+   "description": [
+    "Ten years ago, Envoy was open-sourced, solving one company’s microservices networking problems.",
+    "Today it’s the data plane underneath much of the internet — powering service meshes, API gateways, and now the infrastructure layer for AI traffic.",
+    "This lightning talk marks Envoy’s 10th anniversary with a fast tour of the project in 2026: the core proxy’s evolution, dynamic modules enabling Rust extensions without recompiling, and a thriving sub-project family including Envoy Gateway and the newly GA Envoy AI Gateway.",
+    "Then, a look ahead: agents calling models, models calling tools, and platforms needing governance over all of it.",
+    "Ten years in, Envoy’s second decade is just getting started and here’s how to be part of it."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289893"
+  },
+  {
+   "id": "1325640",
+   "title": "Rego Without Borders: Breaking Down Language Barriers for Security Policy",
+   "start": "2026-11-09T14:08:00",
+   "end": "2026-11-09T14:13:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Philip Conrad"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "Open Policy Agent (OPA)"
+   ],
+   "description": [
+    "OPA has long been the policy engine of choice for cloud native security, but it's usually ran as a sidecar. Our Go SDK changed things by letting you embed OPA directly inside your (Go) application, no sidecar required. Now, using the Rego Intermediate Representation (Rego IR), the compiler can generate runtime execution plans that other languages can consume natively. The result? Rego-powered security policy running natively in Swift and Java applications too. This lightning talk walks through how IR works, why it matters for performance, and what it means for bringing consistent security policy to more language runtimes than ever before."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1325640"
+  },
+  {
+   "id": "1289896",
+   "title": "KitOps: The Whole Kit for AI Agents",
+   "start": "2026-11-09T14:15:00",
+   "end": "2026-11-09T14:20:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Gorkem Ercan"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "KitOps"
+   ],
+   "description": [
+    "An AI agent is not one thing. Its model, prompts, skill files, MCP servers, and code live in different places: Git repos, object storage, hardcoded strings, loose config files. There is no single package that pins down \"\"this is the agent, this exact combination.\"\" So when something breaks, nobody can answer the basic question: what was actually running?",
+    "KitOps, a CNCF Sandbox project, began by packaging AI/ML models as OCI artifacts called ModelKits. Now it goes further. A ModelKit can bundle agent skills, prompts, MCP servers, and code into one versioned, immutable OCI artifact, and it does not need to include a model at all. Write a short Kitfile, run `kit pack`, and push to any registry you already use. Tags like `:v2.1` or `:champion` apply to the whole agent, not scattered pieces. Sign it with Cosign. Pull it anywhere and get back the exact known-good state.",
+    "In five minutes, I'll show what changed and demo a Kitfile that packages an agent with no model."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289896"
+  },
+  {
+   "id": "1289897",
+   "title": "What’s New in Kairos, 2026 Edition",
+   "start": "2026-11-09T14:22:00",
+   "end": "2026-11-09T14:27:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "William Rizzo"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "Kairos"
+   ],
+   "description": [
+    "Kairos started as a framework that lets you take familiar Linux distributions like Ubuntu, Fedora, and more, and turn them into immutable, image-based operating systems for Kubernetes anywhere: edge, cloud, or on-prem. After years of pushing these distros to their limits, we realized we’d learned enough to define what really matters for building dependable image-based systems. That’s why we took the next leap and built our own distribution: Hadron, a lightweight musl + systemd Linux now in the CNCF.",
+    "This update will introduce Hadron publicly and highlight everything new in Kairos since the last project session."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289897"
+  },
+  {
+   "id": "1289901",
+   "title": "Kyverno: The Supercharged Future of Cloud Native Policy as Code",
+   "start": "2026-11-09T14:29:00",
+   "end": "2026-11-09T14:34:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Suhani ‎"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "Kyverno"
+   ],
+   "description": [
+    "This session explores how Kyverno supercharges Common Expression Language (CEL) to deliver advanced resource lifecycle management for Kubernetes and beyond.",
+    "While native Kubernetes handles basic validation checks, it stops short of what enterprise platforms require. Attendees will see how Kyverno bridges these gaps—empowering platform teams with complex validations, mutative rules, dynamic resource generation, and deep context-awareness (such as image metadata lookups and external API calls). Finally, the session showcases how Kyverno is expanding its footprint beyond Kubernetes clusters, allowing organizations to write unified, high-performance policies that secure the entire cloud-native ecosystem."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289901"
+  },
+  {
+   "id": "1289902",
+   "title": "Lightning Harbor Update",
+   "start": "2026-11-09T14:36:00",
+   "end": "2026-11-09T14:41:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Orlin Vasilev"
@@ -1360,8 +1360,8 @@
   {
    "id": "1289904",
    "title": "Flatcar Container Linux: Growing the Cloud Native OS Ecosystem",
-   "start": "2026-11-09T14:08:00",
-   "end": "2026-11-09T14:13:00",
+   "start": "2026-11-09T14:43:00",
+   "end": "2026-11-09T14:48:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Jan Bronicki"
@@ -1379,10 +1379,41 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289904"
   },
   {
+   "id": "1368701",
+   "title": "BREAK",
+   "start": "2026-11-09T14:48:00",
+   "end": "2026-11-09T15:03:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1368701"
+  },
+  {
+   "id": "1345969",
+   "title": "Peer Group Mentoring",
+   "start": "2026-11-09T15:00:00",
+   "end": "2026-11-09T16:00:00",
+   "room": "Hyatt Regency | Level 5 | Capitol Reef",
+   "speakers": [],
+   "track": "Experiences",
+   "level": "Beginner",
+   "tags": [],
+   "description": [
+    "Peer Group Mentoring allows participants to meet with experienced open source veterans across many CNCF projects. Mentees are paired with 2 – 10 other people in a pod-like setting to explore technical, community, career, and certification questions together.",
+    "Seating is on a first come, first served basis."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1345969"
+  },
+  {
    "id": "1289905",
    "title": "Cedar Authorization with Incomplete Information",
-   "start": "2026-11-09T14:15:00",
-   "end": "2026-11-09T14:20:00",
+   "start": "2026-11-09T15:03:00",
+   "end": "2026-11-09T15:08:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "John Kastner"
@@ -1402,8 +1433,8 @@
   {
    "id": "1289906",
    "title": "Metal3 Project Update! Whats New and Exciting?",
-   "start": "2026-11-09T14:22:00",
-   "end": "2026-11-09T14:27:00",
+   "start": "2026-11-09T15:10:00",
+   "end": "2026-11-09T15:15:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Kashif Khan"
@@ -1422,8 +1453,8 @@
   {
    "id": "1289907",
    "title": "Atlantis: What's New in IaC Orchestration",
-   "start": "2026-11-09T14:29:00",
-   "end": "2026-11-09T14:34:00",
+   "start": "2026-11-09T15:17:00",
+   "end": "2026-11-09T15:22:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "PePe Amengual"
@@ -1443,8 +1474,8 @@
   {
    "id": "1289909",
    "title": "Longhorn: The 2026 Wrap-up Edition",
-   "start": "2026-11-09T14:36:00",
-   "end": "2026-11-09T14:41:00",
+   "start": "2026-11-09T15:24:00",
+   "end": "2026-11-09T15:29:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Divya Mohan"
@@ -1463,8 +1494,8 @@
   {
    "id": "1289910",
    "title": "ORAS Go v3: Batteries-Included Registry SDK",
-   "start": "2026-11-09T14:43:00",
-   "end": "2026-11-09T14:48:00",
+   "start": "2026-11-09T15:31:00",
+   "end": "2026-11-09T15:36:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Terry Howe"
@@ -1485,8 +1516,8 @@
   {
    "id": "1289912",
    "title": "k0s – CNCF Sandbox Distro Updates",
-   "start": "2026-11-09T14:50:00",
-   "end": "2026-11-09T14:55:00",
+   "start": "2026-11-09T15:38:00",
+   "end": "2026-11-09T15:43:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Jussi Nummelin"
@@ -1505,8 +1536,8 @@
   {
    "id": "1289913",
    "title": "Velero: Faster Backups, Consistent Snapshots, Incremental Everything",
-   "start": "2026-11-09T14:57:00",
-   "end": "2026-11-09T15:02:00",
+   "start": "2026-11-09T15:45:00",
+   "end": "2026-11-09T15:50:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Shubham Dilip Pampattiwar"
@@ -1526,27 +1557,10 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289913"
   },
   {
-   "id": "1345969",
-   "title": "Peer Group Mentoring",
-   "start": "2026-11-09T15:00:00",
-   "end": "2026-11-09T16:00:00",
-   "room": "Hyatt Regency | Level 5 | Capitol Reef",
-   "speakers": [],
-   "track": "Experiences",
-   "level": "Beginner",
-   "tags": [],
-   "description": [
-    "Peer Group Mentoring allows participants to meet with experienced open source veterans across many CNCF projects. Mentees are paired with 2 – 10 other people in a pod-like setting to explore technical, community, career, and certification questions together.",
-    "Seating is on a first come, first served basis."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1345969"
-  },
-  {
    "id": "1289914",
    "title": "What's New in OVN-Kubernetes?",
-   "start": "2026-11-09T15:04:00",
-   "end": "2026-11-09T15:09:00",
+   "start": "2026-11-09T15:52:00",
+   "end": "2026-11-09T15:57:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Surya Seetharaman"
@@ -1567,8 +1581,8 @@
   {
    "id": "1289871",
    "title": "Your Go-to Compliance-as-Skill: OSCAL Compass",
-   "start": "2026-11-09T15:11:00",
-   "end": "2026-11-09T15:16:00",
+   "start": "2026-11-09T15:59:00",
+   "end": "2026-11-09T16:04:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Anca Sailer"
@@ -1583,22 +1597,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289871"
-  },
-  {
-   "id": "1289971",
-   "title": "Project Lightning Talk Closing",
-   "start": "2026-11-09T15:16:00",
-   "end": "2026-11-09T15:18:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "Robert Sirchia"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289971"
   },
   {
    "id": "1363748",
@@ -1628,6 +1626,22 @@
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363748"
+  },
+  {
+   "id": "1289971",
+   "title": "Project Lightning Talk Closing",
+   "start": "2026-11-09T16:39:00",
+   "end": "2026-11-09T16:41:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Robert Sirchia"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289971"
   },
   {
    "id": "1289946",
@@ -1764,18 +1778,25 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362673"
   },
   {
-   "id": "1363878",
-   "title": "Keynote to be Announced",
+   "id": "1367757",
+   "title": "Agent Substrate: Open Layers for Agentic Systems",
    "start": "2026-11-10T10:03:00",
    "end": "2026-11-10T10:10:00",
    "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
+   "speakers": [
+    "Jaana Dogan",
+    "Dmitry Berkovich",
+    "Tim Hockin",
+    "Eitan Yarmush"
+   ],
    "track": "Keynote Sessions",
    "level": "",
    "tags": [],
-   "description": [],
+   "description": [
+    "Running agentic workloads on Kubernetes presents several challenges. Agent Substrate is a new project, built on and with Kubernetes, which enables you to securely run huge numbers of agents on Kubernetes with ultra low latency."
+   ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363878"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1367757"
   },
   {
    "id": "1295993",
@@ -1837,20 +1858,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1309267"
-  },
-  {
-   "id": "1363897",
-   "title": "Keynote to be Announced",
-   "start": "2026-11-10T10:38:00",
-   "end": "2026-11-10T10:43:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363897"
   },
   {
    "id": "1302802",
@@ -5293,10 +5300,28 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1367917"
   },
   {
+   "id": "1363905",
+   "title": "A Tribute to Open Source",
+   "start": "2026-11-11T09:24:00",
+   "end": "2026-11-11T09:29:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [
+    "Lucy Sweet"
+   ],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363905"
+  },
+  {
    "id": "1353217",
    "title": "Code, Containers, and Clusters: The Next Chapter of Apple's Container Framework",
-   "start": "2026-11-11T09:24:00",
-   "end": "2026-11-11T09:34:00",
+   "start": "2026-11-11T09:31:00",
+   "end": "2026-11-11T09:41:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Kathryn Baldauf",
@@ -5318,8 +5343,8 @@
   {
    "id": "1301748",
    "title": "Context Unlocks Autonomous AI Infrastructure",
-   "start": "2026-11-11T09:36:00",
-   "end": "2026-11-11T09:41:00",
+   "start": "2026-11-11T09:43:00",
+   "end": "2026-11-11T09:48:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Yodar Shafrir"
@@ -5339,8 +5364,8 @@
   {
    "id": "1360829",
    "title": "We Have GitOps at Home: How Meta Went from Terraform on Cron to GitOps for AI Infra",
-   "start": "2026-11-11T09:43:00",
-   "end": "2026-11-11T09:48:00",
+   "start": "2026-11-11T09:50:00",
+   "end": "2026-11-11T09:55:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Phong Nguyen"
@@ -5358,62 +5383,10 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1360829"
   },
   {
-   "id": "1353351",
-   "title": "Celebrating the People Who Make Cloud Native Possible",
-   "start": "2026-11-11T09:50:00",
-   "end": "2026-11-11T10:01:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [],
-   "description": [
-    "Behind every project, release and community milestone are people doing the work that keeps cloud native moving forward. The CNCF Community Awards recognize individuals whose technical contributions, sustained leadership and often unseen work have made an exceptional impact on the cloud native community. Join us as we celebrate community members across four awards, recognizing the many ways people contribute to building and sustaining cloud native technologies."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1353351"
-  },
-  {
-   "id": "1294242",
-   "title": "Sovereign AI Starts at the Traffic Layer",
-   "start": "2026-11-11T10:03:00",
-   "end": "2026-11-11T10:08:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [
-    "Andjelko Iharos"
-   ],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [
-    "Sponsored"
-   ],
-   "description": [
-    "Cloud native teams spent a decade building traffic infrastructure they control: open source, decentralized, observable, and running on Kubernetes. Then AI arrived. Inference, the most sensitive layer in the stack, became a call to a vendor API. Your cluster is sovereign. Your AI isn't.",
-    "You already run what's needed to reclaim that layer. An inference request is plain HTTP, with the model name in the JSON body. The ingress and Gateway API patterns in the cluster today can route and balance that traffic, and apply policy at the boundary. One data plane, instead of a fragmented traffic stack.",
-    "This session covers consistent-hashing across GPU backends and model-aware routing from request inspection, with inference staying inside the cluster. Everything runs on HAProxy, the open source, model-agnostic load balancer and ingress controller built for high throughput and low latency. You keep sovereign control of AI traffic with no performance penalty."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294242"
-  },
-  {
-   "id": "1363891",
-   "title": "Keynote to be Announced",
-   "start": "2026-11-11T10:10:00",
-   "end": "2026-11-11T10:13:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363891"
-  },
-  {
    "id": "1295999",
    "title": "Production AI on Kubernetes: Built to Scale with Oracle Cloud",
-   "start": "2026-11-11T10:15:00",
-   "end": "2026-11-11T10:20:00",
+   "start": "2026-11-11T09:57:00",
+   "end": "2026-11-11T10:02:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Lorenzo Biava",
@@ -5432,10 +5405,53 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1295999"
   },
   {
+   "id": "1368714",
+   "title": "Built on Kubernetes. Proven at Uber Scale. Now Open Source.",
+   "start": "2026-11-11T10:04:00",
+   "end": "2026-11-11T10:07:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [
+    "Viv Keswani"
+   ],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Uber announces the open sourcing of Michelangelo AI, its Kubernetes-native ML platform designed to run across on-premises and public cloud environments, powering mission-critical AI across its global business.",
+    "Battle-tested for nearly a decade, Michelangelo powers everything from traditional ML models to advanced generative AI and agentic workflows, supporting over 5,000 production models and 45 million predictions per second.",
+    "Now, we're opening up the platform behind Uber's AI innovation to developers everywhere, with the goal of building an ecosystem where we can all innovate faster, together.",
+    "Join us as we unveil Michelangelo AI and take a look behind the scenes at the platform powering AI at Uber's scale."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1368714"
+  },
+  {
+   "id": "1294242",
+   "title": "Sovereign AI Starts at the Traffic Layer",
+   "start": "2026-11-11T10:09:00",
+   "end": "2026-11-11T10:14:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [
+    "Andjelko Iharos"
+   ],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "Cloud native teams spent a decade building traffic infrastructure they control: open source, decentralized, observable, and running on Kubernetes. Then AI arrived. Inference, the most sensitive layer in the stack, became a call to a vendor API. Your cluster is sovereign. Your AI isn't.",
+    "You already run what's needed to reclaim that layer. An inference request is plain HTTP, with the model name in the JSON body. The ingress and Gateway API patterns in the cluster today can route and balance that traffic, and apply policy at the boundary. One data plane, instead of a fragmented traffic stack.",
+    "This session covers consistent-hashing across GPU backends and model-aware routing from request inspection, with inference staying inside the cluster. Everything runs on HAProxy, the open source, model-agnostic load balancer and ingress controller built for high throughput and low latency. You keep sovereign control of AI traffic with no performance penalty."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294242"
+  },
+  {
    "id": "1302691",
    "title": "Beyond End User: CAP and the Evolution of Open Source at CVS Health",
-   "start": "2026-11-11T10:22:00",
-   "end": "2026-11-11T10:27:00",
+   "start": "2026-11-11T10:16:00",
+   "end": "2026-11-11T10:21:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Michael Amundson",
@@ -5453,7 +5469,7 @@
   {
    "id": "1302804",
    "title": "Closing Remarks",
-   "start": "2026-11-11T10:29:00",
+   "start": "2026-11-11T10:23:00",
    "end": "2026-11-11T10:30:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [],
@@ -8465,6 +8481,26 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248888"
   },
   {
+   "id": "1234729",
+   "title": "Governing and Scaling Agents in Heterogeneous Environments",
+   "start": "2026-11-11T16:10:00",
+   "end": "2026-11-11T16:40:00",
+   "room": "Hyatt Regency | Level 2 | Salt Lake Ballroom C",
+   "speakers": [
+    "Antonio Ojea",
+    "Tomás Tormo"
+   ],
+   "track": "AI Inference + Agentic",
+   "level": "Any Level",
+   "tags": [],
+   "description": [
+    "Historically, our ecosystem defaults to a Kubernetes-centric approach, pulling every workload into the cluster. However, autonomous AI agents are not confined to these limits. They are deeply heterogeneous, executing across developer laptops, edge devices, and diverse clouds. Viewing agent networking strictly through Kubernetes creates fragmented, vulnerable silos.",
+    "This talk challenges the community to tackle the problem holistically. We provide a blueprint for infrastructure-agnostic routing, breaking free from K8s-only limits via zero-trust, universal OIDC identity, and declarative policies. Through Project Agent Mesh, we share an open-source implementation proving a decentralized data plane can traverse NAT, operate with zero-config, and scale infinitely via Kademlia networks to secure AI workloads everywhere."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1234729"
+  },
+  {
    "id": "1289702",
    "title": "Multi-Cluster Orchestration System: Karmada Updates and Use Cases",
    "start": "2026-11-11T16:10:00",
@@ -8593,27 +8629,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289703"
-  },
-  {
-   "id": "1234729",
-   "title": "Securing and Scaling AI Agents in Heterogeneous Environments",
-   "start": "2026-11-11T16:10:00",
-   "end": "2026-11-11T16:40:00",
-   "room": "Hyatt Regency | Level 2 | Salt Lake Ballroom C",
-   "speakers": [
-    "Antonio Ojea",
-    "Tomás Tormo"
-   ],
-   "track": "AI Inference + Agentic",
-   "level": "Any Level",
-   "tags": [],
-   "description": [
-    "The shift to dynamic, agentic systems creates massive networking challenges. Autonomous agents operate across heterogeneous environments spanning laptops, edge devices, and diverse clouds. They also use an equally heterogeneous mix of protocols like MCP and A2A. How do we secure them?",
-    "This deep dive explores the requirements for agent-native infrastructure: making the network agnostic to physical limitations like NAT, and providing zero-config, zero-trust security. The solution is a decentralized data plane governed by a declarative policy framework.",
-    "We introduce Project SAM, an open-source implementation of this approach. Reusing proven industry lessons, SAM leverages the infinite scalability of Kademlia networks and OIDC identities to decouple routing from compute platforms, securing workloads everywhere."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1234729"
   },
   {
    "id": "1289676",
@@ -9209,18 +9224,22 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1292214"
   },
   {
-   "id": "1302808",
-   "title": "Welcome Back + Opening Remarks",
+   "id": "1363972",
+   "title": "Cloud Native: Built by Humans, Engineered to Evolve",
    "start": "2026-11-12T09:00:00",
    "end": "2026-11-12T09:10:00",
    "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
+   "speakers": [
+    "Jeffrey Sica"
+   ],
    "track": "Keynote Sessions",
    "level": "",
    "tags": [],
-   "description": [],
+   "description": [
+    "Cloud native has never stood still. As workloads, infrastructure and the way we build software change, an open ecosystem of projects and people gives us the ability to evolve with them. Jeffrey Sica will give a look at how the breadth of the cloud native landscape and the strength of its community are helping us adapt to AI, increasingly specialized infrastructure and whatever comes next."
+   ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302808"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363972"
   },
   {
    "id": "1352067",
@@ -9245,10 +9264,28 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1352067"
   },
   {
+   "id": "1353351",
+   "title": "Celebrating the People Who Make Cloud Native Possible",
+   "start": "2026-11-12T09:19:00",
+   "end": "2026-11-12T09:30:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [
+    "Jorge Castro"
+   ],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Behind every project, release and community milestone are people doing the work that keeps cloud native moving forward. The CNCF Community Awards recognize individuals whose technical contributions, sustained leadership and often unseen work have made an exceptional impact on the cloud native community. Join us as we celebrate community members across four awards, recognizing the many ways people contribute to building and sustaining cloud native technologies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1353351"
+  },
+  {
    "id": "1337241",
    "title": "Scaling Multi-Modal Models and Computer-Use Agents on Kubernetes",
-   "start": "2026-11-12T09:19:00",
-   "end": "2026-11-12T09:24:00",
+   "start": "2026-11-12T09:32:00",
+   "end": "2026-11-12T09:37:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Kai-Hsun Chen",
@@ -9267,8 +9304,8 @@
   {
    "id": "1293929",
    "title": "Standardized Yet Adaptable: How Nutanix is Evolving Cluster API with CAREN",
-   "start": "2026-11-12T09:26:00",
-   "end": "2026-11-12T09:31:00",
+   "start": "2026-11-12T09:39:00",
+   "end": "2026-11-12T09:44:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Deepak Goel"
@@ -9285,24 +9322,31 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1293929"
   },
   {
-   "id": "1289752",
-   "title": "Keynote to be Announced",
-   "start": "2026-11-12T09:33:00",
-   "end": "2026-11-12T09:36:00",
+   "id": "1367923",
+   "title": "Salesforce Runs on Heroku: How We Empower Every Builder at Cloud Native Scale",
+   "start": "2026-11-12T09:46:00",
+   "end": "2026-11-12T09:49:00",
    "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
+   "speakers": [
+    "Brandon Schoen",
+    "Shiva Nimmagadda"
+   ],
    "track": "Keynote Sessions",
    "level": "",
    "tags": [],
-   "description": [],
+   "description": [
+    "Salesforce is Heroku's largest customer with over 20k apps. Internal teams rely on Heroku to ship fast . As AI and \"vibe coding\" lower the barrier to software creation, it's essential to provide the right guardrails and restricted access while preserving an intuitive developer experience.",
+    "To satisfy strict security requirements, Salesforce relies on Heroku Private Spaces. Behind the scenes, this isolated environment was re-engineered on a Cloud Native stack while keeping the same developer experience. Cloud Native Buildpacks bring the language & framework of choice, while image rebasing lets the platform patch base OS vulnerabilities across thousands of apps in seconds without rebuilding code.",
+    "In this keynote, see how these pieces come together to provide a clear shared responsibility between the platform and the builder: builders own delivering customer value, while the platform silently handles scale, isolation, and security."
+   ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289752"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1367923"
   },
   {
    "id": "1301727",
    "title": "Kubernetes with Conviction: How Customization is Shaping the OSS AI Ecosystem's Future",
-   "start": "2026-11-12T09:38:00",
-   "end": "2026-11-12T09:43:00",
+   "start": "2026-11-12T09:51:00",
+   "end": "2026-11-12T09:56:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Jago Macleod",
@@ -9321,56 +9365,10 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1301727"
   },
   {
-   "id": "1289750",
-   "title": "Keynote to be Announced",
-   "start": "2026-11-12T09:45:00",
-   "end": "2026-11-12T09:50:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289750"
-  },
-  {
-   "id": "1363905",
-   "title": "A Tribute to Open Source",
-   "start": "2026-11-12T09:52:00",
-   "end": "2026-11-12T09:57:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [
-    "Lucy Sweet"
-   ],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [
-    "Sponsored"
-   ],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363905"
-  },
-  {
-   "id": "1363903",
-   "title": "Keynote to be Announced",
-   "start": "2026-11-12T09:59:00",
-   "end": "2026-11-12T10:02:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363903"
-  },
-  {
    "id": "1293369",
    "title": "Agentic AI, Assembled in the Open",
-   "start": "2026-11-12T10:04:00",
-   "end": "2026-11-12T10:09:00",
+   "start": "2026-11-12T10:05:00",
+   "end": "2026-11-12T10:10:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Jorge Palma"
@@ -9389,8 +9387,8 @@
   {
    "id": "1294245",
    "title": "Cloud Native Without Limits: What Can AI Agents Do for Us?",
-   "start": "2026-11-12T10:11:00",
-   "end": "2026-11-12T10:21:00",
+   "start": "2026-11-12T10:12:00",
+   "end": "2026-11-12T10:22:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Lin Sun"
@@ -9408,7 +9406,7 @@
   {
    "id": "1302806",
    "title": "Closing Remarks",
-   "start": "2026-11-12T10:25:00",
+   "start": "2026-11-12T10:24:00",
    "end": "2026-11-12T10:30:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [],
