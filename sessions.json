@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-20T20:00:18Z",
+ "updated": "2026-10-20T23:11:03Z",
  "sessions": [
   {
    "id": "1304040",
@@ -3156,6 +3156,22 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1336019"
   },
   {
+   "id": "1368996",
+   "title": "Pet-a-Pup",
+   "start": "2026-11-10T14:00:00",
+   "end": "2026-11-10T16:00:00",
+   "room": "Salt Palace | Level 1 | North Grand Ballroom Foyer",
+   "speakers": [],
+   "track": "",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Take a “paws” from your busy day! Join us for a visit with some friendly therapy puppies to help reduce stress and boost your mood."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1368996"
+  },
+  {
    "id": "1334800",
    "title": "(Maintainer) From FIFO to Fair Share: Extensible Queuing",
    "start": "2026-11-10T14:05:00",
@@ -5226,6 +5242,43 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362621"
   },
   {
+   "id": "1368973",
+   "title": "Group Fun Run/Walk",
+   "start": "2026-11-11T06:30:00",
+   "end": "2026-11-11T08:00:00",
+   "room": "Hyatt Regency Lobby",
+   "speakers": [],
+   "track": "Experiences",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Start your day on the move with our casual conference walk/run! Whether you’re chasing a PR or just a good conversation, this all-levels outing is designed to get you outside, meet new people, and shake off the screen time.\nChoose your own pace – run, jog, or stroll – and enjoy a relaxed route with fellow attendees before sessions begin. No timing chips, no pressure – just fresh air, friendly faces, and a fun way to connect with the community.\nMeet in the Hyatt Regency lobby (connected to the convention center) at 06:30 for a 06:45 departure!"
+   ],
+   "links": [
+    {
+     "label": "Location Map",
+     "url": "https://maps.app.goo.gl/W3ZQCF1114jVKLZx7"
+    }
+   ],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1368973"
+  },
+  {
+   "id": "1368998",
+   "title": "Puppy Yoga",
+   "start": "2026-11-11T07:00:00",
+   "end": "2026-11-11T08:00:00",
+   "room": "Hyatt Regency | Level 3 | Park City",
+   "speakers": [],
+   "track": "",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Downward dog, meet actual dogs! Stretch it out with a room full of wiggly puppies.\n*40 person capacity – first-come, first-served"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1368998"
+  },
+  {
    "id": "1289943",
    "title": "Registration + Badge Pick-Up",
    "start": "2026-11-11T08:00:00",
@@ -5283,8 +5336,8 @@
   {
    "id": "1367917",
    "title": "The Cloud Native Feedback Loop: How End Users and Developers Drive CNCF Projects Forward",
-   "start": "2026-11-11T09:12:00",
-   "end": "2026-11-11T09:22:00",
+   "start": "2026-11-11T09:19:00",
+   "end": "2026-11-11T09:29:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Marlow Warnicke",
@@ -5302,8 +5355,8 @@
   {
    "id": "1363905",
    "title": "A Tribute to Open Source",
-   "start": "2026-11-11T09:24:00",
-   "end": "2026-11-11T09:29:00",
+   "start": "2026-11-11T09:31:00",
+   "end": "2026-11-11T09:36:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Lucy Sweet"
@@ -5320,8 +5373,8 @@
   {
    "id": "1353217",
    "title": "Code, Containers, and Clusters: The Next Chapter of Apple's Container Framework",
-   "start": "2026-11-11T09:31:00",
-   "end": "2026-11-11T09:41:00",
+   "start": "2026-11-11T09:38:00",
+   "end": "2026-11-11T09:48:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Kathryn Baldauf",
@@ -5343,8 +5396,8 @@
   {
    "id": "1301748",
    "title": "Context Unlocks Autonomous AI Infrastructure",
-   "start": "2026-11-11T09:43:00",
-   "end": "2026-11-11T09:48:00",
+   "start": "2026-11-11T09:50:00",
+   "end": "2026-11-11T09:55:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Yodar Shafrir"
@@ -5364,8 +5417,8 @@
   {
    "id": "1360829",
    "title": "We Have GitOps at Home: How Meta Went from Terraform on Cron to GitOps for AI Infra",
-   "start": "2026-11-11T09:50:00",
-   "end": "2026-11-11T09:55:00",
+   "start": "2026-11-11T09:57:00",
+   "end": "2026-11-11T10:02:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Phong Nguyen"
@@ -5385,8 +5438,8 @@
   {
    "id": "1295999",
    "title": "Production AI on Kubernetes: Built to Scale with Oracle Cloud",
-   "start": "2026-11-11T09:57:00",
-   "end": "2026-11-11T10:02:00",
+   "start": "2026-11-11T10:04:00",
+   "end": "2026-11-11T10:09:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Lorenzo Biava",
@@ -5407,8 +5460,8 @@
   {
    "id": "1368714",
    "title": "Built on Kubernetes. Proven at Uber Scale. Now Open Source.",
-   "start": "2026-11-11T10:04:00",
-   "end": "2026-11-11T10:07:00",
+   "start": "2026-11-11T10:11:00",
+   "end": "2026-11-11T10:14:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Viv Keswani"
@@ -5428,8 +5481,8 @@
   {
    "id": "1294242",
    "title": "Sovereign AI Starts at the Traffic Layer",
-   "start": "2026-11-11T10:09:00",
-   "end": "2026-11-11T10:14:00",
+   "start": "2026-11-11T10:16:00",
+   "end": "2026-11-11T10:21:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Andjelko Iharos"
@@ -5450,8 +5503,8 @@
   {
    "id": "1302691",
    "title": "Beyond End User: CAP and the Evolution of Open Source at CVS Health",
-   "start": "2026-11-11T10:16:00",
-   "end": "2026-11-11T10:21:00",
+   "start": "2026-11-11T10:23:00",
+   "end": "2026-11-11T10:28:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Michael Amundson",
@@ -5469,7 +5522,7 @@
   {
    "id": "1302804",
    "title": "Closing Remarks",
-   "start": "2026-11-11T10:23:00",
+   "start": "2026-11-11T10:29:00",
    "end": "2026-11-11T10:30:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [],
@@ -9343,10 +9396,29 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1367923"
   },
   {
+   "id": "1368936",
+   "title": "The Storage Bottleneck AI Didn't See Coming: Inside StepFun’s Multimodal Production Stack",
+   "start": "2026-11-12T09:51:00",
+   "end": "2026-11-12T09:54:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [
+    "Frank Li",
+    "Joe Zhou"
+   ],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Multimodal AI has outgrown the storage systems built for it. Training and inference now mix small-file storms, high-concurrency random reads, terabyte-scale checkpoints, and 100 GB+ model files across heterogeneous GPU clusters, private data centers, and public clouds. The hard part isn't any one workload. It means serving all of them through a single storage access layer that follows compute wherever it runs, whether on-prem or in any cloud. In this keynote, we'll show how StepFun made that move on Kubernetes, TiKV, and JuiceFS. Hardware-aware CSI mounts handle heterogeneous nodes, TiKV-backed metadata scales to more than 10,000 mounting hosts, point-get optimization speeds up relevant read-only operations by roughly 50%, and tuning both the metadata engine and readahead for Safetensors loads cuts read amplification by roughly 71%. We'll share how these improvements were merged upstream to turn production lessons into community gains."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1368936"
+  },
+  {
    "id": "1301727",
    "title": "Kubernetes with Conviction: How Customization is Shaping the OSS AI Ecosystem's Future",
-   "start": "2026-11-12T09:51:00",
-   "end": "2026-11-12T09:56:00",
+   "start": "2026-11-12T09:56:00",
+   "end": "2026-11-12T10:01:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Jago Macleod",
@@ -9367,8 +9439,8 @@
   {
    "id": "1293369",
    "title": "Agentic AI, Assembled in the Open",
-   "start": "2026-11-12T10:05:00",
-   "end": "2026-11-12T10:10:00",
+   "start": "2026-11-12T10:10:00",
+   "end": "2026-11-12T10:15:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Jorge Palma"
@@ -9387,8 +9459,8 @@
   {
    "id": "1294245",
    "title": "Cloud Native Without Limits: What Can AI Agents Do for Us?",
-   "start": "2026-11-12T10:12:00",
-   "end": "2026-11-12T10:22:00",
+   "start": "2026-11-12T10:17:00",
+   "end": "2026-11-12T10:27:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Lin Sun"
@@ -9406,7 +9478,7 @@
   {
    "id": "1302806",
    "title": "Closing Remarks",
-   "start": "2026-11-12T10:24:00",
+   "start": "2026-11-12T10:29:00",
    "end": "2026-11-12T10:30:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [],
