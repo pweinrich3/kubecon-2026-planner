@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-19T21:03:18Z",
+ "updated": "2026-10-20T04:51:38Z",
  "sessions": [
   {
    "id": "1304040",
@@ -1709,7 +1709,7 @@
   },
   {
    "id": "1301696",
-   "title": "Engineering Kubernetes for the Next Era of Compute",
+   "title": "Engineering Kubernetes for the Next Era of Workloads",
    "start": "2026-11-10T09:42:00",
    "end": "2026-11-10T09:47:00",
    "room": "Salt Palace | Level 1 | Hall DE",
@@ -1722,7 +1722,7 @@
     "Sponsored"
    ],
    "description": [
-    "Each generation of workload pushes Kubernetes further. AI training scales thousands of GPU nodes in minutes. Inference images hit dozens GB. Agents run untrusted code and vanish in seconds. The plumbing was not built for this. You can fork, work around it, or fix it upstream. We chose upstream. First, we rebuilt containerd's image pull pipeline into disk-backed parallel pull: 60% faster cold starts, 8x less peak memory, merged upstream. The old design OOM-killed the runtime on GPU nodes pulling 30+ GB images. Second, we fixed bottlenecks in core Kubernetes that only surface at 100K nodes, a mutex serializing HPA decisions and a scheduler re-listing every PersistentVolume per pod. Third, come explore the hardest layer still ahead: how untrusted, ephemeral code can earn true VM-grade isolation at the level of a single pod, without giving up the speed that makes containers worth running. Two fixes already upstream, and a look at where the next one is headed."
+    "AI changed what Kubernetes has to handle: container images in the tens of gigabytes, clusters approaching 100,000 nodes, and accelerators a device count can’t describe. At AWS we hit those limits early, and when we do, we fix them upstream. This keynote covers three layers. In containerd, parallel layer unpack takes the long pole out of pulling large AI images. In the control plane, we removed lock contention in the API server watch cache and the Horizontal Pod Autoscaler and fixed a scheduler hot path, all in Kubernetes 1.37. For accelerators, Dynamic Resource Allocation lets a pod ask for a GPU and network adapter on the same PCIe root, and Karpenter can now provision for it, even for nodes that don’t exist yet."
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1301696"
@@ -5274,18 +5274,23 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294702"
   },
   {
-   "id": "1289751",
-   "title": "Keynote to be Announced",
+   "id": "1367917",
+   "title": "The Cloud Native Feedback Loop: How End Users and Developers Drive CNCF Projects Forward",
    "start": "2026-11-11T09:12:00",
    "end": "2026-11-11T09:22:00",
    "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
+   "speakers": [
+    "Marlow Warnicke",
+    "Kevin Wang"
+   ],
    "track": "Keynote Sessions",
    "level": "",
    "tags": [],
-   "description": [],
+   "description": [
+    "How do today’s reference architectures become real production platforms built on CNCF projects that evolve, mature, and earn long-term trust? In this joint keynote the CNCF End User Technical Advisory Board (TAB) and Technical Oversight Committee (TOC) – with representation from the TAB User Groups and TOC Technical Advisory Groups – cover the mapping reference architectures and real-world production needs to the project lifecycle decisions that shape the CNCF ecosystem. Along the way they connect this technical and governance journey to the data and tools that support smarter decisions at scale by showcasing User Group and Technical Advisory Group Initiatives, as well as LFX and LF Insights metrics."
+   ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289751"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1367917"
   },
   {
    "id": "1353217",
