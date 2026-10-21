@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-20T23:11:03Z",
+ "updated": "2026-10-21T04:47:34Z",
  "sessions": [
   {
    "id": "1304040",
@@ -3162,7 +3162,7 @@
    "end": "2026-11-10T16:00:00",
    "room": "Salt Palace | Level 1 | North Grand Ballroom Foyer",
    "speakers": [],
-   "track": "",
+   "track": "Experiences",
    "level": "",
    "tags": [],
    "description": [
@@ -5269,7 +5269,7 @@
    "end": "2026-11-11T08:00:00",
    "room": "Hyatt Regency | Level 3 | Park City",
    "speakers": [],
-   "track": "",
+   "track": "Experiences",
    "level": "",
    "tags": [],
    "description": [
@@ -9402,8 +9402,8 @@
    "end": "2026-11-12T09:54:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
-    "Frank Li",
-    "Joe Zhou"
+    "Joe Zhou",
+    "Frank Li"
    ],
    "track": "Keynote Sessions",
    "level": "",
