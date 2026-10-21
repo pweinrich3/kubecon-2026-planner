@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-21T04:47:34Z",
+ "updated": "2026-10-21T13:49:00Z",
  "sessions": [
   {
    "id": "1304040",
@@ -1908,7 +1908,7 @@
    "title": "Project Pavilion Tour",
    "start": "2026-11-10T10:55:00",
    "end": "2026-11-10T11:15:00",
-   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [],
    "track": "Project Pavilion Tours",
    "level": "",
@@ -1925,7 +1925,7 @@
    "title": "Welcome to Cloud Native University",
    "start": "2026-11-10T11:00:00",
    "end": "2026-11-10T11:02:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Danielle Cook",
     "Simon Forster"
@@ -1938,6 +1938,25 @@
    "description": [],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1333733"
+  },
+  {
+   "id": "1369438",
+   "title": "Network Nook Meetup: 1st Time Attendees",
+   "start": "2026-11-10T11:00:00",
+   "end": "2026-11-10T11:20:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Network Nook",
+   "speakers": [],
+   "track": "Experiences",
+   "level": "Any Level",
+   "tags": [
+    "Network Nook"
+   ],
+   "description": [
+    "Join us for casual and engaging meetups at the Network Nook during lunch breaks! These informal gatherings are open to all, whether you're a first-time attendee, a solo traveler, or simply looking to chat about shared interests. This is a great way to connect with others.",
+    "*Topic: 1st Time Attendees*\nNew to KubeCon + CloudNativeCon? Connect with fellow first-time attendees, share tips, and get insights from CNCF ambassadors on how to make the most of your conference experience!"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369438"
   },
   {
    "id": "1336486",
@@ -1966,7 +1985,7 @@
    "title": "KubeScool – Learn the Easiest Way Possible",
    "start": "2026-11-10T11:02:00",
    "end": "2026-11-10T11:14:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Neil Cresswell"
    ],
@@ -1988,7 +2007,7 @@
    "title": "Demo Theater: Stop Running Mystery Meat in Production",
    "start": "2026-11-10T11:15:00",
    "end": "2026-11-10T11:35:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Jeroen van Erp"
    ],
@@ -2012,7 +2031,7 @@
    "title": "Cloud Native Operators and You",
    "start": "2026-11-10T11:17:00",
    "end": "2026-11-10T11:29:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Corey McGalliard"
    ],
@@ -2440,7 +2459,7 @@
    "title": "🚩 An Introduction to Capture The Flag",
    "start": "2026-11-10T11:30:00",
    "end": "2026-11-10T13:30:00",
-   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [
     "Fabian Kammel",
     "Vicente Herrera"
@@ -2462,7 +2481,7 @@
    "title": "Your First Broken Pod: A Beginner's Guide to Debugging Kubernetes",
    "start": "2026-11-10T11:32:00",
    "end": "2026-11-10T11:44:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Tania Duggal",
     "Anton Weiss",
@@ -2485,7 +2504,7 @@
    "title": "AI on Kubernetes Is Just a Pod With a GPU (and That's the Problem)",
    "start": "2026-11-10T11:47:00",
    "end": "2026-11-10T11:59:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Graziano Casto"
    ],
@@ -2507,7 +2526,7 @@
    "title": "Demo: How Hertz Made Karpenter and standard EKS Smarter with autonomous AI-Driven Optimization",
    "start": "2026-11-10T12:05:00",
    "end": "2026-11-10T12:25:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Sonal Kumar Sinha"
    ],
@@ -2528,7 +2547,7 @@
    "title": "Cluster API in 15 Minutes. A Primer on Declarative Kubernetes Infrastructure",
    "start": "2026-11-10T12:17:00",
    "end": "2026-11-10T12:29:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "William Rizzo"
    ],
@@ -2878,7 +2897,7 @@
    "title": "Demo Theater: All the Ways to Add OpenTelemetry Without Touching Your Code",
    "start": "2026-11-10T12:30:00",
    "end": "2026-11-10T12:50:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Michele Mancioppi"
    ],
@@ -2924,7 +2943,7 @@
    "title": "CNCF Bingo: Play, Learn, Win!!!!!!",
    "start": "2026-11-10T12:32:00",
    "end": "2026-11-10T12:44:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Michael Forrester"
    ],
@@ -2942,7 +2961,7 @@
    "title": "Cloud Native University Closing Remarks",
    "start": "2026-11-10T12:44:00",
    "end": "2026-11-10T12:45:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Simon Forster",
     "Danielle Cook"
@@ -2975,7 +2994,7 @@
    "title": "Demo Theater: Agent Observability: Evaluating and Guardrailing Responses in Real Time",
    "start": "2026-11-10T12:55:00",
    "end": "2026-11-10T13:15:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Greg Leffler"
    ],
@@ -2998,7 +3017,7 @@
    "title": "EnvoyCon Opening Remarks",
    "start": "2026-11-10T13:00:00",
    "end": "2026-11-10T13:05:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Erica Hughberg",
     "Rohit Agrawal"
@@ -3017,7 +3036,7 @@
    "title": "Evolution of Agentic Networking Stack in Envoy",
    "start": "2026-11-10T13:05:00",
    "end": "2026-11-10T13:15:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Boteng Yao",
     "Yan Avlasov"
@@ -3034,11 +3053,30 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334794"
   },
   {
+   "id": "1369442",
+   "title": "Network Nook Meetup: 1st Time Attendees",
+   "start": "2026-11-10T13:15:00",
+   "end": "2026-11-10T14:15:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Network Nook",
+   "speakers": [],
+   "track": "Experiences",
+   "level": "Any Level",
+   "tags": [
+    "Network Nook"
+   ],
+   "description": [
+    "Join us for casual and engaging meetups at the Network Nook during lunch breaks! These informal gatherings are open to all, whether you're a first-time attendee, a solo traveler, or simply looking to chat about shared interests. This is a great way to connect with others.",
+    "*Topic: 1st Time Attendees*\nNew to KubeCon + CloudNativeCon? Connect with fellow first-time attendees, share tips, and get insights from CNCF ambassadors on how to make the most of your conference experience!"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369442"
+  },
+  {
    "id": "1334795",
    "title": "Extending Envoy for Secure, Scalable Connectivity",
    "start": "2026-11-10T13:17:00",
    "end": "2026-11-10T13:27:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Basundhara Chakrabarty",
     "Hong Sng"
@@ -3059,7 +3097,7 @@
    "title": "Demo Theater: Agentic Karpenter: Using kagent + Claude to Tune Your Autoscaling",
    "start": "2026-11-10T13:20:00",
    "end": "2026-11-10T13:40:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Vikram Seshadri"
    ],
@@ -3081,7 +3119,7 @@
    "title": "Project Pavilion Tour",
    "start": "2026-11-10T13:20:00",
    "end": "2026-11-10T13:40:00",
-   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [],
    "track": "Project Pavilion Tours",
    "level": "",
@@ -3098,7 +3136,7 @@
    "title": "Guardrails, Not Gatekeepers: Envoy Gateway in the Enterprise",
    "start": "2026-11-10T13:29:00",
    "end": "2026-11-10T13:39:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Matthew Slater"
    ],
@@ -3118,7 +3156,7 @@
    "title": "ListenerSets: Ingress → Gateway API",
    "start": "2026-11-10T13:41:00",
    "end": "2026-11-10T13:51:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Isaac Wilson",
     "Karol Szwaj"
@@ -3139,7 +3177,7 @@
    "title": "You don't have to migrate everything — Envoy is the Bridge Between Your Old World and Your New One.",
    "start": "2026-11-10T13:53:00",
    "end": "2026-11-10T14:03:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Michael Bolot",
     "Aidan Carson"
@@ -3176,7 +3214,7 @@
    "title": "(Maintainer) From FIFO to Fair Share: Extensible Queuing",
    "start": "2026-11-10T14:05:00",
    "end": "2026-11-10T14:20:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Kateryna Nezdolii",
     "Tony Allen"
@@ -3197,7 +3235,7 @@
    "title": "Demo Theater: Using Kubernetes to run distributed AI workloads across heterogeneous infrastructure",
    "start": "2026-11-10T14:10:00",
    "end": "2026-11-10T14:30:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Rishi Mody"
    ],
@@ -3220,7 +3258,7 @@
    "title": "Keeping Envoy Boring in an eBPF Datapath (Cilium L7)",
    "start": "2026-11-10T14:23:00",
    "end": "2026-11-10T14:33:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [],
    "track": "Cloud Native Theater",
    "level": "",
@@ -3263,7 +3301,7 @@
    "title": "Demo Theater: One Kubernetes API for VMs, without Rebuilding the Infrastructure Beneath It",
    "start": "2026-11-10T14:35:00",
    "end": "2026-11-10T14:55:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Arunesh Pandey"
    ],
@@ -3286,7 +3324,7 @@
    "title": "EnvoyCon Closing Remarks",
    "start": "2026-11-10T14:38:00",
    "end": "2026-11-10T14:45:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Erica Hughberg",
     "Rohit Agrawal"
@@ -3742,7 +3780,7 @@
    "title": "KyvernoCon Opening Remarks",
    "start": "2026-11-10T15:00:00",
    "end": "2026-11-10T15:05:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Cortney Nickerson",
     "Jim Bugwadia"
@@ -3761,7 +3799,7 @@
    "title": "Demo Theater: Agent Substrate: Secure, High-Density Sandboxing for AI Agents",
    "start": "2026-11-10T15:00:00",
    "end": "2026-11-10T15:20:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [],
    "track": "Sponsor Demo Theater",
    "level": "",
@@ -3781,7 +3819,7 @@
    "title": "After Admission: Kernel Enforcement for Agents Kyverno Let In",
    "start": "2026-11-10T15:15:00",
    "end": "2026-11-10T15:40:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Sal Kimmich"
    ],
@@ -3801,7 +3839,7 @@
    "title": "Demo Theater: Giving AI Agents an Identity: A Secure Runtime with Teleport Beams",
    "start": "2026-11-10T15:25:00",
    "end": "2026-11-10T15:45:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Gus Luxton",
     "Chris De La Garza"
@@ -3823,7 +3861,7 @@
    "title": "Who's Governing the GPU Lane? Policy as Code for AI Inference Traffic in Kubernetes",
    "start": "2026-11-10T15:40:00",
    "end": "2026-11-10T16:05:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Ciara Stacke",
     "Alessandro Fael Garcia"
@@ -4197,7 +4235,7 @@
    "title": "Demo Theater: From Wide Open to Locked Down: Running AI Agents on Kubernetes",
    "start": "2026-11-10T15:50:00",
    "end": "2026-11-10T16:10:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Jake Hulberg"
    ],
@@ -4240,7 +4278,7 @@
    "title": "Agentic Ops: Building Guardrails for Autonomous AI with Policy-as-Code",
    "start": "2026-11-10T16:05:00",
    "end": "2026-11-10T16:30:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Pavan Madduri"
    ],
@@ -4271,10 +4309,10 @@
   },
   {
    "id": "1362597",
-   "title": "Demo Theater:The Spin Agentic Sandbox: Secure Execution of AI-Generated Code with CNCF Spin and WASI",
+   "title": "Demo Theater: The Spin Sandbox: Secure Execution of AI-Generated Code with CNCF Spin and WASI",
    "start": "2026-11-10T16:15:00",
    "end": "2026-11-10T16:35:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Thorsten Hans"
    ],
@@ -4297,7 +4335,7 @@
    "title": "Project Pavilion Tour",
    "start": "2026-11-10T16:20:00",
    "end": "2026-11-10T16:40:00",
-   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [],
    "track": "Project Pavilion Tours",
    "level": "",
@@ -4314,7 +4352,7 @@
    "title": "Integrating Envoy AI Gateway and Kyverno Authz for Realtime Governance of LLM and MCP Traffic",
    "start": "2026-11-10T16:30:00",
    "end": "2026-11-10T16:55:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Jim Bugwadia",
     "Deepak Goel"
@@ -4335,7 +4373,7 @@
    "title": "Demo Theater: Allocated ≠ Utilized: Managing GPUs with IBM Kubecost",
    "start": "2026-11-10T16:40:00",
    "end": "2026-11-10T17:00:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Danielle Zeis"
    ],
@@ -4787,7 +4825,7 @@
    "title": "Demo Theater: YugabyteDB AMP: Agentic Multitenant PostgreSQL for the AI Era",
    "start": "2026-11-10T17:05:00",
    "end": "2026-11-10T17:25:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Hari Krishna Sunder"
    ],
@@ -5168,7 +5206,7 @@
    "title": "Demo Theater: Beyond the Agent Trace: Understand and Trust AI Agents Across Cloud-Native Systems",
    "start": "2026-11-10T17:55:00",
    "end": "2026-11-10T18:15:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Stephen Hussey"
    ],
@@ -5189,7 +5227,7 @@
    "title": "CLBO: ClashLoopBackOff",
    "start": "2026-11-10T18:00:00",
    "end": "2026-11-10T19:15:00",
-   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [],
    "track": "Project Pavilion Stage",
    "level": "",
@@ -5225,7 +5263,7 @@
    "title": "Demo Theater: The Ultimate Hot Dog Showdown: Scaling AI Inference on Kubernetes",
    "start": "2026-11-10T18:45:00",
    "end": "2026-11-10T19:05:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Jacquie Capur"
    ],
@@ -5568,7 +5606,7 @@
    "title": "Demo Theater: AI already found your Java vulnerabilities. Has your scanner?",
    "start": "2026-11-11T10:35:00",
    "end": "2026-11-11T10:55:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Manfred Moser"
    ],
@@ -5593,7 +5631,7 @@
    "title": "Project Pavilion Tour",
    "start": "2026-11-11T10:40:00",
    "end": "2026-11-11T11:00:00",
-   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [],
    "track": "Project Pavilion Tours",
    "level": "",
@@ -5610,7 +5648,7 @@
    "title": "KubeVirt Summit Opening Remarks",
    "start": "2026-11-11T10:45:00",
    "end": "2026-11-11T10:50:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Andrew Burden",
     "Ryan Hallisey"
@@ -5629,7 +5667,7 @@
    "title": "Two Drivers, One Topology: GPU:NIC Rail Alignment for RDMA VMs with KubeVirt DRA",
    "start": "2026-11-11T10:50:00",
    "end": "2026-11-11T11:10:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Jian Li",
     "Alay Patel",
@@ -5653,7 +5691,7 @@
    "title": "Demo Theater: From Observability to Autonomous Infrastructure",
    "start": "2026-11-11T11:00:00",
    "end": "2026-11-11T11:20:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Shaha Azulay"
    ],
@@ -6104,7 +6142,7 @@
    "title": "The Healthy Cluster, The Unhealthy VM:Why Infrastructure Metrics Are Only Half the Story in KubeVirt",
    "start": "2026-11-11T11:15:00",
    "end": "2026-11-11T11:35:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Smit Jain (he/him)"
    ],
@@ -6126,7 +6164,7 @@
    "title": "Demo Theater: Your Agent Needs a Kernel of Its Own: Hardware-Isolated VM Pods on EKS",
    "start": "2026-11-11T11:25:00",
    "end": "2026-11-11T11:45:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Carlos Santana",
     "Todd Neal"
@@ -6150,7 +6188,7 @@
    "title": "🚩Capture The Flag Experience",
    "start": "2026-11-11T11:30:00",
    "end": "2026-11-11T13:30:00",
-   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [],
    "track": "Project Pavilion Stage",
    "level": "",
@@ -6168,7 +6206,7 @@
    "title": "Plug and Play Volumes, hold the Pod",
    "start": "2026-11-11T11:40:00",
    "end": "2026-11-11T12:00:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Piotr Prokop PL",
     "Sreeja Varnam"
@@ -6191,7 +6229,7 @@
    "title": "Demo Theater: KubeHound: Identifying Attack Paths in Kubernetes Clusters at Scale",
    "start": "2026-11-11T11:50:00",
    "end": "2026-11-11T12:10:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Tara Schofield"
    ],
@@ -6564,7 +6602,7 @@
    "title": "Optimized Switchover Timing for Live Migration of Memory-Intensive Workloads",
    "start": "2026-11-11T12:05:00",
    "end": "2026-11-11T12:25:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Aseef Imran"
    ],
@@ -6586,7 +6624,7 @@
    "title": "Demo Theater: ClickHouse Observability: Full-fidelity observability for AI agents and SREs",
    "start": "2026-11-11T12:15:00",
    "end": "2026-11-11T12:35:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Mike Shi"
    ],
@@ -6639,7 +6677,7 @@
    "title": "KubeVirt Summit Closing Remarks",
    "start": "2026-11-11T12:25:00",
    "end": "2026-11-11T12:30:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Ryan Hallisey",
     "Andrew Burden"
@@ -6658,7 +6696,7 @@
    "title": "Demo Theater: Unifying Kubernetes and Datacenter Networking with Isovalent and Cisco Nexus One",
    "start": "2026-11-11T12:39:00",
    "end": "2026-11-11T12:59:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Marco Hernandez"
    ],
@@ -6679,7 +6717,7 @@
    "title": "Kubeflow Summit Opening Remarks",
    "start": "2026-11-11T12:45:00",
    "end": "2026-11-11T12:50:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Andrey Velichkevich"
    ],
@@ -6693,11 +6731,30 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1333702"
   },
   {
+   "id": "1369445",
+   "title": "Network Nook Meetup: Conference Buddies",
+   "start": "2026-11-11T12:45:00",
+   "end": "2026-11-11T13:45:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Network Nook",
+   "speakers": [],
+   "track": "Experiences",
+   "level": "Any Level",
+   "tags": [
+    "Network Nook"
+   ],
+   "description": [
+    "Join us for casual and engaging meetups at the Network Nook during lunch breaks! These informal gatherings are open to all, whether you're a first-time attendee, a solo traveler, or simply looking to chat about shared interests. This is a great way to connect with others.",
+    "*Topic: Conference Buddies*\nMeet other attendees, make new connections, and find a conference buddy to explore sessions and events together!"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369445"
+  },
+  {
    "id": "1341038",
    "title": "Project Pavilion Tour",
    "start": "2026-11-11T12:50:00",
    "end": "2026-11-11T13:10:00",
-   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [],
    "track": "Project Pavilion Tours",
    "level": "",
@@ -6714,7 +6771,7 @@
    "title": "The Missing Front-Door to Your AI Supercomputer – Kubeflow Workspaces",
    "start": "2026-11-11T12:50:00",
    "end": "2026-11-11T13:10:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Mathew Wicks",
     "Siyuan Zhang"
@@ -6735,7 +6792,7 @@
    "title": "Demo Theater: The World's Smallest and Largest Kubernetes Clusters",
    "start": "2026-11-11T13:05:00",
    "end": "2026-11-11T13:25:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Justin Garrison"
    ],
@@ -6756,7 +6813,7 @@
    "title": "OptimizationJob: Hyperparameter Optimization at Scale with Kubeflow Trainer",
    "start": "2026-11-11T13:15:00",
    "end": "2026-11-11T13:35:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Akshay Chitneni",
     "Aniket Shaha",
@@ -6998,7 +7055,7 @@
    "title": "Demo Theater: Agent Sandboxing with OpenShell on OpenShift",
    "start": "2026-11-11T13:30:00",
    "end": "2026-11-11T13:50:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Mrunal Patel"
    ],
@@ -7039,7 +7096,7 @@
    "title": "Building Reproducible AgentOps Pipelines with Kubeflow and MLflow",
    "start": "2026-11-11T13:40:00",
    "end": "2026-11-11T13:53:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Alyssa Goins",
     "Ana Biazetti"
@@ -7060,7 +7117,7 @@
    "title": "Demo Theater: Do you trust your AI agent? Pod Sandboxing on OKE",
    "start": "2026-11-11T13:55:00",
    "end": "2026-11-11T14:15:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Tanya Bansal",
     "Mickey Boxell"
@@ -7082,7 +7139,7 @@
    "title": "Stop AI Agents from Guessing SQL with Semantic Operator on Kubernetes",
    "start": "2026-11-11T13:58:00",
    "end": "2026-11-11T14:03:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Manabu McCloskey"
    ],
@@ -7102,7 +7159,7 @@
    "title": "End-User Panel – KubeFlow Enterprise Use Cases-Solutions",
    "start": "2026-11-11T14:08:00",
    "end": "2026-11-11T14:28:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Vara Bonthu",
     "Chase Christensen",
@@ -7125,7 +7182,7 @@
    "title": "Demo Theater: Building an Agent-Centric Cloud Platform: Lessons from Nutanix",
    "start": "2026-11-11T14:20:00",
    "end": "2026-11-11T14:40:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Prakash Narayanasamy"
    ],
@@ -7572,7 +7629,7 @@
    "title": "Kubeflow Summit Closing Remarks",
    "start": "2026-11-11T14:28:00",
    "end": "2026-11-11T14:30:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Valentina Rodriguez Sosa"
    ],
@@ -7639,7 +7696,7 @@
    "title": "Istio Day Opening Remarks",
    "start": "2026-11-11T14:45:00",
    "end": "2026-11-11T14:50:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Faseela Kundattil",
     "Jackie Maertens"
@@ -7658,7 +7715,7 @@
    "title": "Demo Theater: Universal Mesh: One Model for Ingress, Gateway API, and Multi-Cloud",
    "start": "2026-11-11T14:45:00",
    "end": "2026-11-11T15:05:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Jakub Suchy",
     "Héléne Durand"
@@ -7706,7 +7763,7 @@
    "title": "Istio at Scale: Lessons, Pitfalls, and Observability",
    "start": "2026-11-11T14:50:00",
    "end": "2026-11-11T15:05:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Adarsh Kumar"
    ],
@@ -7790,7 +7847,7 @@
    "title": "Unblocking Istio: Living Traffic Management Live!",
    "start": "2026-11-11T15:07:00",
    "end": "2026-11-11T15:12:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Oscar Castillo"
    ],
@@ -7830,7 +7887,7 @@
    "title": "Demo Theater: The Distroless Trap: Live-Busting Container Myths with Rocks",
    "start": "2026-11-11T15:10:00",
    "end": "2026-11-11T15:30:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Lily Rivers-Klee"
    ],
@@ -8185,7 +8242,7 @@
    "title": "AI-Aware Traffic Management: Scaling Inference with Istio Ambient Mesh",
    "start": "2026-11-11T15:14:00",
    "end": "2026-11-11T15:29:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Mofesola Babalola",
     "Hannah Olukoye"
@@ -8207,7 +8264,7 @@
    "title": "CLBO: ClashLoopBackOff: Attendee Edition",
    "start": "2026-11-11T15:15:00",
    "end": "2026-11-11T16:15:00",
-   "room": "Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [],
    "track": "Project Pavilion Stage",
    "level": "",
@@ -8267,7 +8324,7 @@
    "title": "Two Namespaces, One Mesh: Zero-Downtime Releases for an Always-On Aviation Platform",
    "start": "2026-11-11T15:31:00",
    "end": "2026-11-11T15:46:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Rahul Raj Valia Veetil"
    ],
@@ -8287,7 +8344,7 @@
    "title": "Demo Theater: Why Your Kubernetes Autoscalers Keep Fighting (and How to End the Thrash)",
    "start": "2026-11-11T15:35:00",
    "end": "2026-11-11T15:55:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Nikhil Kurup"
    ],
@@ -8322,7 +8379,7 @@
    "title": "The Sidecar-to-Ambient Migration Nobody Warned Us About (AI Edition)",
    "start": "2026-11-11T15:48:00",
    "end": "2026-11-11T15:53:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Fabrizio Sgura"
    ],
@@ -8342,7 +8399,7 @@
    "title": "Breaking the O(n²) Wall: Pub/Sub Federation for Istio Multicluster Service Discovery",
    "start": "2026-11-11T15:55:00",
    "end": "2026-11-11T16:10:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Zhewei Hu",
     "Jack Ma"
@@ -8802,7 +8859,7 @@
    "title": "ServiceEntry Visibility: Tomorrow's ServiceEntry, Today",
    "start": "2026-11-11T16:12:00",
    "end": "2026-11-11T16:17:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Ian Rudie"
    ],
@@ -8824,7 +8881,7 @@
    "title": "Translating Mesh Identity into MCP Impersonation: Governing AI Agent Identities with Istio",
    "start": "2026-11-11T16:19:00",
    "end": "2026-11-11T16:24:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Juan David Arguello Plata"
    ],
@@ -8844,7 +8901,7 @@
    "title": "Istio Day Closing Remarks",
    "start": "2026-11-11T16:25:00",
    "end": "2026-11-11T16:30:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Jackie Maertens",
     "Faseela Kundattil"
@@ -8863,7 +8920,7 @@
    "title": "Demo Theater: Day 2 for Stateful Kubernetes: Data Services You Can See",
    "start": "2026-11-11T16:25:00",
    "end": "2026-11-11T16:45:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Brock Mowry",
     "Tapas Mahanata"
@@ -9524,7 +9581,7 @@
    "title": "Demo Theater: Introducing Traversal: The AI SRE for the Enterprise",
    "start": "2026-11-12T10:35:00",
    "end": "2026-11-12T10:55:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Jason Schechner"
    ],
@@ -9546,7 +9603,7 @@
    "title": "llm-d Opening Remarks",
    "start": "2026-11-12T10:45:00",
    "end": "2026-11-12T10:50:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Carlos Costa"
    ],
@@ -9564,7 +9621,7 @@
    "title": "llm-d 1.0 Production-Grade Inference for Cloud-Native AI",
    "start": "2026-11-12T10:50:00",
    "end": "2026-11-12T11:15:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Carlos Costa",
     "Robert Shaw",
@@ -9994,7 +10051,7 @@
    "title": "From GPU to Fleet. The llm-d KV Cache Hierarchy",
    "start": "2026-11-12T11:15:00",
    "end": "2026-11-12T11:35:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Vita Bortnikov",
     "Nishtha Jain"
@@ -10015,7 +10072,7 @@
    "title": "Demo Theater: HTTP 200, Tool Failed: Taming MCP Agent Traffic with NGINX",
    "start": "2026-11-12T11:25:00",
    "end": "2026-11-12T11:45:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Ciara Stacke",
     "Micheal Kingston"
@@ -10037,7 +10094,7 @@
    "title": "Agentic Inference at Scale",
    "start": "2026-11-12T11:35:00",
    "end": "2026-11-12T11:55:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Maroon Ayoub",
     "Sean Horgan"
@@ -10363,7 +10420,7 @@
    "title": "Seeing Inside LLM Inference: Observability and Cost Visibility for llm-d on Kubernetes",
    "start": "2026-11-12T11:55:00",
    "end": "2026-11-12T12:10:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Nili Guy",
     "Guangya Liu"
@@ -10384,7 +10441,7 @@
    "title": "DisaggregatedSet Meets Multi-EPP: Coordinating llm-d at Scale in production",
    "start": "2026-11-12T12:10:00",
    "end": "2026-11-12T12:30:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Mathis Felardos",
     "Lucas Fernandes Martins"
@@ -10438,7 +10495,7 @@
    "title": "llm-d Closing Remarks",
    "start": "2026-11-12T12:30:00",
    "end": "2026-11-12T12:32:00",
-   "room": "Salt Palace | Level 1 | Halls 1-5 | Cosmic Canyon",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Carlos Costa"
    ],
@@ -10452,11 +10509,30 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334872"
   },
   {
+   "id": "1369446",
+   "title": "Network Nook Meetup: Share + Continue the Conversation",
+   "start": "2026-11-12T12:30:00",
+   "end": "2026-11-12T13:30:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Network Nook",
+   "speakers": [],
+   "track": "Experiences",
+   "level": "Any Level",
+   "tags": [
+    "Network Nook"
+   ],
+   "description": [
+    "Join us for casual and engaging meetups at the Network Nook during lunch breaks! These informal gatherings are open to all, whether you're a first-time attendee, a solo traveler, or simply looking to chat about shared interests. This is a great way to connect with others.",
+    "*Topic: Share + Continue the Conversation*\nWhat were your favorite sessions, networking events, etc., this week? Where can you contribute to the mindshare in your local community?"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369446"
+  },
+  {
    "id": "1362649",
    "title": "Demo Theater: When Should Your Cluster Fix a Failing GPU?",
    "start": "2026-11-12T12:40:00",
    "end": "2026-11-12T13:00:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Demo Theater",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Connor Guerrero"
    ],
