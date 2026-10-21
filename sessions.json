@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-21T20:09:57Z",
+ "updated": "2026-10-21T23:19:56Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2482,7 +2482,6 @@
    "end": "2026-11-10T13:30:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [
-    "Fabian Kammel",
     "Vicente Herrera"
    ],
    "track": "Project Pavilion Stage",
@@ -6330,7 +6329,10 @@
    "start": "2026-11-11T11:30:00",
    "end": "2026-11-11T13:30:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
+   "speakers": [
+    "Fabian Kammel",
+    "Vicente Herrera"
+   ],
    "track": "Project Pavilion Stage",
    "level": "",
    "tags": [],
