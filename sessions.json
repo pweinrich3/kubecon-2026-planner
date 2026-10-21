@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-21T13:49:00Z",
+ "updated": "2026-10-21T20:09:57Z",
  "sessions": [
   {
    "id": "1304040",
@@ -1787,7 +1787,8 @@
     "Jaana Dogan",
     "Dmitry Berkovich",
     "Tim Hockin",
-    "Eitan Yarmush"
+    "Eitan Yarmush",
+    "Luiz Scheidegger"
    ],
    "track": "Keynote Sessions",
    "level": "",
@@ -1872,6 +1873,26 @@
    "description": [],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302802"
+  },
+  {
+   "id": "1369670",
+   "title": "Gold In-Booth Demos: Cloudsmith, Temporal",
+   "start": "2026-11-10T10:45:00",
+   "end": "2026-11-10T11:15:00",
+   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "speakers": [],
+   "track": "Solutions Showcase",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "Sponsor: Cloudsmith\nTitle: Patient zero is a dependency: tracing one attack two ways\nBooth: 175",
+    "Sponsor: Temporal\nTitle: What if your AI agents were crash proof?\nBooth: 171",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369670"
   },
   {
    "id": "1289746",
@@ -3053,6 +3074,26 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334794"
   },
   {
+   "id": "1369668",
+   "title": "Gold In-Booth Demos: Komodor, Vultr",
+   "start": "2026-11-10T13:15:00",
+   "end": "2026-11-10T13:45:00",
+   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "speakers": [],
+   "track": "Solutions Showcase",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "Sponsor: Komodor\nTitle: Introducing the Komodor Agentic Operations Platform for Production\nBooth: 185",
+    "Sponsor: Vultr\nTitle: Your AI Model Needs More Than an API\nBooth: 186",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369668"
+  },
+  {
    "id": "1369442",
    "title": "Network Nook Meetup: 1st Time Attendees",
    "start": "2026-11-10T13:15:00",
@@ -3173,6 +3214,46 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334797"
   },
   {
+   "id": "1369612",
+   "title": "Demo Theater: CSI won’t Save You – Why “CSI Support” Is Not a Storage Strategy",
+   "start": "2026-11-10T13:45:00",
+   "end": "2026-11-10T14:05:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
+   "speakers": [
+    "Nathan Wood"
+   ],
+   "track": "Sponsor Demo Theater",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "“CSI compliant” is often treated as a checkbox for running stateful and virtualized workloads on Kubernetes. In practice, that checkbox hides some significant assumptions. CSI plug-ins start the journey—they don’t finish it.\nThis session examines the responsibilities CSI deliberately leaves out, why those omissions matter in production, and what they cost platform teams on Day 2. Through practical examples, we’ll show where Portworx picks up where CSI stops: resilience, disaster recovery, and data mobility—the capabilities teams expect from their storage layer and CSI alone was never designed to deliver.\nIf you run databases, virtual machines, or any workload with a hard recovery requirement, this one's for you.",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369612"
+  },
+  {
+   "id": "1369669",
+   "title": "Gold In-Booth Demos: vCluster",
+   "start": "2026-11-10T13:45:00",
+   "end": "2026-11-10T14:15:00",
+   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "speakers": [],
+   "track": "Solutions Showcase",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "Sponsor: vCluster\nTitle: Deploy NVIDIA Dynamo as a Stack and Serve a Model\nBooth: 164",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369669"
+  },
+  {
    "id": "1336019",
    "title": "You don't have to migrate everything — Envoy is the Bridge Between Your Old World and Your New One.",
    "start": "2026-11-10T13:53:00",
@@ -3252,6 +3333,27 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362469"
+  },
+  {
+   "id": "1369671",
+   "title": "Gold In-Booth Demos: Couchbase, Tigera, Veeam Kasten",
+   "start": "2026-11-10T14:15:00",
+   "end": "2026-11-10T14:45:00",
+   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "speakers": [],
+   "track": "Solutions Showcase",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "Sponsor: Couchbase\nTitle: Sovereign & Hybrid Architectures Made Simple\nBooth: 149",
+    "Sponsor: Tigera\nTitle: Kill Switch: Quarantining and Sandboxing an Agent You Don’t Trust\nBooth: 150",
+    "Sponsor: Veeam Kasten\nTitle: Unified Protection for Kubernetes, VMs & AI\nBooth: 187",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369671"
   },
   {
    "id": "1334801",
@@ -5223,6 +5325,25 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362609"
   },
   {
+   "id": "1369672",
+   "title": "Gold In-Booth Demos: Heroku",
+   "start": "2026-11-10T18:00:00",
+   "end": "2026-11-10T18:30:00",
+   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "speakers": [],
+   "track": "Solutions Showcase",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "Sponsor: Heroku\nTitle: Giving Claude a Cloud: App Previews with Heroku\nBooth: 166",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369672"
+  },
+  {
    "id": "1364853",
    "title": "CLBO: ClashLoopBackOff",
    "start": "2026-11-10T18:00:00",
@@ -5570,6 +5691,26 @@
    "description": [],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302804"
+  },
+  {
+   "id": "1369676",
+   "title": "Gold In-Booth Demos: Octopus Deploy, Sysdig",
+   "start": "2026-11-11T10:30:00",
+   "end": "2026-11-11T11:00:00",
+   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "speakers": [],
+   "track": "Solutions Showcase",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "Sponsor: Octopus Deploy\nTitle: Get your signed book 'Argo CD the right way'\nBooth: 174",
+    "Sponsor: Sysdig\nTitle: Falco Meets AI Threats: Runtime Defense Beyond Kubernetes\nBooth: 168",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369676"
   },
   {
    "id": "1289744",
@@ -6831,6 +6972,25 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1333708"
   },
   {
+   "id": "1369673",
+   "title": "Gold In-Booth Demos: Tailscale",
+   "start": "2026-11-11T13:15:00",
+   "end": "2026-11-11T13:45:00",
+   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "speakers": [],
+   "track": "Solutions Showcase",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "Sponsor: Tailscale\nBooth: 189",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369673"
+  },
+  {
    "id": "1204401",
    "title": "2,000+ Customer Calls About AI In Production – Here's What You Need To Know",
    "start": "2026-11-11T13:20:00",
@@ -7111,6 +7271,27 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1333709"
+  },
+  {
+   "id": "1369675",
+   "title": "Gold In-Booth Demos: ControlTheory, New Relic, OpenObserve",
+   "start": "2026-11-11T13:45:00",
+   "end": "2026-11-11T14:15:00",
+   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "speakers": [],
+   "track": "Solutions Showcase",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "Sponsor: ControlTheory\nTitle: Dstl8 Demo – Telemetry Distillation + Sentiment In Action\nBooth: 188",
+    "Sponsor: New Relic\nTitle: Kubernetes Monitoring with the OpenTelemetry Kube Stack\nBooth: 159",
+    "Sponsor: OpenObserve\nTitle: Alert Noise to Root Cause in 5 Minutes: Kubernetes Observability with OpenObserve\nBooth: 167",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369675"
   },
   {
    "id": "1362669",
@@ -8936,28 +9117,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362689"
-  },
-  {
-   "id": "1336613",
-   "title": "Accessibility Challenge Lab",
-   "start": "2026-11-11T16:45:00",
-   "end": "2026-11-11T17:30:00",
-   "room": "Salt Palace | Level 1 | Grand Ballroom J",
-   "speakers": [
-    "Sandeep Kanabar",
-    "Stéphane Este-Gracias"
-   ],
-   "track": "Inclusion + Accessibility",
-   "level": "Any Level",
-   "tags": [],
-   "description": [
-    "Open source depends on people showing up and collaborating. But how we communicate can quietly filter people out before they ever start.",
-    "Led by the CNCF Deaf and Hard of Hearing Working Group and the Blind and Visually Impaired group within Merge Forward, this interactive challenge lab puts that idea to the test. In small groups, you'll tackle realistic scenarios: a fast-moving incident channel, a talk without captions, a game assuming full vision, or a meeting favoring fast speakers. You'll identify the hidden assumptions, see who gets left out, and redesign the interaction so more people can participate.",
-    "We'll close with a live communication challenge—delivering instructions via spoken, visual, and group-chosen methods—to see how changing the channel changes the outcome.",
-    "No accessibility expertise required—just curiosity and a willingness to challenge assumptions."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1336613"
   },
   {
    "id": "1289661",
