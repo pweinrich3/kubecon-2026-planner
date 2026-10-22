@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-21T23:19:56Z",
+ "updated": "2026-10-22T20:07:12Z",
  "sessions": [
   {
    "id": "1304040",
@@ -1690,7 +1690,8 @@
     "Jonathan Bryce",
     "Chris Aniszczyk",
     "Kevin Cochrane",
-    "Robert Nishihara"
+    "Robert Nishihara",
+    "Bassam Tabbara"
    ],
    "track": "Keynote Sessions",
    "level": "",
@@ -5579,7 +5580,8 @@
    "end": "2026-11-11T10:02:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
-    "Phong Nguyen"
+    "Phong Nguyen",
+    "Shaun Hopper"
    ],
    "track": "Keynote Sessions",
    "level": "",
@@ -7837,12 +7839,17 @@
    "track": "⚡ Lightning Talks",
    "level": "Any Level",
    "tags": [
-    "Operations + Performance"
+    "Operations + Performance",
+    "↓ Slides"
    ],
    "description": [
     "As AI infrastructure scales, performance depends not just on GPU count, but on where GPUs sit in the network. Training loses efficiency when collective operations cross spine boundaries. Inference can become bandwidth-limited when tensor-parallel workers are placed outside a shared fabric. Disaggregated inference adds KV cache movement between prefill and decode pools.\nTopology-aware scheduling can address these problems and is becoming prominent across Kubernetes-native and Slurm-backed AI platforms. Kueue and KAI Scheduler bring topology-aware placement to Kubernetes; Slinky connects Kubernetes workflows to Slurm. Across those paths, the same prerequisite is assumed rather than solved: accurate, current topology data published in the cluster.\nIn this talk, we show how Topograph discovers network topology across cloud and on-prem environments and publishes it into Kubernetes and Slinky/Slurm, giving each scheduling layer the information it needs for placement decisions."
    ],
    "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iqwatneu~4Np2tq9er2qiM2idPcMSCv.pdf~kubecon-na-2026-topograph.pdf"
+    },
     {
      "label": "GitHub Repository",
      "url": "https://github.com/dsx-ai-factory/topograph"
@@ -9798,6 +9805,27 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334864"
+  },
+  {
+   "id": "1370430",
+   "title": "Demo Theater: From YOLO to Golden Paths: Building Trusted Environments for AI Agents",
+   "start": "2026-11-12T11:00:00",
+   "end": "2026-11-12T11:20:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
+   "speakers": [
+    "Michael Irwin"
+   ],
+   "track": "Sponsor Demo Theater",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "AI agents that write code are most useful when you let them run freely. They install packages, run code, and fix their own errors. This also makes them risky. On a laptop, an agent in YOLO mode can reach your credentials and files. When each developer uses a different agent setup, the team cannot repeat what worked.\nIn this demo-driven session, we'll explore how Docker Sandboxes provide isolated environments where agents can work without compromising the host. Then we'll go beyond isolation: customizing environments with reusable kits, exploring how OCI images and registries enable kit distribution, and using declarative sbxenv.yaml files to version and share complete agent environments.\nWe'll connect these capabilities to a bigger vision: open, extensible, and reproducible environments that let platform teams establish golden paths for AI-assisted development, giving developers flexibility without sacrificing control or consistency.",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370430"
   },
   {
    "id": "1248788",
