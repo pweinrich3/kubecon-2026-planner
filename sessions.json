@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-22T20:07:12Z",
+ "updated": "2026-10-22T23:23:00Z",
  "sessions": [
   {
    "id": "1304040",
@@ -791,24 +791,24 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289875"
   },
   {
-   "id": "1289876",
-   "title": "Architecture Without Gatekeepers: Decoupling for Neutrality",
+   "id": "1370530",
+   "title": "Supply Chain Security at Home: From Source to Service Without the Hassle",
    "start": "2026-11-09T11:38:00",
    "end": "2026-11-09T11:43:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "Marcin Gwozdz"
+    "Andrew Thorp"
    ],
    "track": "Project Lightning Talks",
    "level": "",
-   "tags": [
-    "OpenEverest"
-   ],
+   "tags": [],
    "description": [
-    "Open source only works if the community can contribute without hitting a wall. We realized our architecture at OpenEverest was unintentionally biased toward specific tools, so we rebuilt it. I’ll share how we moved to a modular plugin system that decouples our core from specific operators. By supporting everything from Valkey to competing Postgres flavors, we’ve eliminated vendor lock-in and ensured the community—not the architecture—dictates the project's future."
+    "Every container image you pull is someone else's build you chose to trust. Most homelab operators grab pre-built images from Docker Hub and hope for the best. Building from source is a longstanding practice, but with modern dependency management the build process itself is an attack surface.",
+    "This talk demos a self-hosted pipeline built on Tekton to securely build and deploy service containers. Services' code is mirrored internally, built, then deployed. Dependencies are fetched securely and the build runs hermetically. Tekton Chains signs the image and generates an attestation without any extra scripting. Push code to Forgejo, get a signed image deployed to the cluster.",
+    "Not everyone needs to run their own build infrastructure. But the tooling has gotten simple enough that a single Tekton install on commodity hardware gives you hermetic builds, signed artifacts, and provenance attestations. The same stuff enterprises pay platform teams to set up runs on a box under your desk."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289876"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370530"
   },
   {
    "id": "1289877",
@@ -1626,6 +1626,26 @@
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363748"
+  },
+  {
+   "id": "1289876",
+   "title": "Architecture Without Gatekeepers: Decoupling for Neutrality",
+   "start": "2026-11-09T16:34:00",
+   "end": "2026-11-09T16:39:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Marcin Gwozdz"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "OpenEverest"
+   ],
+   "description": [
+    "Open source only works if the community can contribute without hitting a wall. We realized our architecture at OpenEverest was unintentionally biased toward specific tools, so we rebuilt it. I’ll share how we moved to a modular plugin system that decouples our core from specific operators. By supporting everything from Valkey to competing Postgres flavors, we’ve eliminated vendor lock-in and ensured the community—not the architecture—dictates the project's future."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289876"
   },
   {
    "id": "1289971",
@@ -2483,7 +2503,8 @@
    "end": "2026-11-10T13:30:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [
-    "Vicente Herrera"
+    "Vicente Herrera",
+    "Torin van den Bulk"
    ],
    "track": "Project Pavilion Stage",
    "level": "",
@@ -3191,6 +3212,20 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334796"
+  },
+  {
+   "id": "1370500",
+   "title": "CNCF Project Demos",
+   "start": "2026-11-10T13:30:00",
+   "end": "2026-11-10T13:55:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370500"
   },
   {
    "id": "1334797",
@@ -4360,7 +4395,8 @@
    "end": "2026-11-10T17:00:00",
    "room": "Salt Palace | Level 1 | Grand Ballroom J",
    "speakers": [
-    "Ashwin Sarimin"
+    "Ashwin Sarimin",
+    "Curtis Cook"
    ],
    "track": "Inclusion + Accessibility",
    "level": "Any Level",
@@ -9792,8 +9828,7 @@
    "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Carlos Costa",
-    "Robert Shaw",
-    "Abdullah Gharaibeh"
+    "Robert Shaw"
    ],
    "track": "Cloud Native Theater",
    "level": "",
