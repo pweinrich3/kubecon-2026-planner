@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-22T23:23:00Z",
+ "updated": "2026-10-23T04:49:46Z",
  "sessions": [
   {
    "id": "1304040",
@@ -3708,7 +3708,7 @@
    "end": "2026-11-10T15:20:00",
    "room": "Salt Palace | Level 1 | 151",
    "speakers": [
-    "Justin OLeary"
+    "Justin O’Leary"
    ],
    "track": "Security",
    "level": "Advanced",
