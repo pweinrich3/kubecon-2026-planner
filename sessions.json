@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-23T04:49:46Z",
+ "updated": "2026-10-23T13:27:22Z",
  "sessions": [
   {
    "id": "1304040",
@@ -3216,8 +3216,8 @@
   {
    "id": "1370500",
    "title": "CNCF Project Demos",
-   "start": "2026-11-10T13:30:00",
-   "end": "2026-11-10T13:55:00",
+   "start": "2026-11-10T13:40:00",
+   "end": "2026-11-10T14:05:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [],
    "track": "Project Pavilion Stage",
@@ -3911,6 +3911,20 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294759"
+  },
+  {
+   "id": "1370503",
+   "title": "CNCF Project Demos",
+   "start": "2026-11-10T14:50:00",
+   "end": "2026-11-10T16:25:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370503"
   },
   {
    "id": "1333748",
@@ -4978,6 +4992,20 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362599"
+  },
+  {
+   "id": "1370893",
+   "title": "CNCF Project Demos",
+   "start": "2026-11-10T17:10:00",
+   "end": "2026-11-10T17:35:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370893"
   },
   {
    "id": "1336586",
@@ -7029,6 +7057,20 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369673"
+  },
+  {
+   "id": "1370896",
+   "title": "CNCF Project Demos",
+   "start": "2026-11-11T13:15:00",
+   "end": "2026-11-11T15:00:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370896"
   },
   {
    "id": "1204401",
@@ -9162,6 +9204,20 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362689"
+  },
+  {
+   "id": "1370902",
+   "title": "CNCF Project Demos",
+   "start": "2026-11-11T16:30:00",
+   "end": "2026-11-11T16:55:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370902"
   },
   {
    "id": "1289661",
