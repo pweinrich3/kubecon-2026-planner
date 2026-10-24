@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-23T23:08:59Z",
+ "updated": "2026-10-24T22:29:01Z",
  "sessions": [
   {
    "id": "1304040",
@@ -3007,7 +3007,7 @@
    "end": "2026-11-10T12:44:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone",
    "speakers": [
-    "Michael Forrester"
+    "Michael Rishi Forrester"
    ],
    "track": "Cloud Native Theater",
    "level": "",
@@ -7171,7 +7171,7 @@
    "end": "2026-11-11T13:15:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall B | Starlight Summit Zone",
    "speakers": [
-    "Michael Forrester"
+    "Michael Rishi Forrester"
    ],
    "track": "Solutions Showcase",
    "level": "",
@@ -8835,6 +8835,25 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362685"
+  },
+  {
+   "id": "1371581",
+   "title": "Network Nook Meetup: A Platform Approach to Achieving AI ROI, Sponsored by CDW",
+   "start": "2026-11-11T15:40:00",
+   "end": "2026-11-11T16:10:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Network Nook",
+   "speakers": [],
+   "track": "Experiences",
+   "level": "Any Level",
+   "tags": [
+    "Network Nook"
+   ],
+   "description": [
+    "Join us for casual and engaging meetups at the Network Nook during lunch breaks! These informal gatherings are open to all, whether you're a first-time attendee, a solo traveler, or simply looking to chat about shared interests. This is a great way to connect with others.",
+    "*Topic: A Platform Approach to Achieving AI ROI, Sponsored by CDW*"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1371581"
   },
   {
    "id": "1289743",
@@ -11246,7 +11265,7 @@
    "end": "2026-11-12T14:20:00",
    "room": "Salt Palace | Level 1 | Grand Ballroom BDF",
    "speakers": [
-    "Michael Forrester",
+    "Michael Rishi Forrester",
     "Whitney Lee"
    ],
    "track": "Platform Engineering",
