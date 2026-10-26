@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-24T22:29:01Z",
+ "updated": "2026-10-26T21:01:09Z",
  "sessions": [
   {
    "id": "1304040",
@@ -472,7 +472,10 @@
    "start": "2026-11-09T09:37:00",
    "end": "2026-11-09T09:52:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [],
+   "speakers": [
+    "Jorge Castro",
+    "Katherine Druckman"
+   ],
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [],
@@ -1176,7 +1179,10 @@
    "start": "2026-11-09T13:37:00",
    "end": "2026-11-09T13:42:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [],
+   "speakers": [
+    "Jorge Castro",
+    "Katherine Druckman"
+   ],
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [],
@@ -2121,7 +2127,7 @@
     "Scott Adams"
    ],
    "track": "AI Inference + Agentic",
-   "level": "Beginner",
+   "level": "Any Level",
    "tags": [
     "End User Talk"
    ],
@@ -6046,11 +6052,13 @@
   },
   {
    "id": "1370908",
-   "title": "Build with Open Source AI hosted by MLH | Speaker Peter Frank",
+   "title": "Build with Open Source AI hosted by MLH",
    "start": "2026-11-11T11:00:00",
    "end": "2026-11-11T11:20:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
+   "speakers": [
+    "Peter Frank"
+   ],
    "track": "Project Pavilion Stage",
    "level": "",
    "tags": [],
@@ -7247,20 +7255,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369673"
   },
   {
-   "id": "1370896",
-   "title": "CNCF Project Demos",
-   "start": "2026-11-11T13:15:00",
-   "end": "2026-11-11T15:00:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
-   "track": "Project Pavilion Stage",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370896"
-  },
-  {
    "id": "1204401",
    "title": "2,000+ Customer Calls About AI In Production – Here's What You Need To Know",
    "start": "2026-11-11T13:20:00",
@@ -7541,6 +7535,20 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1333709"
+  },
+  {
+   "id": "1370896",
+   "title": "CNCF Project Demos",
+   "start": "2026-11-11T13:40:00",
+   "end": "2026-11-11T15:15:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370896"
   },
   {
    "id": "1371079",
@@ -8439,7 +8447,7 @@
    "end": "2026-11-11T15:40:00",
    "room": "Salt Palace | Level 2 | 254",
    "speakers": [
-    "Eli Aleyner"
+    "Per Krogslund"
    ],
    "track": "Experiences",
    "level": "",
@@ -8736,25 +8744,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1336097"
   },
   {
-   "id": "1364856",
-   "title": "CLBO: ClashLoopBackOff: Attendee Edition",
-   "start": "2026-11-11T15:15:00",
-   "end": "2026-11-11T16:15:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
-   "track": "Project Pavilion Stage",
-   "level": "",
-   "tags": [],
-   "description": [
-    "Come and join a competition of people using their technical ingenuity and creativity to solve a challenge put forth by the Scheduler (host). Time is limited and stakes are high, as this isn’t just a “live demo” for the masses.",
-    "Over the course of twenty minutes, competitors will attempt to resolve a broken cluster, or deploy a service to production. At the end of the time, entries will be judged on four categories. Each category will be rated on Stability, Resiliency, Flexibility, and Observability.",
-    "Participants won’t know what challenge they’ll be given ahead of time but any cloud resources or APIs will given out before the challenge is announced. During the competition, the Scheduler will engage with the audience, ask questions, and perhaps engage in some light roasting of good and bad ideas.",
-    "Join us, root for our competitors, and feel free to engage live!"
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1364856"
-  },
-  {
    "id": "1250936",
    "title": "When Agents Talk to Agents: Scaling A2A on Kubernetes Without Drowning in Connections",
    "start": "2026-11-11T15:16:00",
@@ -8794,6 +8783,25 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250962"
+  },
+  {
+   "id": "1364856",
+   "title": "CLBO: ClashLoopBackOff: Attendee Edition",
+   "start": "2026-11-11T15:25:00",
+   "end": "2026-11-11T16:25:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Come and join a competition of people using their technical ingenuity and creativity to solve a challenge put forth by the Scheduler (host). Time is limited and stakes are high, as this isn’t just a “live demo” for the masses.",
+    "Over the course of twenty minutes, competitors will attempt to resolve a broken cluster, or deploy a service to production. At the end of the time, entries will be judged on four categories. Each category will be rated on Stability, Resiliency, Flexibility, and Observability.",
+    "Participants won’t know what challenge they’ll be given ahead of time but any cloud resources or APIs will given out before the challenge is announced. During the competition, the Scheduler will engage with the audience, ask questions, and perhaps engage in some light roasting of good and bad ideas.",
+    "Join us, root for our competitors, and feel free to engage live!"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1364856"
   },
   {
    "id": "1336098",
@@ -9456,8 +9464,8 @@
   {
    "id": "1370902",
    "title": "CNCF Project Demos",
-   "start": "2026-11-11T16:30:00",
-   "end": "2026-11-11T16:55:00",
+   "start": "2026-11-11T16:35:00",
+   "end": "2026-11-11T17:00:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [],
    "track": "Project Pavilion Stage",
