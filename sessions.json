@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-27T05:05:28Z",
+ "updated": "2026-10-27T20:42:37Z",
  "sessions": [
   {
    "id": "1304040",
@@ -5529,7 +5529,7 @@
   },
   {
    "id": "1364853",
-   "title": "CLBO: ClashLoopBackOff",
+   "title": "CLBO: ClashLoopBackOff: Demo Night",
    "start": "2026-11-10T18:00:00",
    "end": "2026-11-10T19:15:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
@@ -5538,9 +5538,8 @@
    "level": "",
    "tags": [],
    "description": [
-    "Come and watch a competition of two people using their technical ingenuity and creativity to solve a challenge put forth by the Scheduler (host). Time is limited and stakes are high, as this isn’t just a “live demo” for the masses. Over the course of twenty minutes, competitors will attempt to resolve a broken cluster, or deploy a service to production. At the end of the time, entries will be judged on four categories. Each category will be rated on Stability, Resiliency, Flexibility, and Observability.",
-    "Participants won’t know what challenge they’ll be given ahead of time but will be informed whether certain cloud resources or APIs will need to be enabled and available. Pre-creating any helpful scripts, code, or cloud resources is strictly prohibited. During the competition, the Scheduler will bounce between the participants’ screens, engage with the audience, and ask questions of the participants live.",
-    "Join us, root for our competitors, and feel free to engage live!"
+    "Join CNCF project maintainers and cloud native community members for an informal evening of demos, fresh ideas, and creative projects!",
+    "Discover what others are building, explore new tools and technologies, and get a behind-the-scenes look at exciting projects and experiments. Whether you’re looking for inspiration or simply curious about what’s new, Demo Night is a chance to connect, ask questions, and celebrate community innovation."
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1364853"
@@ -5737,7 +5736,9 @@
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Marlow Warnicke",
-    "Kevin Wang"
+    "Brandt Keller",
+    "Alolita Sharma",
+    "William Crum"
    ],
    "track": "Keynote Sessions",
    "level": "",
@@ -8811,10 +8812,9 @@
    "level": "",
    "tags": [],
    "description": [
-    "Come and join a competition of people using their technical ingenuity and creativity to solve a challenge put forth by the Scheduler (host). Time is limited and stakes are high, as this isn’t just a “live demo” for the masses.",
-    "Over the course of twenty minutes, competitors will attempt to resolve a broken cluster, or deploy a service to production. At the end of the time, entries will be judged on four categories. Each category will be rated on Stability, Resiliency, Flexibility, and Observability.",
-    "Participants won’t know what challenge they’ll be given ahead of time but any cloud resources or APIs will given out before the challenge is announced. During the competition, the Scheduler will engage with the audience, ask questions, and perhaps engage in some light roasting of good and bad ideas.",
-    "Join us, root for our competitors, and feel free to engage live!"
+    "Get ready for a fast-paced technical showdown where creativity, problem-solving, and Kubernetes skills take center stage!",
+    "Watch two competitors go head-to-head with just 20 minutes to tackle a surprise challenge, from troubleshooting a broken cluster to deploying a service to production, without pre-built scripts or resources.",
+    "Follow the action as the Scheduler (host) provides live commentary and engages with the audience. Competitors will be judged on Stability, Resiliency, Flexibility, and Observability. Come cheer on your favorite competitor and experience the excitement of live technical problem-solving!"
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1364856"
