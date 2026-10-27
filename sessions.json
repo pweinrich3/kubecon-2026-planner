@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-26T21:01:09Z",
+ "updated": "2026-10-27T05:05:28Z",
  "sessions": [
   {
    "id": "1304040",
@@ -1715,8 +1715,8 @@
    "speakers": [
     "Jonathan Bryce",
     "Chris Aniszczyk",
-    "Kevin Cochrane",
     "Robert Nishihara",
+    "Kevin Cochrane",
     "Bassam Tabbara"
    ],
    "track": "Keynote Sessions",
@@ -1727,26 +1727,26 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302801"
   },
   {
-   "id": "1349401",
-   "title": "Pods in the Wild: Reinforcement Learning on Kubernetes with OpenRL",
+   "id": "1367757",
+   "title": "Agent Substrate: Open Layers for Agentic Systems",
    "start": "2026-11-10T09:32:00",
-   "end": "2026-11-10T09:40:00",
+   "end": "2026-11-10T09:39:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
-    "Sunil Arora",
-    "Ravin Kumar"
+    "Jaana Dogan",
+    "Dmitry Berkovich",
+    "Tim Hockin",
+    "Eitan Yarmush",
+    "Luiz Scheidegger"
    ],
    "track": "Keynote Sessions",
    "level": "",
    "tags": [],
    "description": [
-    "What do wild dolphins, open-weight Gemma models, and Kubernetes have in common?",
-    "Pods, of course!",
-    "By training DolphinGemma on decades of marine acoustic data, researchers are actively decoding dolphin communication. This reflects a broader industry shift: transformative AI pairs domain-specific open weights with specialized data. Far from replacing frontier models, winning architectures unite massive foundation LLMs for broad reasoning with lightweight, task-tuned models for targeted execution. While frontier models set the bar for general intelligence, the next major operational leap belongs to everyday builders: empowering practitioners to fine-tune open-weight models that outperform massive frontier baselines on domain-specific tasks at a fraction of the cost, footprint, and latency.",
-    "Historically, reinforcement learning (RL) was trapped inside elite research labs and brittle, complex runtimes. A new CNCF sandbox project, OpenRL fundamentally changes this paradigm by democratizing RL directly on Kubernetes. Now, a builder can articulate a task, point to a dataset, and use CNCF technologies to guide an open-weight model toward task mastery without requiring deep machine learning expertise."
+    "Running agentic workloads on Kubernetes presents several challenges. Agent Substrate is a new project, built on and with Kubernetes, which enables you to securely run huge numbers of agents on Kubernetes with ultra low latency."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1349401"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1367757"
   },
   {
    "id": "1301696",
@@ -1787,44 +1787,46 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363682"
   },
   {
-   "id": "1362673",
-   "title": "One Kubernetes, Different Environments: Closing the Portability Gaps",
+   "id": "1301749",
+   "title": "Sandbox Your Agents",
    "start": "2026-11-10T09:56:00",
    "end": "2026-11-10T10:01:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
-    "Dilpreet Bindra"
+    "Jessica Forrester"
    ],
    "track": "Keynote Sessions",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Sponsored"
+   ],
    "description": [
-    "What does portability really mean when Kubernetes spans containers, virtual machines, and increasingly diverse infrastructure? This keynote will discuss how VM API and the Workload Conformance Working Group are tackling different sides of that challenge and building more consistent infrastructure APIs and workload expectations across the Kubernetes ecosystem."
+    "AI Agents offer unequalled automation tooling for rapid software development, but with unfettered power comes great headaches, namely how to scope and secure them in cloud native stacks. A problematic agent with too much access, either through choice or a lack of knowledge, can take down entire production stacks and wipe databases. In this talk, we explore how using core community building blocks like Confidential Containers and OpenShell, alongside emerging technology across the cloud native ecosystem, allows anyone to isolate their agentic workloads and software development processes at scale with secure, containerized sandboxes."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362673"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1301749"
   },
   {
-   "id": "1367757",
-   "title": "Agent Substrate: Open Layers for Agentic Systems",
+   "id": "1349401",
+   "title": "Pods in the Wild: Reinforcement Learning on Kubernetes with OpenRL",
    "start": "2026-11-10T10:03:00",
-   "end": "2026-11-10T10:10:00",
+   "end": "2026-11-10T10:11:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
-    "Jaana Dogan",
-    "Dmitry Berkovich",
-    "Tim Hockin",
-    "Eitan Yarmush",
-    "Luiz Scheidegger"
+    "Sunil Arora",
+    "Ravin Kumar"
    ],
    "track": "Keynote Sessions",
    "level": "",
    "tags": [],
    "description": [
-    "Running agentic workloads on Kubernetes presents several challenges. Agent Substrate is a new project, built on and with Kubernetes, which enables you to securely run huge numbers of agents on Kubernetes with ultra low latency."
+    "What do wild dolphins, open-weight Gemma models, and Kubernetes have in common?",
+    "Pods, of course!",
+    "By training DolphinGemma on decades of marine acoustic data, researchers are actively decoding dolphin communication. This reflects a broader industry shift: transformative AI pairs domain-specific open weights with specialized data. Far from replacing frontier models, winning architectures unite massive foundation LLMs for broad reasoning with lightweight, task-tuned models for targeted execution. While frontier models set the bar for general intelligence, the next major operational leap belongs to everyday builders: empowering practitioners to fine-tune open-weight models that outperform massive frontier baselines on domain-specific tasks at a fraction of the cost, footprint, and latency.",
+    "Historically, reinforcement learning (RL) was trapped inside elite research labs and brittle, complex runtimes. A new CNCF sandbox project, OpenRL fundamentally changes this paradigm by democratizing RL directly on Kubernetes. Now, a builder can articulate a task, point to a dataset, and use CNCF technologies to guide an open-weight model toward task mastery without requiring deep machine learning expertise."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1367757"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1349401"
   },
   {
    "id": "1295993",
@@ -1848,24 +1850,22 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1295993"
   },
   {
-   "id": "1301749",
-   "title": "Sandbox Your Agents",
+   "id": "1362673",
+   "title": "One Kubernetes, Different Environments: Closing the Portability Gaps",
    "start": "2026-11-10T10:19:00",
    "end": "2026-11-10T10:24:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
-    "Jessica Forrester"
+    "Dilpreet Bindra"
    ],
    "track": "Keynote Sessions",
    "level": "",
-   "tags": [
-    "Sponsored"
-   ],
+   "tags": [],
    "description": [
-    "AI Agents offer unequalled automation tooling for rapid software development, but with unfettered power comes great headaches, namely how to scope and secure them in cloud native stacks. A problematic agent with too much access, either through choice or a lack of knowledge, can take down entire production stacks and wipe databases. In this talk, we explore how using core community building blocks like Confidential Containers and OpenShell, alongside emerging technology across the cloud native ecosystem, allows anyone to isolate their agentic workloads and software development processes at scale with secure, containerized sandboxes."
+    "What does portability really mean when Kubernetes spans containers, virtual machines, and increasingly diverse infrastructure? This keynote will discuss how VM API and the Workload Conformance Working Group are tackling different sides of that challenge and building more consistent infrastructure APIs and workload expectations across the Kubernetes ecosystem."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1301749"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362673"
   },
   {
    "id": "1309267",
@@ -2188,7 +2188,7 @@
    "title": "Next Generation DevOps: Reshaping the Cloud Native DevOps Infinity Loop with AI",
    "start": "2026-11-10T11:30:00",
    "end": "2026-11-10T12:00:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Rey Lejano"
    ],
@@ -2684,7 +2684,7 @@
    "title": "I Packaged My Application in a Container Image, and Now What?",
    "start": "2026-11-10T12:20:00",
    "end": "2026-11-10T12:50:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Aurélie Vache"
    ],
@@ -3648,7 +3648,7 @@
    "title": "Feeding the GPU: Streaming Data into Training, Lakehouse, and Serving without the Serialization Tax",
    "start": "2026-11-10T14:50:00",
    "end": "2026-11-10T15:20:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Dheeraj Kapur",
     "Deepak Choudhary"
@@ -3748,7 +3748,7 @@
    "title": "I Built an AI Running Coach: A Personal kagent Agent in Production",
    "start": "2026-11-10T14:50:00",
    "end": "2026-11-10T15:20:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B",
    "speakers": [
     "Adam Gordon Bell"
    ],
@@ -4229,7 +4229,7 @@
    "title": "Just Keep Swimming: Benchmarking OSS Agent Memory on Kubernetes with OpenTelemetry",
    "start": "2026-11-10T15:40:00",
    "end": "2026-11-10T16:10:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B",
    "speakers": [
     "Henrik Rexed"
    ],
@@ -4451,7 +4451,7 @@
    "title": "Your Peers Are Struggling With LLM Inference on Kubernetes Too. Here's What the Data Says.",
    "start": "2026-11-10T15:40:00",
    "end": "2026-11-10T16:10:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Danielle Cook",
     "Andy Suderman"
@@ -4757,7 +4757,7 @@
    "title": "Kubernetes Solutions for Agent-Shaped Problems",
    "start": "2026-11-10T16:40:00",
    "end": "2026-11-10T17:10:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B",
    "speakers": [
     "Tim Hockin",
     "Dmitry Berkovich"
@@ -4917,7 +4917,7 @@
    "title": "When the Clock Lies: How an 8-Minute Time Skew Locked Kubernetes cluster for a day",
    "start": "2026-11-10T16:40:00",
    "end": "2026-11-10T17:10:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Akhil Mohan"
    ],
@@ -5309,7 +5309,7 @@
    "title": "How Far Are Open-Source LLMs from Running Real Kubernetes Operations? A 10-Scenario Benchmark",
    "start": "2026-11-10T17:30:00",
    "end": "2026-11-10T18:00:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Hoon Jo"
    ],
@@ -5354,7 +5354,7 @@
    "title": "Lessons Learned Sandboxing Agents with kagent",
    "start": "2026-11-10T17:30:00",
    "end": "2026-11-10T18:00:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B",
    "speakers": [
     "Peter Jausovec",
     "Nina Polshakova",
@@ -5673,10 +5673,45 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1292213"
   },
   {
+   "id": "1372841",
+   "title": "Human Scale, Agent Scale",
+   "start": "2026-11-11T09:00:00",
+   "end": "2026-11-11T09:05:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [
+    "Jonathan Bryce"
+   ],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372841"
+  },
+  {
+   "id": "1302691",
+   "title": "Beyond End User: CAP and the Evolution of Open Source at CVS Health",
+   "start": "2026-11-11T09:07:00",
+   "end": "2026-11-11T09:12:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [
+    "Michael Amundson",
+    "Jim Beyers"
+   ],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Two years ago, the DevEx organization at CVS Health set an audacious plan in motion: build a platform capable of running the company’s thousands of existing applications while remaining approachable enough that someone joining the company could ship a new application on their very first day. To make this work, we knew we would need to leverage many of the incredible open source projects across the CNCF landscape. But we also knew that achieving our goal would require software we’d have to build: a meta control plane that could weave these projects together into a single streamlined platform. We call the platform CAP and we’re excited to share its design, show a brief demo, and talk about our transition from end user to open source maintainer and contributor as CAP evolves from an internal platform to a brand new open source project."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302691"
+  },
+  {
    "id": "1294702",
    "title": "The Flywheel Effect: Why Community Is the Ultimate End-User Advantage",
-   "start": "2026-11-11T09:00:00",
-   "end": "2026-11-11T09:10:00",
+   "start": "2026-11-11T09:14:00",
+   "end": "2026-11-11T09:24:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Abby Bangser",
@@ -5697,8 +5732,8 @@
   {
    "id": "1367917",
    "title": "The Cloud Native Feedback Loop: How End Users and Developers Drive CNCF Projects Forward",
-   "start": "2026-11-11T09:19:00",
-   "end": "2026-11-11T09:29:00",
+   "start": "2026-11-11T09:33:00",
+   "end": "2026-11-11T09:43:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Marlow Warnicke",
@@ -5716,8 +5751,8 @@
   {
    "id": "1363905",
    "title": "A Tribute to Open Source",
-   "start": "2026-11-11T09:31:00",
-   "end": "2026-11-11T09:36:00",
+   "start": "2026-11-11T09:45:00",
+   "end": "2026-11-11T09:50:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Lucy Sweet"
@@ -5734,8 +5769,8 @@
   {
    "id": "1353217",
    "title": "Code, Containers, and Clusters: The Next Chapter of Apple's Container Framework",
-   "start": "2026-11-11T09:38:00",
-   "end": "2026-11-11T09:48:00",
+   "start": "2026-11-11T09:52:00",
+   "end": "2026-11-11T10:02:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Kathryn Baldauf",
@@ -5757,8 +5792,8 @@
   {
    "id": "1301748",
    "title": "Context Unlocks Autonomous AI Infrastructure",
-   "start": "2026-11-11T09:50:00",
-   "end": "2026-11-11T09:55:00",
+   "start": "2026-11-11T10:04:00",
+   "end": "2026-11-11T10:09:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Yodar Shafrir"
@@ -5778,8 +5813,8 @@
   {
    "id": "1360829",
    "title": "We Have GitOps at Home: How Meta Went from Terraform on Cron to GitOps for AI Infra",
-   "start": "2026-11-11T09:57:00",
-   "end": "2026-11-11T10:02:00",
+   "start": "2026-11-11T10:11:00",
+   "end": "2026-11-11T10:16:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Phong Nguyen",
@@ -5800,8 +5835,8 @@
   {
    "id": "1295999",
    "title": "Production AI on Kubernetes: Built to Scale with Oracle Cloud",
-   "start": "2026-11-11T10:04:00",
-   "end": "2026-11-11T10:09:00",
+   "start": "2026-11-11T10:18:00",
+   "end": "2026-11-11T10:23:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Lorenzo Biava",
@@ -5820,31 +5855,10 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1295999"
   },
   {
-   "id": "1368714",
-   "title": "Built on Kubernetes. Proven at Uber Scale. Now Open Source.",
-   "start": "2026-11-11T10:11:00",
-   "end": "2026-11-11T10:14:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [
-    "Viv Keswani"
-   ],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [],
-   "description": [
-    "Uber announces the open sourcing of Michelangelo AI, its Kubernetes-native ML platform designed to run across on-premises and public cloud environments, powering mission-critical AI across its global business.",
-    "Battle-tested for nearly a decade, Michelangelo powers everything from traditional ML models to advanced generative AI and agentic workflows, supporting over 5,000 production models and 45 million predictions per second.",
-    "Now, we're opening up the platform behind Uber's AI innovation to developers everywhere, with the goal of building an ecosystem where we can all innovate faster, together.",
-    "Join us as we unveil Michelangelo AI and take a look behind the scenes at the platform powering AI at Uber's scale."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1368714"
-  },
-  {
    "id": "1294242",
    "title": "Sovereign AI Starts at the Traffic Layer",
-   "start": "2026-11-11T10:16:00",
-   "end": "2026-11-11T10:21:00",
+   "start": "2026-11-11T10:25:00",
+   "end": "2026-11-11T10:30:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Andjelko Iharos"
@@ -5861,39 +5875,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294242"
-  },
-  {
-   "id": "1302691",
-   "title": "Beyond End User: CAP and the Evolution of Open Source at CVS Health",
-   "start": "2026-11-11T10:23:00",
-   "end": "2026-11-11T10:28:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [
-    "Michael Amundson",
-    "Jim Beyers"
-   ],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [],
-   "description": [
-    "Two years ago, the DevEx organization at CVS Health set an audacious plan in motion: build a platform capable of running the company’s thousands of existing applications while remaining approachable enough that someone joining the company could ship a new application on their very first day. To make this work, we knew we would need to leverage many of the incredible open source projects across the CNCF landscape. But we also knew that achieving our goal would require software we’d have to build: a meta control plane that could weave these projects together into a single streamlined platform. We call the platform CAP and we’re excited to share its design, show a brief demo, and talk about our transition from end user to open source maintainer and contributor as CAP evolves from an internal platform to a brand new open source project."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302691"
-  },
-  {
-   "id": "1302804",
-   "title": "Closing Remarks",
-   "start": "2026-11-11T10:29:00",
-   "end": "2026-11-11T10:30:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302804"
   },
   {
    "id": "1369676",
@@ -5944,6 +5925,41 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289740"
+  },
+  {
+   "id": "1368714",
+   "title": "Built on Kubernetes. Proven at Uber Scale. Now Open Source.",
+   "start": "2026-11-11T10:32:00",
+   "end": "2026-11-11T10:35:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [
+    "Viv Keswani"
+   ],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Uber announces the open sourcing of Michelangelo AI, its Kubernetes-native ML platform designed to run across on-premises and public cloud environments, powering mission-critical AI across its global business.",
+    "Battle-tested for nearly a decade, Michelangelo powers everything from traditional ML models to advanced generative AI and agentic workflows, supporting over 5,000 production models and 45 million predictions per second.",
+    "Now, we're opening up the platform behind Uber's AI innovation to developers everywhere, with the goal of building an ecosystem where we can all innovate faster, together.",
+    "Join us as we unveil Michelangelo AI and take a look behind the scenes at the platform powering AI at Uber's scale."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1368714"
+  },
+  {
+   "id": "1302804",
+   "title": "Closing Remarks",
+   "start": "2026-11-11T10:35:00",
+   "end": "2026-11-11T10:36:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302804"
   },
   {
    "id": "1362604",
@@ -6348,7 +6364,7 @@
    "title": "OTel Blueprints: Prescriptive Patterns for Enterprise Observability",
    "start": "2026-11-11T11:00:00",
    "end": "2026-11-11T11:30:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Dan Gomez Blanco",
     "Lukasz Ciukaj"
@@ -6902,7 +6918,7 @@
    "title": "Sample Smarter, Not Harder (Or Not At All!)",
    "start": "2026-11-11T11:50:00",
    "end": "2026-11-11T12:20:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Reese Lee",
     "Juliano Costa"
@@ -7798,7 +7814,7 @@
    "title": "In-Place Pod Resizing Like I'm 5: Scaling Without Restarts",
    "start": "2026-11-11T14:20:00",
    "end": "2026-11-11T14:50:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B",
    "speakers": [
     "Carlos Santana"
    ],
@@ -8084,9 +8100,9 @@
   {
    "id": "1233132",
    "title": "Open Source Has a Human Deficit. Here's How We Fix It.",
-   "start": "2026-11-11T14:27:00",
-   "end": "2026-11-11T14:32:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "start": "2026-11-11T14:25:00",
+   "end": "2026-11-11T14:30:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Catherine Paganini"
    ],
@@ -8126,7 +8142,7 @@
    "title": "Topograph – Your AI Cluster's Missing Live Transit Map",
    "start": "2026-11-11T14:34:00",
    "end": "2026-11-11T14:39:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Dmitry Shmulevich"
    ],
@@ -8156,7 +8172,7 @@
    "title": "Your Quickstart is Broken – AI Agents as Synthetic New Users",
    "start": "2026-11-11T14:41:00",
    "end": "2026-11-11T14:46:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Aman Singh"
    ],
@@ -8224,7 +8240,7 @@
    "title": "Kubernetes Secrets Were a Bad Idea. Now What?",
    "start": "2026-11-11T14:48:00",
    "end": "2026-11-11T14:53:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Maxime Coquerel"
    ],
@@ -8267,7 +8283,7 @@
    "title": "5,000 Nodes in Minutes, Twice in a Week: A Pattern for Fleet-Wide Node Changes",
    "start": "2026-11-11T14:55:00",
    "end": "2026-11-11T15:00:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Alex Yuskauskas"
    ],
@@ -8307,7 +8323,7 @@
    "title": "Allocating Kubernetes Idle Per-Instance — Letting Scale Do What Fairness Rules Couldn't",
    "start": "2026-11-11T15:02:00",
    "end": "2026-11-11T15:07:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Vinicius Krischke"
    ],
@@ -8351,7 +8367,7 @@
    "title": "Dashboards-as-Code and the Silent Lies of kube-state-metrics",
    "start": "2026-11-11T15:09:00",
    "end": "2026-11-11T15:14:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Cecil Wöbker"
    ],
@@ -8486,7 +8502,7 @@
    "title": "From Pod Creation to First Packet",
    "start": "2026-11-11T15:10:00",
    "end": "2026-11-11T15:40:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B",
    "speakers": [
     "Surya Seetharaman"
    ],
@@ -8748,7 +8764,7 @@
    "title": "When Agents Talk to Agents: Scaling A2A on Kubernetes Without Drowning in Connections",
    "start": "2026-11-11T15:16:00",
    "end": "2026-11-11T15:21:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Shriya Chaitanya Kamat Tarcar"
    ],
@@ -8769,7 +8785,7 @@
    "title": "Two Newcomers, One Cloud Native Future: Learning Kubernetes In The AI Era",
    "start": "2026-11-11T15:23:00",
    "end": "2026-11-11T15:28:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Fabrizio Sgura"
    ],
@@ -9011,7 +9027,7 @@
    "title": "Choose Your Own Adventure: The Saga of Serving LLM Inference",
    "start": "2026-11-11T16:10:00",
    "end": "2026-11-11T16:40:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B",
    "speakers": [
     "Whitney Lee",
     "Viktor Farcic"
@@ -9182,7 +9198,7 @@
    "title": "OpenTelemetry in Your Pocket",
    "start": "2026-11-11T16:10:00",
    "end": "2026-11-11T16:40:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Jason Plumb"
    ],
@@ -9501,7 +9517,7 @@
    "title": "Clueless About The Cost of AI Model Usage? OpenCost+llm-d = first of a kind inference cost tracking",
    "start": "2026-11-11T17:00:00",
    "end": "2026-11-11T17:30:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Alexander Meijer",
     "Sima Nadler"
@@ -9581,7 +9597,7 @@
    "title": "Feeling Lost? A Newcomer's Guide to the Gateway API",
    "start": "2026-11-11T17:00:00",
    "end": "2026-11-11T17:30:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B",
    "speakers": [
     "Ian Rudie",
     "Jackie Maertens"
@@ -10435,7 +10451,7 @@
    "title": "PKI Done Easy with Pod Certificates and Cluster Trust Bundles",
    "start": "2026-11-12T11:00:00",
    "end": "2026-11-12T11:30:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Taahir Ahmed",
     "Stanislav Láznička"
@@ -10833,7 +10849,7 @@
    "title": "MCP Was the Easy Half, The Rest Was a Skill Issue",
    "start": "2026-11-12T11:50:00",
    "end": "2026-11-12T12:20:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Isala Piyarisi",
     "Lakmal Warusawithana"
@@ -11360,7 +11376,7 @@
    "title": "From Maintenance Chaos to Steady Uptime: GitOps-Driven Scheduling across GPU Fleets",
    "start": "2026-11-12T13:50:00",
    "end": "2026-11-12T14:20:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Natalie Bandel",
     "Soumya Balakrishnan"
@@ -11689,7 +11705,7 @@
    "title": "Fencing Tokens and the Three-Party Contract: What Most Distributed Locks Get Wrong",
    "start": "2026-11-12T14:40:00",
    "end": "2026-11-12T15:10:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Benjamin Wang"
    ],
@@ -12044,7 +12060,7 @@
    "title": "OpenFeature as a Control Plane for OpenTelemetry",
    "start": "2026-11-12T15:30:00",
    "end": "2026-11-12T16:00:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Simon Schrottner",
     "Juliano Costa"
