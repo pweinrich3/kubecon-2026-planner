@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-28T15:06:32Z",
+ "updated": "2026-10-28T21:05:13Z",
  "sessions": [
   {
    "id": "1304040",
@@ -41,14 +41,16 @@
   },
   {
    "id": "1344383",
-   "title": "Agent Rush Hackathon Hosted by Vultr | SEPARATE REGISTRATION REQUIRED",
+   "title": "Agent Rush Hackathon Hosted by Vultr | SOLD OUT",
    "start": "2026-11-08T09:00:00",
    "end": "2026-11-08T18:00:00",
    "room": "Off-Site Location",
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Please note that this is an off-site Sponsor-hosted Co-located event.",
     "Build AI agents that do real work, safely sandboxed on Vultr. The Vultr: Agent Rush Hackathon is a free, hybrid hackathon hosted on lablab.ai, bringing together developers, builders, and AI enthusiasts to design agents that go beyond demos and take meaningful, autonomous action.",
@@ -106,14 +108,16 @@
   },
   {
    "id": "1309278",
-   "title": "OpenShift Commons Gathering Hosted by Red Hat | SEPARATE REGISTRATION REQUIRED",
+   "title": "OpenShift Commons Gathering Hosted by Red Hat | SOLD OUT",
    "start": "2026-11-09T08:00:00",
    "end": "2026-11-09T15:00:00",
    "room": "Off-Site Location",
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Please note that this is an off-site Sponsor-hosted Co-located event.",
     "Location: Hilton Salt Lake City Center | 255 South West Temple, Salt Lake City, Utah 84101",
@@ -188,14 +192,16 @@
   },
   {
    "id": "1345255",
-   "title": "DSX OS AI Inference and Contributor Workshop Hosted by NVIDIA | SEPARATE REGISTRATION REQUIRED",
+   "title": "DSX OS AI Inference and Contributor Workshop Hosted by NVIDIA | SOLD OUT",
    "start": "2026-11-09T08:30:00",
    "end": "2026-11-09T17:00:00",
    "room": "Off-Site Location",
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Join NVIDIA for technical sessions and live demonstrations covering AI inference deployment, load testing, scaling, and platform operations. The morning session provides live demonstrations covering deployment, load testing, scaling, and platform operations. In the afternoon, participants join a hands-on workshop to collaborate with maintainers, work directly in open-source repositories, and begin or advance a contribution. View the Full Agenda on the NVIDIA Workshop website: https://events.nvidia.com/dsx-os-inference-workshop.",
     "Request to Attend, please visit this link to register: https://events.nvidia.com/dsx-os-inference-workshop.",
@@ -612,14 +618,16 @@
   },
   {
    "id": "1336214",
-   "title": "KubeAuto Day North America with Kelsey Hightower Hosted by Cast AI | SEPARATE REGISTRATION REQUIRED",
+   "title": "KubeAuto Day North America with Kelsey Hightower Hosted by Cast AI | SOLD OUT",
    "start": "2026-11-09T10:30:00",
    "end": "2026-11-09T19:00:00",
    "room": "Off-Site Location",
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Location: Clark Planetarium, 110 South 400 West Salt Lake City, UT 84101",
     "Kubernetes doesn't run itself, no matter what the marketing says. Kubernetes Automation Day is a practitioner-led day on making Kubernetes smarter: automation, platform engineering, FinOps, and lessons from the field, not conference-slide theory.\nKelsey Hightower delivers the keynote in Salt Lake City. You've probably watched his talks. Now you can argue with him in person over coffee, the day before KubeCon kicks off.\nAlso speaking: Bret Fisher (course instructor, YouTuber, podcaster), Pablo Fredrikson (Principal Engineer, Bitso), and Justin Garrison (Field CTO, Sidero Labs).\nEnjoy talks and hands-on workshops all day, under the dome at the Clark Planetarium. You'll compare notes with SREs, DevOps leads, and platform folks who deal with the same headaches you do, comparing notes on what actually works.\nIf you're tired of fighting the same fire every week, spend the day with us before KubeCon starts.\nTo learn more, please visit https://kubeauto.day/north-america\nFor questions regarding this event, please contact: (email on official site)",
@@ -1215,14 +1223,16 @@
   },
   {
    "id": "1328984",
-   "title": "Discovering and Securing AI Agents in Kubernetes Hosted by Tigera | SEPARATE REGISTRATION REQUIRED",
+   "title": "Discovering and Securing AI Agents in Kubernetes Hosted by Tigera | SOLD OUT",
    "start": "2026-11-09T14:00:00",
    "end": "2026-11-09T17:00:00",
    "room": "Off-Site Location",
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Please note that this is an off-site Sponsor-hosted Co-located event.",
     "Location: Le Méridien Salt Lake City Downtown, Address: 131 S 300 W, Salt Lake City, UT 84101| Room: Triumph Salon I",
@@ -4438,9 +4448,7 @@
    "end": "2026-11-10T16:10:00",
    "room": "Salt Palace | Level 2 | 251 D-F",
    "speakers": [
-    "Kevin Wang",
-    "Ricardo Aravena",
-    "Chen Zicong"
+    "Ricardo Aravena"
    ],
    "track": "Maintainer Track",
    "level": "",
@@ -5791,7 +5799,7 @@
     "Marlow Warnicke",
     "Brandt Keller",
     "Alolita Sharma",
-    "William Crum"
+    "Daniel Moch"
    ],
    "track": "Keynote Sessions",
    "level": "",
