@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-27T20:42:37Z",
+ "updated": "2026-10-28T05:42:16Z",
  "sessions": [
   {
    "id": "1304040",
@@ -1886,6 +1886,22 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1309267"
+  },
+  {
+   "id": "1373663",
+   "title": "Project Pavilion Kiosks | Tuesday Morning",
+   "start": "2026-11-10T10:30:00",
+   "end": "2026-11-10T14:30:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Opportunities",
+   "level": "",
+   "tags": [],
+   "description": [
+    "P-1A Helm\nP-1B OpenChoreo\nP-2A kube-burner\nP-2B Flux\nP-3A Rook\nP-3B Karmada\nP-4A Linkerd\nP-4B k0s\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B SIG-etcd\nP-6A Dynamic Resource Allocation (SIG Subproject)\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A K3s\nP-8B kagent\nP-9A KAI Scheduler\nP-9B KServe\nP-10A Longhorn\nP-10B OVN-Kubernetes\nP-11A Falco\nP-11B Open Policy Agent\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Metal3.io\nP-14A LitmusChaos\nP-14B Krkn\nP-15A KitOps\nP-15B Kairos\nP-16A OpenTelemetry\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B OpenCost\nP-18A Argo\nP-18B Dapr"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373663"
   },
   {
    "id": "1302802",
@@ -4050,6 +4066,22 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362558"
   },
   {
+   "id": "1373665",
+   "title": "Project Pavilion Kiosks | Tuesday Afternoon",
+   "start": "2026-11-10T15:00:00",
+   "end": "2026-11-10T19:30:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Opportunities",
+   "level": "",
+   "tags": [],
+   "description": [
+    "P-1A Vitess\nP-1B Tekton Pipelines\nP-2A Cloud Native Buildpacks\nP-2B Flux\nP-3A Kubevela\nP-3B Backstage\nP-4A Linkerd\nP-4B KEDA\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B Headlamp (SIG)\nP-6A ORAS\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A Flatcar Container Linux\nP-8B k8gb\nP-9A Volcano\nP-9B HAMi\nP-10A KubeVirt\nP-10B Perses\nP-11A kubeflow\nP-11B Jaeger\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Harbor\nP-14A Kubescape\nP-14B Cedar\nP-15A OpenFeature\nP-15B Cadence\nP-16A TAG Developer Experience\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B TAG Operational Resilience\nP-18A Argo\nP-18B Confidential Containers"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373665"
+  },
+  {
    "id": "1334816",
    "title": "After Admission: Kernel Enforcement for Agents Kyverno Let In",
    "start": "2026-11-10T15:15:00",
@@ -5612,7 +5644,7 @@
    "level": "",
    "tags": [],
    "description": [
-    "Start your day on the move with our casual conference walk/run! Whether you’re chasing a PR or just a good conversation, this all-levels outing is designed to get you outside, meet new people, and shake off the screen time.\nChoose your own pace – run, jog, or stroll – and enjoy a relaxed route with fellow attendees before sessions begin. No timing chips, no pressure – just fresh air, friendly faces, and a fun way to connect with the community.\nMeet in the Hyatt Regency lobby (connected to the convention center) at 06:30 for a 06:45 departure!"
+    "Start your day on the move with our casual conference walk/run! Whether you’re chasing a PR or just a good conversation, this all-levels outing is designed to get you outside, meet new people, and shake off the screen time.\nChoose your own pace – run, jog, or stroll – and enjoy a relaxed route with fellow attendees before sessions begin. No timing chips, no pressure – just fresh air, friendly faces, and a fun way to connect with the community.\nMeet in the Hyatt Regency lobby (connected to the convention center) at 6:30 for a 6:45 departure!"
    ],
    "links": [
     {
@@ -5832,6 +5864,22 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1360829"
+  },
+  {
+   "id": "1373666",
+   "title": "Project Pavilion Kiosks | Wednesday Morning",
+   "start": "2026-11-11T10:15:00",
+   "end": "2026-11-11T13:25:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Opportunities",
+   "level": "",
+   "tags": [],
+   "description": [
+    "P-1A Helm\nP-1B Radius\nP-2A Drasi\nP-2B Flux\nP-3A Rook\nP-3B Karmada\nP-4A Linkerd\nP-4B external-secrets\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B Gateway API (SIG Subproject)\nP-6A Armada\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A containerd\nP-8B Velero\nP-9A Hyperlight\nP-9B KServe\nP-10A Longhorn\nP-10B bootc\nP-11A Falco\nP-11B Open Policy Agent\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Metal3.io\nP-14A LitmusChaos\nP-14B Meshery\nP-15A Inspektor Gadget\nP-15B kpt\nP-16A OpenTelemetry\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B kgateway\nP-18A Argo\nP-18B Dapr"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373666"
   },
   {
    "id": "1295999",
@@ -7629,6 +7677,22 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362669"
+  },
+  {
+   "id": "1373667",
+   "title": "Project Pavilion Kiosks | Wednesday Afternoon",
+   "start": "2026-11-11T13:55:00",
+   "end": "2026-11-11T17:00:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Opportunities",
+   "level": "",
+   "tags": [],
+   "description": [
+    "P-1A Vitess\nP-1B Tekton Pipelines\nP-2A Cloud Native Buildpacks\nP-2B Flux\nP-3A Kubevela\nP-3B Backstage\nP-4A Linkerd\nP-4B KEDA\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B SIG-etcd\nP-6A OpenTofu\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A Flatcar Container Linux\nP-8B k8gb\nP-9A Volcano\nP-9B HAMi\nP-10A KubeVirt\nP-10B Podman Container Tools\nP-11A kubeflow\nP-11B Jaeger\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Harbor\nP-14A Kubescape\nP-14B OSCAL Compass\nP-15A OpenFeature\nP-15B OpenEverest\nP-16A TAG Developer Experience\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B kgateway\nP-18A Argo\nP-18B Confidential Containers"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373667"
   },
   {
    "id": "1333710",
@@ -10046,6 +10110,22 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1293369"
   },
   {
+   "id": "1373668",
+   "title": "Project Pavilion Kiosks | Thursday Morning",
+   "start": "2026-11-12T10:15:00",
+   "end": "2026-11-12T11:55:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Opportunities",
+   "level": "",
+   "tags": [],
+   "description": [
+    "P-1A Helm\nP-1B TBD\nP-2A Drasi\nP-2B Flux\nP-3A Rook\nP-3B Karmada\nP-4A Linkerd\nP-4B Microcks\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B SIG-etcd\nP-6A Project Capsule\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A Cilium\nP-8B Kagent\nP-9A Lima\nP-9B KServe\nP-10A Longhorn\nP-10B Hive Commons\nP-11A Falco\nP-11B Open Policy Agent\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Metal3.io\nP-14A LitmusChaos\nP-14B Cartography\nP-15A TAG Infrastructure\nP-15B Spin\nP-16A OpenTelemetry\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B Score\nP-18A Argo\nP-18B Dapr"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373668"
+  },
+  {
    "id": "1294245",
    "title": "Cloud Native Without Limits: What Can AI Agents Do for Us?",
    "start": "2026-11-12T10:17:00",
@@ -11092,6 +11172,22 @@
    "description": [],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289747"
+  },
+  {
+   "id": "1373669",
+   "title": "Project Pavilion Kiosks | Thursday Afternoon",
+   "start": "2026-11-12T12:25:00",
+   "end": "2026-11-12T14:00:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Opportunities",
+   "level": "",
+   "tags": [],
+   "description": [
+    "P-1A Vitess\nP-1B Tekton Pipelines\nP-2A Cloud Native Buildpacks\nP-2B Flux\nP-3A Kubevela\nP-3B Backstage\nP-4A Linkerd\nP-4B KEDA\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B SIG-etcd\nP-6A Project Capsule\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A Flatcar Container Linux\nP-8B k8gb\nP-9A Volcano\nP-9B HAMi\nP-10A KubeVirt\nP-10B Hive Commons\nP-11A kubeflow\nP-11B Jaeger\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Harbor\nP-14A Kubescape\nP-14B Cartography\nP-15A OpenFeature\nP-15B Spin\nP-16A TAG Developer Experience\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B Score\nP-18A Argo\nP-18B Confidential Containers"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373669"
   },
   {
    "id": "1334872",
