@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-28T05:42:16Z",
+ "updated": "2026-10-28T15:06:32Z",
  "sessions": [
   {
    "id": "1304040",
@@ -1966,6 +1966,27 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289738"
+  },
+  {
+   "id": "1374035",
+   "title": "Demo Theater: Agentic AI Needs Agentic Infrastructure: Autonomy on Kubernetes",
+   "start": "2026-11-10T10:50:00",
+   "end": "2026-11-10T11:10:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
+   "speakers": [
+    "Yodar Shafrir"
+   ],
+   "track": "Sponsor Demo Theater",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "Autonomous workloads need autonomous infrastructure. See how fractional GPU allocations track real usage, pod requests stay accurate as behavior changes, and Karpenter consolidates nodes on accurate signals with production examples and a blueprint for self-managing infrastructure.",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1374035"
   },
   {
    "id": "1341032",
@@ -6122,7 +6143,7 @@
    "end": "2026-11-11T11:20:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [
-    "Peter Frank"
+    "Mike Swift"
    ],
    "track": "Project Pavilion Stage",
    "level": "",
@@ -6608,7 +6629,7 @@
   },
   {
    "id": "1362623",
-   "title": "Demo Theater: Your Agent Needs a Kernel of Its Own: Hardware-Isolated VM Pods on EKS",
+   "title": "Demo Theater: Agent Sandbox on EKS: Hardware-Isolated microVM Pods for AI Agents",
    "start": "2026-11-11T11:25:00",
    "end": "2026-11-11T11:45:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
@@ -6624,8 +6645,7 @@
    "description": [
     "AI agents now write and run their own code, which puts untrusted, model-generated workloads right next to your production services. The emerging pattern separates reasoning from execution: an external control plane runs the agentic loop while the code runs in a sandbox you own, inside your own cluster. The real question is how strong that boundary is.",
     "This talk makes the case for giving every agent its own kernel. Each session runs in a pod backed by a hardware-isolated microVM on Amazon EKS, so isolation is enforced in hardware, not shared with the host. It stays Kubernetes-native: a runtime class on a normal pod spec, scoped egress, and scoped credentials.",
-    "In the live demo we start an agent, give it real work, then checkpoint it, move it to another node, and restore it with its in-memory state and open work intact. You will leave with a hardware-isolated blueprint for running AI agents on EKS.",
-    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+    "In the live demo we start an agent, give it real work, then checkpoint it, move it to another node, and restore it with its in-memory state and open work intact. You will leave with a hardware-isolated blueprint for running AI agents on EKS.\nIn order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362623"
@@ -9020,6 +9040,29 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1336101"
+  },
+  {
+   "id": "1374040",
+   "title": "Demo Theater: The Software Factory of Factories with Port.io",
+   "start": "2026-11-11T16:00:00",
+   "end": "2026-11-11T16:20:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
+   "speakers": [
+    "Baruch Sadogursky"
+   ],
+   "track": "Sponsor Demo Theater",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "Every team wants its own software factory, and apparently the platform team is supposed to build all of them before anyone can get back to shipping features. I'd like the agents to help with that job too, although letting them write the workflow that decides when to ask a human needs some thought.",
+    "For the demo, I've made up a company that prints conference T-shirts through an API and has shipped a breaking change while its technical writer is on vacation. I'll use that mess to show how an agent can turn a postmortem action item into a workflow that finds the affected customers and prepares their documentation for approval.",
+    "I'll open the workflow and the instructions that produced it, so we can check whether the agent built what we asked for and kept the human approval before publication. And we'll do it live",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1374040"
   },
   {
    "id": "1336567",
