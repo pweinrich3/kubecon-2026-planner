@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-28T21:05:13Z",
+ "updated": "2026-10-29T05:48:30Z",
  "sessions": [
   {
    "id": "1304040",
@@ -1644,6 +1644,46 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363748"
   },
   {
+   "id": "1374348",
+   "title": "KAI Scheduler: What's New & What's Next in AI Workload Orchestration",
+   "start": "2026-11-09T16:20:00",
+   "end": "2026-11-09T16:25:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Omri Cohen"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [],
+   "description": [
+    "As multi-tenant AI clusters grow, the KAI Scheduler continues to evolve to tackle modern k8s AI clusters challenges. In this talk, we will highlight the newest features and capabilities recently added to KAI. We will showcase how KAI enhances performance and fairness with introducing some of our latest developments including:",
+    "Attendees will get a tour of KAI’s latest developments, real-world efficiency impacts, and a preview of what’s next on the project roadmap."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1374348"
+  },
+  {
+   "id": "1374350",
+   "title": "Stop Templating YAML: Build Configuration Supply Chains with kpt and Porch",
+   "start": "2026-11-09T16:27:00",
+   "end": "2026-11-09T16:32:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Liam Fallon"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Kubernetes made infrastructure declarative, yet teams still manage configuration through templates, overlays, Git conventions, and custom automation. At scale, this creates YAML sprawl, inconsistent validation, and fragile workflows.",
+    "This lightning talk introduces kpt, a CNCF Sandbox project that treats Kubernetes Resource Model objects as data: structured, versioned packages transformed and validated by reusable functions. Unlike template-centric approaches, kpt keeps configuration readable while separating the data from the code that operates on it.",
+    "A compact demonstration will show Porch, kpt’s package orchestration component, managing a configuration package through Kubernetes APIs from draft to approval and Git publication. Porch replaces repository-specific scripting with a consistent, automatable package lifecycle.",
+    "Attendees will learn where kpt and Porch fit in GitOps and platform engineering, and how configuration packages improve reuse, governance, and multi-cluster delivery."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1374350"
+  },
+  {
    "id": "1289876",
    "title": "Architecture Without Gatekeepers: Decoupling for Neutrality",
    "start": "2026-11-09T16:34:00",
@@ -2000,7 +2040,7 @@
   },
   {
    "id": "1341032",
-   "title": "Project Pavilion Tour",
+   "title": "Project Pavilion Tour with Atulpriya Sharma, CNCF Ambassador",
    "start": "2026-11-10T10:55:00",
    "end": "2026-11-10T11:15:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
@@ -3271,7 +3311,7 @@
   },
   {
    "id": "1341034",
-   "title": "Project Pavilion Tour",
+   "title": "Project Pavilion Tour with Oscar Castillo, CNCF Ambassador",
    "start": "2026-11-10T13:20:00",
    "end": "2026-11-10T13:40:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
@@ -4629,7 +4669,7 @@
   },
   {
    "id": "1341036",
-   "title": "Project Pavilion Tour",
+   "title": "Project Pavilion Tour with Faisal Afzal, CNCF Ambassador",
    "start": "2026-11-10T16:20:00",
    "end": "2026-11-10T16:40:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
@@ -6066,7 +6106,7 @@
   },
   {
    "id": "1341037",
-   "title": "Project Pavilion Tour",
+   "title": "Project Pavilion Tour with Hoon Jo, CNCF Ambassador",
    "start": "2026-11-11T10:40:00",
    "end": "2026-11-11T11:00:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
@@ -7229,7 +7269,7 @@
   },
   {
    "id": "1341038",
-   "title": "Project Pavilion Tour",
+   "title": "Project Pavilion Tour with Rafael Brito, CNCF Ambassador",
    "start": "2026-11-11T12:50:00",
    "end": "2026-11-11T13:10:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
@@ -8951,6 +8991,24 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362685"
+  },
+  {
+   "id": "1374337",
+   "title": "Celebration of Newly Graduated Projects + Project Birthdays 🎉",
+   "start": "2026-11-11T15:40:00",
+   "end": "2026-11-11T16:10:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Opportunities",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Join us in the Project Pavilion to recognize our newest Graduated Projects 🎉 OpenTelemetry, Buildpacks, Karmada, and Kubeflow!",
+    "Grab a treat & stop by these projects kiosks to say congratulations on their recent graduation or project birthday!",
+    "Project Birthdays! 🎂\n10 Years: Dapr and Fluentd"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1374337"
   },
   {
    "id": "1371581",
