@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-29T05:48:30Z",
+ "updated": "2026-10-29T15:13:58Z",
  "sessions": [
   {
    "id": "1304040",
@@ -141,7 +141,7 @@
    "description": [
     "Azure Day with Kubernetes is a free, in-person technical event designed to help you confidently build, operate, and scale modern and AI applications on Azure Kubernetes Service (AKS). Whether you are just beginning your Kubernetes journey, running Kubernetes at scale, or accelerating AI-driven development and workloads, this immersive day delivers practical, real-world guidance straight from Microsoft product and engineering experts. Come ready to engage, share, and connect with others building the future of Kubernetes on Azure.",
     "Who should attend:\n• Developers building cloud-native or AI-powered applications and agents\n• Platform and IT professionals responsible for running Kubernetes in production\n• Architects and technical decision-makers shaping their organization’s Azure and AKS strategy",
-    "There is no cost to attend, but pre-registration is required. Walk-ins will not be accepted day of.",
+    "There is no cost to attend, but pre-registration is required.",
     "Register now: https://aka.ms/AKSDaySLC",
     "For questions regarding this event, please contact: (email on official site)"
    ],
@@ -9796,11 +9796,18 @@
    ],
    "track": "Platform Engineering",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "In July 2025, Mistral started building a sovereign AI cloud from scratch. Five months later, our first GB200/GB300 cluster was in production. We did it by standing on the shoulders of CNCF and adjacent projects: ClusterAPI, Metal3, Kamaji, Sveltos, and Slinky (Slurm-on-Kubernetes), assembled together with our own operators. This talk is a one-year production retrospective. We will walk through the architecture (management cluster, multi-tenant control planes, bare-metal provisioning) and all the abstraction we built on top of it, then dive into the surprises: scaling etcd past 4,000 nodes, assisting in the arm64 support on Metal3, fleet monitoring, network management, and the operational reality of BMCs, Redfish, and NVL72 racks when you come from a \"cloud-native\" background. Attendees will leave with a concrete reference architecture for KaaS on bare metal, and an honest list of the potholes between a kind cluster and a 4,600 node GPU fleet."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ivcaodze~BkCrr6uowHNs2EJheNjbVh.pdf~from-zero-to-gpu-cloud.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1238395"
   },
   {
@@ -10861,7 +10868,8 @@
     "Sponsored"
    ],
    "description": [
-    "AI agents now call tools over the Model Context Protocol (MCP), and every call looks the same to a gateway: a JSON-RPC POST to /mcp that often returns HTTP 200 even when the tool failed. In this live demo, we put open source NGINX in front of a set of MCP servers and make tool calls visible and governable. Using the MCP 2026-07-28 Mcp-Method and Mcp-Name headers and NGINX's new native JSON module, NGINX checks that the headers match the request body, so a caller can't route to one tool and run another, then routes each tool to its own backend. We give each tool its own rate limit and circuit breaker, so one noisy or failing tool doesn't take down the rest. Then we follow a tool call end to end with OpenTelemetry traces, Prometheus metrics, and searchable audit logs in Grafana, including tool errors hidden inside HTTP 200 responses. We close with OAuth token validation and per-tool permissions using F5 NGINX Enterprise.",
+    "Users and AI agents now call tools over the Model Context Protocol (MCP), and every call looks the same to a gateway: a JSON-RPC POST to /mcp that often returns HTTP 200 even when the tool fails. In this live demo, we put open-source NGINX in front of a set of MCP servers to make tool calls visible and governable using familiar NGINX primitives: routing, metrics, rate limiting, and authentication.",
+    "First, we follow a tool call end to end, watch NGINX handle the request, and explore metrics and views in Grafana, including uncovering tool errors hidden inside HTTP 200 responses. To close, we showcase authentication and per-tool rate limits, tied together with a vibe-coded dashboard that makes it all visually impactful.",
     "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
    ],
    "links": [],
