@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-29T15:13:58Z",
+ "updated": "2026-10-29T21:07:35Z",
  "sessions": [
   {
    "id": "1304040",
@@ -108,7 +108,7 @@
   },
   {
    "id": "1309278",
-   "title": "OpenShift Commons Gathering Hosted by Red Hat | SOLD OUT",
+   "title": "OpenShift Commons Gathering Hosted by Red Hat | SEPARATE REGISTRATION REQUIRED",
    "start": "2026-11-09T08:00:00",
    "end": "2026-11-09T15:00:00",
    "room": "Off-Site Location",
@@ -137,7 +137,9 @@
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Azure Day with Kubernetes is a free, in-person technical event designed to help you confidently build, operate, and scale modern and AI applications on Azure Kubernetes Service (AKS). Whether you are just beginning your Kubernetes journey, running Kubernetes at scale, or accelerating AI-driven development and workloads, this immersive day delivers practical, real-world guidance straight from Microsoft product and engineering experts. Come ready to engage, share, and connect with others building the future of Kubernetes on Azure.",
     "Who should attend:\n• Developers building cloud-native or AI-powered applications and agents\n• Platform and IT professionals responsible for running Kubernetes in production\n• Architects and technical decision-makers shaping their organization’s Azure and AKS strategy",
@@ -166,7 +168,9 @@
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Please note that this is an off-site Sponsor-hosted Co-located event.",
     "Location: Kimpton Monaco Salt Lake City | Floor 2, Paris Ballroom",
@@ -452,7 +456,9 @@
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Join Apple engineers to explore two cloud-native open source tools: Pkl for type-safe configuration as code, and Container for building and running Linux containers on Mac. Connect directly with project maintainers and get hands-on experience with these tools.",
     "We will host two sessions as part of this workshop series. Please register for each session separately:",
@@ -896,7 +902,9 @@
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Please note that this is an off-site Sponsor-hosted Co-located event.",
     "Location: Le Méridien Salt Lake City Downtown, 131 S 300 W, Salt Lake City, UT 84101",
@@ -926,7 +934,9 @@
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Location: Gallivan Center | 50 E 200 S, Salt Lake City, UT 84111",
     "Please note that this is an off-site Sponsor-hosted Co-located event.",
@@ -1038,7 +1048,9 @@
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Please note that this is an off-site Sponsor-hosted Co-located event.",
     "Location: Kimpton Monaco Salt Lake City | Floor 2, Paris Ballroom",
@@ -1070,7 +1082,9 @@
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Please note that this is an off-site Sponsor-hosted Co-located event.",
     "Location: Salt Lake Marriott Downtown at City Creek | 75 S W Temple St, Salt Lake City, UT 84101",
@@ -1623,7 +1637,9 @@
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Please note that this is an off-site Sponsor-hosted Co-located event.",
     "Location: AC Hotel Salt Lake City Downtown, 225 West 200 South\nSalt Lake City, UT 84101",
@@ -4488,7 +4504,8 @@
    "end": "2026-11-10T16:10:00",
    "room": "Salt Palace | Level 2 | 251 D-F",
    "speakers": [
-    "Ricardo Aravena"
+    "Ricardo Aravena",
+    "Rainie Li"
    ],
    "track": "Maintainer Track",
    "level": "",
@@ -5828,6 +5845,22 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294702"
+  },
+  {
+   "id": "1374982",
+   "title": "Adyen Joins CNCF: Staying Independent with Open Source",
+   "start": "2026-11-11T09:26:00",
+   "end": "2026-11-11T09:31:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Global Fintech Adyen processed €1.39 trillion in 2025 for businesses around the world on infrastructure it built and runs itself. Principal Engineer Juliano Martinez shares why Adyen is joining CNCF as a Platinum End User, and why open, vendor-neutral technology lets a global payments platform stay in charge of its stack and its data. He also introduces kubectl-rexec, Adyen's open source tool for auditable Kubernetes access in regulated environments."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1374982"
   },
   {
    "id": "1367917",
@@ -9004,8 +9037,8 @@
    "tags": [],
    "description": [
     "Join us in the Project Pavilion to recognize our newest Graduated Projects 🎉 OpenTelemetry, Buildpacks, Karmada, and Kubeflow!",
-    "Grab a treat & stop by these projects kiosks to say congratulations on their recent graduation or project birthday!",
-    "Project Birthdays! 🎂\n10 Years: Dapr and Fluentd"
+    "Project Birthdays! 🎂\n10 Years: Dapr and Fluentd",
+    "Grab a treat & stop by these projects kiosks to say congratulations on their recent graduation or project birthday!"
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1374337"
@@ -9983,6 +10016,27 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289660"
   },
   {
+   "id": "1374991",
+   "title": "Validating Kubernetes Workloads: Checklists and Best Practices",
+   "start": "2026-11-11T17:00:00",
+   "end": "2026-11-11T17:30:00",
+   "room": "Salt Palace | Level 2 | 254",
+   "speakers": [
+    "Nikhita Raghunath",
+    "Nabarun Pal"
+   ],
+   "track": "Experiences",
+   "level": "",
+   "tags": [
+    "BoF"
+   ],
+   "description": [
+    "Software vendors ship workloads to many Kubernetes distributions, and users must decide whether a workload is safe to run on their cluster. Today each vendor and each user builds a separate validation process. In this BoF, ISVs explain how they test and certify their workloads, and users explain how they check those claims before they deploy. We will collect the gaps, such as unclear cluster requirements, version skew, and tests that no one can reproduce, as input for WG Workload Conformance."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1374991"
+  },
+  {
    "id": "1340051",
    "title": "🧩 Save Phippy: The Cloud Native Escape Room Hosted by Teleport | SEPARATE REGISTRATION REQUIRED",
    "start": "2026-11-11T19:00:00",
@@ -9991,7 +10045,9 @@
    "speakers": [],
    "track": "Sponsor-hosted Co-located Events",
    "level": "",
-   "tags": [],
+   "tags": [
+    "Separate Registration Required"
+   ],
    "description": [
     "Please note that this is an off-site Sponsor-hosted Co-located event.",
     "Buoyant, Teleport, and Merge Forward are hosting a Cloud Native Escape Room Party — food, drinks, DJ, prizes — 7pm Wednesday, November 11th at KubeCon + CloudNativeCon NA.",
@@ -10606,8 +10662,7 @@
    "end": "2026-11-12T11:30:00",
    "room": "Salt Palace | Level 2 | 255 EF",
    "speakers": [
-    "Kevin Dubois",
-    "Laurent Broudoux"
+    "Kevin Dubois"
    ],
    "track": "Application Development + Delivery",
    "level": "Any Level",
@@ -10663,6 +10718,27 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1244941"
+  },
+  {
+   "id": "1374958",
+   "title": "Public Sector User Group Meetup: Cloud Native in the Public Sector",
+   "start": "2026-11-12T11:00:00",
+   "end": "2026-11-12T11:30:00",
+   "room": "Salt Palace | Level 2 | 254",
+   "speakers": [
+    "William Crum",
+    "Daniel Moch"
+   ],
+   "track": "Experiences",
+   "level": "",
+   "tags": [
+    "BoF"
+   ],
+   "description": [
+    "An informal, social gathering for anyone working in or adjacent to the public sector who wants to connect with peers and learn how the CNCF Public Sector User Group operates. Come meet the co-chairs and other members, share the challenges you face deploying cloud native technology in government and regulated environments, and find out how to get involved. No slides, no agenda, just conversation. This meetup leads directly into the Public Sector User Group BoF, so bring your questions."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1374958"
   },
   {
    "id": "1289727",
@@ -11064,6 +11140,27 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250882"
   },
   {
+   "id": "1374960",
+   "title": "Public Sector User Group BoF: Roadmap, White Papers, Our Group",
+   "start": "2026-11-12T11:50:00",
+   "end": "2026-11-12T12:20:00",
+   "room": "Salt Palace | Level 2 | 254",
+   "speakers": [
+    "William Crum",
+    "Daniel Moch"
+   ],
+   "track": "Experiences",
+   "level": "",
+   "tags": [
+    "BoF"
+   ],
+   "description": [
+    "Join co-chairs William Crum and Daniel Moch for a Birds of a Feather session on the CNCF Public Sector User Group. We will walk through the group's mission and roadmap, share the white papers published to date and the ones in progress, and show how the group works with the CNCF TAB and the wider community. We will cover what the group is working on now and where we need help, then open the floor for discussion on the biggest cloud native adoption challenges in the public sector. Whether you are a government employee, contractor or service member, we hope that you can participate in the conversation!"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1374960"
+  },
+  {
    "id": "1289717",
    "title": "Rook: Intro and Deep Dive with Ceph Storage",
    "start": "2026-11-12T11:50:00",
@@ -11427,6 +11524,26 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1346926"
+  },
+  {
+   "id": "1374950",
+   "title": "Agentic AI: Let’s Build a Reference Architecture, Live? Or at Least Try!",
+   "start": "2026-11-12T13:50:00",
+   "end": "2026-11-12T14:20:00",
+   "room": "Salt Palace | Level 2 | 254",
+   "speakers": [
+    "Ricardo Rocha"
+   ],
+   "track": "Experiences",
+   "level": "",
+   "tags": [
+    "BoF"
+   ],
+   "description": [
+    "Deploying agentic AI systems in production is moving at breakneck speed, leaving platform teams to piece together patterns for orchestration, tool sandboxing, state, and security on the fly. In this collaborative Birds of a Feather (BoF) session, we’re taking on a live challenge: gathering end users and practitioners in one room to sketch out an open, community-driven reference architecture for running AI agents on cloud-native infrastructure. Whether you're already running autonomous agents, navigating the infrastructure trade-offs, or trying to figure out where Kubernetes fits into the agent stack, come ready to share lessons learned, debate architectural patterns, and help build a shared blueprint in real time."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1374950"
   },
   {
    "id": "1228453",
