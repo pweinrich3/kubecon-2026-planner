@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-30T15:03:19Z",
+ "updated": "2026-10-30T20:48:07Z",
  "sessions": [
   {
    "id": "1304040",
@@ -953,12 +953,12 @@
   },
   {
    "id": "1289883",
-   "title": "Multiclusterize in 5",
+   "title": "Hub → Managed Cluster: How Long Did the Workload Take? Did It Arrive?",
    "start": "2026-11-09T12:06:00",
    "end": "2026-11-09T12:11:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "August Simonelli"
+    "Suvaansh Kumar"
    ],
    "track": "Project Lightning Talks",
    "level": "",
@@ -966,9 +966,7 @@
     "Open Cluster Management"
    ],
    "description": [
-    "You have a controller that solves a real problem on one cluster. Your job is to get it running on all of them – consistently, with config per cluster, without touching each cluster individually. Think it's not possible? Think again.",
-    "The Open Cluster Management (OCM) add-on framework makes this declarative: three objects, one placement binding, and the hub does the rest. In this session we build a real add-on live, using an agentic skill to scaffold and explain each piece as it goes. By the end, a controller that ran on one cluster is running on all of them.",
-    "You will leave with a working mental model of ClusterManagementAddOn, AddOnDeploymentConfig, and AddOnTemplate and an actual agentic skill you can use with OCM."
+    "The OCM hub knows when it accepted a ManifestWork, but not how long the work took to land on each managed cluster, or whether it landed at all. In this talk I'll show how OCM v1.4 fills that gap. The hub logs T1, the work agent logs T2, and any observability tool can match the two on name and generation and compute the latency."
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289883"
@@ -1778,6 +1776,24 @@
    "description": [],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289971"
+  },
+  {
+   "id": "1375964",
+   "title": "Documentary Premiere: The Linkerd Story: The People Behind the Service Mesh",
+   "start": "2026-11-09T18:30:00",
+   "end": "2026-11-09T19:30:00",
+   "room": "Salt Palace | Level 1 | 151",
+   "speakers": [],
+   "track": "Experiences",
+   "level": "",
+   "tags": [],
+   "description": [
+    "What started as an engineering challenge at Twitter became Linkerd, the world's first service mesh, helping transform how organizations manage the reliability, security, and observability of their applications.",
+    "The Linkerd Story: The People Behind the Service Mesh takes viewers behind the scenes of a decade of innovation, told through the voices of the creators, maintainers, contributors, and users who helped shape the project. From early technical breakthroughs to real-world impact, the documentary explores the challenges, relationships, and shared commitment that have made Linkerd a pioneering open source project.",
+    "Presented by the Cloud Native Computing Foundation (CNCF) in partnership with Buoyant, the film celebrates the people who turned an ambitious idea into technology organizations around the world rely on today."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1375964"
   },
   {
    "id": "1289946",
@@ -4136,9 +4152,8 @@
     "Istio"
    ],
    "description": [
-    "Want to contribute to Istio but feel overwhelmed just setting up the local environment? You're not alone. Join Istio maintainers for a hands-on workshop designed to take you from a fresh fork to running tests locally with confidence.",
-    "In this session, we're skipping the heavy infrastructure headaches. We'll use GitHub Codespaces to get you straight into the Istio \"\"inner loop. Maintainers will walk you through navigating the codebase, running testing frameworks, and getting fast test feedback. From there, we'll pair up to tackle a curated list of entry level tasks, like adding unit tests or fixing open issues.",
-    "Whether you want to fix a bug or just see how maintainers validate code daily, you'll leave this session with everything you need to start contributing regularly."
+    "Want to contribute to Istio but feel overwhelmed just setting up the local environment? You're not alone. Join Istio maintainers for a hands-on workshop designed to take you from a fresh fork to running tests locally with confidence.\nIn this session, we're skipping the heavy infrastructure headaches. We'll use GitHub Codespaces to get you straight into the Istio \"inner loop\". Maintainers will walk you through navigating the codebase, running testing frameworks, and getting fast test feedback. From there, we'll pair up to tackle a curated list of entry level tasks, like adding unit tests or fixing open issues. Whether you want to fix a bug or just see how maintainers validate code daily, you'll leave this session with everything you need to start contributing regularly.",
+    "Want a head start? Check out the README on our ContribFest branch before the session: https://github.com/istio/istio/tree/kubecon-na-2026-contribfest. Setting up your Codespace ahead of time means you can dive straight into the tasks on the day."
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294759"
@@ -9944,7 +9959,7 @@
   },
   {
    "id": "1250522",
-   "title": "Pushing beyond the Breaking Point: Linked Runners and TEEs for Frontier AI",
+   "title": "Pushing Beyond the Breaking Point: Linked Runners and TEEs for Frontier AI",
    "start": "2026-11-11T17:00:00",
    "end": "2026-11-11T17:30:00",
    "room": "Salt Palace | Level 1 | Grand Ballroom H",
@@ -10076,8 +10091,10 @@
    "end": "2026-11-11T17:30:00",
    "room": "Salt Palace | Level 2 | 254",
    "speakers": [
-    "Nikhita Raghunath",
-    "Nabarun Pal"
+    "Nabarun Pal",
+    "Maciej Szulik",
+    "Liz Rice",
+    "Ricardo Aravena"
    ],
    "track": "Experiences",
    "level": "",
@@ -12218,7 +12235,8 @@
    "end": "2026-11-12T15:10:00",
    "room": "Salt Palace | Level 2 | 254",
    "speakers": [
-    "Chris Plank"
+    "Chris Plank",
+    "Colin Griffin"
    ],
    "track": "Experiences",
    "level": "",
@@ -12632,7 +12650,8 @@
    "end": "2026-11-12T16:00:00",
    "room": "Salt Palace | Level 2 | 254",
    "speakers": [
-    "Chris Plank"
+    "Chris Plank",
+    "Colin Griffin"
    ],
    "track": "Experiences",
    "level": "",
