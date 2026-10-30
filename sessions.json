@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-30T05:49:50Z",
+ "updated": "2026-10-30T15:03:19Z",
  "sessions": [
   {
    "id": "1304040",
@@ -3475,7 +3475,7 @@
     "Sponsored"
    ],
    "description": [
-    "Sponsor: vCluster\nTitle: Deploy NVIDIA Dynamo as a Stack and Serve a Model\nBooth: 164",
+    "Sponsor: vCluster\nTitle: From One Stack to a Managed, Disaggregated Inference Service\nBooth: 164",
     "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
    ],
    "links": [],
@@ -4182,7 +4182,10 @@
    "start": "2026-11-10T15:00:00",
    "end": "2026-11-10T15:20:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
-   "speakers": [],
+   "speakers": [
+    "Mofi Rahman",
+    "Brandon Royal"
+   ],
    "track": "Sponsor Demo Theater",
    "level": "",
    "tags": [
@@ -4485,7 +4488,8 @@
    "track": "Observability",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "We introduced AI-assisted incident response into a large-scale financial services platform running on OpenShift and Kubernetes expecting faster resolutions and less engineer toil. Instead, we discovered the biggest bottleneck wasn't signal analysis—it was missing operational context.",
@@ -4493,7 +4497,12 @@
     "This session shares how we rebuilt incident response using OpenTelemetry, Argo CD, Prometheus, Grafana, and Backstage to combine telemetry, deployment intelligence, and service ownership into a single workflow.",
     "Attendees will learn practical patterns for building context-aware incident response on Kubernetes, reducing alert fatigue, and improving operational decision-making beyond prediction-based tooling."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ifcatos~huWVMjtwtQ6JLuGH2oabgn.pdf~the-sre-is-not-dead-for-employer-review.pptx-google-slides.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250770"
   },
   {
