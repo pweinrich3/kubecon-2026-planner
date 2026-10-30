@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-29T21:07:35Z",
+ "updated": "2026-10-30T05:49:50Z",
  "sessions": [
   {
    "id": "1304040",
@@ -1660,6 +1660,46 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1363748"
   },
   {
+   "id": "1375159",
+   "title": "Kagent 1.0 with Agent Substrate",
+   "start": "2026-11-09T16:06:00",
+   "end": "2026-11-09T16:11:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "Peter Jausovec"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "Kagent"
+   ],
+   "description": [
+    "Kagent 1.0 rebuilds agents on Kubernetes from the ground up with agent substrate and one sandboxed, suspendable Actor per conversation, and a cleaner Harness / AgentTemplate / Agent API."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1375159"
+  },
+  {
+   "id": "1375161",
+   "title": "Your Routes, My Rules: Making Gateway API Work at Enterprise Scale",
+   "start": "2026-11-09T16:13:00",
+   "end": "2026-11-09T16:18:00",
+   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
+   "speakers": [
+    "David Jumani"
+   ],
+   "track": "Project Lightning Talks",
+   "level": "",
+   "tags": [
+    "Kgateway"
+   ],
+   "description": [
+    "At enterprise scale, the hard part of running a gateway isn't the traffic, it's the people: dozens of teams who all need to ship routes without waiting on the platform team or breaking each other.\nIn five minutes, see how kgateway makes Gateway API work for big organizations. App teams own their routes through delegation. Platform teams keep the rules with inherited policies, and strict validation checks config with Envoy itself before it ships, so one team's mistake stays on its own route. Then a quick look under the hood: a control plane built on Istio's KRT, where kgateway and Istio make each other faster, so it scales with the org chart, and routes that reach beyond the cluster to the cloud and the mesh."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1375161"
+  },
+  {
    "id": "1374348",
    "title": "KAI Scheduler: What's New & What's Next in AI Workload Orchestration",
    "start": "2026-11-09T16:20:00",
@@ -1670,7 +1710,9 @@
    ],
    "track": "Project Lightning Talks",
    "level": "",
-   "tags": [],
+   "tags": [
+    "KAI Scheduler"
+   ],
    "description": [
     "As multi-tenant AI clusters grow, the KAI Scheduler continues to evolve to tackle modern k8s AI clusters challenges. In this talk, we will highlight the newest features and capabilities recently added to KAI. We will showcase how KAI enhances performance and fairness with introducing some of our latest developments including:",
     "Attendees will get a tour of KAI’s latest developments, real-world efficiency impacts, and a preview of what’s next on the project roadmap."
@@ -1689,7 +1731,9 @@
    ],
    "track": "Project Lightning Talks",
    "level": "",
-   "tags": [],
+   "tags": [
+    "kpt"
+   ],
    "description": [
     "Kubernetes made infrastructure declarative, yet teams still manage configuration through templates, overlays, Git conventions, and custom automation. At scale, this creates YAML sprawl, inconsistent validation, and fragile workflows.",
     "This lightning talk introduces kpt, a CNCF Sandbox project that treats Kubernetes Resource Model objects as data: structured, versioned packages transformed and validated by reusable functions. Unlike template-centric approaches, kpt keeps configuration readable while separating the data from the code that operates on it.",
@@ -4476,7 +4520,7 @@
   },
   {
    "id": "1244963",
-   "title": "Triaging 1,800 Alerts/Month at $0.33 Each: Verkada's MCP Agent on Nine Production Clusters",
+   "title": "Triaging 4,700 Alerts/Month at $0.33 Each: Verkada's MCP Agent on Nine Production Clusters",
    "start": "2026-11-10T15:40:00",
    "end": "2026-11-10T16:10:00",
    "room": "Salt Palace | Level 1 | 151",
@@ -4490,8 +4534,8 @@
     "End User Talk"
    ],
    "description": [
-    "In April 2026 Verkada's incident-triage agent handled 1,847 production alerts across nine Kubernetes clusters at $0.33 per investigation, with an 86% prompt-cache-read ratio and an 82-second median time-to-summary. The control plane runs in-cluster on every shard. No AI-for-SRE SaaS is in the path; inference is managed Claude Sonnet 4.5, state lives on managed KV.",
-    "Three reversals shaped the system and each cut cost or restored reliability: pod-to-serverless ingress so chat deploys never drop alerts; per-pod to cross-cluster state on managed KV so a single investigation can span shards; single-shot to multi-turn under a 1-hour cache-TTL budget that holds 4-turn cost roughly flat.",
+    "Over the last three months Verkada's incident-triage agent handled about 4,700 production alerts a month across nine Kubernetes clusters at $0.33 per investigation, with an 87.5% prompt-cache-read ratio and a 139-second median time-to-summary. The control plane runs in-cluster on every shard. No AI-for-SRE SaaS is in the path; inference is managed Claude Opus 5, state lives on managed KV.",
+    "Three reversals shaped the system and each cut cost or restored reliability: pod-to-serverless ingress so chat deploys never drop alerts; per-pod to cross-cluster state on managed KV so a single investigation can span shards; single-shot to multi-turn under a 1-hour cache-TTL budget, where cost tracks investigation depth: about $0.27 for a five-call investigation and $1.29 past twenty-five.",
     "MCP is the boring substrate that made the rest tractable: per-cluster MCP servers for ArgoCD, Prometheus, and the observability stack, with cross-cluster fan-out through the serverless ingress, and per-channel Markdown system prompts that retune triage behavior without a code change."
    ],
    "links": [],
@@ -8232,9 +8276,10 @@
     "Cadence Workflow"
    ],
    "description": [
-    "Cadence Workflow is a CNCF sandbox project for durable workflow orchestration. This ContribFest will be a working session for improving Cadence’s AI-agent developer path: runnable examples, docs, and starter issues that show how to model long-running agentic workflows as durable workflows.",
-    "Participants will work with Cadence maintainers on concrete tasks such as validating the local quickstart, improving docs for retries/timeouts/idempotent activities, creating or polishing an AI-agent workflow sample, and identifying confusing setup or contribution steps. The session will start with a short overview of Cadence and the available issues, then split into small groups to make docs PRs, sample updates, or issue triage progress.",
-    "The project benefit is a better contributor onramp and more practical examples for developers building reliable agent workflows with Cadence."
+    "Come build durable AI workflows with Cadence, by hand or with a coding agent. Bring an idea or choose an issue from our contribution pool.",
+    "We'll start together with Incident Triage, an on-call agent investigating a fictional checkout failure with real model calls. On-call work brings together unreliable APIs, incomplete evidence and decisions that need a person. Inspect the run in Cadence Web and make one retry-policy fix together.",
+    "Then choose what to build: fix or extend an AI recipe, or add an example using our sample runner and templates. We especially encourage you to bring your own workflow, make it durable and share it as an example for future Cadence users. You can also take an approved issue elsewhere in Cadence. Maintainers will help with design questions, troubleshooting and review.",
+    "Learn to set boundaries around model and tool calls, preserve progress and bring people into the workflow. Help grow a cookbook others can use."
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294751"
@@ -9806,7 +9851,7 @@
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B",
    "speakers": [
     "Ian Rudie",
-    "Jackie Maertens"
+    "Mike Morris"
    ],
    "track": "Cloud Native Novice",
    "level": "Beginner",
@@ -12158,6 +12203,26 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289713"
   },
   {
+   "id": "1375122",
+   "title": "Platform Engineering User Group BoF",
+   "start": "2026-11-12T14:40:00",
+   "end": "2026-11-12T15:10:00",
+   "room": "Salt Palace | Level 2 | 254",
+   "speakers": [
+    "Chris Plank"
+   ],
+   "track": "Experiences",
+   "level": "",
+   "tags": [
+    "BoF"
+   ],
+   "description": [
+    "Join co-chairs of the CNCF Platform Engineering User Group for a Birds of a Feather session about the group, a walk through of the group's mission, the tools and information published to date and the ones in progress, and discussion on how the group works with the CNCF TAB and the wider community. We will cover what the group is working on now and where we need help, then open the floor for discussion on the biggest cloud native challenges in the Platform Engineering space"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1375122"
+  },
+  {
    "id": "1246342",
    "title": "Securing the Agentic Future: Distributing LLM Weights and Sandboxed AI Agents via Harbor",
    "start": "2026-11-12T14:40:00",
@@ -12550,6 +12615,27 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1240796"
+  },
+  {
+   "id": "1375121",
+   "title": "The CNCF Platform Engineering User Group & Platform Factors",
+   "start": "2026-11-12T15:30:00",
+   "end": "2026-11-12T16:00:00",
+   "room": "Salt Palace | Level 2 | 254",
+   "speakers": [
+    "Chris Plank"
+   ],
+   "track": "Experiences",
+   "level": "",
+   "tags": [
+    "BoF"
+   ],
+   "description": [
+    "What is the CNCF User Group? What does it do, who’s it for? What are the Platform Factors we’ve been hearing about this week?",
+    "Join co-chairs and members of the CNCF Platform Engineering User Group who will hopefully answer all your question and share the tools and information published by the group to date. Come along and hear directly from some of the group members who have worked on the Platform Factors Initiative."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1375121"
   }
  ]
 }
