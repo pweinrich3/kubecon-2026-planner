@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-30T20:48:07Z",
+ "updated": "2026-10-31T05:41:42Z",
  "sessions": [
   {
    "id": "1304040",
@@ -692,7 +692,7 @@
   },
   {
    "id": "1352094",
-   "title": "BREAK",
+   "title": "☕ Coffee Break",
    "start": "2026-11-09T10:48:00",
    "end": "2026-11-09T11:03:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
@@ -1134,7 +1134,7 @@
   },
   {
    "id": "1339249",
-   "title": "LUNCH | ON OWN",
+   "title": "🍲 Lunch | On Own",
    "start": "2026-11-09T12:46:00",
    "end": "2026-11-09T13:30:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
@@ -1408,7 +1408,7 @@
   },
   {
    "id": "1368701",
-   "title": "BREAK",
+   "title": "☕ Coffee Break",
    "start": "2026-11-09T14:48:00",
    "end": "2026-11-09T15:03:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
@@ -1842,6 +1842,7 @@
     "Jonathan Bryce",
     "Chris Aniszczyk",
     "Robert Nishihara",
+    "Rita Zhang",
     "Kevin Cochrane",
     "Bassam Tabbara"
    ],
@@ -2092,6 +2093,23 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289738"
+  },
+  {
+   "id": "1376186",
+   "title": "Explore the Poster Showcase",
+   "start": "2026-11-10T10:45:00",
+   "end": "2026-11-10T19:30:00",
+   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "speakers": [],
+   "track": "🪧 Poster Sessions",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Explore the Poster Showcase at your own pace! Browse posters highlighting innovative projects, research, and ideas from across the cloud native community.",
+    "Posters will be available for self-guided viewing throughout Tuesday. Want to learn more or connect with the people behind the work? Return on Wednesday to meet the poster presenters, ask questions, and discuss their work."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1376186"
   },
   {
    "id": "1374035",
