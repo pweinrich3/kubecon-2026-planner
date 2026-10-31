@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-31T05:41:42Z",
+ "updated": "2026-10-31T14:32:12Z",
  "sessions": [
   {
    "id": "1304040",
@@ -9983,7 +9983,8 @@
    "room": "Salt Palace | Level 1 | Grand Ballroom H",
    "speakers": [
     "David Porter",
-    "Evan Sheng"
+    "Evan Sheng",
+    "Ning Liao"
    ],
    "track": "Operations + Performance",
    "level": "Any Level",
