@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-10-31T14:32:12Z",
+ "updated": "2026-11-02T06:02:43Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2578,7 +2578,8 @@
    "track": "Data Processing + Storage",
    "level": "Beginner",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Kubernetes has quietly become the default substrate for petabyte-scale data processing. Salesforce, Pinterest, Airbnb, and Apple all run native Spark, Flink, Trino, StarRocks, and Iceberg on Kubernetes at a scale the platform was never designed for.",
@@ -2586,7 +2587,12 @@
     "Second, how are AI agents changing day-2 operations? Troubleshooting agents for Spark and Flink, MCP servers for Spark History Server, agentic upgrade planning, autonomous tuning, AI-driven governance and lineage. Where are teams seeing real productivity gains, and where do agents still get it wrong?",
     "Production stories, real disagreements, no vendor pitches."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iyibras~Mg4JfCQVtfPLiyyprteXPK.pdf~kubecon_na_2026_data_platform_panel.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1227395"
   },
   {
