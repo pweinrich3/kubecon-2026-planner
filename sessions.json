@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-02T06:02:43Z",
+ "updated": "2026-11-02T18:22:19Z",
  "sessions": [
   {
    "id": "1304040",
@@ -624,7 +624,7 @@
   },
   {
    "id": "1336214",
-   "title": "KubeAuto Day North America with Kelsey Hightower Hosted by Cast AI | SOLD OUT",
+   "title": "KubeAuto Day North America with Kelsey Hightower Hosted by Cast AI | SEPARATE REGISTRATION REQUIRED",
    "start": "2026-11-09T10:30:00",
    "end": "2026-11-09T19:00:00",
    "room": "Off-Site Location",
@@ -1235,7 +1235,7 @@
   },
   {
    "id": "1328984",
-   "title": "Discovering and Securing AI Agents in Kubernetes Hosted by Tigera | SOLD OUT",
+   "title": "Discovering and Securing AI Agents in Kubernetes Hosted by Tigera | SEPARATE REGISTRATION REQUIRED",
    "start": "2026-11-09T14:00:00",
    "end": "2026-11-09T17:00:00",
    "room": "Off-Site Location",
@@ -2231,7 +2231,7 @@
   },
   {
    "id": "1333734",
-   "title": "KubeScool – Learn the Easiest Way Possible",
+   "title": "KubeSchool – Learn the Easiest Way Possible",
    "start": "2026-11-10T11:02:00",
    "end": "2026-11-10T11:14:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone",
@@ -5944,7 +5944,9 @@
    "start": "2026-11-11T09:26:00",
    "end": "2026-11-11T09:31:00",
    "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
+   "speakers": [
+    "Juliano Martinez"
+   ],
    "track": "Keynote Sessions",
    "level": "",
    "tags": [],
@@ -8623,7 +8625,7 @@
   },
   {
    "id": "1250299",
-   "title": "Dashboards-as-Code and the Silent Lies of kube-state-metrics",
+   "title": "Dashboards-as-Code: Easy to Ship, Easy to Get Wrong",
    "start": "2026-11-11T15:09:00",
    "end": "2026-11-11T15:14:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
@@ -12074,14 +12076,21 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Proprietary LLM APIs are convenient — and expensive at scale. For a high-volume, multi-label classification pipeline in production, replacing a managed LLM API with a fine-tuned open-weights model on Kubernetes delivered higher quality at one-third the cost.",
     "The harder problem was the traffic profile: steady baseline most of the day, then surges into thousands of requests per second within minutes. Sizing GPU capacity for the peak wastes money; sizing for the baseline drops requests. The solution lives at the intersection of inference-layer optimization and Kubernetes-native autoscaling.",
     "This session walks through the architecture end to end: QLoRA fine-tuning with Unsloth, vLLM for inference and dynamic batching, speculative decoding for throughput gains at no additional GPU cost, and Karpenter, a CNCF project, for real-time GPU capacity right-sizing.",
     "Attendees leave with a practitioner blueprint for elastic, open-source LLM inference."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/isgaubte~J1RCyuy97ShpYW8gpfRAQu.pdf~dropping-llm-inference-cost-by-two-thirds.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249410"
   },
   {
