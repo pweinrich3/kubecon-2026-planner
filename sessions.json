@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-02T18:22:19Z",
+ "updated": "2026-11-03T02:19:43Z",
  "sessions": [
   {
    "id": "1304040",
@@ -1490,13 +1490,19 @@
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [
-    "Atlantis"
+    "Atlantis",
+    "↓ Slides"
    ],
    "description": [
     "Atlantis is the self-hosted Go binary that brings Terraform and OpenTofu into your pull requests: plan when the PR opens, apply once it is approved, with the whole team watching. Teams have leaned on it for years to get infrastructure changes out of laptops and bespoke CI, and it is now a CNCF Sandbox project with an active contributor base and bi-weekly\ncommunity meetings.",
     "This talk is a five-minute tour of what has landed recently: first-class OpenTofu support, alpha drift detection and remediation APIs, high-availability deployments backed by Redis, and hardened security across comment parsing and locking. We will close with where the project is headed and how to get involved, whether you run Atlantis today or have never touched Terraform."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/uhraqze~QWgYZtYZ5nmeZQA7AnpE9t.pdf~kubecon-cloudnativecon-2026-presentation.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289907"
   },
   {
@@ -3861,11 +3867,22 @@
    ],
    "track": "Observability",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Auto-instrumentation has long been a major topic in observability. eBPF introduced a new approach: instrumentation is no longer confined to userspace agents and technology-specific SDKs. By leveraging visibility from the Linux kernel, eBPF-based instrumentation can capture kernel and application runtime events and model them into traces, metrics, profiles, and service topology.\nThis talk takes a ground-up look at OpenTelemetry eBPF Instrumentation (OBI), following the path from eBPF programs at the Linux kernel level into the userspace pipeline where events are correlated, enriched, converted into OpenTelemetry data, and emitted. We will examine how OBI combines kprobes, uprobes, socket and cgroup instrumentation, runtime-specific instrumentation, process discovery, context propagation, and Kubernetes metadata enrichment.\nThis session is for engineers interested in how zero-code eBPF instrumentation works under the hood. Attendees will leave ready to debug, extend, or contribute."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ippapgex~s7kfV6PXU528RDYVnxkVnn.pdf~from-bytes-to-traces-kubecon-2026-working-draft.pdf"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/open-telemetry/opentelemetry-ebpf-instrumentation"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247277"
   },
   {
@@ -4873,6 +4890,27 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1360373"
   },
   {
+   "id": "1246066",
+   "title": "AI-DDoS: How AI-Generated Contributions Are Breaching OSS Communities, and What We Can Do about It",
+   "start": "2026-11-10T16:40:00",
+   "end": "2026-11-10T17:10:00",
+   "room": "Salt Palace | Level 1 | 151",
+   "speakers": [
+    "Zixuan Feng"
+   ],
+   "track": "Cloud Native Experience",
+   "level": "Any Level",
+   "tags": [
+    "End User Talk"
+   ],
+   "description": [
+    "OSS communities are sounding the alarm that AI-generated contributions are flooding their projects. Much like a DDoS attack overwhelms a server with excessive requests until it goes offline, this flood can overwhelm maintainers and push projects to shut their doors. We call it AI-DDoS. Some projects are already responding defensively: closing bug bounties, moving to invitation-only models, or rejecting unsolicited pull requests. These responses may address the immediate symptoms, yet they risk closing the door to new contributors, upending their ecosystem.",
+    "We analyzed over 2 million PRs and issues from 350,000+ contributors across 294 widely used repositories. Our findings show that AI-DDoS is a structural, ecosystem-wide pressure on the OSS contribution pipeline. From this evidence, we developed 11 practitioner-driven strategies that projects can use to manage AI-DDoS while balancing openness, maintainer capacity, and their stance toward AI-assisted contributions."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246066"
+  },
+  {
    "id": "1248218",
    "title": "Agents on the Platform: Four Perspectives on the Conversation We're Already Having in Private",
    "start": "2026-11-10T16:40:00",
@@ -5187,28 +5225,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289644"
   },
   {
-   "id": "1250187",
-   "title": "Zero Downtime CNI Migration at Scale: Canal to Cilium Across Hundreds of Production Clusters",
-   "start": "2026-11-10T16:40:00",
-   "end": "2026-11-10T17:10:00",
-   "room": "Salt Palace | Level 1 | 151",
-   "speakers": [
-    "Prathamesh Bhope"
-   ],
-   "track": "Operations + Performance",
-   "level": "Advanced",
-   "tags": [
-    "End User Talk"
-   ],
-   "description": [
-    "Migrating a CNI plugin in production is one of the most high-risk operations in Kubernetes infra. At Walmart running hundreds of clusters across cloud and on-premises environments, the team faced route-drop failures in Flannel beyond 300 nodes, iptables rule explosion as services grew and etcd v2 incompatibility blocking upgrades. No published playbook existed for zero-downtime CNI replacement at that scale.",
-    "This talk walks through the per-node hybrid migration strategy that enabled zero-downtime transitions from Canal to Cilium. Canal and Cilium coexist during transition with a hybrid tunneling mode maintaining full pod connectivity regardless of which CNI owns a given node. Result: 2.27x throughput improvement and 38% reduction in cross-node latency with no production incidents.",
-    "Attendees leave with a reusable migration framework covering hybrid mode architecture, IPAM coordination, cloud provider pitfalls and a structured Cilium triage playbook for post-migration operations."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250187"
-  },
-  {
    "id": "1240912",
    "title": "Zero-Gap GPU Execution: Building Secure, Pre-Warmed Pod Runtimes for High-Velocity AI Agents",
    "start": "2026-11-10T16:40:00",
@@ -5358,27 +5374,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1336586"
-  },
-  {
-   "id": "1246066",
-   "title": "AI-DDoS: How AI-Generated Contributions Are Breaching OSS Communities, and What We Can Do about It",
-   "start": "2026-11-10T17:30:00",
-   "end": "2026-11-10T18:00:00",
-   "room": "Salt Palace | Level 1 | 151",
-   "speakers": [
-    "Zixuan Feng"
-   ],
-   "track": "Cloud Native Experience",
-   "level": "Any Level",
-   "tags": [
-    "End User Talk"
-   ],
-   "description": [
-    "OSS communities are sounding the alarm that AI-generated contributions are flooding their projects. Much like a DDoS attack overwhelms a server with excessive requests until it goes offline, this flood can overwhelm maintainers and push projects to shut their doors. We call it AI-DDoS. Some projects are already responding defensively: closing bug bounties, moving to invitation-only models, or rejecting unsolicited pull requests. These responses may address the immediate symptoms, yet they risk closing the door to new contributors, upending their ecosystem.",
-    "We analyzed over 2 million PRs and issues from 350,000+ contributors across 294 widely used repositories. Our findings show that AI-DDoS is a structural, ecosystem-wide pressure on the OSS contribution pipeline. From this evidence, we developed 11 practitioner-driven strategies that projects can use to manage AI-DDoS while balancing openness, maintainer capacity, and their stance toward AI-assisted contributions."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246066"
   },
   {
    "id": "1289677",
@@ -8057,7 +8052,8 @@
    "track": "Application Development + Delivery",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "At CVS Health, we have many engineers working to deliver the latest innovations in health services. In the DevEx organization, we understand that these engineers need feature flagging.",
@@ -8066,7 +8062,20 @@
     "We collaborated with the OpenFeature Project, to understand their plans for the future of their Feature Flagging ecosystem and also to understand how we can contribute back to the community and include what we’re building in that future.",
     "We're excited to share that we are bringing this effort to the open source community. We'd like to share it, and our journey of how we got here, with you."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/isfashek~SfPEFJhdWhtz735ytgHSq8.pdf~kubecon-cloudnativecon-north-america-2026-branded-powerpoint.pdf"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/cvs-health/flag-controller"
+    },
+    {
+     "label": "Website",
+     "url": "https://cvs-health.github.io/flag-controller/"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247684"
   },
   {
@@ -8638,7 +8647,7 @@
     "Observability"
    ],
    "description": [
-    "A Grafana dashboard, written as code and shipped through the Prometheus operator's sidecar, can deploy cleanly and still render \"No data\" on most of its panels even when the query is right and the scrape is healthy. This 5-minute lightning covers silent failure modes in kube-state-metrics that has burned dashboards at our company before. It walks through the diagnostic that distinguishes the bug from a broken query, then shows what to couple together in the same pull request so the regression cannot recur."
+    "Dashboards-as-code has made shipping observability almost trivial: label a ConfigMap, let the Grafana sidecar load it, or generate dozens of dashboards from a short script and review them like any other pull request. But a dashboard that deploys cleanly isn't necessarily telling the truth. This 5-minute lightning talk covers three ways ours didn't: label joins that quietly come back empty, duplicate series that double-count after an exporter restart, and dashboard JSON that Grafana silently ignores. For each, it shows the quick check that finds it and the practice that stops it from coming back."
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250299"
