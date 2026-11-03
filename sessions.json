@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-03T11:56:00Z",
+ "updated": "2026-11-03T19:29:27Z",
  "sessions": [
   {
    "id": "1304040",
@@ -38,6 +38,31 @@
    "description": [],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1304069"
+  },
+  {
+   "id": "1379082",
+   "title": "CNCF Maintainer Summit [Near Capacity]",
+   "start": "2026-11-08T09:00:00",
+   "end": "2026-11-08T17:30:00",
+   "room": "Salt Palace | Level 2 | 250 A-C",
+   "speakers": [],
+   "track": "Project Opportunities",
+   "level": "",
+   "tags": [
+    "Separate Registration Required"
+   ],
+   "description": [
+    "The CNCF Maintainer Summit is an exclusive event for the people behind our projects to gather face-to-face, collaborate, and celebrate the projects that make “Cloud Native.” Programming will be focused on sharing best practices, diving into contributing processes, and solving common problems across projects to enrich our great community of maintainers.",
+    "To learn more and register, visit the event's website above. Please note: You must be registered for KubeCon + CloudNativeCon and meet the Eligibility Requirements to participate.",
+    "For questions regarding this event, please reach out to (email on official site)."
+   ],
+   "links": [
+    {
+     "label": "Website",
+     "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/features-add-ons/maintainer-summit/"
+    }
+   ],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1379082"
   },
   {
    "id": "1344383",
@@ -491,7 +516,10 @@
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [],
-   "description": [],
+   "description": [
+    "Get your hiking boots ready because we are about to traverse the wild, wonderful world of the CNCF Landscape. Why you ask? We currently have more than 230 projects, and finding information about them can be a challenge. \"Just go to the website\" isn't enough, sometimes you need a guide to show you the ropes.",
+    "In these introductory sessions we will go over some of the diverse set of projects inside the CNCF so that you're well equipped to find what you're looking for at KubeCon."
+   ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289969"
   },
@@ -1206,7 +1234,10 @@
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [],
-   "description": [],
+   "description": [
+    "Get your hiking boots ready because we are about to traverse the wild, wonderful world of the CNCF Landscape. Why you ask? We currently have more than 230 projects, and finding information about them can be a challenge. \"Just go to the website\" isn't enough, sometimes you need a guide to show you the ropes.",
+    "In these introductory sessions we will go over some of the diverse set of projects inside the CNCF so that you're well equipped to find what you're looking for at KubeCon."
+   ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289970"
   },
@@ -2759,6 +2790,27 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334784"
+  },
+  {
+   "id": "1378907",
+   "title": "Demo Theater: DO NOT Give AI Agents Credentials!",
+   "start": "2026-11-10T11:40:00",
+   "end": "2026-11-10T12:00:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
+   "speakers": [
+    "Christian Posta"
+   ],
+   "track": "Sponsor Demo Theater",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "How do you stop an AI agent from leaking API Keys, OAuth tokens, or secret credentials? \"\"Hey, here is my API key, can you do this for me\"\" an AI agent can easily ask another agent/API/MCP server. The answer is simple. Don't give them any credentials. So how do they do any meaningful work then? Inject the credentials on egress. In this quick session, we'll look at credential brokering for AI agents and how agent gateways can be used for this.",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1378907"
   },
   {
    "id": "1334785",
@@ -4413,13 +4465,20 @@
    ],
    "track": "Observability",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Distributed traces show how requests move across services, but they dont explain what happened on the network side. When latency, packet loss, routing changes, or unreachable hops affect an application, engineers still must leave their observability workflow and reason from separate network tools.",
     "This session shows how traceroute-style path measurements can be modelled as OpenTelemetry traces. By representing each hop with spans, timing metadata, reachability information, and network attributes, path behaviour becomes part of the same telemetry model used for application debugging.",
     "We will cover the trace model, span hierarchy, timestamp normalization, incomplete paths, unknown hops, and strategies for linking network-path traces with application traces for end-to-end correlation. Through a live demo, attendees will see network paths rendered as trace waterfalls and service maps, making it possible to connect application symptoms with the network behaviour behind them."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ipwaobu~B1NrjBHm4cpcFiiK9xqdeb.pdf~from-traceroute-to-otel-traces-kubecon-na-2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1243292"
   },
   {
@@ -5376,6 +5435,29 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1336586"
   },
   {
+   "id": "1378904",
+   "title": "Demo Theater: Ready or not, your hybrid AI stack is here",
+   "start": "2026-11-10T17:30:00",
+   "end": "2026-11-10T17:50:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
+   "speakers": [
+    "Saad Malik"
+   ],
+   "track": "Sponsor Demo Theater",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "As a platform team, you probably did not design a hybrid AI architecture to begin with. While you were busy migrating hundreds of VMs, the GPU budget landed – and now you are running VMs, Kubernetes fleets, and AI clusters, with the same headcount as before.",
+    "This is the state of enterprise AI right now. Inference workloads are landing on infrastructure that’s already mid-modernization, in data centers, at the edge and in air-gapped environments where public cloud isn’t an option.",
+    "In this session, we will walk through what breaks when AI gets bolted onto an estate in flux: duplicated tooling in every environment, policy that drifts between sites, GPUs sitting idle, and inference traffic nobody can see or govern. Then we will show what it looks like to treat VMs, Kubernetes, edge and GPU infrastructure as one lifecycle problem, with examples from teams who have done it.",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1378904"
+  },
+  {
    "id": "1289677",
    "title": "Authorized? It Depends.",
    "start": "2026-11-10T17:30:00",
@@ -5766,6 +5848,29 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289736"
+  },
+  {
+   "id": "1378905",
+   "title": "Demo Theater: One Terminal, The Entire Agentic SDLC",
+   "start": "2026-11-10T18:20:00",
+   "end": "2026-11-10T18:40:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
+   "speakers": [
+    "Talia Kohan"
+   ],
+   "track": "Sponsor Demo Theater",
+   "level": "",
+   "tags": [
+    "Sponsored"
+   ],
+   "description": [
+    "In this talk, we’ll work through that scenario as an agentic software development lifecycle. We’ll give an agent an API requirement and follow it through implementation, a collection, tests, CI, and monitoring, all in the terminal. You’ll see the agent use task-specific skills to carry out each step, inspect the results, and fix what fails.",
+    "Then we’ll change the requirement. Before editing the API, the agent will query a Context Graph to find affected callers and consumers beyond its local checkout. We’ll use those findings to decide what needs to change, update the implementation and its supporting tests and contracts, and check the results again. We’ll also show where an engineer needs to review the evidence and coordinate with the teams that own affected services.",
+    "You’ll leave with a real world use case of what an agentic SDLC requires across the whole API lifecycle: instructions that help an agent do the work, checks that expose failures, and enough context to catch consequences outside the repo before they become an incident.",
+    "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1378905"
   },
   {
    "id": "1371085",
@@ -6331,7 +6436,7 @@
    "end": "2026-11-11T11:20:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
-    "Shaha Azulay"
+    "Shahar Azulay"
    ],
    "track": "Sponsor Demo Theater",
    "level": "",
@@ -7334,8 +7439,8 @@
   {
    "id": "1362635",
    "title": "Demo Theater: Unifying Kubernetes and Datacenter Networking with Isovalent and Cisco Nexus One",
-   "start": "2026-11-11T12:39:00",
-   "end": "2026-11-11T12:59:00",
+   "start": "2026-11-11T12:40:00",
+   "end": "2026-11-11T13:00:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
     "Marco Hernandez"
@@ -7675,12 +7780,18 @@
    "track": "🪧 Poster Sessions",
    "level": "Any Level",
    "tags": [
-    "Application Development + Delivery"
+    "Application Development + Delivery",
+    "↓ Slides"
    ],
    "description": [
     "Multi-agent setups are easy to sketch on a whiteboard and painful to run on a cluster. If you've watched agents chase each other in circles or ship traces that stop at the model boundary, you already know why \"more agents\" isn't the hard part, but the operations are. Daniel Oh focuses on the boring-but-important layers such as isolation and scaling on Kubernetes, handoffs with CloudEvents, tracing/metrics with OpenTelemetry across model calls and tools, plain gRPC/HTTP between services, guardrails with OPA, SPIFFE/SPIRE where identity actually matters, and KEDA when work piles up asynchronously. Then we run a live Kubernetes demo using cloud-native microservices (Java/Quarkus-style) wiring multiple agents together end-to-end, with traces you can actually follow in Grafana or Jaeger. Walk away with a short implementation checklist, a handful of failure modes worth catching early, and a simple mental model for keeping multi-agent systems maintainable without bolting on bespoke glue."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iukpaiu~TEK4R4F1ejaAgX6eGgBq4t.jpg~daniel-oh_many-agents-one-platform-production-multi-agent-apps-on-k8s-with-cncf-building-blocks.jpg"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1230983"
   },
   {
@@ -7853,8 +7964,8 @@
    "end": "2026-11-11T14:15:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
-    "Tanya Bansal",
-    "Mickey Boxell"
+    "Mickey Boxell",
+    "Tanya Bansal"
    ],
    "track": "Sponsor Demo Theater",
    "level": "",
@@ -8379,14 +8490,20 @@
    "track": "⚡ Lightning Talks",
    "level": "Any Level",
    "tags": [
-    "Cloud Native Experience"
+    "Cloud Native Experience",
+    "↓ Slides"
    ],
    "description": [
     "Today, a multi-billion-dollar commercial market relies on a dangerously small and overburdened pool of contributors and maintainers. Maintainer burnout is the single greatest threat to OSS health and a direct risk to software supply chain security. Think etcd and ingress-nginx.",
     "One solution: attract and welcome the untapped talent that's been overlooked. That's the mission of Merge Forward, a CNCF community initiative home to seven diversity groups, from Women in Cloud Native to Neurodiversity to Deaf and Hard of Hearing. We build mentorship networks and community spaces for contributors from underrepresented backgrounds and the allies who champion them, helping close the gap between who uses open source and who builds it.",
     "Open source is only as resilient as the community behind it. Come find out how you can help."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/fyaoru~TDSufdHetP4aE7FoX463f2.pdf~open-source-human-deficit.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1233132"
   },
   {
@@ -8487,8 +8604,8 @@
    "end": "2026-11-11T15:05:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
-    "Jakub Suchy",
-    "Héléne Durand"
+    "Héléne Durand",
+    "Jakub Suchy"
    ],
    "track": "Sponsor Demo Theater",
    "level": "",
@@ -8950,14 +9067,20 @@
    "track": "Platform Engineering",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "We gave a bedrock assistant the keys to 30 EKS clusters and the AWS and GitLab control planes behind them. Read only by default, write capable with reviews. We did it without a vector store, without RAG, and without a 200K token prompt.",
     "This talk is the engineering behind that claim. We will walk through some of the techniques behind it. A typed tool catalog the model plans against, server side projection that turns 40 MB of DescribeInstances into 800 bytes of data, an iterative plan loop with a hard token budget, and a consent layer that makes kubectl apply and git push safe to expose to a language model.",
     "Engineers will leave with a concrete pattern for letting an LLM operate a real fleet. One that scales with your control plane instead of your embeddings bill, and that fails closed when it matters. Example source code is open source so everyone can start their own journey."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ikcarge~9Zve5HGU83MsuFpH7hfcMk.pdf~kubecon-no-rag-no-regrets.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1229970"
   },
   {
@@ -9650,12 +9773,18 @@
    "track": "🚨 Contribfest",
    "level": "",
    "tags": [
-    "Inspektor Gadget"
+    "Inspektor Gadget",
+    "↓ Slides"
    ],
    "description": [
     "eBPF gives deep, low-overhead visibility into Kubernetes and Linux, but writing, packaging, and sharing eBPF tools is still out of reach for most contributors. Inspektor Gadget, a CNCF project, changes that: it packages eBPF programs as portable OCI images called \"Gadgets\" that anyone can build, share, and run with `kubectl gadget`. Join the maintainers for a hands-on session that takes you from zero to your own published Gadget. We will walk through the Gadget architecture, set up your environment together, and help you write eBPF code that traces real kernel activity, enriched with Kubernetes context. You will build and publish your Gadget so the whole community can use it, then see the payoff: paired with Agent Skills, your Gadget lets an AI agent run `kubectl gadget` to debug a live cluster. Whether you want to write eBPF, work in Go, or improve docs, we will have curated issues and mentors to help. No prior eBPF experience needed."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/izfazcer~wXVcJUdADganX4u32HELhY.pdf~contribfest_zero-to-published-gadget_ebpf-for-everyone-with-inspektor-gadget.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294763"
   },
   {
@@ -9834,11 +9963,18 @@
    ],
    "track": "Observability",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Your GPU bill is rising, your models are serving billions of tokens but what does each token actually cost? GPUs suffer from the same problems as other k8s resources like CPU and RAM: teams size resource requests based on estimates and guesses of anticipated usage, then move on to the next project. Are those GPUs actually used in production? Come learn how OpenCost, a CNCF incubating project, is integrating with llm-d, a CNCF sandbox project, to address these questions and more.\nWe will show how llm-d integrated with OpenCost turns GPU, vLLM, and llm-d metrics into per-model and per-token cost visibility. We will introduce two essential views: reservation-based cost, and usage-based cost. Combining this with idle detection logic enables comparison of self-hosting with SaaS APIs, intelligent routing of LLM workloads, optimization, and fair AI chargeback across shared infrastructure. Attendees will leave with a practical way to bring financial accountability to AI platform decisions."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ijmawzew~PhAskxX2MwS8E9BzcYt64n.pdf~kubecon-na-2026-slides-nadler_meijer-ibm-formatted.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1243852"
   },
   {
@@ -9942,7 +10078,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ivcaodze~BkCrr6uowHNs2EJheNjbVh.pdf~from-zero-to-gpu-cloud.pdf"
+     "url": "https://sessionize.com/download/ircaoon~NFVmAsfST39GVymruu2C1e.pdf~from-zero-to-gpu-cloud.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1238395"
@@ -11841,13 +11977,20 @@
    ],
    "track": "Application Development + Delivery",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Kubernetes gave the industry a powerful model for infrastructure: versioned APIs, declarative resources, and clear compatibility rules. We turned to those same ideas after hitting the limits of bespoke APIs and service-specific backend logic in Grafana.",
     "This talk shares what changed when we applied those ideas to Grafana by modeling functionality using standard Kubernetes-style extension mechanisms, and, in doing so, evolved a system used by 25M+ people where existing workflows are heavily relied on. We'll show how we used custom resources and controller-based workflows where a resource model fit naturally, and custom routes or aggregated API servers where it did not.",
     "Using our 3-year journey to a stable dashboards v1 API as a case study, attendees will leave with a rubric for when these patterns are worth the investment, how to handle the parts of an application that do not fit neatly, and what this model unlocked for infrastructure-as-code workflows and new product capabilities."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/itsaghe~fL57dHPMcYUxnGr918zk5M.pdf~page-kubecon-not-just-for-infra-merged.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250303"
   },
   {
