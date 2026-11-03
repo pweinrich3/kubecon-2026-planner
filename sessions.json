@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-03T02:19:43Z",
+ "updated": "2026-11-03T11:56:00Z",
  "sessions": [
   {
    "id": "1304040",
@@ -4556,7 +4556,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ifcatos~huWVMjtwtQ6JLuGH2oabgn.pdf~the-sre-is-not-dead-for-employer-review.pptx-google-slides.pdf"
+     "url": "https://sessionize.com/download/ixdansem~3kzrWssu5xxerSXGZjjTLy.pdf~the-sre-is-not-dead-for-employer-review.pptx.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250770"
@@ -11945,8 +11945,8 @@
    "room": "Salt Palace | Level 2 | 255 A",
    "speakers": [
     "Andrew Block",
-    "George Jenkins",
-    "Scott Rigby"
+    "Scott Rigby",
+    "George Jenkins"
    ],
    "track": "🚨 Contribfest",
    "level": "",
