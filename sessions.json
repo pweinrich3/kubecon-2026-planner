@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-03T19:29:27Z",
+ "updated": "2026-11-04T00:36:47Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2956,11 +2956,18 @@
    ],
    "track": "Security",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Confidential computing can verify a Kubernetes workload launched with expected measurements, but it cannot verify the entire sharing topology beneath it. Kubernetes still shares control planes, schedulers, kernels, image layers, nodes, devices, caches, buses, and roots of trust across tenants.\nThis talk builds a Kubernetes-specific threat model for confidential workloads: where attestation helps, where it stops, and which risks are patchable bugs versus structural consequences of sharing. Attendees learn a practical three-tier isolation model: shared namespaces and nodes; per-tenant control planes with dedicated node pools; and dedicated clusters per tenant.\nThe goal isn't to argue that Kubernetes is the wrong platform for confidential computing. It's to help platform and security teams ask the right questions before calling a deployment confidential: who is shared with whom, what is actually verified, and which gaps require topology changes rather than more cryptography."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/zcakzeq~X6tW9ZxNxpwdNRheZbBS1j.pdf~kc-na-26.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250838"
   },
   {
@@ -3105,13 +3112,19 @@
    "track": "Operations + Performance",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Kubernetes scales until it has to synchronize. Every write serializes through one ordered log, and every read funnels through lock-guarded caches: the apiserver's watch cache, and the informer caches inside every controller. Make the cluster busy enough (ceiling: ~10-16k mutations/s) and synchronization becomes the limit: caches lag, watchers get 410 Gone, and controllers reconcile against a world that no longer exists.",
     "This talk is how Anthropic has improved Kubernetes stability by augmenting the control plane: in-cluster read replicas that take LIST and WATCH traffic off the apiserver, and controllers designed to stay functional at high mutation rates. The war story: the same innocuous LIST shape pushed a cluster of tens of thousands of nodes into an apiserver doom spiral twice in two weeks, from two different callers; only a read replica really fixes it. Along the way: what a stock controller does when its informer cache goes stale, and the data structures that avoid the trap."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ipcaxtep~WnRxBpGVL9Geck4gJDe9aP.pdf~surviving-the-churn.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249997"
   },
   {
@@ -4581,13 +4594,20 @@
    ],
    "track": "Platform Engineering",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Multi-cluster Kubernetes solves a real platform problem. It also breaks every developer workflow that used to work. Adopt mulit-cluster frameworks for fleet resilience, and overnight kubectl stops behaving: kubectl get pods sees one cluster, kubectl scale gets reverted because the hub template is the source of truth, and finding a single pod takes a four-command discovery dance.",
     "We built a thin reverse proxy that gives the single-cluster experience back. To the developer, the fleet looks like one cluster. Every kubectl verb just works — including kubectl edit deployment against the hub template. Underneath, the proxy translates writes into hub-side edits with optimistic concurrency, fans reads out in parallel, and stamps every result with the cluster it came from.",
     "This talk walks the design, the surprising parts (kubectl edit works), the honest hard parts (multi-cluster WATCH, LIST pagination, partial failure), and which parts port to other multi-cluster solutions."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/cucgaw~WkB97h61Wu9qDVkkcwhbXj.pdf~n-clusters-one-kubectl_-multi-cluster-that-just-works_annelau_scottbrimhall.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247848"
   },
   {
@@ -7714,14 +7734,20 @@
    "track": "🪧 Poster Sessions",
    "level": "Beginner",
    "tags": [
-    "Application Development + Delivery"
+    "Application Development + Delivery",
+    "↓ Slides"
    ],
    "description": [
     "Open-source projects increasingly face contributions from AI. The challenge is not productivity; it is validity. How do maintainers trust that AI-generated PRs solve the problem it claims to? Standard review catches syntax and style, but agent code introduces new failure modes: confident incorrectness, fabricated claims, and broken implementations that appear structurally sound.",
     "We present a methodology for AI contributions grounded in structured experimentation, with examples from llm-d, a CNCF sandbox project. Agents contribute via hypothesis-driven workflows with built-in evidence, while project invariants become machine-checkable contracts. On the review side, convergence protocols run independent perspectives in parallel and trust-tier classification tells maintainers which outputs to verify, catching bugs standard review misses.",
     "Attendees leave with patterns for structuring experiments, codifying invariants, and reviewing agent work with calibrated trust for any CNCF project."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iqsarzeu~aPmyNwvxDnneSr5Szhg3mV.jpg~kubecon-poster-short.jpg"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1245933"
   },
   {
@@ -7757,7 +7783,8 @@
    "track": "🪧 Poster Sessions",
    "level": "Any Level",
    "tags": [
-    "Operations + Performance"
+    "Operations + Performance",
+    "↓ Slides"
    ],
    "description": [
     "Large language models fit naturally into Kubernetes demos. Operating them reliably is a different problem.",
@@ -7765,7 +7792,12 @@
     "This poster examines the assumptions GitOps and Kubernetes tooling quietly depend on that AI inference workloads break: artifacts are small enough for standard operations, pods start fast enough for default probes, sync completion implies readiness, infrastructure state is disposable between deploys, and dependencies are visible and explicit.",
     "Drawing from operating multi-cluster AI inference infrastructure across multiple environments, this poster presents deployment lifecycle diagrams, failure-mode taxonomies, and practical operational patterns for improving AI infrastructure reliability."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/cifyanbe~SRSKGMMBXk7YFMr9sUAuev.jpg~kimschaeferkubecon2026poster.jpg"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1241128"
   },
   {
@@ -8545,7 +8577,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iqwatneu~4Np2tq9er2qiM2idPcMSCv.pdf~kubecon-na-2026-topograph.pdf"
+     "url": "https://sessionize.com/download/dgahmek~HgNn7CT41cS8qvvsm3bwfq.pdf~kubecon-na-2026-topograph.pdf"
     },
     {
      "label": "GitHub Repository",
@@ -8971,26 +9003,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247283"
-  },
-  {
-   "id": "1250194",
-   "title": "IDPs Are Becoming Control Planes: A Decision Framework for Cloud-Native Platforms",
-   "start": "2026-11-11T15:10:00",
-   "end": "2026-11-11T15:40:00",
-   "room": "Salt Palace | Level 2 | 255 EF",
-   "speakers": [
-    "Hossein Salahi"
-   ],
-   "track": "Platform Engineering",
-   "level": "Advanced",
-   "tags": [],
-   "description": [
-    "Internal Developer Platforms started as portals, golden paths, templates, and self-service workflows. In cloud-native environments, many are now becoming platform control planes with APIs, reconciliation loops, policy boundaries, and multiple consumers: humans, pipelines, CLIs, automation, and AI agents.",
-    "This session maps the IDP landscape using four axes: API surface, primary consumer, policy focus, and reconciliation model. We compare portal-first, GitOps-first, control-plane-first, promise/workflow-based, distribution-based, application abstraction, and agent-facing models.",
-    "The focus is on architecture diagrams, API boundaries, and reconciliation flows: where requests enter, where policy is enforced, and where ownership changes hands. Attendees leave with a practical framework for choosing or composing IDP architectures without adding accidental complexity."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250194"
   },
   {
    "id": "1250470",
@@ -9535,13 +9547,20 @@
    ],
    "track": "Emerging + Advanced",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "This session presents a production architecture orchestrating 252 GPUs across 21 multi-GPU nodes on Kubernetes to fine-tune a domain-specific Vision Language Model on 50–80 TB of multilingual document data.",
     "We cover: (1) Topology-aware scheduling — co-locating pods on NVSwitch-connected nodes and gang-scheduling with Volcano for all-or-nothing job placement. (2) High-bandwidth networking — configuring RDMA interfaces as secondary networks via Multus CNI and tuning NCCL for optimal cross-node all-reduce. (3) Data pipeline — streaming tens of terabytes through OCR, enrichment, and tokenization using parallel Kubernetes jobs. (4) Failure recovery — checkpoint-resume strategies, health-check sidecars for silent GPU errors, and automatic restart logic.",
     "Attendees planning GPU-intensive training on Kubernetes will leave with a practical blueprint covering scheduling, networking, storage, and failure handling patterns."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ijbapmec~MT7RF7joVERK39kFCzxk9S.pdf~kubecon-vlm-kubernetes-v12.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249812"
   },
   {
@@ -10184,12 +10203,18 @@
    "track": "Platform Engineering",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "At Ford, we manage a large-scale Kubernetes platform across hundreds of clusters using GitOps. We use Kustomize with an automated templating and scaffolding system — an advanced alternative to Helm that generates per-cluster overlays from declarative configs. Moving quickly at this scale requires CI that acts as an unbreakable safety net. Our Tekton-based pipeline validates every pull request end-to-end — building overlays, catching template drift, and running semantic validation beyond syntax checking. Between our team, community contributions, AI-generated code, and automated dependency PRs, this safety net is more critical than ever. Automation and AI produce plausible YAML that violates platform conventions or introduces drift no human reviewer would catch. Attendees will leave with a repeatable model for safety-net CI any platform team can adopt — regardless of tooling, cluster count, or org size — plus the lessons so you can skip the mistakes we made."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/rwavlep~sBESVghGRZHy2UtzJyXCyp.pdf~robust-ci-as-a-safety-net_-moving-fast-at-scale-with-ai-generated-gitops.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247455"
   },
   {
@@ -11416,12 +11441,18 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Rook"
+    "Rook",
+    "↓ Slides"
    ],
    "description": [
     "The Rook project will be introduced to attendees of all levels and experience. Rook is an open source cloud-native storage operator for Kubernetes, providing the platform, framework, and support for Ceph to natively integrate with Kubernetes. The panel will discuss various scenarios to show how Rook configures Ceph to provide stable block, shared file system, and object storage for your production data. Rook was accepted as a graduated project by the Cloud Native Computing Foundation in October 2020."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iwtawseu~YQqwYfYVdmDXr1TjfA2ZGE.pdf~kubecon-2026-slc-rook-intro-and-deep-dive.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289717"
   },
   {
@@ -11501,10 +11532,10 @@
    "room": "Salt Palace | Level 1 | Grand Ballroom H",
    "speakers": [
     "Wojciech Tyczyński",
-    "Robert Nishihara",
     "Ricardo Rocha",
     "Kaslin Fields",
-    "Decheng Dai"
+    "Decheng Dai",
+    "Jui-An Huang"
    ],
    "track": "AI Inference + Agentic",
    "level": "Any Level",
@@ -12298,7 +12329,9 @@
    ],
    "track": "Data Processing + Storage",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Distributed coordination — locks, leader election, barriers — sounds solved. But “usually works” and “correct by design” are very different things.",
     "This talk shares lessons from building distributed coordination primitives on etcd. A common failure mode: a process acquires a lock, gets paused by GC or a network partition, then resumes still believing it owns the resource. Without fencing, zombie clients can corrupt shared state.",
@@ -12306,7 +12339,12 @@
     "We then zoom out from locks to coordination as a broader discipline. An extensible provider model — etcd today, ZooKeeper and Redis later — lets one abstraction support different stacks.",
     "Live demos cover zombie scenarios over HTTP and gRPC. Attendees leave with a framework for reasoning about correctness in distributed coordination systems."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/nkatgei~B2VH8fv9fDs8AJGhP3sq4F.pdf~fencing-tokens-and-the-three-party-contract_-what-most-distributed-locks-get-wrong-v2.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247294"
   },
   {
@@ -12754,13 +12792,20 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Beginner",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Improving LLM serving platforms like llm-d, a CNCF Sandbox project for Kubernetes-native distributed LLM inference, requires testing choices across routing, admission control, flow management, and scheduling. But GPU-cluster experiments take days and cost thousands of dollars, leaving promising strategies unexplored.",
     "We present an AI-assisted evolution loop for inference serving: simulate, evolve, validate, ship. It uses a CPU-based simulator to evaluate serving policies against SLO-oriented objectives, searches over variants offline, validates candidates on real GPU clusters, and translates winners into production-ready llm-d code.",
     "We ground this talk in three llm-d contributions: a probabilistic admission controller that reduced p90 TTFT by 97% under load, a flow-control mechanism, and a prefill-decode disaggregation strategy. Attendees learn to turn exploratory ideas into testable hypotheses, evaluate SLO behavior before spending GPU time, and apply this to any LLM serving stack"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/imyaygek~wvW1TdSGCGrLdpEnRZBkTF.pdf~simulate-evolve-validate-ship_-ai-discovered-algorithms-for-llm-serving-stacks.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1245937"
   },
   {
