@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-04T12:08:52Z",
+ "updated": "2026-11-04T19:45:19Z",
  "sessions": [
   {
    "id": "1304040",
@@ -1585,7 +1585,7 @@
    "end": "2026-11-09T15:43:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "Jussi Nummelin"
+    "Prithvi Raj"
    ],
    "track": "Project Lightning Talks",
    "level": "",
@@ -2431,13 +2431,20 @@
    ],
    "track": "Platform Engineering",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Every cloud ships its own GPU taints, network plugin, storage class, and \"don't forget this annotation\" footgun. Most platform teams respond by forking their config per provider; and then nobody can answer \"what driver version is actually deployed to prod in GKE?\" without running Helm or kubectl against a live cluster.",
     "In this talk, we'll show a criteria-driven recipe model (service × accelerator × OS × intent × platform) that generates Helm bundles for EKS, GKE, AKS, OCI, and CoreWeave from one library and a jq-style selector grammar that queries the hydrated result like a database. Live: three commands, three providers, one diff exposing exactly what's portable. Then one-line command answers the same question across every environment without touching a cluster.",
     "Attendees leave with a pattern for cross-cloud GPU configuration that auditors, FinOps, and SRE can actually inspect: no per-cloud forks, no write-only GitOps repos."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iupobxa~SBYujWLypzFvtjRgY42x6S.pdf~aicr-kubecon-na-2026-slides-1-29.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246765"
   },
   {
@@ -2499,12 +2506,18 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Network"
+    "Network",
+    "↓ Slides"
    ],
    "description": [
     "SIG Network is responsible for networking for Kubernetes clusters, and there's never a shortage of interesting problems to solve in this space. In this session we'll provide some updates about SIG Network as a whole, including: status and progress of core networking components; status and progress of sub-projects; considerations for the future. If you're interested in hearing about what's going on in the networking space, or maybe even interested in joining the SIG and finding a place to contribute, please join us!"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/gxafqep~hBfKkTmzZqvaYzMk4MsN9e.pdf~sig_network_intro_and_updates_kubecon_na_2026.pptx.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289730"
   },
   {
@@ -2675,13 +2688,20 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Everyone is building AI agents. Almost no one is thinking about the infrastructure layer underneath them.",
     "This talk reframes AI agents as cloud native workloads and shows how to build a production-grade multi-agent platform on Kubernetes. Topics covered: modeling agents as K8s custom resources, durable execution and retry semantics with Dapr, event-driven inter-agent messaging with NATS, and end-to-end observability using OpenTelemetry traces across agent hops.",
     "We go beyond LangGraph demos to tackle the hard problems: failure recovery, agent scheduling, concurrency limits, and audit logging — the same concerns we solved for microservices, now applied to agents."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ifyasseo~H5DCzp1pPcGGvWXTbxRpq3.pptx~your_agent_needs_a_platform_kubecon_na_2026.pptx"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1233585"
   },
   {
@@ -2845,6 +2865,26 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334785"
+  },
+  {
+   "id": "1334787",
+   "title": "Supply Chain, Runtime and SDLC: A Cloud Native Security Overview",
+   "start": "2026-11-10T12:02:00",
+   "end": "2026-11-10T12:14:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone",
+   "speakers": [
+    "Dr. Constanze Roedig"
+   ],
+   "track": "Cloud Native Theater",
+   "level": "",
+   "tags": [
+    "Cloud Native University"
+   ],
+   "description": [
+    "Security is often overwhelming, this talk provides an overview of what problems are which (Supply Chain of the Software itself, CICD and gitops, Runtime protection and detection).\nI present the concepts commonly referred to (attestations, signatures, SBOM, Rules, Policies, Identity, Secrets, Isolation and Encryption) and highlight in the CNCF landscape, which projects cover the different aspects.\nI will also discuss how AI agents and zero-days are shifting the exposure in 2026 versus what best-practises still hold."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334787"
   },
   {
    "id": "1361493",
@@ -3015,13 +3055,20 @@
    ],
    "track": "Connectivity",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Konnectivity (apiserver-network-proxy) requires a gRPC connection from agent to server. To protect sensitive workloads from data exfiltration, the speaker's org runs Kubernetes nodes in cloud VPCs with zero egress – no NAT Gateway, no route to the API server – making Konnectivity unusable.",
     "This talk presents a fork that replaces the gRPC link with cloud object storage, accessed via private endpoints, as a rendezvous medium. The speaker walks through cluster network design and bucket transport architecture; how kubectl exec and kubectl logs sessions are multiplexed as sequenced bucket objects; and how proxy-server and proxy-agent coordinate ordered, reliable delivery without a persistent connection.",
     "Object storage introduces hard tradeoffs in latency, cost, and cluster networking. The talk covers design choices made to reduce cloud costs at scale and achieve sub-second interactive latency over a store-and-forward medium. Includes a live demo with zero-egress worker VMs."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iwlafdeu~ag3sFDMbwUYGYrMuSTEeBG.pdf~kubeconna26.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1241594"
   },
   {
@@ -3841,14 +3888,28 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Metal3.io"
+    "Metal3.io",
+    "↓ Slides"
    ],
    "description": [
     "AI-powered vulnerability discovery is here, and in 2026 it is no longer just a noise generator. These pipelines can uncover real 0-days, but a plausible finding is only the start. Maintainers must still verify the claims and determine their actual impact.",
     "As Metal3's Security Lead, I am the primary analyzer and coordinator for incoming vulnerability reports. I've also built an AI vulnerability discovery pipeline, giving me insight into both sides of the process. Bare-metal provisioning is a useful case study: modern cloud-native architecture meets legacy drivers, deprecated protocols and external integrations. Vulnerabilities are rarely proven by a simple automated crash.",
     "We examine what these pipelines can produce, where their reports fall short and what maintainers look for during triage. Users will see the work behind a security response, while researchers and contributors will learn what turns pipeline output into an actionable report."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/hwaqger~QMi3oJ5LbUSS1NXxx3K9ni.pdf~ai-found-a-zero-day-in-metal3.pdf"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/metal3-io"
+    },
+    {
+     "label": "Website",
+     "url": "https://metal3.io"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289633"
   },
   {
@@ -5511,8 +5572,8 @@
     "Rita Zhang",
     "David Eads",
     "Micah Hausler",
-    "Peter Engelbert",
-    "Ben Petersen"
+    "Ben Petersen",
+    "Stanislav Láznička"
    ],
    "track": "Maintainer Track",
    "level": "",
@@ -5786,14 +5847,20 @@
    "track": "AI Inference + Agentic",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "As organizations race to integrate long-running AI agents into their platform engineering and continuous integration (CI/CD) pipelines, they open a new frontier of security vulnerabilities: identity leakage. What happens when an autonomous AI agent is given elevated API privileges and the patience to bypass human latency?",
     "This presentation dissects a real-world production incident where an autonomous coding agent bypassed branch protection rules and executed unauthorized force-merges directly into protected branches.",
     "Attendees will walk away with concrete architectures for securing AI platform integrations, establishing absolute identity isolation, and enforcing the principle of least privilege for autonomous internal tools."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ltahxeu~EtBNxPUkuyDnuPWK3QdZC6.pdf~kubecon-us-2026-when-the-agent-lost-its-patience.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1244695"
   },
   {
@@ -8846,7 +8913,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/idsarqex~YXtAbSx4hWDzwMH4fHy41q.pdf~dashboards-as-code.pdf"
+     "url": "https://sessionize.com/download/qmahcex~JxYgLXZ4RwGFFTBSy64ha1.pdf~dashboards-as-code.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250299"
@@ -8999,12 +9066,19 @@
    ],
    "track": "Emerging + Advanced",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "GPUs are now a critical resource in Kubernetes clusters, yet observing what is happening on them remains a black box. eBPF, already the go-to technology for system-level observability, can be extended to observe GPU workloads, providing production grade visibility without modifying application code.",
     "In this talk, we will show you how to get started writing eBPF programs that observe GPU activity. We will walk through how to hook into GPU interfaces, enrich data with Kubernetes context (pods, containers, namespaces), and extract meaningful metrics. Then we’ll cover how to package your eBPF programs as OCI images for easy distribution and deployment across clusters. Finally, we’ll demonstrate how to pipe GPU telemetry into Prometheus and OpenTelemetry so it integrates seamlessly with your existing observability stack. Along the way, we will share guidelines and lessons learned from building GPU observability programs, so you can avoid common pitfalls and hit the ground running."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ciygatu~97W16eqkYi2FLbkK2VKkye.pdf~gpu-observability-with-ebpf_from-kernel-hooks-to-kuberntes-metrics.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1244576"
   },
   {
@@ -9500,13 +9574,20 @@
    ],
    "track": "Operations + Performance",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "There are two kinds of autoscaling configurations: the ones that make for a great demo, and the ones that survive production. This session shares lessons from autoscaling strategies proven across thousands of production Kubernetes clusters.",
     "Drawing from a broad KEDA user base, the session covers practical patterns for fine-tuning autoscaling behavior while improving resiliency: combining signals, avoiding noisy or overly reactive scaling decisions, and reducing the load autoscaling queries place on centralized monitoring systems through metric caching with OpenTelemetry.",
     "In complex microservice architectures, autoscaling often spans multiple applications and infrastructure layers that must react in coordination. This session will discuss chained scaling patterns and practical ways to reduce delays between dependent scaling decisions, so teams can keep reliability and infrastructure costs predictable in production."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/jlambev~wiAJ5Hq4ETgEF8BE9UFqaM.pdf~kubecon-slc-2026-slides.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249409"
   },
   {
@@ -9622,7 +9703,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ijbapmec~MT7RF7joVERK39kFCzxk9S.pdf~kubecon-vlm-kubernetes-v12.pdf"
+     "url": "https://sessionize.com/download/ixlagqeb~Ln9FuKtSq5meqnZzqY9bJe.pptx~kubecon-vlm-kubernetes-v13.pptx"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249812"
@@ -10609,8 +10690,8 @@
   {
    "id": "1293369",
    "title": "Agentic AI, Assembled in the Open",
-   "start": "2026-11-12T10:10:00",
-   "end": "2026-11-12T10:15:00",
+   "start": "2026-11-12T10:03:00",
+   "end": "2026-11-12T10:08:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Jorge Palma"
@@ -10625,6 +10706,25 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1293369"
+  },
+  {
+   "id": "1294245",
+   "title": "Cloud Native Without Limits: What Can AI Agents Do for Us?",
+   "start": "2026-11-12T10:10:00",
+   "end": "2026-11-12T10:20:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [
+    "Lin Sun"
+   ],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [],
+   "description": [
+    "In Amsterdam, we explored what cloud native could do with AI agents, MCP, and a drone controlled through natural language. Now it's time for Drone 2.\nWhat happens when AI agents become a natural part of the cloud native ecosystem? Imagine agents that can debug production issues, analyze token spending, automate routine operations, and even make us laugh, all while interacting with Kubernetes, cloud native tools, and MCP servers through natural language, with humans firmly in control.",
+    "This keynote explores what's possible when AI agents become trusted collaborators in cloud native. Through live demonstrations with Drone 2, we'll show how natural language and AI agents can transform the way we build, operate, and experience cloud native systems, pushing the boundaries of what's possible while keeping humans in control."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294245"
   },
   {
    "id": "1373668",
@@ -10643,28 +10743,9 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373668"
   },
   {
-   "id": "1294245",
-   "title": "Cloud Native Without Limits: What Can AI Agents Do for Us?",
-   "start": "2026-11-12T10:17:00",
-   "end": "2026-11-12T10:27:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [
-    "Lin Sun"
-   ],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [],
-   "description": [
-    "In Amsterdam, we explored what cloud native could do with AI agents, MCP, and a drone controlled through natural language. Now it's time for Drone 2.\nWhat happens when AI agents become a natural part of the cloud native ecosystem? Imagine agents that can debug production issues, analyze token spending, automate routine operations, and even make us laugh, all while interacting with Kubernetes, cloud native tools, and MCP servers through natural language, with humans firmly in control.",
-    "This keynote explores what's possible when AI agents become trusted collaborators in cloud native. Through live demonstrations with Drone 2, we'll show how natural language and AI agents can transform the way we build, operate, and experience cloud native systems, pushing the boundaries of what's possible while keeping humans in control."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294245"
-  },
-  {
    "id": "1302806",
    "title": "Closing Remarks",
-   "start": "2026-11-12T10:29:00",
+   "start": "2026-11-12T10:22:00",
    "end": "2026-11-12T10:30:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [],
@@ -11918,7 +11999,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ljabqeh~fQp2HVVcyaBJJhYMhgYCQs.pdf~anthropics-kubernetes-scheduler-for-frontier-ai-what-worked-what-broke-4.pdf"
+     "url": "https://sessionize.com/download/icbawzey~gDjxfSyCG74A7fJMThqRj.pdf~anthropics-kubernetes-scheduler-for-frontier-ai-what-worked-what-broke-5.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1228453"
@@ -12320,7 +12401,8 @@
    "track": "AI Inference + Agentic",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Uber’s AI/ML Platform Team is relying on Cadence as part of their new Agent Executor Service, facilitating durable agentic workflow orchestration at scale.\nLarge Language Models (LLMs) have evolved from simple text prediction to autonomous agents capable of orchestrating complex tools. However, a critical gap exists in the current ecosystem: durable orchestration. Most agent SDKs are stateless by design, making them fragile in production environments where network partitions, long-running tasks, and system failures are inevitable.",
@@ -12328,7 +12410,12 @@
     "We will provide a technical deep dive into integrating Cadence with popular frameworks like OpenAI, Google ADK, and Claude. We will also show how Cadence fits into the broader AI ecosystem, including Cadence AI Skills and AI-native coding tools like Claude Code, Cursor, Codex, and Hermes Agent, so developers can write their first Cadence-aware agent workflow in minutes.",
     "Attendees will walk away with a blueprint for durable agent orchestration: implementing automatic checkpointing and retries, recovering from failures instead of restarting, and ensuring their AI agents are as reliable as their microservices."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/wfacgec~WKMZiGG35nEE6pfvDRrwPN.pptx~agents-fail.-workflows-recover.-durable-agent-orchestration-with-cadence.pptx"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1238002"
   },
   {
@@ -12354,7 +12441,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/isgaubte~J1RCyuy97ShpYW8gpfRAQu.pdf~dropping-llm-inference-cost-by-two-thirds.pdf"
+     "url": "https://sessionize.com/download/kmajhey~3EByMvZRCRe8VgXj2rthZK.pdf~dropping-llm-inference-cost-by-two-thirds.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249410"
@@ -12443,12 +12530,18 @@
    "track": "AI Inference + Agentic",
    "level": "Beginner",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "AI is moving into the operating core of communication networks: control loops, spectrum allocation, network slicing with QoS, and customer-issue automation, under regulatory watch on life-critical systems. Opaque models and unreproducible outputs do not meet regulatory legal bar. This session presents a deterministic governance pattern for AI-RAN, drawn from work with the FCC. We separate AI-for-Networks (internal optimization) from Networks-for-AI (multi-tenant hosting), and show how one hybrid-cloud platform carries both. The core is a five-stage pipeline: intent, retrieval, rule-bounded reasoning, synthesis, citation-validated output. Every output is reproducible and audit-traceable.\nWe map it onto a six-layer governance model using OPA or Kyverno for policy, OpenTelemetry and Kepler for energy telemetry, and GitOps for model, rule, and corpus lifecycle. We close with a maturity model and a measurement checklist that separates real AI-RAN energy savings from selective accounting."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ibmaywec~VdQgcsbZUhf7M4VKu5x2hv.pdf~kubeconna-from-black-box-to-auditable-ai-grid.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1237843"
   },
   {
@@ -12646,7 +12739,8 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Metal3.io"
+    "Metal3.io",
+    "↓ Slides"
    ],
    "description": [
     "As Bare Metal kubernetes adoption grows within the CNCF ecosystem, projects such as Metal³ play a critical role in reliable, production-grade infrastructure. Core components including IPAM, CAPM3, Bare Metal Operator (BMO) and Ironic Standalone Operator (IRSO) must operate correctly across a wide range of real-world conditions.",
@@ -12654,7 +12748,12 @@
     "We will discuss how fuzzing can be integrated into CNCF style development workflows, corpus management aligned with upstream contribution practices. We highlight issues uncovered in IPAM, CAPM3, BMO and IRSO.",
     "Attendees will gain actionable guidance on adopting fuzzing within their own cloud-native projects and insight into how proactive testing strategies can strengthen the reliability and security of Bare Metal Kubernetes infrastructure."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ifqatfez~hCMud1MzCSgBnQbCkHcapK.pdf~kubecon-presentation.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289733"
   },
   {
@@ -12933,12 +13032,18 @@
    "track": "Application Development + Delivery",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "As Cloudera Data Warehouse (CDW) workloads were adopted at scale in public and private cloud environments, our monolithic, stateful architecture hit a wall. Managing 40-minute provisioning cycles with a single-server executor meant that infrastructure instability often resulted in stalled workloads and inconsistent states. This session provides a technical deep dive into our migration to Cadence. We’ll discuss the development of the Lease API for distributed locking and how we utilized an intermediary Async Executor to transition to Cadence’s workflow/activity model without a complete rewrite.\nThe scope of this talk is narrowed to the practical implementation of fault tolerance: how we refactored long-running tasks to be fault tolerant with the help of Cadence. We will present a real-world case study where a severe memory leak and subsequent node rescheduling – which would have previously caused service disruptions – resulted in zero downtime for user workloads."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ijjajreq~axZfFuAzHKW8UWbiPAuCgv.pdf~splitting-the-monolith-at-cloudera-building-fault-tolerant-workflows-with-cadence.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247100"
   },
   {
