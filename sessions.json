@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-04T00:36:47Z",
+ "updated": "2026-11-04T12:08:52Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2542,7 +2542,8 @@
    "track": "Cloud Native Experience",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "When a previous supplier dropped support for Colorado in the spring of 2024, the Cybersecurity Center at Metropolitan State University of Denver needed to build a replacement quickly.",
@@ -2550,7 +2551,12 @@
     "The core SOC runs on OpenSearch with Fluent Bit and Suricata, where student security analysts investigate real threats from live data. Student developers maintain the platform infrastructure itself, contributing to GitOps workflows and operations. Both groups gain hands-on experience with CNCF projects used in production worldwide.",
     "This talk covers architecture decisions, the VM-to-Kubernetes migration, how we built a community around students and underserved organizations, and the mistakes made along the way."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/cilfaqce~DqgEynm7yGwrNiNFUbvGpX.pdf~securing-rural-colorado-kubecon-na-2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1202489"
   },
   {
@@ -2565,7 +2571,8 @@
    "track": "Platform Engineering",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Everyone wants a fancy internal developer platform with all the bells and whistles. Most companies already have one. They just haven't productized it yet. The tooling needs some love.",
@@ -2573,7 +2580,12 @@
     "You're not building from zero. The harder job is taking what you already have, slapping a fresh coat of paint on it, and turning it into an intentional product with happy users and golden paths people want to follow!",
     "This talk is about that shift. From scattered, fragmented tooling to a platform teams prefer to use over the old way. How to scope your first problem, why success criteria and platform principles need to come before code, and how to measure if any of this is worth the hassle."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/idhainge~N6jHKFg7jBJtNRqD9ACbLA.pdf~so-you-want-to-build-a-platform_-10.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249749"
   },
   {
@@ -4114,7 +4126,8 @@
    "track": "Observability",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "When off-the-shelf solutions stop scaling, you build your own or break trying.",
@@ -4122,7 +4135,12 @@
     "This talk walks through the full tracing journey at Nubank, from instrumentation strategy to a production-grade pipeline operating at petabyte scale. We'll cover how the OpenTelemetry Collector serves as our ingestion backbone, the architectural decisions that made the system resilient, the failure modes we didn't anticipate, and the hard-learned trade-offs behind blending open-source tooling with purpose-built internal components.",
     "You'll leave with a realistic picture of what it takes to run distributed tracing at scale."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/cbapxeod~MvuVzKGoBKpZXwEKHsJ5oo.pdf~tracing-at-scale.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1239823"
   },
   {
@@ -5112,7 +5130,8 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Lima"
+    "Lima",
+    "↓ Slides"
    ],
    "description": [
     "Lima (Linux Machines) was originally designed in 2021 as \"\"Linux-on-Mac\"\" for running containers.\nLater it was redesigned to support non-Mac host operating systems and non-container workloads.\nIn 2026, it even gained support for non-Linux guest operating systems, including macOS and Windows.",
@@ -5124,7 +5143,12 @@
     "v2.3 (planned):\n– Windows-native VM driver",
     "Project website: https://lima-vm.io/"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/msazbek~aNiTd939jnGRwaELKKGidZ.pdf~lima-20261104.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289645"
   },
   {
@@ -5783,7 +5807,9 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Beginner",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Eventually, every AI platform team asks: Why did my inference bill just explode?",
     "Avoid being caught off guard by using KServe and Kubernetes Gateway API for AI traffic control.",
@@ -5791,7 +5817,12 @@
     "Beyond standard model consumption features, you can add token-based rate limiting, policy enforcement for guardrails, inference traffic observability, and resilient routing strategies tailored to AI workloads. This session will demo how to solve challenges such as cost control, security, operational visibility, and model failover.",
     "Leave this session with an understanding of how KServe + Gateway API–based AI gateways together support scalable, governable, and resilient AI platforms."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iwnawxex~fLSHSViH1wANthjRadg68k.pdf~ai-traffic-control-with-kserve-and-gateway-api-inference-extensions.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248185"
   },
   {
@@ -6688,14 +6719,20 @@
    "track": "AI Inference + Agentic",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "LLM inference routing is a cloud-native systems problem: traffic must be steered across Kubernetes clusters, accelerator-backed serving engines, capacity limits, and geography cost while keeping the request path fast and observable.",
     "This session presents a generalized Inference Load Balancer (ILB) proxy/controller architecture for production model serving. A low-latency proxy applies routing weights and request-path signals, while a Kubernetes-operated controller computes and distributes source-cluster-to-engine weights from recent demand, engine capacity/performance profiles, replica state, and geography cost.",
     "We will cover the proxy/controller split, policy distribution, multi-cluster operation, load shedding, policy observability, and debugging patterns for adaptive inference routing. Attendees will leave with reusable Kubernetes patterns, not OpenAI-specific internals, product claims, or non-public metrics."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iktalvex~JTv6E3PJULtNU8wchJC79G.pdf~qianru-lu-kubecon-2026-working-draft-light-mode.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1244501"
   },
   {
@@ -8154,12 +8191,19 @@
    ],
    "track": "Operations + Performance",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "etcd stores every object update as a full copy. Not a diff – the entire object, every time. A 15KB pod patched once per second generates 15KB/s of etcd writes that compaction can't keep up with. When the database hits its quota, the cluster goes read-only. No new pods. No scaling. No deletes. You can't even clean up because deletion is a write operation.",
     "This isn't theoretical. It's a documented property of etcd's MVCC model that surfaces predictably at scale – usually at 2 AM when a misbehaving controller has been patching status fields for hours. We'll break a cluster live on stage (kind with a small quota), show exactly how the failure cascades, walk through the non-obvious recovery sequence, and then build the guardrails that prevent it: admission policies that cap annotation size, Prometheus alerts on revision growth rate, and architectural patterns that move high-churn metadata out of the critical path."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/oblayte~Lzgrhx3XQS2f9LpcprNwZW.pdf~death_by_a_thousand_patches_kubecon_2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250567"
   },
   {
@@ -8793,12 +8837,18 @@
    "track": "⚡ Lightning Talks",
    "level": "Beginner",
    "tags": [
-    "Observability"
+    "Observability",
+    "↓ Slides"
    ],
    "description": [
     "Dashboards-as-code has made shipping observability almost trivial: label a ConfigMap, let the Grafana sidecar load it, or generate dozens of dashboards from a short script and review them like any other pull request. But a dashboard that deploys cleanly isn't necessarily telling the truth. This 5-minute lightning talk covers three ways ours didn't: label joins that quietly come back empty, duplicate series that double-count after an exporter restart, and dashboard JSON that Grafana silently ignores. For each, it shows the quick check that finds it and the practice that stops it from coming back."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/idsarqex~YXtAbSx4hWDzwMH4fHy41q.pdf~dashboards-as-code.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250299"
   },
   {
@@ -8995,13 +9045,20 @@
    ],
    "track": "Operations + Performance",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "We've seen it before: autoscalers not reacting to traffic spikes for hours, taking down the service. Or a DaemonSet silently spawning duplicate pods on a node, wasting resources in an already strained system. Meanwhile, alerts and dashboards show nothing amiss? There's no bug in your operator's logic, it's a symptom of a deeper problem. Can you wait hours for your system to react?",
     "In a watch-based, eventually consistent environment, staleness is a mirage in your control plane. Your operator believes it is reacting to the present, but is actually trapped in the past. How do we defend our infrastructure against it?",
     "The Kubernetes community is finally tackling this. This session demystifies watch staleness, exposing gaps in how we design reconciliation loops. We introduce capabilities in Kubernetes v1.36+, including comparable resource versions and staleness mitigation. You’ll leave able to build operators that degrade gracefully, detect staleness, and keep your clusters reliable."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iogubga~7jjPic2fTzJDnyDjNXBMPU.pdf~green-dashboards-broken-clusters_-taming-stale-watches-in-kubernetes-operators.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247283"
   },
   {
@@ -9133,13 +9190,20 @@
    ],
    "track": "Security",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "You wouldn't ask a plumber to sign off on your electrical work. Yet most CI/CD pipelines run under a single identity: one credential for signing SBOMs and reporting vulnerabilities alike. Workload identities encode location, not authorization.",
     "This session shows how to close that gap with Tekton: admission-time verification of signed remote task definitions constrains the SPIFFE/SPIRE identity each task receives. Tasks use that SVID to produce in-toto attestations scoped to their role. Policy engines can then enforce that each claim came from the right kind of task — a vulnerability attestation from a scanner, an SBOM from a build task — not just that a signature exists.",
     "Attendees leave with a working technique and one transferable insight: authorization should follow role, not location — from signing attestations to authenticating against external services."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/xvamiv~Sx3Qf3KYmddtDi9z2YsgA3.pdf~kubecon-na-2026_your-ci-s-mistaken-identity.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248924"
   },
   {
@@ -10048,13 +10112,19 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "OpenKruise"
+    "OpenKruise",
+    "↓ Slides"
    ],
    "description": [
     "AI Agents have emerged as mission-critical workloads. To balance performance and cost, these agents rely on warm-pooling for fast allocation and enter hibernate states when idle. However, Agents struggle with state persistence, where critical agent memory and skills is often lost during restarts. Furthermore, poor backward compatibility between versions complicates migrations, and the lack of specialized workload support makes it difficult to manage the lifecycle of multiple agents.",
     "OpenKruise Agents is an operator designed to manage the sandbox lifecycle. It employs enhanced pre- and post-upgrade hooks, in-place upgrades, and checkpoint-based recreation to ensure seamless agents upgrades. The solution addresses three critical upgrade scenarios: warm pool refresh, in-place upgrades during warm pool allocation , and updates for allocated sandboxes. OpenKruise Agents also provides workload capabilities tailored for session-based agents, allowing phased rollout of a set of agents."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/icwaiwre~EEGAwbT7T9Ywkka16Z6GJz.pptx~kubeconna2026_demystifying_upgrades_for_stateful_dormant_ai_agents.pptx"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289663"
   },
   {
@@ -10183,11 +10253,18 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "What is causing slow cold starts in Kubernetes-based LLM serving systems beyond model loading?\nIn Kubernetes-based LLM serving, we often blame cold starts entirely on model loading. In reality, a large part of the delay comes from GPU kernel compilation. Even with model weights cached, kernels are recompiled from scratch on every new pod, even on every pod restart\nIn this talk, we share a practical KServe-based solution that captures the compiled GPU kernels during the initial cold start, stores them as signed OCI artifacts, and caches them alongside the LLMInferenceService.\nNew pods can then load these pre-compiled kernels at runtime, skipping redundant compilation during scale-out. In our tests under burst traffic, this approach reduced vLLM pod readiness time by 30–70%, depending on model size and GPU type.\nIf you're an AI platform engineer who is running large language models on Kubernetes, you will learn how kernel-level caching can be integrated into your serving stack."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/igxalfek~hb9EYxgUS4sDJv5PxbjSn5.pdf~reduce-vllm-pod-cold-starts-with-kserve-kernel-caching.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248368"
   },
   {
@@ -11831,13 +11908,19 @@
    "track": "AI Inference + Agentic",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "A TPU on the wrong torus coordinate is worthless. So is one GPU placed outside its NVLink island. For frontier training, where a pod lands matters as much as whether it lands at all. And they have to land as a gang: every pod in the job on contiguous hardware, or none at all. The default scheduler scores pods one at a time and has no vocabulary for \"all 256 of these, on contiguous hardware, or none.\"",
     "This is Anthropic's account of building the scheduler that does and how we kept it fast as clusters grew toward GKE's 65K node limit. Part one is design: modeling interconnect topology as first-class scheduling domains, gang admission with graceful eviction, capacity allocation, and defragmentation. Part two is the performance story – the optimizations that brought average processing time to under 3ms per job: gating expensive affinity checks behind cheap predicates, efficient resource accounting, and caching infeasibility verdicts."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ljabqeh~fQp2HVVcyaBJJhYMhgYCQs.pdf~anthropics-kubernetes-scheduler-for-frontier-ai-what-worked-what-broke-4.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1228453"
   },
   {
@@ -12672,12 +12755,18 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Strimzi"
+    "Strimzi",
+    "↓ Slides"
    ],
    "description": [
     "Earlier this year, Strimzi celebrated its 1.0.0 release – a major project milestone. After briefly recalling the 1.0.0 release and its main changes, this talk will focus on our roadmap and on where the project is heading next. Gateway API support opens new ways to connect to your Apache Kafka clusters. A new pluggability mechanism inspired by Kubernetes Admission Controllers and policy engines such as Kyverno or Open Policy Agent makes it easier to customize and extend Strimzi. And more flexible security configuration gives you finer control over how your Apache Kafka cluster is secured. Those are just some of the features that are planned or already in progress. We will cover them in this talk and show you how to get involved and help shape them. You will leave this session with a clear picture of the future of Strimzi."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ioqgazde~7DXb1VDohTMgZXuJAUyqTs.pdf~202611-kubecon-na-the-life-after-strimzi-1.0.0.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289715"
   },
   {
