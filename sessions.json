@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-05T12:21:20Z",
+ "updated": "2026-11-05T21:59:14Z",
  "sessions": [
   {
    "id": "1304040",
@@ -1873,7 +1873,7 @@
    "id": "1302801",
    "title": "Welcome + Opening Remarks",
    "start": "2026-11-10T09:00:00",
-   "end": "2026-11-10T09:30:00",
+   "end": "2026-11-10T09:31:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Jonathan Bryce",
@@ -1893,8 +1893,8 @@
   {
    "id": "1367757",
    "title": "Agent Substrate: Open Layers for Agentic Systems",
-   "start": "2026-11-10T09:32:00",
-   "end": "2026-11-10T09:39:00",
+   "start": "2026-11-10T09:33:00",
+   "end": "2026-11-10T09:40:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Jaana Dogan",
@@ -1936,7 +1936,7 @@
    "id": "1363682",
    "title": "Building the Next Generation of AI with Open Source",
    "start": "2026-11-10T09:49:00",
-   "end": "2026-11-10T09:54:00",
+   "end": "2026-11-10T09:56:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Warren Barkley"
@@ -1953,8 +1953,8 @@
   {
    "id": "1301749",
    "title": "Sandbox Your Agents",
-   "start": "2026-11-10T09:56:00",
-   "end": "2026-11-10T10:01:00",
+   "start": "2026-11-10T09:58:00",
+   "end": "2026-11-10T10:03:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Jessica Forrester"
@@ -1973,8 +1973,8 @@
   {
    "id": "1349401",
    "title": "Pods in the Wild: Reinforcement Learning on Kubernetes with OpenRL",
-   "start": "2026-11-10T10:03:00",
-   "end": "2026-11-10T10:11:00",
+   "start": "2026-11-10T10:05:00",
+   "end": "2026-11-10T10:13:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Sunil Arora",
@@ -1995,8 +1995,8 @@
   {
    "id": "1295993",
    "title": "The Harness Is the New Runtime",
-   "start": "2026-11-10T10:12:00",
-   "end": "2026-11-10T10:17:00",
+   "start": "2026-11-10T10:15:00",
+   "end": "2026-11-10T10:20:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Idit Levine",
@@ -2016,8 +2016,8 @@
   {
    "id": "1362673",
    "title": "One Kubernetes, Different Environments: Closing the Portability Gaps",
-   "start": "2026-11-10T10:19:00",
-   "end": "2026-11-10T10:24:00",
+   "start": "2026-11-10T10:22:00",
+   "end": "2026-11-10T10:27:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Dilpreet Bindra"
@@ -2034,8 +2034,8 @@
   {
    "id": "1309267",
    "title": "The Identity Crisis: Who is the AI Agent in Your Cluster?",
-   "start": "2026-11-10T10:26:00",
-   "end": "2026-11-10T10:36:00",
+   "start": "2026-11-10T10:29:00",
+   "end": "2026-11-10T10:39:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Abdel Sghiouar"
@@ -2068,18 +2068,20 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373663"
   },
   {
-   "id": "1302802",
-   "title": "Closing Remarks",
-   "start": "2026-11-10T10:44:00",
-   "end": "2026-11-10T10:45:00",
+   "id": "1380168",
+   "title": "From Pod to Actuator: Physical AI and the Future of Kubernetes",
+   "start": "2026-11-10T10:41:00",
+   "end": "2026-11-10T10:46:00",
    "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
+   "speakers": [
+    "Abhilash Somasamudramath"
+   ],
    "track": "Keynote Sessions",
    "level": "",
    "tags": [],
    "description": [],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302802"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1380168"
   },
   {
    "id": "1369670",
@@ -2147,6 +2149,20 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1376186"
+  },
+  {
+   "id": "1302802",
+   "title": "Closing Remarks",
+   "start": "2026-11-10T10:46:00",
+   "end": "2026-11-10T10:47:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302802"
   },
   {
    "id": "1374035",
@@ -2550,7 +2566,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iufwarve~Gci1cL3K6N3BRpMkw2EGMy.pdf~saturated-by-design.pdf"
+     "url": "https://sessionize.com/download/xramgek~SVZ9xeEbcDgZCodQFduhBa.pdf~saturated-by-design.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250350"
@@ -5705,7 +5721,8 @@
     "Dylan Page",
     "Kashif Khan",
     "Xing Yang",
-    "Mesut Oezdil"
+    "Mesut Oezdil",
+    "Alexa Griffith"
    ],
    "track": "Maintainer Track",
    "level": "",
@@ -6509,20 +6526,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1368714"
   },
   {
-   "id": "1302804",
-   "title": "Closing Remarks",
-   "start": "2026-11-11T10:35:00",
-   "end": "2026-11-11T10:36:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302804"
-  },
-  {
    "id": "1362604",
    "title": "Demo Theater: AI already found your Java vulnerabilities. Has your scanner?",
    "start": "2026-11-11T10:35:00",
@@ -6602,6 +6605,20 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1371076"
+  },
+  {
+   "id": "1302804",
+   "title": "Closing Remarks",
+   "start": "2026-11-11T10:47:00",
+   "end": "2026-11-11T10:48:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302804"
   },
   {
    "id": "1334848",
@@ -7691,7 +7708,7 @@
    "end": "2026-11-11T13:00:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
-    "Marco Hernandez"
+    "Marcos Hernández"
    ],
    "track": "Sponsor Demo Theater",
    "level": "",
@@ -8242,8 +8259,8 @@
    "end": "2026-11-11T14:15:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
-    "Mickey Boxell",
-    "Tanya Bansal"
+    "Tanya Bansal",
+    "Mickey Boxell"
    ],
    "track": "Sponsor Demo Theater",
    "level": "",
@@ -8764,7 +8781,8 @@
    "track": "📚 Tutorials",
    "level": "Beginner",
    "tags": [
-    "AI Inference + Agentic"
+    "AI Inference + Agentic",
+    "↓ Slides"
    ],
    "description": [
     "You've used agentic apps, but have you deployed the models generating those tokens? Welcome to the server side!",
@@ -8772,7 +8790,12 @@
     "We'll tackle these challenges using vLLM. We'll start simple with a CPU deployment. Then, we'll climb the ladder: single-GPU, tensor-parallel within a node, and multi-node pipeline parallelism using LeaderWorkerSet. Finally, we'll demystify disaggregated prefill/decode.",
     "You'll learn to read metrics that actually matter (like Time-to-First-Token) instead of acronym soup. End users need fast, private, cost-effective models; you'll leave ready to build the Kubernetes stack that delivers them!"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ksayked~TQ9ASLAhPc8397deGUq8yG.pdf~minting-your-own-tokens.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1240105"
   },
   {
@@ -9483,31 +9506,10 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1336097"
   },
   {
-   "id": "1250936",
-   "title": "When Agents Talk to Agents: Scaling A2A on Kubernetes Without Drowning in Connections",
-   "start": "2026-11-11T15:16:00",
-   "end": "2026-11-11T15:21:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
-   "speakers": [
-    "Shriya Chaitanya Kamat Tarcar"
-   ],
-   "track": "⚡ Lightning Talks",
-   "level": "Any Level",
-   "tags": [
-    "AI Inference + Agentic",
-    "End User Talk"
-   ],
-   "description": [
-    "Multi-agent systems are entering production and the Linux foundation’s Agent2Agent (A2A) protocol is fast becoming the standard method for agents to find one another on kubernetes and call each other. However, the architecture hides a scaling wall. When agents connect peer-to-peer, connections grow quadratically. Four agents need six links, fifty agents over twelve hundred. At scale, this N-squared explosion becomes impossible to route, secure, observe and keep reliable. This talk will show why direct A2A traffic does not scale, and how routing it through an A2A-aware gateway such as agentgateway, built on top of the Kubernetes Gateway API, collapses the tangled mesh into a manageable hub with load balancing & visibility. By the end of the talk, attendees will leave with the connection math, the infrastructure pattern that solves the problem, and one rule: design the connectivity layer before scaling the agents,not after."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250936"
-  },
-  {
    "id": "1250962",
    "title": "Two Newcomers, One Cloud Native Future: Learning Kubernetes In The AI Era",
-   "start": "2026-11-11T15:23:00",
-   "end": "2026-11-11T15:28:00",
+   "start": "2026-11-11T15:16:00",
+   "end": "2026-11-11T15:21:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom CD",
    "speakers": [
     "Fabrizio Sgura"
@@ -10392,13 +10394,20 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Production inference on Kubernetes is still too often a closed vertical — one vendor’s gateway, one serving image, one observability silo. Operators running multi-team clusters need the opposite: composable open layers they can operate, upgrade, and replace independently.",
     "This session discusses open inference reference model components:\n– Heterogeneous accelerators — GPUs, TPUs, and DPUs on the same Kubernetes control plane (device allocation, placement, capacity)\n– Scheduling and fairness for inference and batch (llm-d, Kueue)\n– Gateway and routing at the cluster edge (llm-d inference gateway, Gateway API patterns)\n– Pluggable serving engines — swap vLLM, TGI, or the next runtime without replatforming\n– OpenTelemetry for traces and cost attribution across gateway → serve → model",
     "Speakers walk through a reference architecture and operator tradeoffs: how to compose without lock-in, and which layer to tackle first when inference outgrows bolt-on APIs."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/tkaxgei~BeLeYxeaKTNouBaVqn118E.pdf~composing-inference-on-kubernetes_-gateway-schedule-serve-observe.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247513"
   },
   {
@@ -12378,13 +12387,20 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Time-slicing is often the only viable way to share GPUs on commodity hardware or in cloud environments where MIG and MPS are unavailable. In practice, Kubernetes time-slicing relies on static configuration and does not constrain GPU memory, leading to noisy neighbors, unpredictable performance, and OOM failures in inference workloads.",
     "This session shows how to close that gap by combining memory-aware controls with smarter pod placement. Using KAI for GPU-aware scheduling and HAMi for per-workload memory limit enforcement, we demonstrate how to prevent memory overcommit, stabilize performance, and safely share GPUs across inference workloads. Under the hood, Kyverno mutates pod specs to inject KAI and HAMi configuration on inference pods that should share GPUs.",
     "This talk shows how to get safe, OOM-free GPU sharing on standard Kubernetes clusters without hardware upgrades. Just dynamic scheduling and enforced memory limits that work with the GPUs you already have."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/dgaqzeh~XcbiESxL1FwbeReDwsC4J3.pdf~fixing-gpu-time-slicing-on-kubernetes-julien-semaan.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1241974"
   },
   {
@@ -12902,12 +12918,18 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Open Policy Agent (OPA)"
+    "Open Policy Agent (OPA)",
+    "↓ Slides"
    ],
    "description": [
     "Come to this session to learn about the Open Policy Agent (OPA) project. OPA is a general-purpose policy engine that solves a number of policy-related use cases for Kubernetes, API Authorization, AI Tool Guardrails, infrastructure permissions, and more. During this session OPA maintainers will introduce the project for newcomers and then provide updates on noteworthy new features landing in OPA projects and the wider ecosystem. If you are interested in policy as code and security as it relates to cloud native technology, this session is for you. OPA maintainers will also be available for questions after the session."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/dmafres~QNXzrMX7BuAR3wnHoSqgza.pdf~opa-intro-kubecon-na-2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289713"
   },
   {
