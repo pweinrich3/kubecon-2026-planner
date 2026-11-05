@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-04T19:45:19Z",
+ "updated": "2026-11-05T00:54:33Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2716,7 +2716,8 @@
    "track": "📚 Tutorials",
    "level": "Any Level",
    "tags": [
-    "Cloud Native Experience"
+    "Cloud Native Experience",
+    "↓ Slides"
    ],
    "description": [
     "There is a massive gap between how easy autoscaling looks in vendor demos and how difficult it is to optimize in the real world. Many users assume that simply deploying an HPA is enough, but have no idea how fast can the Pods really scale when a traffic hits.",
@@ -2725,7 +2726,12 @@
     "As we iterate through several rounds, you will run into real-world roadblocks. You'll discover that CPU doesn't correlate with your throughput, and maybe the application is leaking a bit of memory.",
     "We will conclude with a friendly leaderboard to see who achieved the best results. You will walk away knowing the brutal reality of Pod-level autoscaling, and exactly how to bridge the gap between a basic installation and production efficiency."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/igbakden~UAWy72zE1xbxa9soESLmiu.pdf~autoscaling-reality-check.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250326"
   },
   {
@@ -2965,7 +2971,8 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "cri-o"
+    "cri-o",
+    "↓ Slides"
    ],
    "description": [
     "Kubernetes operators keep hitting the same friction at the node level. Resource management decisions are locked inside the kubelet with limited configurability. Container-level knobs like ulimits or PID limits require OCI hooks or global kubelet flags instead of per-workload configuration.",
@@ -2973,7 +2980,12 @@
     "Beyond NRI, CRI-O is tracking upstream CRI changes. Per-container ulimits, per-pod PID limits, exec identity propagation, writable cgroups without privilege escalation, stop signals, and MemoryQoS are at various stages of landing. We cover where CRI-O stands on each.",
     "Since KubeCon EU, we have also continued work on Spegel support for CRI-O and demo what is working."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/igijzaw~NNqr3quki9KCbPqHQW56yb.pdf~cri-o_-plug-it-tune-it-share-it-extending-and-accelerating-your-runtime.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289675"
   },
   {
@@ -3061,7 +3073,7 @@
    "description": [
     "Konnectivity (apiserver-network-proxy) requires a gRPC connection from agent to server. To protect sensitive workloads from data exfiltration, the speaker's org runs Kubernetes nodes in cloud VPCs with zero egress – no NAT Gateway, no route to the API server – making Konnectivity unusable.",
     "This talk presents a fork that replaces the gRPC link with cloud object storage, accessed via private endpoints, as a rendezvous medium. The speaker walks through cluster network design and bucket transport architecture; how kubectl exec and kubectl logs sessions are multiplexed as sequenced bucket objects; and how proxy-server and proxy-agent coordinate ordered, reliable delivery without a persistent connection.",
-    "Object storage introduces hard tradeoffs in latency, cost, and cluster networking. The talk covers design choices made to reduce cloud costs at scale and achieve sub-second interactive latency over a store-and-forward medium. Includes a live demo with zero-egress worker VMs."
+    "Object storage introduces hard tradeoffs in latency, cost, and cluster networking. The talk covers design choices made to reduce cloud costs at scale and achieve sub-second interactive latency over a store-and-forward medium. Includes a demo with zero-egress worker VMs."
    ],
    "links": [
     {
@@ -4139,7 +4151,8 @@
    "track": "Security",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "You locked down RBAC. You scoped your namespaces. You followed least privilege. But the attacker who just became your GCP Org admin? They never left their namespace. The call came from inside the cluster—through your own operator.",
@@ -4147,7 +4160,12 @@
     "You'll see:\n– Demo: namespace user → GCP Org admin in 60 seconds\n– Why audit logs blame the controller, not the attacker\n– A 3-step pattern to audit any operator for confused deputy flaws\n– Architectural fixes you can deploy immediately",
     "This research is also accepted at Black Hat USA 2026. This talk is Kubernetes-native: how operator architecture enables this flaw class and how to build controllers that fail closed."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/vsakmey~BGkrSB7XZ14TAWGmSZV1di.pdf~the-operator-calls-kubecon-2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247376"
   },
   {
@@ -4216,7 +4234,8 @@
    "track": "AI Inference + Agentic",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Organizations in regulated industries need AI inference on infrastructure they control, but NVIDIA GPUs are expensive and scarce. Apple Silicon devices with large unified memory pools sit underutilized.",
@@ -4224,7 +4243,12 @@
     "Attendees learn patterns for reconciling inference workloads with CRDs, pre-flight memory validation for GPU nodes, Prometheus metrics via PodMonitors, and multi-runtime inference behind an OpenAI-compatible API. We share benchmarks comparing NVIDIA CUDA and Apple Silicon Metal and the operational tradeoffs of each.",
     "A practitioner talk from an enterprise platform engineering team deploying on-prem AI inference at scale."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/joqsao~MZuw9pocnf6Csqn7o5jqdJ.pdf~kubecon-na-2026-apple-silicon.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1205589"
   },
   {
@@ -4286,14 +4310,20 @@
    "track": "📚 Tutorials",
    "level": "Advanced",
    "tags": [
-    "AI Inference + Agentic"
+    "AI Inference + Agentic",
+    "↓ Slides"
    ],
    "description": [
     "Inference clusters today waste expensive accelerators by handing each LLM a whole GPU, even when many models could safely share one. Runtimes such as vLLM and TensorRT-LLM happily run multiple workloads on the same device, but deciding which workloads belong together is a combinatorial decision that depends on each model's configuration and the traffic it actually sees.",
     "This tutorial shows attendees how to delegate that decision to a closed-loop system. A long-running agent profiles each candidate workload in isolation under its target runtime and emits a typed characterization. A constraint solver consumes those characterizations and proposes a co-location plan. A Helm chart turns the plan into a fleet of pods served by whichever runtime each model prefers. Prometheus and DCGM watch the result and trigger re-planning when drift appears.",
     "Attendees follow the chart end to end on a live cluster and leave with a reusable open-source pattern they can fork."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/hsagmei~XnhpNDvuZMFcPhNE6m23xc.pdf~kubecon-2026-tutorial.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250324"
   },
   {
@@ -4309,14 +4339,20 @@
    "track": "🚨 Contribfest",
    "level": "",
    "tags": [
-    "Podman Container Tools"
+    "Podman Container Tools",
+    "↓ Slides"
    ],
    "description": [
     "Join us to contribute to a growing community that is building local container tooling for developers and administrators! Attend the Podman Container Tools contribfest and help a CNCF Sandbox project! This is a hands-on workshop where project maintainers will help you make a contribution to the project. First-time contributors are welcome!",
     "This ContribFest will be focused on improving the Podman Container Tools community. We will have a curated list of issues where you can contribute to Podman, Buildah, and Skopeo, with varying levels of difficulty and different areas to contribute. These will include features, bugfixes, documentation changes, and helping with our websites.",
     "No prior experience with Podman is needed, but we recommend bringing a Linux laptop if you intend to contribute to Podman (Windows and Mac are fine for working on the website!)"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/yyatmeo~SSmyuYC3s5pPJCHrDPoJm7.pdf~kubecon-na-26-contribfest.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294760"
   },
   {
@@ -5355,13 +5391,20 @@
    ],
    "track": "Platform Engineering",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Everyone's excited about frontier models as a service. But what if you need to run and serve them yourself, for latency, cost, or control? You end up paying for a whole GPU so one pod can use a fraction of it. The Kubernetes scheduler never knew better: one pod, one whole GPU, end of story.",
     "Two things just changed that. Dynamic Resource Allocation went GA in Kubernetes 1.34, the biggest shift in device scheduling since 2017. The scheduler can finally see what a GPU offers, not just count cards. And NVIDIA's Multi-Instance GPU splits one card into isolated partitions. Combined, you get real, hardware-level sharing. No time-slicing hacks, actual isolation.",
     "So we built the stack from zero: cluster, GPU operator, DRA driver, MIG partitioning, ML workloads on one GPU. It's open source, ready to lift onto your platform. I'll walk the architecture and run a live demo. You'll leave knowing when DRA + MIG beats time-slicing, how to roll it out safely, and where the gotchas hide."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/nbafxeb~BGagURuA7x6e2FcHoCqyLK.pdf~why-are-you-still-wasting-whole-gpus_-hardware-level-sharing-scheduled-with-dra.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1243199"
   },
   {
@@ -5377,7 +5420,8 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Flatcar Container Linux"
+    "Flatcar Container Linux",
+    "↓ Slides"
    ],
    "description": [
     "AI workloads push Kubernetes to its limits, often forcing teams to fight with GPU drivers and messy configurations. While the AI stack gets optimized, the host OS is frequently left as a fragile, manually patched bottleneck. Treating GPU nodes as mutable machines risks breaking your cluster with every update.",
@@ -5385,7 +5429,12 @@
     "We will show how to manage NVIDIA drivers dynamically using system extensions (systemd-sysext) without breaking immutability. Finally, we will run a live demo showing how to bootstrap a local LLM environment on a self-hosted Flatcar instance.",
     "Learn how to make your GPU infrastructure reproducible and boring."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/mnajgel~LQizKYxj6TziPCW6Dq4WS1.pdf~slides.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289644"
   },
   {
@@ -7326,13 +7375,20 @@
    ],
    "track": "Emerging + Advanced",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "x86 and ARM carry decades of legacy cruft: The IME, firmware blobs, outdated downstream kernels and on ARM an absence of standards that make using mainline Linux on anything other than pricey server hardware almost impossible. RISC-V, a new open ISA, is finally a real alternative in 2026: RVA23 chips are catching up to Intel, AMD, and ARM on performance, virtualization works, and RISC-V vendors mainline SoC support before shipping; even modern Fedora runs out of the box.",
     "This changes what metal clusters can look like: You own more of your stack, with open boot firmware, open chip designs you could fab yourself, and no license or patent encumbrances. Combining RISC-V with immutable Linux (via `bootc`/`composefs` or `systemd-sysupdate`) and k8s creates near zero-maintenance, legacy-free bare-metal.",
     "The session includes a live demo where a Milk-V Jupiter 1 (RVA22) and Jupiter 2 (RVA23) Kubernetes cluster migrates a workload with CRIU between the boards, then to a managed RISC-V VPS."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iwxafhen~nQmQrER8SWEjevUzQYe1B1.pdf~preview.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1243680"
   },
   {
@@ -7817,12 +7873,30 @@
    "track": "🪧 Poster Sessions",
    "level": "Any Level",
    "tags": [
-    "Platform Engineering"
+    "Platform Engineering",
+    "↓ Slides"
    ],
    "description": [
     "KubeVirt brought VMs to Kubernetes, but it’s hard dependency on QEMU/KVM limits support for modern heterogeneous infrastructure. As organizations adopt memory-safe VMMs like Cloud Hypervisor and specialized stacks such as Microsoft’s MSHV for novel scenarios, KubeVirt must evolve beyond a single hypervisor. This session presents the Hypervisor Abstraction Layer (VEP-97, shipped in v1.8), that decouples the core control plane from the virtualization backend. We will share the technical journey: introducing extension points for spec validation, default, conversion between KubeVirt and backend virtualization API and runtime tuning of VMs. We will cover the challenges of standardizing VM lifecycle while preserving Kubernetes semantics, and the design enabling future out-of-tree plugins. We will show the architecture that allows bringing your own VMM or hypervisor to KubeVirt without forking or modifying the core. This is the first public deep-dive of MSHV (Hyper-V) integration in KubeVirt."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/isxaqqeo~4fvnD8WTz5qiDBWAt8aWga.JPG~beyond-qemu-kvm-re-architecting-kubevirt-for-heterogeneous-virtualization-backends.jpg"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/kubevirt/kubevirt"
+    },
+    {
+     "label": "Project Demo",
+     "url": "https://github.com/kubevirt/enhancements/pull/311"
+    },
+    {
+     "label": "Website",
+     "url": "https://github.com/kubevirt/enhancements/pull/311"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1239786"
   },
   {
@@ -8586,7 +8660,8 @@
    "track": "🚨 Contribfest",
    "level": "",
    "tags": [
-    "Cadence Workflow"
+    "Cadence Workflow",
+    "↓ Slides"
    ],
    "description": [
     "Come build durable AI workflows with Cadence, by hand or with a coding agent. Bring an idea or choose an issue from our contribution pool.",
@@ -8594,7 +8669,12 @@
     "Then choose what to build: fix or extend an AI recipe, or add an example using our sample runner and templates. We especially encourage you to bring your own workflow, make it durable and share it as an example for future Cadence users. You can also take an approved issue elsewhere in Cadence. Maintainers will help with design questions, troubleshooting and review.",
     "Learn to set boundaries around model and tool calls, preserve progress and bring people into the workflow. Help grow a cookbook others can use."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/fkapyep~P4RREffvycghQCeUtsWn17.pdf~contribfest-deck.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294751"
   },
   {
@@ -8861,7 +8941,8 @@
    "level": "Advanced",
    "tags": [
     "End User Talk",
-    "Platform Engineering"
+    "Platform Engineering",
+    "↓ Slides"
    ],
    "description": [
     "Most Kubernetes cost allocators distribute idle globally. Every team gets a share proportional to their requests. The result: a tax with no behavioral signal. Efficient teams pay the same idle premium as teams forcing oversized pods onto undersized instances.",
@@ -8869,7 +8950,12 @@
     "The math is the incentive: no blame logic, no penalty rules. At Nubank's scale the law of large numbers does what hard-coded rules used to do badly.",
     "The five minutes show one instance-level allocation end-to-end, contrast it against the global approach, and name the design principle: attribute locally, let scale handle fairness."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ikhahxeb~Tsqmm8ArRPNh4LBhSHdKp2.pdf~allocating-kubernetes-idle-per-instance.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250015"
   },
   {
@@ -9892,14 +9978,20 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Operator Framework"
+    "Operator Framework",
+    "↓ Slides"
    ],
    "description": [
     "Kubernetes Operators have transformed how complex applications are managed, but ecosystem growth has introduced challenges around packaging, upgrades, configuration, and lifecycle management. The next generation of operators needs a simpler foundation for developers and platform users.",
     "In this session, the Operator Framework team will explore how OLM is rethinking Kubernetes Operator Lifecycle Management from the ground up. The session will cover the motivations behind the redesign, key architectural changes, and how OLM uses declarative APIs to simplify operator installation, upgrades, and management.",
     "The session will cover the operator journey from packaging and distribution to production operations, including direct bundle installs, OLMv0 migration strategies, telemetry and operational visibility, and enterprise adoption considerations. The team will also discuss how Java Operator SDK complements this evolution by improving operator reliability and scalability."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/jdavui~T277fAsRUfNKjECWs52KFF.pdf~kubecon2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289676"
   },
   {
@@ -10153,11 +10245,18 @@
    ],
    "track": "Emerging + Advanced",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "LLM inference is becoming memory-centric, where capacity, bandwidth, and data movement dominate performance and cost. Techniques such as continuous batching and prefill/decode disaggregation (e.g., vLLM, LLM-d) improve efficiency within a node, but introduce a new challenge: managing large-scale KV cache across distributed nodes.\nAt the same time, disaggregated memory technologies like CXL enable memory to scale beyond node boundaries, creating an opportunity to extend Kubernetes with memory-aware orchestration while preserving its model.\nWe present CoHDI, a CNCF sandbox project that bridges Kubernetes and disaggregated infrastructure. CoHDI provides abstractions for memory-aware resource management across GPU HBM, DRAM, and CXL, and acts as a mediation layer with runtimes like vLLM to enable coordinated placement of compute and KV cache.\nUsing a vLLM prototype, we demonstrate early results showing the impact of tiered KV placement on concurrency, latency, and GPU utilization."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/hhasdeb~GBLRYAw3h4dkcp9pAJea7p.pdf~rh-fujitsu-kubeconna26_cohdi2.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248422"
   },
   {
@@ -11114,13 +11213,19 @@
    "track": "Connectivity",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Managing connections in a Kubernetes cluster can be tricky. This can get even more difficult when you are trying to manage connections for a fleet of Kubernetes clusters, each with users that require strict network isolation at the application level.",
     "In this talk, you will hear a case study in how GEICO Tech solved the problem of restricting network connections at scale by using Cilium Network Policies to form a broad network boundary and using Istio Authorization policies to provide zero trust networking at the application layer. It goes into detail on the issues that we encountered supporting many distinct workloads with unique networking needs and how we managed the tradeoffs between user flexibility and system performance, all while maintaining the overall security of the system."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/idtaudme~Q4bA3Kn2Pr2dxrVjNH982B.pdf~cilium_istiotalkkubecon26-google-slides.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247970"
   },
   {
@@ -11135,14 +11240,21 @@
    ],
    "track": "Security",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "In Kubernetes, managing trust distribution and certificates for workloads remains challenging. Trust anchors are often replicated via ConfigMaps, while sensitive material ends up in Secrets, creating fragile setups that are difficult to operate securely.",
     "This talk focuses on two emerging features that address this problem: PodCertificates and ClusterTrustBundles.",
     "We will walk through how certificates are issued, rotated, and projected into pods, and how workloads obtain short-lived, identity-bound credentials with PodCertificates. We’ll then cover how ClusterTrustBundles distribute trust anchors within the cluster and how they differ from manually managed CA bundles. Using concrete examples, we will demonstrate implementing a certificate signer and integrating it into a demo application for an end-to-end authentication flow.",
     "Attendees will gain an API-level understanding of these primitives and how to use them to build practical trust inside Kubernetes clusters."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iqkannex~ebWbeBmn37tMkzhAHQKRg.pdf~pki-done-easy-with-pod-certificates-and-cluster-trust-bundles.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1244941"
   },
   {
@@ -11225,7 +11337,8 @@
    "track": "AI Inference + Agentic",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "What do our 500 engineers and our AI coding agents have in common? They run on the same Kubernetes cluster.",
@@ -11233,7 +11346,12 @@
     "Then we added AI agents. Running Cursor's self-hosted agents against the same cluster, we found that agents need exactly what developers need: real traffic, real env vars, real downstream dependencies. Not mocks. The isolation model that stopped human developers from colliding does the same for concurrent agents.",
     "In this talk, we share the infrastructure behind both and the core insight: developer environment problems and AI agent reliability problems are the same problem."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ifsafheg~n5JjAQojVuKdPBHHmif8Y3.pdf~kubecon-500-engineers-2.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248305"
   },
   {
@@ -11453,13 +11571,19 @@
    "track": "Connectivity",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "At Coinbase we run hundreds of Kubernetes services in a multi-cluster, latency-sensitive financial-services environment, where every pod historically ran an auth-agent sidecar verifying an in-house S2S bearer token on every request. Over the past few years we've migrated to SPIFFE/SPIRE-issued identities, extended our ingress gateway to validate them at the edge, and used Istio AuthorizationPolicies to enforce explicit service-to-service access. We're now deleting that sidecar entirely, replacing per-pod JWT verification with ztunnel mTLS using SPIFFE X.509s, delivering over $500K/year in CPU savings, faster service calls, and a cleaner compliance posture.",
     "We'll share the architectural decisions, the rollout sequence across many clusters, the hardships and learnings, and where we're heading next with pod-to-pod mTLS. Whether you're considering SPIFFE for your workloads or weighing how to push identity into your mesh, this talk offers a peer's view of a real production migration."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ixobvay~QZbhgHrRqBkk3ATdVABeaB.pptx~from-bearer-tokens-to-mesh-native-mtls.pptx"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250086"
   },
   {
@@ -11515,12 +11639,18 @@
    "track": "Observability",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Cloud provider bills show egress costs as a single line item-they don't say which tenant caused them. At Adobe, we answer that across 400K pods in 31K namespaces spanning 85+ multi-tenant Kubernetes clusters using Retina eBPF agents to capture pod-level flows at the kernel. Prometheus enriches them with node topology, and a CIDR-based classifier maps each destination IP to a cost category (Local, Internet, Peering, Transit Gateway, VPC Endpoint) with cross-AZ and cross-region modifiers that align to cloud provider billing.\nThe hard part is scaling Prometheus to handle high cardinality from per-flow metrics. We'll walk through our sharded deployment implementation-shard counts, memory limits, and query timeouts along the way.\nThis is not a victory lap. The pipeline runs in production but scaling remains open. We'll share our progress and invite community input.\nAttendees leave with a replicable architecture, real cardinality data, and an honest view of what works and what doesn't."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iuhsagu~Lkj2fuHSwUf8VGPPV3eSKY.pdf~kubecon-na-26-from-packets-to-paychecks.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247749"
   },
   {
@@ -12413,7 +12543,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/wfacgec~WKMZiGG35nEE6pfvDRrwPN.pptx~agents-fail.-workflows-recover.-durable-agent-orchestration-with-cadence.pptx"
+     "url": "https://sessionize.com/download/ijkafwep~JMvQvfJU6xoUAiA7BxyTdA.pptx~agents-fail-workflows-recover.-durable-workflow-orchestration-with-cadence.pptx"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1238002"
@@ -12579,12 +12709,18 @@
    "track": "Platform Engineering",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Internal developer platforms have a discovery problem: the capabilities are there, but engineers context-switch between tools to get things done. For non-engineers, it gets worse.\nVela is our answer: an agentic chat interface on top of Karavela, our Backstage-based IDP, turning platform capabilities into natural-language workflows for engineers, PMs, data analysts, and on-call responders who've never touched kubectl — all in a regulated financial company.\nWe'll share what we learned building the MCP Hub and how its design makes democratization safe: every tool call runs under the requesting user's permissions, with a full audit trail, no service-principal bypass.\nWe'll be honest about the hard parts: intent classification on ambiguous Portuguese, consent mechanics for write-on-behalf flows, and keeping long agentic tasks recoverable without burning unbounded LLM budget.\nThe goal isn't to replace platform engineers, it's to make platform knowledge accessible to everyone."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ciqqaiz~RDu8SVcFfz5MjubpMs6DZD.pptx~from-platform-catalog-to-conversational-agent-wiring-ai-into-your-internal-developer-platform.pptx"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1251145"
   },
   {
