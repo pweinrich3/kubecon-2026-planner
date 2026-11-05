@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-05T00:54:33Z",
+ "updated": "2026-11-05T12:21:20Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2347,14 +2347,20 @@
    "track": "AI Inference + Agentic",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Every platform team has the same backlog: questions. Developers want to know what's happening in their namespace. On-call engineers want to know where to look first. The answers exist, just not fast.",
     "Most advice about AI starts with the technology. We started with the questions. We looked at where people already go for answers and put AI there, inside the work we were already doing. Investigations that used to take days now take hours.",
     "This talk shows what that looked like in practice and how to spot the same opportunities on your own platform. You'll leave knowing where AI fits in platform engineering work, where it doesn't, and with the confidence to start. No AI background needed."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/itwavpeu~KoQTNM1fhMA3oPAQZtwvvF.pdf~kubecon-ask-your-platform-pdf.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246200"
   },
   {
@@ -2533,14 +2539,20 @@
    "track": "Operations + Performance",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "On-premises compute is inelastic, and the costs are mostly up-front. Yet workload demands and hardware health can change at any time. How do you make the most of your on-premises investments without risking capacity overruns and potential outages?",
     "Well, Karpenter and Cluster Autoscaler work great for right-sizing cloud. So what if we took their main principle and inverted it – scaling the workloads to fit the cluster instead?",
     "Getting there required rethinking how pods compete for space, and how cluster capacity is modeled. The Trade Desk tackled both with custom scheduler plugins and a new horizontal scaler. This talk covers the techniques, tradeoffs, and lessons learned along the way."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iufwarve~Gci1cL3K6N3BRpMkw2EGMy.pdf~saturated-by-design.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250350"
   },
   {
@@ -2948,14 +2960,20 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "KServe"
+    "KServe",
+    "↓ Slides"
    ],
    "description": [
     "Running an LLM on Kubernetes is easy. Running it in production is a different story.",
     "Once you move beyond a demo, you face challenges that go far beyond serving a model: GPU scheduling, traffic spikes, streaming responses, autoscaling, model updates, and keeping latency low while efficiently using expensive GPU resources. Production LLM workloads require new approaches to scaling, routing, resource management, and platform integration.\nIn this session, KServe maintainers will share how the project has evolved beyond traditional model serving. We'll discuss how inference engines, AI gateways, autoscaling, distributed serving, and traffic management work together through Kubernetes-native APIs to simplify running LLM workloads at scale.",
     "We'll share lessons learned from building and operating these capabilities, including practical deployment patterns and design decisions from real production environment"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/qqaxqep~Uko82H4wtrMuL8Hp4XmWmE.pptx~kserve-production-llms-kubecon-na-2026.pptx"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289670"
   },
   {
@@ -3139,14 +3157,20 @@
    "track": "Security",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Your image is signed. But does its evidence meet deployment requirements, and can you prove that to an auditor? Repeating shared controls and evidence collection across app teams makes compliance costly and inconsistent.",
     "AT&T and Nirmata explore an architecture for platform-managed controls: GitHub Actions emits Sigstore-backed Artifact Attestations; Kyverno's ImageValidatingPolicy evaluates artifacts, signed evidence, and destination rules at admission. Every decision is retained as audit evidence.",
     "As long-time Kyverno users, AT&T wanted expressive CEL policies in the engine it already trusted, not a new engine and language. The challenge: internal builds using GitHub's private Sigstore alongside upstream images with different trust roots. This deep dive highlights Kyverno 1.19 and 1.20 capabilities for mixed-source verification and admission performance, plus patterns for exceptions, failure handling, and evidence retention."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/idpaxyex~pjYdS1vrvX6QuqvqoNnrZp.pdf~kubeconna26-signed-sealed-denied-kyverno-ivpol.pptx.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247300"
   },
   {
@@ -3161,14 +3185,20 @@
    "track": "Cloud Native Experience",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "What do a Kubernetes cluster, a chocolate cluster, and a cluster of extensions have in common? Yes, they are all \"clusters\" yet they represent widely different things in different contexts. When these\nmeanings collide without a shared contextual map, organizations accrue Communication Debt: the gap that leads to stalled platform adoption, onboarding friction and frustration.",
     "Engineers are experts at using abstractions to design systems, but when explaining those systems, they often skip those layers entirely, leading with deeply technical details before establishing context or relevance.",
     "This talk is designed for engineers and other technical practitioners who need to communicate Kubernetes concepts across the gap to executives, stakeholders, new contributors, and adjacent teams. Using real Kubernetes examples, attendees will learn a practical framework for translating complex concepts across the Cloud Native Computing Foundation (CNCF) ecosystem without oversimplifying them."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ijyagcer~E6hVUWCgtV8ATQNgNPWBf1.pdf~kc-final.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1251252"
   },
   {
@@ -4790,14 +4820,20 @@
    "track": "AI Inference + Agentic",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Over the last three months Verkada's incident-triage agent handled about 4,700 production alerts a month across nine Kubernetes clusters at $0.33 per investigation, with an 87.5% prompt-cache-read ratio and a 139-second median time-to-summary. The control plane runs in-cluster on every shard. No AI-for-SRE SaaS is in the path; inference is managed Claude Opus 5, state lives on managed KV.",
     "Three reversals shaped the system and each cut cost or restored reliability: pod-to-serverless ingress so chat deploys never drop alerts; per-pod to cross-cluster state on managed KV so a single investigation can span shards; single-shot to multi-turn under a 1-hour cache-TTL budget, where cost tracks investigation depth: about $0.27 for a five-call investigation and $1.29 past twenty-five.",
     "MCP is the boring substrate that made the rest tractable: per-cluster MCP servers for ArgoCD, Prometheus, and the observability stack, with cross-cluster fan-out through the serverless ingress, and per-channel Markdown system prompts that retune triage behavior without a code change."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/sdarsem~pSpUTCVK2oawoSCzkt2trn.pdf~kubecon_slides.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1244963"
   },
   {
@@ -5756,14 +5792,21 @@
    ],
    "track": "Operations + Performance",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Most of the AI conversation in Kubernetes is about running LLMs on top of it. This session asks the opposite. Can an LLM run Kubernetes?",
     "Operations teams now face a choice. They are being asked to bring AI into incident response while keeping cluster state inside the perimeter. A capable open-source LLM now runs on a single workstation, so the option exists. The question is whether the option is real.",
     "This session answers with a published benchmark of 10 Kubernetes incident scenarios (crash loops, OOM kills, HPA misconfigurations), each scored by an Ops_Score where quality and safety gate the result and efficiency only adjusts it. The same benchmark already ran on today's leading agents, giving open-source families such as Gemma, Llama, and Qwen a bar to measure against.",
     "Rather than crown a winner, the session maps the gap to that bar. The results show where open-source models hold up, where they fall short, and where they take unsafe actions an on-call engineer must override."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ivraodbe~QLamM3sujfCwduotNYR7yP.pdf~kccnc-na2026-how-far-are-open-source-llms-from-running-real-kubernetes-operations-a-10-scenario-benchmark_hoon-jokuberneteslab.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246259"
   },
   {
@@ -5874,14 +5917,20 @@
    "track": "Observability",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "OTel's metricstransform docs say it's \"not suitable for aggregating metrics from multiple sources (e.g. multiple nodes)\" — yet mitigating Istio cardinality requires exactly that. On our 10k-pod, 374-node mesh, Istio emits 2M+ active series even off-peak; PromQL projects an ~86% cut (2.06M→280K) once per-pod identity is collapsed.",
     "We bypassed the constraint with a two-stage OTel architecture, in production:\n– Stage 1 (DaemonSet): per-node OTTL stripping of pod-level identifiers to collapse series at the edge.\n– Stage 2 (Gateway): cross-node aggregation bounding each service to the gateway replica count (≤50), not thousands of pods, using query-time sum() for autoscaling stability.\n– Verification: a low-risk shadow pipeline validated against live traffic before cutover.",
     "Leave with a portable blueprint and hard-won pitfalls: groupbyattrs no-ops, gateway re-enrichment undoing Stage 1, autoscaling fan-out, and silent collector regressions."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/imrafmef~aq3VtVSMa9nB84kBaJKK83.pdf~kubecon-istio-cardinality-final.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248216"
   },
   {
@@ -6846,7 +6895,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iktalvex~JTv6E3PJULtNU8wchJC79G.pdf~qianru-lu-kubecon-2026-working-draft-light-mode.pdf"
+     "url": "https://sessionize.com/download/ccaclecba~n7W2Lmd7RRs1yguZjf72R3.pdf~kubecon-na-2026-inside-the-inference-load-balancer-final.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1244501"
@@ -6975,13 +7024,32 @@
    ],
    "track": "Security",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "An MCP (Model Context Protocol) server bridges AI apps to external tools and data sources. The MCP spec recommends servers to use a general-purpose access control engine. The number of MCP servers has exploded, but their access control models and maturity vary widely, making it difficult for organizations to enforce consistent policies across their environments.",
     "The CNCF project Cedar Policy offers a unified language and engine for attribute-, relation- and role-based access control policies, along with unique policy querying and analysis features, perfect for use in MCP servers. ToolHive is an open source project that allows you to run and manage MCP servers in Kubernetes, enforcing identity and access policy per request via Cedar.",
     "After this talk, the audience knows how MCP access control works, how ToolHive uses Cedar (demo included!), and how Cedar Analysis answers “who can access this resource?”, “is it possible for an AI agent to send private data to external sinks?” and more"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/idcaxxer~LY7BnjvzDsshsuP3QeAZnu.pdf~kubecon-what-can-your-ai-agents-actually-do_-cedar-analysis-for-mcp-servers.pdf"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/luxas/cedar-woodpecker"
+    },
+    {
+     "label": "Project Demo",
+     "url": "https://github.com/ChrisJBurns/toolhive-cedar-demo"
+    },
+    {
+     "label": "Website",
+     "url": "https://cedarpolicy.com"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248484"
   },
   {
@@ -8546,12 +8614,18 @@
    "track": "Platform Engineering",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "As agentic systems become more effective, human review becomes the next scaling bottleneck. This talk presents a Kubernetes-native model of earned autonomy, where authority expands through demonstrated performance rather than static permissions.\nAs agents generate more pull requests, they consume an increasingly scarce resource: human attention. The goal is to spend that attention deliberately, by auto-merging work where tests and a track record justify it, and reserving human review for cases that require judgment.\nBorrowing from progressive delivery, agents begin in shadow mode, with their proposals graded against real outcomes, earning authority only after sustained success within narrowly defined classes of work. The pace of delegation is set by how reliably outcomes can be evaluated. Objective verifiable outcomes enable trust to build quickly, freeing up human judgement for evaluation where it is most needed."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/qcaiko~KZsYsmvEcH4aiva81FT248.pdf~progressive-delivery-for-trust-how-agents-earn-the-right-to-merge.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250982"
   },
   {
@@ -8789,7 +8863,8 @@
    "track": "⚡ Lightning Talks",
    "level": "Any Level",
    "tags": [
-    "Application Development + Delivery"
+    "Application Development + Delivery",
+    "↓ Slides"
    ],
    "description": [
     "Documentation drifts silently. A 2025 GitHub Codespaces update bumped the minimum Docker version and broke every tutorial for Drasi, a CNCF project, at once. Manual testing meant the four-person team didn't catch it for weeks: it doesn't scale, and CI doesn't read prose.",
@@ -8798,7 +8873,12 @@
     "The pattern is agent-agnostic. The demo uses Copilot CLI (free for CNCF maintainers) but runs the same on Claude Code and Gemini CLI.",
     "Implement the pattern, and your agent will tell you what's broken before your users do."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iquuni~wdVn2DXanwAJEinX1G9aq3.pdf~synthetic-new-users-aman-singh.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246398"
   },
   {
@@ -9163,6 +9243,14 @@
     {
      "label": "Slides",
      "url": "https://sessionize.com/download/ciygatu~97W16eqkYi2FLbkK2VKkye.pdf~gpu-observability-with-ebpf_from-kernel-hooks-to-kuberntes-metrics.pdf"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/inspektor-gadget/inspektor-gadget"
+    },
+    {
+     "label": "Website",
+     "url": "https://inspektor-gadget.io/"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1244576"
@@ -9255,12 +9343,18 @@
    "track": "Platform Engineering",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Training large ML models on multi-cluster, multi-region GPU fleets is hard: GPUs sit idle on one cluster while jobs queue on another, quotas lack a global view, and datasets are repeatedly re-downloaded across regions. This end-user session shows how Roblox turns a heterogeneous fleet into one shared GPU pool using only CNCF projects. Kueue and MultiKueue provide a single submission point with cross-cluster RayJob dispatch, tiered per-team quotas (guaranteed, borrowing, opportunistic), priority preemption, and data-locality-aware routing with automatic fallback. Dragonfly, a CNCF graduated P2P system, caches datasets and checkpoints in-cluster, turning cross-region downloads into local peer reads. Together, they optimize where jobs run, who gets capacity, and how data arrives. Attendees leave with a reproducible blueprint, real operational failure modes, and lessons learned."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/jjahlex~BYrFgb1wHM98g42RrywJip.pdf~many-clusters-one-gpu-pool-kubecon-cloudnativecon.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249894"
   },
   {
@@ -9688,14 +9782,20 @@
    "track": "Operations + Performance",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Kubernetes upgrades have historically advanced one minor at a time: apiserver first, then controller-manager and scheduler. That creates two waves per minor. At LinkedIn’s scale, 300 clusters and roughly 300,000 nodes, each wave must pass through canary, regional ramps, soak, and blast-radius controls. A three-minor cadence therefore meant six fleet rollouts and more than 35 business days",
     "KEP-4330 changed the model: newer control-plane binaries can emulate older-minor behavior for feature gates, APIs, storage encoding, and validation, while rollback becomes config instead of binary reversal",
     "I investigated whether KEP-4330 could compress six waves into one. Upstream had documented the conservative stepwise path; source code review showed compatibility-version bounds w/o requiring intermediate hops. After removed-gate cleanup, /statusz checks, and canary validation, we promoted v1.31 to v1.34 fleet-wide in one wave under 6 business days [85% gain], with ramp, soak, and rollback intact"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/fuolha~VfA7QcudtDHTRXjrXeWnY2.pdf~binary_version_is_not_behavior_kubecon_na_2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1251217"
   },
   {
@@ -9805,12 +9905,19 @@
    ],
    "track": "Platform Engineering",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Admission Controllers and Mutating Webhooks have long been fundamental building blocks for Kubernetes platform extensibility. While powerful, relying on out-of-process requests can introduce significant pain points like increased network latency, complex TLS and cluster bootstrapping steps, and the risk of a failing webhook taking down your entire control plane.",
     "This session highlights the evolution of admission plugins for Kubernetes and demonstrates practical, production-ready examples of the webhook-free world using Common Expression Language (CEL) policies evaluated inside the API Server. The session also explores the architectural tradeoffs of the native ValidatingAdmissionPolicy and MutatingAdmissionPolicy resources, contrasting the simplicity of CEL with full-featured policy engines like OPA Gatekeeper using Rego and Kyverno using CEL."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ictagvew~PvejDLBbmh7K928cm3Qcer.pdf~goodbye-webhooks-hello-cel-greg-bray-kubecon-na-2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248888"
   },
   {
@@ -9932,14 +10039,20 @@
    "track": "Platform Engineering",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "As Kubernetes adoption scaled across PlayStation, our original namespace and RBAC workflow began to struggle to scale with the operational complexity. Merge conflicts, tightly coupled automation flows, and centralized ownership created friction for both platform teams and developers.",
     "In this session, we’ll share how we evolved from a DevOps-owned RBAC model to a Kubernetes-native platform capability built on CRDs. We’ll cover how decoupling namespace lifecycle management from RBAC intent enabled safer self-service access management, improved scalability across multi-cluster environments, and reduced operational bottlenecks.",
     "Attendees will leave with practical patterns for modeling RBAC as platform capabilities and applying platform engineering principles to Kubernetes access governance at scale."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/igwadgez~Q65xeaP88uvc121REWHVqe.pdf~kubecon_presentation_2026.pptx.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248120"
   },
   {
@@ -10039,6 +10152,14 @@
     {
      "label": "Slides",
      "url": "https://sessionize.com/download/izfazcer~wXVcJUdADganX4u32HELhY.pdf~contribfest_zero-to-published-gadget_ebpf-for-everyone-with-inspektor-gadget.pdf"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/inspektor-gadget/inspektor-gadget"
+    },
+    {
+     "label": "Website",
+     "url": "https://inspektor-gadget.io/"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294763"
@@ -11037,7 +11158,8 @@
    "track": "Operations + Performance",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "KEDA has supercharged Horizontal Pod Autoscaling with its support for 60+ scalers and ability to scale workloads to and from 0. With KEDA, Stripe runs one of the largest autoscaled fleets in the world. We have seen the great, the good, and the ugly.",
@@ -11045,7 +11167,12 @@
     "Attendees will deep dive into:\nObservability and Operability – Identifying and resolving issues within your autoscaling infrastructure.\nScalability and Abstraction – Scaling reliably from 100 to 2,000 ScaledObjects per cluster, and 10,000+ globally, with a delightful configuration experience.\nSafety – Adding guardrails during CI/CD to safeguard against service degradation.",
     "Whether you run a small organization or support a large engineering team, you will leave this talk with learnings that will empower you to safely adopt autoscaling without sacrificing your reliability commitments."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/niyxaq~N8rjDoqz5uRE6ULSVF8nQq.pdf~kubecon-slide-deck.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247103"
   },
   {
@@ -11060,14 +11187,20 @@
    "track": "Observability",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Kubernetes environments generate enormous telemetry volumes, yet most AI observability integrations treat logs and traces as raw text — producing hallucination-prone, unreliable incident responses.",
     "This session presents a production-validated four-layer architecture built on CNCF-native tooling: OpenTelemetry for signal collection, a Model Context Protocol (MCP) server as a typed semantic query layer, and AI-driven agents for proactive root-cause analysis. The speaker shares production lessons from running this architecture at petabyte scale across multi-region Kubernetes deployments at Workday.",
     "Attendees will understand why raw OTel pipelines fail with LLMs, how an MCP server exposes telemetry as structured, queryable context, and the cardinality and latency tradeoffs encountered in production. The session closes with a code walkthrough of a lightweight MCP server integrating with Prometheus or Mimir, and practical criteria for when agentic observability genuinely reduces MTTR."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/citigja~72z7S3MCp41y5wgNCTRfjw.pdf~goswamipronnoy_kubecon26_talk.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1230488"
   },
   {
@@ -11618,12 +11751,19 @@
    ],
    "track": "Connectivity",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "As Kubernetes platforms scale to multiple clusters, teams often solve cross-cluster connectivity by adding cloud load balancers between clusters. This approach works initially but leads to various issues, including, but not limited to, load balancer sprawl, cloud quota pressure, and connection-level load balancing.",
     "This talk presents an alternative: a lightweight xDS-based service discovery control plane that extends single-cluster endpoint discovery to span multiple clusters. Rather than requiring a full service mesh or relying on connection-level load balancing through cloud load balancers, the system distributes pod-level endpoint information across clusters through peer-to-peer xDS subscriptions. This architecture preserves the same routing capabilities and semantics available for single-cluster traffic, and allows systems to consistently apply features like request-level load balancing and zone affinity."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/tlaptep~BH1m7mj9438Ga8sRk7nNMb.pdf~from-load-balancer-sprawl-to-multicluster-service-discovery.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248779"
   },
   {
@@ -12687,13 +12827,19 @@
    "track": "AI Inference + Agentic",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Moving agentic AI into production requires more than just additional compute; it necessitates a data-driven approach to capacity planning and performance tuning. At Shopify, we deploy fine-tuned open models with 250k token context windows to power complex, long-form multi-turn agentic conversations for products like Pulse and our GraphQL sub-agent. Serving these models at scale requires precise benchmarking to navigate the trade-offs between latency, throughput, and GPU parallelism.",
     "In this talk, we demonstrate how Kubernetes Inference Perf serves as the engine for Shopify's agentic benchmarking workflow. We will share a reusable blueprint for load-testing fine-tuned models under realistic workloads, right-sizing GPU capacity, and translating performance data into production-ready deployments. Attendees will leave with a reproducible framework for benchmarking and deploying their own open-models, ensuring predictable performance for the next generation of agentic applications."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ciqkawxe~TYnLvt2gEXav9neXR3KfFi.pdf~from-fine-tuning-to-production_-scaling-agentic-ai-at-shopify-via-inference-perf-kubecon-na-2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247932"
   },
   {
@@ -12817,13 +12963,27 @@
    "track": "AI Inference + Agentic",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Open-weight models are rapidly closing the capability gap with the frontier, the friction to run models independently has vanished, making it possible to accomplish more locally than ever before. This session details how to build commercial-grade AI infrastructure using consumer hardware and cloud-native tooling.",
     "Attendees will learn how to configure local GPU scheduling, securely source private datasets, and deploy containerized inference workloads on Kubernetes. The presentation explores deploying open-source inference engines like vLLM and llama.cpp, alongside fine-tuning tooling to run large language models on-premises. The key is to bring these datacenter-native workloads into your private infrastructure using the CNCF tooling we know and love."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/jvalfeg~MXN74yGVWcuoHzvK2dv9nS.pdf~jcstryker-local-ai-renaissance.pdf"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/jcstryker/local-ai-renaissance"
+    },
+    {
+     "label": "Project Demo",
+     "url": "https://tangled.org/jcstryker.tngl.sh/local-ai-renaissance"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250985"
   },
   {
@@ -13144,7 +13304,8 @@
    "track": "Data Processing + Storage",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Over the past 2 years, Airbnb has been on a journey to migrate several million Spark jobs a week from Hadoop to Kubernetes.",
@@ -13152,7 +13313,12 @@
     "The workload patterns of Spark push the boundaries of every involved system including node health, observability, networking, and all the way down to individual disk performance.",
     "In this talk, we'll step through each layer of the stack — what broke, what we patched, and the custom tooling we built when off-the-shelf solutions couldn't keep up."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ynaitse~a5jq2dvZersgiHnjLi8aj6.pdf~tb-710_-damon-cortesi-kubecon-2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1251249"
   },
   {
