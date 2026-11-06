@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-05T21:59:14Z",
+ "updated": "2026-11-06T06:45:55Z",
  "sessions": [
   {
    "id": "1304040",
@@ -474,7 +474,7 @@
   },
   {
    "id": "1339971",
-   "title": "Hands-On with Apple Open Source Tooling Hosted by Apple | SEPARATE REGISTRATION REQUIRED",
+   "title": "Hands-On with Apple Open Source Tooling Hosted by Apple | SOLD OUT",
    "start": "2026-11-09T09:30:00",
    "end": "2026-11-09T15:00:00",
    "room": "Off-Site Location",
@@ -923,7 +923,7 @@
   },
   {
    "id": "1367685",
-   "title": "Stateful Done Right Hosted by Cockroach Labs | SEPARATE REGISTRATION REQUIRED",
+   "title": "Stateful Done Right Hosted by Cockroach Labs | SOLD OUT",
    "start": "2026-11-09T12:00:00",
    "end": "2026-11-09T16:00:00",
    "room": "Off-Site Location",
@@ -2052,22 +2052,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1309267"
   },
   {
-   "id": "1373663",
-   "title": "Project Pavilion Kiosks | Tuesday Morning",
-   "start": "2026-11-10T10:30:00",
-   "end": "2026-11-10T14:30:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
-   "track": "Project Opportunities",
-   "level": "",
-   "tags": [],
-   "description": [
-    "P-1A Helm\nP-1B OpenChoreo\nP-2A kube-burner\nP-2B Flux\nP-3A Rook\nP-3B Karmada\nP-4A Linkerd\nP-4B k0s\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B SIG-etcd\nP-6A Dynamic Resource Allocation (SIG Subproject)\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A K3s\nP-8B kagent\nP-9A KAI Scheduler\nP-9B KServe\nP-10A Longhorn\nP-10B OVN-Kubernetes\nP-11A Falco\nP-11B Open Policy Agent\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Metal3.io\nP-14A LitmusChaos\nP-14B Krkn\nP-15A KitOps\nP-15B Kairos\nP-16A OpenTelemetry\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B OpenCost\nP-18A Argo\nP-18B Dapr"
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373663"
-  },
-  {
    "id": "1380168",
    "title": "From Pod to Actuator: Physical AI and the Future of Kubernetes",
    "start": "2026-11-10T10:41:00",
@@ -2082,6 +2066,20 @@
    "description": [],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1380168"
+  },
+  {
+   "id": "1302802",
+   "title": "Closing Remarks",
+   "start": "2026-11-10T10:44:00",
+   "end": "2026-11-10T10:45:00",
+   "room": "Salt Palace | Level 1 | Hall DE",
+   "speakers": [],
+   "track": "Keynote Sessions",
+   "level": "",
+   "tags": [],
+   "description": [],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302802"
   },
   {
    "id": "1369670",
@@ -2118,6 +2116,22 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289746"
   },
   {
+   "id": "1373663",
+   "title": "Project Pavilion Kiosks | Tuesday Morning",
+   "start": "2026-11-10T10:45:00",
+   "end": "2026-11-10T14:30:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Opportunities",
+   "level": "",
+   "tags": [],
+   "description": [
+    "P-1A Helm\nP-1B OpenChoreo\nP-2A kube-burner\nP-2B Flux\nP-3A Rook\nP-3B Karmada\nP-4A Linkerd\nP-4B k0s\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B SIG-etcd\nP-6A Dynamic Resource Allocation (SIG Subproject)\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A K3s\nP-8B kagent\nP-9A KAI Scheduler\nP-9B KServe\nP-10A Longhorn\nP-10B OVN-Kubernetes\nP-11A Falco\nP-11B Open Policy Agent\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Metal3.io\nP-14A LitmusChaos\nP-14B Krkn\nP-15A KitOps\nP-15B Kairos\nP-16A OpenTelemetry\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B OpenCost\nP-18A Argo\nP-18B Dapr"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373663"
+  },
+  {
    "id": "1289738",
    "title": "Solutions Showcase",
    "start": "2026-11-10T10:45:00",
@@ -2149,20 +2163,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1376186"
-  },
-  {
-   "id": "1302802",
-   "title": "Closing Remarks",
-   "start": "2026-11-10T10:46:00",
-   "end": "2026-11-10T10:47:00",
-   "room": "Salt Palace | Level 1 | Hall DE",
-   "speakers": [],
-   "track": "Keynote Sessions",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1302802"
   },
   {
    "id": "1374035",
@@ -3305,14 +3305,20 @@
    "track": "AI Inference + Agentic",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "The maintainer talks tell you how cache-aware inference routing works. This talk tells you what happens after you adopt it and run a dozen live services on it for a year.",
     "A Korean telecom moved from a single RAG pipeline to production agents on Kubernetes, adopting the Gateway API Inference Extension and llm-d for KV-cache-aware routing. The architecture worked in the demo. Production was a different teacher: cache-hit cliffs under real traffic, a small-versus-large model cascade whose economics only appeared at scale, and the realization that promoting a routing policy needs the same evaluation gate as promoting a model.",
     "We share the failure modes the docs omit, the small/large cascade cost numbers, the measured 40-50% time-to-first-token reduction on cache hits, how we wired evaluation into routing-policy promotion, and the operational signals that actually predicted trouble."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/itjafsew~hfh65a6hEfnjZYyzhZ4uEZ.pdf~kubeconna2026_what-the-docs-dont-tell-you.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250865"
   },
   {
@@ -5821,7 +5827,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ivraodbe~QLamM3sujfCwduotNYR7yP.pdf~kccnc-na2026-how-far-are-open-source-llms-from-running-real-kubernetes-operations-a-10-scenario-benchmark_hoon-jokuberneteslab.pdf"
+     "url": "https://sessionize.com/download/loywaj~8pZ3dMMC5qVspJbd8uyre.pdf~kccnc-na2026-how-far-are-open-source-llms-from-running-real-kubernetes-operations-a-10-scenario-benchmark_hoon-jokuberneteslab.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246259"
