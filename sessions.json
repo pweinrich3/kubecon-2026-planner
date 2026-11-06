@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-06T15:55:45Z",
+ "updated": "2026-11-06T21:29:54Z",
  "sessions": [
   {
    "id": "1304040",
@@ -570,24 +570,24 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289832"
   },
   {
-   "id": "1289833",
-   "title": "Ubiquitous Edge Computing: KubeEdge Industrial Cases Sharing",
+   "id": "1289876",
+   "title": "Architecture Without Gatekeepers: Decoupling for Neutrality",
    "start": "2026-11-09T10:08:00",
    "end": "2026-11-09T10:13:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "Hongbing Zhang"
+    "Marcin Gwozdz"
    ],
    "track": "Project Lightning Talks",
    "level": "",
    "tags": [
-    "KubeEdge"
+    "OpenEverest"
    ],
    "description": [
-    "Since becoming the first cloud-native edge project to graduate from the CNCF, KubeEdge adoption has exploded. From intelligent transportation and smart cities to energy and banking, it is now the backbone of critical edge-cloud ecosystems. In this lightning talk, we will highlight the latest post-graduation features, governance updates, and real-world success stories that demonstrate the power of KubeEdge for Edge AI and industrial workloads."
+    "Open source only works if the community can contribute without hitting a wall. We realized our architecture at OpenEverest was unintentionally biased toward specific tools, so we rebuilt it. I’ll share how we moved to a modular plugin system that decouples our core from specific operators. By supporting everything from Valkey to competing Postgres flavors, we’ve eliminated vendor lock-in and ensured the community—not the architecture—dictates the project's future."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289833"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289876"
   },
   {
    "id": "1289834",
@@ -1779,30 +1779,10 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1374350"
   },
   {
-   "id": "1289876",
-   "title": "Architecture Without Gatekeepers: Decoupling for Neutrality",
-   "start": "2026-11-09T16:34:00",
-   "end": "2026-11-09T16:39:00",
-   "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
-   "speakers": [
-    "Marcin Gwozdz"
-   ],
-   "track": "Project Lightning Talks",
-   "level": "",
-   "tags": [
-    "OpenEverest"
-   ],
-   "description": [
-    "Open source only works if the community can contribute without hitting a wall. We realized our architecture at OpenEverest was unintentionally biased toward specific tools, so we rebuilt it. I’ll share how we moved to a modular plugin system that decouples our core from specific operators. By supporting everything from Valkey to competing Postgres flavors, we’ve eliminated vendor lock-in and ensured the community—not the architecture—dictates the project's future."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289876"
-  },
-  {
    "id": "1289971",
    "title": "Project Lightning Talk Closing",
-   "start": "2026-11-09T16:39:00",
-   "end": "2026-11-09T16:41:00",
+   "start": "2026-11-09T16:32:00",
+   "end": "2026-11-09T16:35:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
     "Robert Sirchia"
@@ -1939,7 +1919,8 @@
    "end": "2026-11-10T09:56:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
-    "Warren Barkley"
+    "Warren Barkley",
+    "Ali Golshan"
    ],
    "track": "Keynote Sessions",
    "level": "",
@@ -2095,7 +2076,7 @@
    ],
    "description": [
     "Sponsor: Cloudsmith\nTitle: Patient zero is a dependency: tracing one attack two ways\nBooth: 175",
-    "Sponsor: Temporal\nTitle: What if your AI agents were crash proof?\nBooth: 171",
+    "Sponsor: Temporal\nTitle: Temporal Worker Autoscaling on Kubernetes\nBooth: 171",
     "In order to facilitate networking and business relationships at the event, you may choose to visit a third party’s booth or access sponsored content. You are never required to visit third party booths or to access sponsored content. When visiting a booth or participating in sponsored activities, the third party will receive some of your registration data. This data includes your first name, last name, title, company, address, email, standard demographics questions (i.e. job function, industry), and details about the sponsored content or resources you interacted with. If you choose to interact with a booth or access sponsored content, you are explicitly consenting to receipt and use of such data by the third-party recipients, which will be subject to their own privacy policies."
    ],
    "links": [],
@@ -3983,7 +3964,8 @@
    "end": "2026-11-10T15:20:00",
    "room": "Hyatt Regency | Level 5 | Capitol Reef",
    "speakers": [
-    "David Palilonis"
+    "David Palilonis",
+    "Danielle Cook"
    ],
    "track": "Experiences",
    "level": "",
@@ -9436,7 +9418,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ikcarge~9Zve5HGU83MsuFpH7hfcMk.pdf~kubecon-no-rag-no-regrets.pdf"
+     "url": "https://sessionize.com/download/ikbauji~4nU16si4qKN2GURmuy5LPu.pdf~kubecon-no-rag-no-regrets.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1229970"
@@ -11098,7 +11080,7 @@
    "level": "",
    "tags": [],
    "description": [
-    "Come celebrate the winners of the 2026 Security Slam at KubeCon + CloudNativeCon Europe! In the past month, projects have been competing to improve their security posture. They have been using LFX insights to achieve measurable security improvements, while getting support from TAG Security and Compliance. Learn about the tools used in this competition, and how you can apply them to your own project. Then we will give out awards to the teams that have made the most improvement leading up to the event.",
+    "Come celebrate the winners of the 2026 Security Slam at KubeCon + CloudNativeCon North America! In the past month, projects have been competing to improve their security posture. They have been using LFX insights to achieve measurable security improvements, while getting support from TAG Security and Compliance. Learn about the tools used in this competition, and how you can apply them to your own project. Then we will give out awards to the teams that have made the most improvement leading up to the event.",
     "Click here to see the Security Slam Objective Details: https://securityslam.com/slam26"
    ],
    "links": [],
@@ -11809,7 +11791,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iuhsagu~Lkj2fuHSwUf8VGPPV3eSKY.pdf~kubecon-na-26-from-packets-to-paychecks.pdf"
+     "url": "https://sessionize.com/download/nzasuj~GKVmafFAGpT4uEmyV83Arq.pdf~kubecon-na-26-from-packets-to-paychecks.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247749"
