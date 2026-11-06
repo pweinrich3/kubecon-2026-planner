@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-06T06:45:55Z",
+ "updated": "2026-11-06T15:55:45Z",
  "sessions": [
   {
    "id": "1304040",
@@ -6008,7 +6008,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iwnawxex~fLSHSViH1wANthjRadg68k.pdf~ai-traffic-control-with-kserve-and-gateway-api-inference-extensions.pdf"
+     "url": "https://sessionize.com/download/pxarqew~fo4C8khSDPVbpCryouTqT7.pdf~ai-traffic-control-with-kserve-and-gateway-api-inference-extensions.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248185"
@@ -7087,14 +7087,20 @@
    "track": "🚨 Contribfest",
    "level": "",
    "tags": [
-    "Crossplane"
+    "Crossplane",
+    "↓ Slides"
    ],
    "description": [
     "Functions are the secret sauce to extend Crossplane and solve problems the core framework can't on its own. The function ecosystem is rich, ranging from high-level language support like Python and TypeScript to functions built for specific problems like querying live cloud state. As adoption climbs, that ecosystem needs more people building functions, and every maintainer starts by writing their first one.",
     "Writing a function can look harder than it really is, but this ContribFest session will walk you through the whole thing. We'll tour the ecosystem, then build a new real function together that the community will actually want to use. With maintainers beside you, you'll go from an empty repo to a working, PR-ready function in a single session.",
     "But that’s just the first step of the journey. You'll leave with the skills to keep going, pick up a curated issue, make your next contribution, and grow into a Crossplane function maintainer yourself. Let's build something together!"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/khaitse~RQiJPnn1VedUSxtEsrizXs.pdf~start-your-journey-to-crossplane-function-maintainer.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294765"
   },
   {
