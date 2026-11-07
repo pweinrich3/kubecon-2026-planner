@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-07T20:14:40Z",
+ "updated": "2026-11-07T23:39:13Z",
  "sessions": [
   {
    "id": "1304040",
@@ -4818,20 +4818,14 @@
    "track": "AI Inference + Agentic",
    "level": "Any Level",
    "tags": [
-    "End User Talk",
-    "↓ Slides"
+    "End User Talk"
    ],
    "description": [
     "Over the last three months Verkada's incident-triage agent handled about 4,700 production alerts a month across nine Kubernetes clusters at $0.33 per investigation, with an 87.5% prompt-cache-read ratio and a 139-second median time-to-summary. The control plane runs in-cluster on every shard. No AI-for-SRE SaaS is in the path; inference is managed Claude Opus 5, state lives on managed KV.",
     "Three reversals shaped the system and each cut cost or restored reliability: pod-to-serverless ingress so chat deploys never drop alerts; per-pod to cross-cluster state on managed KV so a single investigation can span shards; single-shot to multi-turn under a 1-hour cache-TTL budget, where cost tracks investigation depth: about $0.27 for a five-call investigation and $1.29 past twenty-five.",
     "MCP is the boring substrate that made the rest tractable: per-cluster MCP servers for ArgoCD, Prometheus, and the observability stack, with cross-cluster fan-out through the serverless ingress, and per-channel Markdown system prompts that retune triage behavior without a code change."
    ],
-   "links": [
-    {
-     "label": "Slides",
-     "url": "https://sessionize.com/download/sdarsem~pSpUTCVK2oawoSCzkt2trn.pdf~kubecon_slides.pdf"
-    }
-   ],
+   "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1244963"
   },
   {
@@ -5773,11 +5767,18 @@
    ],
    "track": "Operations + Performance",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "GitOps assumes cluster state converges to Git.But, what happens when the desired state is wrong?\nThis session examines a real incident where a routine Flux reconciliation turned a small git change into a cascading prune across a Kubernetes management platform managing 39 workload clusters. A missing Kustomization triggered inventory deletion, causing Flux controller to delete itself during reconciliation. Resulting in orphaned resources, stuck finalizers, and loss of critical Git repository storage.\nUsing timelines and incident evidence, we trace the failure chain and explore Flux inventory tracking, pruning, finalizers, StatefulSet PVC ownership, CSI reclaim policies, and deletion ordering.\nWe also cover recovery, restoring resources, rebuilding the GitOps control plane, and safely resuming reconciliation. Attendees will learn practical ways to reduce GitOps blast radius, protect stateful infrastructure, and build platforms that remain recoverable when automation fails."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/imkaldei~UCWPAmGCwir4YhJML3A7hy.pdf~gitops-meltdown.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250559"
   },
   {
@@ -6816,13 +6817,19 @@
    "track": "Application Development + Delivery",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Nearly 25 years after *Moneyball*, baseball analytics more resembles a high-performing tech org than a few analysts managing their own ad-hoc database. This level of sophistication introduces a major challenge: closing the gap between data scientists solving complex baseball problems and the resources they need to train and use their models, especially when there are a lot of existing critical workflows that run in disparate environments, or even on individual laptops.",
     "This session explores how a four-person platform team used a cloud-native stack—including Docker, Kubernetes, Helm, and Knative—to deploy statistical products that translate to on-field results. By meeting data scientists where they are and providing tools that grant freedom with minimal engineering overhead, the team manages the challenges of introducing tech into a specialized domain. It will also cover the wins that come with investing in a good platform, and the impact on products for coaches and decision makers"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/imicbau~PJudrt2UZDBkrvGydG3LTN.pdf~going-cloud-native-in-baseball.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250627"
   },
   {
@@ -6908,7 +6915,6 @@
    "speakers": [
     "Kai-Hsun Chen",
     "Richard Liaw",
-    "Andrew Sy Kim",
     "Mengjin Yan",
     "Jui-An Huang"
    ],
@@ -10174,12 +10180,18 @@
    "track": "🚨 Contribfest",
    "level": "",
    "tags": [
-    "Backstage"
+    "Backstage",
+    "↓ Slides"
    ],
    "description": [
     "Want to contribute to open source but not sure where to start? This ContribFest gets you going in 75 minutes. Backstage is the CNCF's open platform for building developer portals, with hundreds of plugins and contributors across dozens of organizations. This session is hands-on: you'll find where your skills and experience actually fit in the project, not just hear about how contributing works. We'll walk through the codebase (Node/JavaScript/React), the contribution process, and local dev setup. Then you pick from a board of prepared issues across docs, frontend, backend, and plugins, based on what you know and what you want to learn. Hosts and experienced contributors will be around to help you pick an issue, work through problems, and get your PR ready. You might leave with an open pull request, a branch in progress, or just a clearer idea of where to jump in next. No Backstage experience needed. Come curious; leave as a contributor-in-progress!"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/zgayyel~MGptcGqVz22f4BHC1x6DhX.pdf~kubecon-saltlakecity-backstage-contribfest-2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294770"
   },
   {
@@ -11140,13 +11152,20 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Last KubeCon, we shared \"1000 Clusters, 1 Brain\" marking our exciting leap into AIOps. Since then, that brain had to grow up fast! An AI just executing tasks is not enough. It absolutely must collaborate. In this sequel, we dive into evolving basic AIOps into a dynamic system of multiple agents acting as conversational bots for direct troubleshooting.",
     "What started in one group is catching fire. We made the core platform fully reusable across teams. We will showcase how we run strict evaluations, measure key metrics, and track real progress. Working alongside AI is rapidly becoming our operational standard. We are bringing you the raw story of what worked and failed. We will discuss revamping our content strategy, forging tight feedback loops, and harnessing Knowledge Graphs for deep context to improve accuracy.",
     "Expect a transparent look at our real struggles and big wins. Let us explore what happens when the brain gets a whole lot smarter."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/inlahnec~PQcTdhNpXUJDkDtdZXi8Pn.pdf~final-draft-1000-clusters-1-smarter-brain_-the-next-evolution-of-aiops-at-salesforce.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248788"
   },
   {
@@ -11903,7 +11922,7 @@
    ],
    "description": [
     "DuckDB is one of the fastest analytical databases available today, but wasn't designed to run as a multi-tenant, cloud native service.",
-    "At Greybeam, we’ve been running DuckDB in production since before v1.0, serving millions of queries while migrating large-scale customer workloads away from traditional data warehouses. There are tradeoffs when choosing an embedded single-node engine vs. a distributed database, and this talk will cover the challenges of building a DuckDB-based data platform on Kubernetes. Hear about the operational realities of running a stateful engine, such as NVMe provisioning and running performant data systems in environments without swap memory. We’ll then touch on what’s next, such as object-store-native architectures.",
+    "Greybeam has been running DuckDB in production since before v1.0, serving millions of queries. AcuityMD uses DuckDB to power their medtech platform used by over 500 medical device companies. There are tradeoffs when choosing an embedded single-node engine vs. a distributed database, and this talk will cover the challenges of building a DuckDB-based data platform on Kubernetes. Hear about the operational realities of running a stateful engine, such as NVMe provisioning and running performant data systems in environments without swap memory. We’ll then touch on what’s next, such as object-store-native architectures.",
     "Attendees will leave with practical lessons for running stateful workloads on Kubernetes, the tradeoffs of an embedded database, and patterns for building scalable data systems on top of modern open source infrastructure."
    ],
    "links": [],
@@ -12525,13 +12544,20 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Every vendor is shipping an agent platform. You probably don't need one — what you need to know is how to compose the CNCF projects you already are running to get headless agents running safely in your clusters.",
     "We identify challenges: cold-start identity gap (the agent egresses before SPIRE issues an SVID), trust-scope drift (egress allowlist decided at deploy, stale by wake), unverified delivery (the event broker hands off events before signature check), and unbound audit (completion not chained back to the signed wake).",
     "We'll walk through one reference pattern: KEDA scaling deployments from queue depth, signed CloudEvents (SPIFFE source + JWS) as the wake contract, sidecar policy reading SVIDs at runtime, and the event broker log as tamper-evident audit. In live demo we show: zero agent replicas -> signed task event to agent wake -> blocked egress on a wrong-scope call -> completion bound to the wake event -> scale to zero when agents are idle."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/itcappeq~swNZjxQQDMAVo8h9kiAWoi.pdf~the-seams-are-the-trap-1g.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248035"
   },
   {
