@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-06T21:29:54Z",
+ "updated": "2026-11-07T05:58:27Z",
  "sessions": [
   {
    "id": "1304040",
@@ -5635,7 +5635,7 @@
    "end": "2026-11-10T17:50:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 1 | Alpine Overlook Zone | Demo Theater",
    "speakers": [
-    "Saad Malik"
+    "Adam Kentosh"
    ],
    "track": "Sponsor Demo Theater",
    "level": "",
@@ -8020,12 +8020,18 @@
    "track": "🪧 Poster Sessions",
    "level": "Any Level",
    "tags": [
-    "Connectivity"
+    "Connectivity",
+    "↓ Slides"
    ],
    "description": [
     "Every Kubernetes network policy engine runs in the kernel. RDMA bypasses the kernel entirely. On multi-tenant AI clusters sharing GPU nodes, no software layer can enforce per-pod isolation on RDMA traffic: NetworkPolicy, Cilium, Calico, all blind.\nThis talk presents a production-validated pattern that closes the gap. A namespace-scoped CRD with NetworkPolicy-shape selectors makes each pod the subject of a tenant policy. A controller resolves selectors at admission and programs the NIC's hardware access control before the first RDMA verb fires. Same-tenant pods communicate freely. Cross-tenant traffic is dropped at the NIC\nWe walk through the full flow live: apply the CRD, start cross-tenant RDMA traffic, watch it drop at the NIC, then permit it with a selector change. Enforcement applies within 1 second with no throughput degradation. We cover the CRD design, selector-to-hardware translation, failure modes, and how this could inform NetworkPolicy extensions for kernel-bypass transports"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/mbacmet~NkEAqghBhWr3mPjvBuRYiL.jpg~kubecon2026_rdma_networkpolicy_poster-4.jpg"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249358"
   },
   {
@@ -12693,7 +12699,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ijkafwep~JMvQvfJU6xoUAiA7BxyTdA.pptx~agents-fail-workflows-recover.-durable-workflow-orchestration-with-cadence.pptx"
+     "url": "https://sessionize.com/download/ibjazrew~9LpjHJYuyGwoBgDmc5tiFi.pptx~final-agents-fail-workflows-recover-embedded-videos-and-animations.pptx"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1238002"
