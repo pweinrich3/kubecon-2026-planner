@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-07T05:58:27Z",
+ "updated": "2026-11-07T20:14:40Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2547,7 +2547,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/xramgek~SVZ9xeEbcDgZCodQFduhBa.pdf~saturated-by-design.pdf"
+     "url": "https://sessionize.com/download/lzacsej~ssiTLYz6ZFMk7YCKsBnXyK.pdf~saturated-by-design.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250350"
@@ -3154,20 +3154,14 @@
    "track": "Security",
    "level": "Any Level",
    "tags": [
-    "End User Talk",
-    "↓ Slides"
+    "End User Talk"
    ],
    "description": [
     "Your image is signed. But does its evidence meet deployment requirements, and can you prove that to an auditor? Repeating shared controls and evidence collection across app teams makes compliance costly and inconsistent.",
     "AT&T and Nirmata explore an architecture for platform-managed controls: GitHub Actions emits Sigstore-backed Artifact Attestations; Kyverno's ImageValidatingPolicy evaluates artifacts, signed evidence, and destination rules at admission. Every decision is retained as audit evidence.",
     "As long-time Kyverno users, AT&T wanted expressive CEL policies in the engine it already trusted, not a new engine and language. The challenge: internal builds using GitHub's private Sigstore alongside upstream images with different trust roots. This deep dive highlights Kyverno 1.19 and 1.20 capabilities for mixed-source verification and admission performance, plus patterns for exceptions, failure handling, and evidence retention."
    ],
-   "links": [
-    {
-     "label": "Slides",
-     "url": "https://sessionize.com/download/idpaxyex~pjYdS1vrvX6QuqvqoNnrZp.pdf~kubeconna26-signed-sealed-denied-kyverno-ivpol.pptx.pdf"
-    }
-   ],
+   "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247300"
   },
   {
@@ -9478,7 +9472,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/xvamiv~Sx3Qf3KYmddtDi9z2YsgA3.pdf~kubecon-na-2026_your-ci-s-mistaken-identity.pdf"
+     "url": "https://sessionize.com/download/irxabnek~XYqxqAzB19WtaZt6oZn4bN.pdf~kubecon-na-2026_your-ci-s-mistaken-identity.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248924"
