@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-07T23:39:13Z",
+ "updated": "2026-11-08T06:00:21Z",
  "sessions": [
   {
    "id": "1304040",
@@ -5356,14 +5356,20 @@
    "track": "Observability",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Monitoring a Kubernetes platform with 2M+ containers exposes the limits of standard tools. Most setups track internal controller machinery, ignoring user friction. Teams outgrowing kube-state-metrics often build custom metrics focused on internal mechanics rather than user experience, producing noise instead of insight.",
     "Effective platform observability needs to measure the promises made to developers.",
     "This session designs an SLO framework unified across stateless and stateful workloads using a contract-driven model. Learn to distill thousands of data points into 3–4 critical metrics that drove our operations this past year. We track workload readiness alongside pod-lifecycle signals (init-container latency, image download waits, terminating stalls) to isolate infrastructure faults from user errors before a page fires. This continues KubeCon NA 2025 (\"Making Application Rollouts Observable, Actionable, and Boring\"), moving from rollout signals to platform-wide promises."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ifrawseu~S7MycsmitiCXFjHx43MWuW.pdf~the_promises_we_keep_at_scale_-_preview.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247858"
   },
   {
@@ -8763,7 +8769,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/fkapyep~P4RREffvycghQCeUtsWn17.pdf~contribfest-deck.pdf"
+     "url": "https://sessionize.com/download/inbaqtet~PEFHMCoecaBvo1EBVhDao7.pdf~contribfest-deck.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294751"
@@ -9294,14 +9300,20 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Network"
+    "Network",
+    "↓ Slides"
    ],
    "description": [
     "As Gateway API adoption hits an all-time high, the journey is just getting started. Are you ready for what comes next on Kubernetes traffic management?",
     "Join the Gateway API maintainers for a high-energy update on the project's evolution. We have moved beyond simplifying Ingress migrations to tackling the next generation of networking challenges: from legacy TCP/UDP integration and flexible Backend policies to the cutting edge of AI and Agentic traffic patterns.",
     "Whether you are mastering HTTPRoute features, exploring non-HTTP routing, or curious about our approach to AI integration, this session is your destination. Get a direct look at the latest roadmap, learn about new features, and bring your questions—we want to hear what you need from the project next."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/inzarheq~BRZAKCzHNV91o1NnXc8vhM.pdf~gateway-api-project-update_-building-the-future-of-traffic-kubecon-na-2026.pptx.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289695"
   },
   {
@@ -10207,7 +10219,8 @@
    "track": "📚 Tutorials",
    "level": "Beginner",
    "tags": [
-    "Application Development + Delivery"
+    "Application Development + Delivery",
+    "↓ Slides"
    ],
    "description": [
     "WebAssembly (Wasm) is a practical sandboxing model for running untrusted code and other workloads on Kubernetes, but many developers and operators haven’t had a chance to try out the latest toolchains.",
@@ -10215,7 +10228,12 @@
     "By the end of the session, you'll have a working sandboxed component, a complete reference application manifest, and a clear mental model of where WebAssembly fits alongside containers.",
     "The tutorial is designed for engineers and platform operators with basic Kubernetes familiarity. No prior experience with Rust or WebAssembly required."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/idupyah~T5rKxNy8VmCoDXWS6n4pGH.pdf~sandboxing-fall-2026-wasmcloud-and-workshop.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1245965"
   },
   {
@@ -12719,7 +12737,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ibjazrew~9LpjHJYuyGwoBgDmc5tiFi.pptx~final-agents-fail-workflows-recover-embedded-videos-and-animations.pptx"
+     "url": "https://sessionize.com/download/irhardeu~3gfpvysUpVPVHKS5svj3nR.pdf~final-agents-fail-workflows-recover-kubecon-upload.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1238002"
