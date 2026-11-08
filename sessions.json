@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-08T06:00:21Z",
+ "updated": "2026-11-08T20:28:50Z",
  "sessions": [
   {
    "id": "1304040",
@@ -41,7 +41,7 @@
   },
   {
    "id": "1379082",
-   "title": "CNCF Maintainer Summit [Near Capacity]",
+   "title": "CNCF Maintainer Summit [SOLD OUT]",
    "start": "2026-11-08T09:00:00",
    "end": "2026-11-08T17:30:00",
    "room": "Salt Palace | Level 2 | 250 A-C",
@@ -2264,13 +2264,14 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1336486"
   },
   {
-   "id": "1333734",
-   "title": "KubeSchool – Learn the Easiest Way Possible",
+   "id": "1382533",
+   "title": "KubeCon + CloudNativeCon Kickoff: Your Map for the Week",
    "start": "2026-11-10T11:02:00",
    "end": "2026-11-10T11:14:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone",
    "speakers": [
-    "Neil Cresswell"
+    "Simon Forster",
+    "Danielle Cook"
    ],
    "track": "Cloud Native Theater",
    "level": "",
@@ -2278,12 +2279,11 @@
     "Cloud Native University"
    ],
    "description": [
-    "I was recently asked by one of my engineers if I could help him understand Kubernetes and the surrounding technologies. He felt overwhelmed with the training material out there, and just wanted it explained to him in a down-to-earth manner. So I did. And then I decided to share it.",
-    "Turned out the r/kubernetes subreddit loved it, with 75,000 views, hundreds of positive comments, so so many thumbs up, and people asking me to extend it.",
-    "So if you are new to the ecosystem, this should be your place to start."
+    "First KubeCon? Or your fifth? Whether you spent yesterday at a co-located event or you’ve just picked up your badge, the main conference starts now: thousands of people, dozens of tracks, and a schedule that seems to change by the hour. Start your week here.",
+    "CNCF Ambassadors Danielle Cook and Simon Forster will give you a quick map of KubeCon. You won’t get this by reading the schedule. We’ll cover how to make connections, where to learn the most and how to make the most of the non-scheduled events. We’ll use personal stories to help illustrate this journey."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1333734"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1382533"
   },
   {
    "id": "1361484",
@@ -2310,13 +2310,13 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1361484"
   },
   {
-   "id": "1333735",
-   "title": "Cloud Native Operators and You",
+   "id": "1333734",
+   "title": "KubeSchool – Learn the Easiest Way Possible",
    "start": "2026-11-10T11:17:00",
    "end": "2026-11-10T11:29:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone",
    "speakers": [
-    "Corey McGalliard"
+    "Neil Cresswell"
    ],
    "track": "Cloud Native Theater",
    "level": "",
@@ -2324,12 +2324,12 @@
     "Cloud Native University"
    ],
    "description": [
-    "Have you ever wondered what actually happens inside a Kubernetes cluster when you create a resource? Behind all the YAML lies a simple, powerful concept: the control loop.",
-    "In this interactive, live-demonstration talk, we’ll bring Kubernetes architecture to life using real-world dynamic volunteers and balloons! Three audience members will take on the roles of custom controllers, each assigned a specific desired state (such as keeping an exact number of balloons inflated). As the speaker acts as chaos in the system, popping balloons and altering state, you’ll watch firsthand how controllers observe, diff, and reconcile state differences in real time.",
-    "Whether you are new to Kubernetes or looking for a memorable, intuitive mental model to explain platform internals to your team, this session will make control loops pop!"
+    "I was recently asked by one of my engineers if I could help him understand Kubernetes and the surrounding technologies. He felt overwhelmed with the training material out there, and just wanted it explained to him in a down-to-earth manner. So I did. And then I decided to share it.",
+    "Turned out the r/kubernetes subreddit loved it, with 75,000 views, hundreds of positive comments, so so many thumbs up, and people asking me to extend it.",
+    "So if you are new to the ecosystem, this should be your place to start."
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1333735"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1333734"
   },
   {
    "id": "1246200",
@@ -2816,15 +2816,13 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1364870"
   },
   {
-   "id": "1334784",
-   "title": "Your First Broken Pod: A Beginner's Guide to Debugging Kubernetes",
+   "id": "1333735",
+   "title": "Cloud Native Operators and You",
    "start": "2026-11-10T11:32:00",
    "end": "2026-11-10T11:44:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone",
    "speakers": [
-    "Tania Duggal",
-    "Anton Weiss",
-    "Ant(on) Weiss"
+    "Corey McGalliard"
    ],
    "track": "Cloud Native Theater",
    "level": "",
@@ -2832,11 +2830,12 @@
     "Cloud Native University"
    ],
    "description": [
-    "Your app is deployed, but something is already wrong. The pod won't start, keeps restarting, or stays stuck in \"Pending,\" and Kubernetes is showing errors that can feel confusing. This session is your guide for what to do when things break.",
-    "In 12 minutes, we'll look at four common pod problems: CrashLoopBackOff, ImagePullBackOff, Pending, and OOMKilled. For each one, you'll learn what it means, why it happens, and how to find the real cause using three commands you'll use again and again: kubectl get, kubectl describe, and kubectl logs.\nBy the end, you'll be able to look at a broken pod, follow the clues Kubernetes gives you, and troubleshoot it without guessing."
+    "Have you ever wondered what actually happens inside a Kubernetes cluster when you create a resource? Behind all the YAML lies a simple, powerful concept: the control loop.",
+    "In this interactive, live-demonstration talk, we’ll bring Kubernetes architecture to life using real-world dynamic volunteers and balloons! Three audience members will take on the roles of custom controllers, each assigned a specific desired state (such as keeping an exact number of balloons inflated). As the speaker acts as chaos in the system, popping balloons and altering state, you’ll watch firsthand how controllers observe, diff, and reconcile state differences in real time.",
+    "Whether you are new to Kubernetes or looking for a memorable, intuitive mental model to explain platform internals to your team, this session will make control loops pop!"
    ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334784"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1333735"
   },
   {
    "id": "1378907",
@@ -4162,7 +4161,8 @@
     "End User Talk"
    ],
    "description": [
-    "Kubernetes made infrastructure scalable, but not always cost-efficient.Organizations have adopted various resource optimization strategies to improve resource utilization and reduce overprovisioning. Some work well across a broad range of workloads, while others show limitations at scale.\nWith its GA graduation in Kubernetes 1.33, in-place pod resizing has become a new resource optimization capability for platform teams. Like any approach, it has its fit, limits, and ideal workloads. For some applications, it can be a game changer, improving utilization without disruption. For others, especially legacy applications, the journey is more complex and often requires alternatives.\nIn this session, Meghana from RBC and Dolis from Nirmata will share lessons from enterprise optimization efforts, focusing on in-place pod resizing. They will discuss where it works, where it falls short, common adoption challenges, and how to evaluate the right optimization strategy across workloads."
+    "Kubernetes made infrastructure scalable, but not always cost-efficient.Organizations have adopted various resource optimization strategies to improve resource utilization and reduce overprovisioning. Some work well across a broad range of workloads, while others show limitations at scale.\nWith its GA graduation in Kubernetes 1.33, in-place pod resizing has become a new resource optimization capability for platform teams. Like any approach, it has its fit, limits, and ideal workloads. For some applications, it can be a game changer, improving utilization without disruption. For others, especially legacy applications, the journey is more complex and often requires alternatives.",
+    "In this session, Dolis from Nirmata will share lessons from enterprise optimization efforts, focusing on in-place pod resizing. They will discuss where it works, where it falls short, common adoption challenges, and how to evaluate the right optimization strategy across workloads."
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250487"
@@ -4672,11 +4672,18 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Your AI agent is Dory. Every conversation it wakes up unable to remember a thing , so you, Marlin, re-explain everything every turn. Four open-source memory systems promise to fix that: Cognee, MemOS, Honcho, and MemPalace. But which architecture actually pays off in tokens, dollars, and resolved tasks?\nThis talk runs two experiments. First, we benchmark all four backends head-to-head on a single Kubernetes substrate , same harness, same workloads, same OpenTelemetry Collector and rank them by token efficiency, cost per resolved task, and recall under contradiction.\nThen we test the question most teams haven't asked: is running an agent with memory worth it at all? We measure two real OSS agent frameworks , kagent (CNCF Sandbox) and sympozium with their built-in memory turned on, then turned off. Real workloads, real numbers.\nNone of the four backends ships first-party OTel today; the Helm chart, OTel pipeline, and upstream PRs are how we close that gap for the ecosystem."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/lhasjeq~PJgsfWjza9BoSTUBGrGy6q.pdf~just-keep-swimming.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1241330"
   },
   {
@@ -6384,22 +6391,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1360829"
   },
   {
-   "id": "1373666",
-   "title": "Project Pavilion Kiosks | Wednesday Morning",
-   "start": "2026-11-11T10:15:00",
-   "end": "2026-11-11T13:25:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
-   "track": "Project Opportunities",
-   "level": "",
-   "tags": [],
-   "description": [
-    "P-1A Helm\nP-1B Radius\nP-2A Drasi\nP-2B Flux\nP-3A Rook\nP-3B Karmada\nP-4A Linkerd\nP-4B external-secrets\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B Gateway API (SIG Subproject)\nP-6A Armada\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A containerd\nP-8B Velero\nP-9A Hyperlight\nP-9B KServe\nP-10A Longhorn\nP-10B bootc\nP-11A Falco\nP-11B Open Policy Agent\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Metal3.io\nP-14A LitmusChaos\nP-14B Meshery\nP-15A Inspektor Gadget\nP-15B kpt\nP-16A OpenTelemetry\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B kgateway\nP-18A Argo\nP-18B Dapr"
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373666"
-  },
-  {
    "id": "1295999",
    "title": "Production AI on Kubernetes: Built to Scale with Oracle Cloud",
    "start": "2026-11-11T10:18:00",
@@ -6476,6 +6467,22 @@
    "description": [],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289744"
+  },
+  {
+   "id": "1373666",
+   "title": "Project Pavilion Kiosks | Wednesday Morning",
+   "start": "2026-11-11T10:30:00",
+   "end": "2026-11-11T13:25:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Opportunities",
+   "level": "",
+   "tags": [],
+   "description": [
+    "P-1A Helm\nP-1B Radius\nP-2A Drasi\nP-2B Flux\nP-3A Rook\nP-3B Karmada\nP-4A Linkerd\nP-4B external-secrets\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B Gateway API (SIG Subproject)\nP-6A Armada\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A containerd\nP-8B Velero\nP-9A Hyperlight\nP-9B KServe\nP-10A Longhorn\nP-10B bootc\nP-11A Falco\nP-11B Open Policy Agent\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Metal3.io\nP-14A LitmusChaos\nP-14B Meshery\nP-15A Inspektor Gadget\nP-15B kpt\nP-16A OpenTelemetry\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B kgateway\nP-18A Argo\nP-18B Dapr"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373666"
   },
   {
    "id": "1289740",
@@ -10201,7 +10208,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/zgayyel~MGptcGqVz22f4BHC1x6DhX.pdf~kubecon-saltlakecity-backstage-contribfest-2026.pdf"
+     "url": "https://sessionize.com/download/iluitga~sGnY78GswK92nVDgZxnzq4.pdf~kubecon-saltlakecity-backstage-contribfest-2026.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294770"
@@ -10980,22 +10987,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294245"
   },
   {
-   "id": "1373668",
-   "title": "Project Pavilion Kiosks | Thursday Morning",
-   "start": "2026-11-12T10:15:00",
-   "end": "2026-11-12T11:55:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
-   "track": "Project Opportunities",
-   "level": "",
-   "tags": [],
-   "description": [
-    "P-1A Helm\nP-1B TBD\nP-2A Drasi\nP-2B Flux\nP-3A Rook\nP-3B Karmada\nP-4A Linkerd\nP-4B Microcks\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B SIG-etcd\nP-6A Project Capsule\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A Cilium\nP-8B Kagent\nP-9A Lima\nP-9B KServe\nP-10A Longhorn\nP-10B Hive Commons\nP-11A Falco\nP-11B Open Policy Agent\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Metal3.io\nP-14A LitmusChaos\nP-14B Cartography\nP-15A TAG Infrastructure\nP-15B Spin\nP-16A OpenTelemetry\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B Score\nP-18A Argo\nP-18B Dapr"
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373668"
-  },
-  {
    "id": "1302806",
    "title": "Closing Remarks",
    "start": "2026-11-12T10:22:00",
@@ -11022,6 +11013,22 @@
    "description": [],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289742"
+  },
+  {
+   "id": "1373668",
+   "title": "Project Pavilion Kiosks | Thursday Morning",
+   "start": "2026-11-12T10:30:00",
+   "end": "2026-11-12T11:55:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Opportunities",
+   "level": "",
+   "tags": [],
+   "description": [
+    "P-1A Helm\nP-1B TBD\nP-2A Drasi\nP-2B Flux\nP-3A Rook\nP-3B Karmada\nP-4A Linkerd\nP-4B Microcks\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B SIG-etcd\nP-6A Project Capsule\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A Cilium\nP-8B Kagent\nP-9A Lima\nP-9B KServe\nP-10A Longhorn\nP-10B Hive Commons\nP-11A Falco\nP-11B Open Policy Agent\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Metal3.io\nP-14A LitmusChaos\nP-14B Cartography\nP-15A TAG Infrastructure\nP-15B Spin\nP-16A OpenTelemetry\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B Score\nP-18A Argo\nP-18B Dapr"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373668"
   },
   {
    "id": "1289741",
