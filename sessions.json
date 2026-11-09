@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-08T20:28:50Z",
+ "updated": "2026-11-09T06:28:48Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2445,7 +2445,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iupobxa~SBYujWLypzFvtjRgY42x6S.pdf~aicr-kubecon-na-2026-slides-1-29.pdf"
+     "url": "https://sessionize.com/download/ilzalceq~DjMKKJqakhubjrUrHgei2C.pdf~aicr-kubecon-na-2026-one-recipe-five-clouds-one-query-slides-1-30.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246765"
@@ -4895,11 +4895,18 @@
    ],
    "track": "Platform Engineering",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Resource quota is a veteran Kubernetes feature, widely used yet poorly understood. Simple in theory—track, limit, reject—it navigates the messy trade-offs of consistency, availability, and performance inherent to distributed systems. This talk dissects the lifecycle of a ResourceQuota, from validating admission to the reconciliation controller. We examine design choices like per-namespace batching, optimistic updates, and the lookaside cache used to dodge etcd conflicts. We also explore \"default-deny\" semantics and documented race conditions that reveal why distributed quota is hard. Then, we pivot to how we built a custom system for complex limits that upstream doesn't natively support. We cover the pitfalls facing anyone building quota at scale: negative reservations, hierarchical lock ordering, and two-phase semantics. Finally, learn how drift correction avoids clobbering in-flight writes. Leave with a robust mental framework to evaluate every quota system against the CAP triangle."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/inqalzew~TKu4jJ5acpHcatEd3gEUbY.pdf~why-quotas-are-hard-in-kubernetes-final.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247815"
   },
   {
@@ -9016,12 +9023,18 @@
    "track": "⚡ Lightning Talks",
    "level": "Advanced",
    "tags": [
-    "Operations + Performance"
+    "Operations + Performance",
+    "↓ Slides"
    ],
    "description": [
     "Two kernel CVEs hit in the same week — Copy-Fail (CVE-2026-31431) and Dirty Frag (CVE-2026-43284). We fixed both across 5,000+ nodes on EKS, GKE, AKS, OKE, and on-prem; the largest cluster (500 nodes) had every node fixed and checked in 3 minutes from one kubectl apply. But the standard fix didn't look for vulnerable kernel modules that were already loaded, so half-fixed nodes would have looked fine until the next reboot. We added that check to the probe so those nodes showed up as failing pods, then a second, targeted CR rebooted only the nodes that needed it. The same pattern works for any change you need to land on every node: a sysctl, an apt package, etc. Ship the change plus a check that fails when the change didn't work, declared as a CR. kubectl get pods is your check; kubectl apply rolls it out; kubectl delete rolls it back; PDBs + podNonInterruptLabels decide when to cordon, drain, or reboot."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/vzajfel~p1kYR5Pb2xbopGS3YSxiKo.pdf~kubecon-na-2026-5000-nodes-in-3-minutes-twice-in-a-week.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247641"
   },
   {
@@ -10140,14 +10153,21 @@
    ],
    "track": "Security",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "What if your AI-powered observability stack could be quietly poisoned to trick AIOps agents into executing back doors or rogue deployments?",
     "Our talk presents a production hardened zero trust telemetry architecture iterated on through real-world incidents: mTLS between OpenTelemetry Collectors and backends to encrypt and authenticate every payload; cert-based auth for federated Prometheus scrapes to prevent scraper hijacks; fine-grained RBAC on Loki and Grafana queries to block exfiltration; and append-only storage with cryptographic hashing to detect tampering before it fools your AIOps.",
     "We’ll discuss the attack primitives in detail:\n– AI-orchestrated injection exploiting tail-sampling blind spots\n– Federation pivots chaining through scraped exporter paths\n– Query-driven exfiltration of credential-stuffed logs",
     "The audience will walk away with deployable Kubernetes manifests, eBPF verifier scripts for kernel isolation, and a battle-tested threat model template."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ihcatzep~fksnWYSdGAoptmBe7k15Ci.pdf~zero-trust-telemetry-stopping-ai-powered-poisoning-attacks-diana-todea-and-chad-crowell.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1230227"
   },
   {
