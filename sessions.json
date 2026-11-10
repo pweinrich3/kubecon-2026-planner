@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-10T12:39:54Z",
+ "updated": "2026-11-10T21:48:14Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2481,7 +2481,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/cipcayse~fkaVUi61Dou6HpXzTGvePu.pdf~aicr-kubecon-na-2026-one-recipe-five-clouds-one-query-slides-1-32.pdf"
+     "url": "https://sessionize.com/download/iyjadxei~ahLvwgcbZ4XK81hBQwXzvM.pdf~aicr-kubecon-na-2026-one-recipe-five-clouds-one-query-final.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246765"
@@ -2555,7 +2555,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/gxafqep~hBfKkTmzZqvaYzMk4MsN9e.pdf~sig_network_intro_and_updates_kubecon_na_2026.pptx.pdf"
+     "url": "https://sessionize.com/download/gkapyen~nrhtKsDcSinYPvrGDyVKzU.pdf~sig_network_intro_and_updates_kubecon_na_2026.pptx.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289730"
@@ -2584,7 +2584,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/lzacsej~ssiTLYz6ZFMk7YCKsBnXyK.pdf~saturated-by-design.pdf"
+     "url": "https://sessionize.com/download/ccaosmeh~YJrUKLfo2PG87KXNnMWPX8.pdf~saturated-by-design.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250350"
@@ -2751,6 +2751,28 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1233585"
   },
   {
+   "id": "1364870",
+   "title": "🚩 An Introduction to Capture The Flag",
+   "start": "2026-11-10T11:30:00",
+   "end": "2026-11-10T12:00:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [
+    "Vicente Herrera",
+    "Torin van den Bulk"
+   ],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "An Introduction to Capture The Flag",
+    "The Cloud Native Capture The Flag (CTF) is available to all KubeCon + CloudNativeCon attendees. In preparation for playing the game, you are invited to attend an introductory session.",
+    "This session introduces CTF competitions for newcomers: any experience level is welcome. We will share tips and tricks for completing these challenges and work through a practice scenario together. You can play solo or with a friend!",
+    "Learn more about how to participate in Capture The Flag: https://ctf.control-plane.io/events/kubecon-na-26/"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1364870"
+  },
+  {
    "id": "1250326",
    "title": "Autoscaling Reality Check: The Hands-On HTTP Optimization Challenge",
    "start": "2026-11-10T11:30:00",
@@ -2829,28 +2851,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294771"
-  },
-  {
-   "id": "1364870",
-   "title": "🚩 An Introduction to Capture The Flag",
-   "start": "2026-11-10T11:30:00",
-   "end": "2026-11-10T13:30:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [
-    "Vicente Herrera",
-    "Torin van den Bulk"
-   ],
-   "track": "Project Pavilion Stage",
-   "level": "",
-   "tags": [],
-   "description": [
-    "An Introduction to Capture The Flag",
-    "The Cloud Native Capture The Flag (CTF) is available to all KubeCon + CloudNativeCon attendees. In preparation for playing the game, you are invited to attend an introductory session.",
-    "This session introduces CTF competitions for newcomers: any experience level is welcome. We will share tips and tricks for completing these challenges and work through a practice scenario together. You can play solo or with a friend!",
-    "Learn more about how to participate in Capture The Flag: https://ctf.control-plane.io/events/kubecon-na-26/"
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1364870"
   },
   {
    "id": "1333735",
@@ -3097,14 +3097,21 @@
    ],
    "track": "Cloud Native Experience",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Everybody wants the latest and greatest bits, right? But for the essential infrastructure that powers our world, shiny new releases may bring shiny new bugs. Where stability is top priority, the frenetic pace of an upgrade treadmill may not match your real needs.",
     "More time for upgrades is appealing, though when looking at an LTS support cycle versus the release schedules of ancillary software installed on your systems, the fault lines start to show. If part of your system goes EOL before the rest can be changed, you risk having a CVE-shaped problem.",
     "In an LTS environment, relicensing or forks can limit your ability to ingest necessary patches. And if your upstreams aren’t patching any more, you have a maintainability problem, where AI-fueled zero-days can appear faster than AI-assisted patches.",
     "Resolving these conflicts is complex; we’ll detail how to approach it. You’ll leave ready to balance tradeoffs inherent in extended-period software support while also keeping systems secure."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/idganxeg~BKughMyve3xr4X1QpKByKe.pdf~kubecon-na-2026-lts-eol-cves.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248038"
   },
   {
@@ -3146,14 +3153,20 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Keycloak"
+    "Keycloak",
+    "↓ Slides"
    ],
    "description": [
     "As cloud native systems and AI agents increasingly interact across APIs and infrastructure, authorization is becoming a critical building block alongside authentication, requiring fine grained and real time decisions.",
     "AuthZEN, finalized by the OpenID Foundation in 2026, defines a standardized API for interactions between policy enforcement and decision components, enabling more interoperable authorization architectures. As adoption grows, platforms need to be ready to support AuthZEN based architectures.",
     "In this session, Yoshiyuki Tabata presents how Keycloak can serve as a unified platform for both authentication and authorization, providing an OAuth/OIDC based identity foundation alongside emerging AuthZEN based authorization capabilities.\nThe session demonstrates an end to end scenario including token issuance, authorization evaluation, and enforcement. It uses Envoy as the policy enforcement point together with Keycloak to show how this approach can be implemented in practice."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/nzajgel~4uhX4jJNmv8j2AVUWTNhnZ.pdf~one-platform-for-authn-and-authz-keycloak-meets-authzen.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289732"
   },
   {
@@ -3956,6 +3969,22 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334803"
   },
   {
+   "id": "1372851",
+   "title": "OpenTelemetry – OBI",
+   "start": "2026-11-10T14:50:00",
+   "end": "2026-11-10T15:15:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "OBI is the new automatic instrumentation solution using eBPF. It offers users the ability to add o11y to applications with low overhead and no code changes. In this demo we'll show how to install and use OBI."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372851"
+  },
+  {
    "id": "1289633",
    "title": "AI Found a 0-Day in Metal3. What Happens Next?",
    "start": "2026-11-10T14:50:00",
@@ -3978,7 +4007,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/hwaqger~QMi3oJ5LbUSS1NXxx3K9ni.pdf~ai-found-a-zero-day-in-metal3.pdf"
+     "url": "https://sessionize.com/download/fravtew~NH53eXKgeQRaoYZpKUjZVP.pdf~ai-found-a-zero-day-in-metal3.pdf"
     },
     {
      "label": "GitHub Repository",
@@ -4449,20 +4478,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294759"
   },
   {
-   "id": "1370503",
-   "title": "CNCF Project Demos",
-   "start": "2026-11-10T14:50:00",
-   "end": "2026-11-10T16:25:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
-   "track": "Project Pavilion Stage",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370503"
-  },
-  {
    "id": "1333748",
    "title": "KyvernoCon Opening Remarks",
    "start": "2026-11-10T15:00:00",
@@ -4515,7 +4530,7 @@
    "level": "",
    "tags": [],
    "description": [
-    "P-1A Vitess\nP-1B Tekton Pipelines\nP-2A Cloud Native Buildpacks\nP-2B Flux\nP-3A Kubevela\nP-3B Backstage\nP-4A Linkerd\nP-4B KEDA\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B Headlamp (SIG)\nP-6A ORAS\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A Flatcar Container Linux\nP-8B k8gb\nP-9A Volcano\nP-9B HAMi\nP-10A KubeVirt\nP-10B Perses\nP-11A kubeflow\nP-11B Jaeger\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Harbor\nP-14A Kubescape\nP-14B Cedar\nP-15A OpenFeature\nP-15B Cadence\nP-16A TAG Developer Experience\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B TAG Operational Resilience\nP-18A Argo\nP-18B Confidential Containers"
+    "P-1A Vitess\nP-1B Tekton Pipelines\nP-2A Cloud Native Buildpacks\nP-2B Flux\nP-3A Kubevela\nP-3B Backstage\nP-4A Linkerd\nP-4B Microcks\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B Headlamp (SIG)\nP-6A ORAS\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A Flatcar Container Linux\nP-8B k8gb\nP-9A Volcano\nP-9B HAMi\nP-10A KubeVirt\nP-10B Perses\nP-11A kubeflow\nP-11B Jaeger\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Harbor\nP-14A Kubescape\nP-14B Cedar\nP-15A OpenFeature\nP-15B Cadence\nP-16A TAG Developer Experience\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B TAG Operational Resilience\nP-18A Argo\nP-18B Confidential Containers"
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373665"
@@ -4561,6 +4576,25 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362578"
+  },
+  {
+   "id": "1372852",
+   "title": "Integrating MLflow for Kubeflow Pipelines: Enhanced Experiment Visibility – Model Training Workloads",
+   "start": "2026-11-10T15:25:00",
+   "end": "2026-11-10T15:50:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "What projects are involved?",
+    "Kubeflow (specifically Kubeflow Pipelines) and MLflow (open-source project, non-CNCF affiliated)",
+    "Kubeflow Pipelines (KFP) 2.17, released in July, included a plugin for MLflow that allows users to auto-upload KFP pipeline runs as runs in the MLflow console. This feature allows users to avoid choosing between KFP and MLflow for their training orchestrators: simply submit a pipeline through KFP and take advantage of the MLflow console for organizing experiments and visualizing run metrics.",
+    "This presentation walks through a brief 5-minute demo of a Kubeflow Pipelines training run and its visualization in the MLflow console.\nSession lead contact info: Alyssa Goins"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372852"
   },
   {
    "id": "1334817",
@@ -4849,14 +4883,20 @@
    "track": "AI Inference + Agentic",
    "level": "Beginner",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Artificial Intelligence is reshaping retail by enabling a shift from traditional automation to autonomous decision-making systems. This talk explores how modern retail organizations leverage AI, real-time data pipelines, and cloud-native architectures to transform data into actionable intelligence.",
     "The session highlights the evolution from batch-based processing to event-driven systems, where AI models are integrated into operational workflows to support real-time decisions in areas such as pricing, supply chain, and customer analytics. It also discusses key architectural patterns, including streaming data platforms and intelligent automation frameworks.",
     "Through practical insights and real-world examples, the talk demonstrates how autonomous decisioning improves efficiency, scalability, and customer experience. It also addresses challenges related to data governance, observability, and responsible AI adoption, providing a roadmap for building future-ready retail systems."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/lgatseq~3dy9kHqURsgPnbES14t5y1.pdf~ai_in_retail_kubecon_na_2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1208416"
   },
   {
@@ -4918,7 +4958,8 @@
    "track": "Platform Engineering",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "After 10 years of Kubernetes, we are still asking the same question: is this resource healthy?",
@@ -4927,7 +4968,12 @@
     "The session explores why Kubernetes lacks a consistent health model for CRDs through real-world examples. It reviews existing approaches like Kstatus and explores potential solutions, such as reusable health libraries and ecosystem-wide compatibility standards.",
     "Attendees will leave with a deeper understanding of Kubernetes health semantics, the tradeoffs behind current approaches and emerging efforts to improve health interoperability across cloud native tooling."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/imlavfex~UuKbbCThnGijQ44azpyFc9.pdf~health-check-hell-kubecon-na-2026-1.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1243844"
   },
   {
@@ -5231,11 +5277,18 @@
    ],
    "track": "Security",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Everyone in this room has been through it. Maybe you're in it right now.\nDenial: \"Our namespace isolation is fine.\" Anger: \"Why does everything touch the kernel?\" Bargaining: \"What if we just add a Pod Security Policy?\" Depression: \"The CVE dropped on a Friday.\" Acceptance: You can't bolt on isolation; you have to build it in from the start.\nThis talk is a dual-perspective journey through the 5 stages of K8s security grief. Kavi brings the kernel-level technical reality: the shared surfaces, the subsystems nobody's watching, the failures that leave no CVE and no alert. Ann brings what folks actually say: the rationalizations, the moment the mental model breaks.\nIt's structured as a comedy, but the content is real. Every stage maps to genuine failure modes, real conversations, and the hard lessons that only land after you've done the grieving. Attendees will leave with a more honest picture of where Kubernetes isolation holds, where it doesn't, and what it actually takes to accept that."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/nqabiu~X7e7YY82TwcEQwZFhXpY4u.pdf~five-stages-of-k8s-security-grief.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1239772"
   },
   {
@@ -5373,11 +5426,18 @@
    ],
    "track": "Observability",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Calculating and tracking the memory usage of your applications is far more complicated than meets the eye. In this session, two members of OpenTelemetry's System Semantic Conventions Working Group will do a deep dive into what how memory metrics differ from each other, how the Linux Kernel will respond to memory pressure, and what memory information you should be using to effectively detect problems in your infrastructure."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/imlausne~fPEGqm4pHJMxVpA92WxVVH.pdf~not-all-memory-is-equal.pptx-1.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247991"
   },
   {
@@ -5556,7 +5616,7 @@
   },
   {
    "id": "1250975",
-   "title": "Building a Cloud-Native RAG Pipeline from Scratch: Docling Operator, KFP, and OpenSearch",
+   "title": "CANCELED: Building a Cloud-Native RAG Pipeline from Scratch: Docling Operator, KFP, and OpenSearch",
    "start": "2026-11-10T16:40:00",
    "end": "2026-11-10T18:00:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom A",
@@ -5749,14 +5809,20 @@
    "track": "Platform Engineering",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Once a GPU fleet outgrows a single Kubernetes cluster, optimizing its utilization becomes genuinely hard. At Snapchat, scarce GPUs serve a diverse mix of workloads: autoscaled latency-critical inference alongside batch training, Spark, and Ray across many clusters. Kubernetes' GPU ecosystem shines inside a cluster but stops at its edge: capacity sits idle in one cluster while work queues in another, or a low-priority job holds a GPU a critical service can't preempt on a separate cluster.",
     "Leveraging Virtual Kubelet, we built a virtualization layer that allows us to schedule workloads wherever capacity actually exists. Alongside our extension of Kueue that enforces priority across cluster boundaries, we built a platform that optimizes scarce compute across any number of Kubernetes clusters, regions, and even clouds.",
     "The result was nearly 2x average GPU utilization and $XX million saved annually, while availability and latency for critical workloads improved."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ikpawmei~3sKbtDacGm9HzDAt81hEZL.pdf~sharing_gpus_at_scale.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250789"
   },
   {
@@ -6408,7 +6474,7 @@
   },
   {
    "id": "1301748",
-   "title": "Context Unlocks Autonomous AI Infrastructure",
+   "title": "Autonomous Orchestration for AI Infrastructure",
    "start": "2026-11-11T10:04:00",
    "end": "2026-11-11T10:09:00",
    "room": "Salt Palace | Level 1 | Hall DE",
@@ -7015,13 +7081,20 @@
    ],
    "track": "Observability",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "As OpenTelemetry adoption scales and the project extends its breadth, end users find themselves navigating a large configuration surface: SDKs, Collector deployments, data pipelines, instrumentation libraries, semantic conventions… They can all create accidental complexity when not considered as part of a cohesive strategy, resulting in disjointed telemetry and a lack of context, the opposite of OTel's vision.",
     "In this session, we'll introduce OTel Blueprints, a community-driven initiative providing prescriptive guidance for deploying OTel across its many components, grounded in real-world reference implementations. We will walk through newly published blueprints tailored for common enterprise architectures, exploring actionable design patterns for Kubernetes observability, non-Kubernetes infrastructure, and building centralized telemetry platforms that can scale.",
     "Attendees will learn how to apply these blueprints to build a scalable, consolidated observability strategy."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/zzalyei~3DarVmpXZseVsX5ua4HEFx.pdf~kubecon-na-2026-otel-blueprints.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249846"
   },
   {
@@ -8317,7 +8390,7 @@
    "end": "2026-11-11T14:20:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
    "speakers": [],
-   "track": "",
+   "track": "Project Pavilion Stage",
    "level": "",
    "tags": [],
    "description": [
@@ -9065,6 +9138,22 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1336094"
+  },
+  {
+   "id": "1372868",
+   "title": "Kubernetes: Ask the Experts",
+   "start": "2026-11-11T14:50:00",
+   "end": "2026-11-11T15:15:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Hear from Kubernetes maintainers and the Steering Committee as they discuss the future of Kubernetes. Come ready with your questions!"
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372868"
   },
   {
    "id": "1247641",
@@ -9962,8 +10051,7 @@
    "end": "2026-11-11T16:40:00",
    "room": "Salt Palace | Level 1 | 151",
    "speakers": [
-    "Phelipe Fabres",
-    "Daniel Bichuetti"
+    "Phelipe Fabres"
    ],
    "track": "Emerging + Advanced",
    "level": "Advanced",
@@ -10890,7 +10978,7 @@
    "id": "1352067",
    "title": "Kubeflow Graduation: Powering the Next Era of Cloud Native AI With an Open Community",
    "start": "2026-11-12T09:12:00",
-   "end": "2026-11-12T09:17:00",
+   "end": "2026-11-12T09:19:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Ron Kahn",
@@ -10911,8 +10999,8 @@
   {
    "id": "1353351",
    "title": "Celebrating the People Who Make Cloud Native Possible",
-   "start": "2026-11-12T09:19:00",
-   "end": "2026-11-12T09:30:00",
+   "start": "2026-11-12T09:21:00",
+   "end": "2026-11-12T09:32:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Jorge Castro"
@@ -10929,8 +11017,8 @@
   {
    "id": "1337241",
    "title": "Scaling Multi-Modal Models and Computer-Use Agents on Kubernetes",
-   "start": "2026-11-12T09:32:00",
-   "end": "2026-11-12T09:37:00",
+   "start": "2026-11-12T09:34:00",
+   "end": "2026-11-12T09:39:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Kai-Hsun Chen",
@@ -10949,8 +11037,8 @@
   {
    "id": "1293929",
    "title": "Standardized Yet Adaptable: How Nutanix is Evolving Cluster API with CAREN",
-   "start": "2026-11-12T09:39:00",
-   "end": "2026-11-12T09:44:00",
+   "start": "2026-11-12T09:41:00",
+   "end": "2026-11-12T09:46:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Deepak Goel"
@@ -10969,8 +11057,8 @@
   {
    "id": "1367923",
    "title": "Salesforce Runs on Heroku: How We Empower Every Builder at Cloud Native Scale",
-   "start": "2026-11-12T09:46:00",
-   "end": "2026-11-12T09:49:00",
+   "start": "2026-11-12T09:48:00",
+   "end": "2026-11-12T09:51:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Brandon Schoen",
@@ -10990,8 +11078,8 @@
   {
    "id": "1368936",
    "title": "The Storage Bottleneck AI Didn't See Coming: Inside StepFun’s Multimodal Production Stack",
-   "start": "2026-11-12T09:51:00",
-   "end": "2026-11-12T09:54:00",
+   "start": "2026-11-12T09:53:00",
+   "end": "2026-11-12T09:56:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Joe Zhou",
@@ -11009,8 +11097,8 @@
   {
    "id": "1301727",
    "title": "Kubernetes with Conviction: How Customization is Shaping the OSS AI Ecosystem's Future",
-   "start": "2026-11-12T09:56:00",
-   "end": "2026-11-12T10:01:00",
+   "start": "2026-11-12T09:58:00",
+   "end": "2026-11-12T10:03:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Jago Macleod",
@@ -11031,8 +11119,8 @@
   {
    "id": "1293369",
    "title": "Agentic AI, Assembled in the Open",
-   "start": "2026-11-12T10:03:00",
-   "end": "2026-11-12T10:08:00",
+   "start": "2026-11-12T10:05:00",
+   "end": "2026-11-12T10:10:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Jorge Palma"
@@ -11051,8 +11139,8 @@
   {
    "id": "1294245",
    "title": "Cloud Native Without Limits: What Can AI Agents Do for Us?",
-   "start": "2026-11-12T10:10:00",
-   "end": "2026-11-12T10:20:00",
+   "start": "2026-11-12T10:12:00",
+   "end": "2026-11-12T10:24:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [
     "Lin Sun"
@@ -11070,7 +11158,7 @@
   {
    "id": "1302806",
    "title": "Closing Remarks",
-   "start": "2026-11-12T10:22:00",
+   "start": "2026-11-12T10:24:00",
    "end": "2026-11-12T10:30:00",
    "room": "Salt Palace | Level 1 | Hall DE",
    "speakers": [],
