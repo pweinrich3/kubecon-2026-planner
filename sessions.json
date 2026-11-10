@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-09T18:49:12Z",
+ "updated": "2026-11-10T02:44:30Z",
  "sessions": [
   {
    "id": "1304040",
@@ -14,7 +14,7 @@
    "tags": [],
    "description": [
     "Got your badge? Next, make sure to visit any Info Desk for an ID check and a 21+ wristband to redeem your drink tickets at event receptions.",
-    "Info Desk ID Check Hours:\nSunday, November 8 | 8:00 AM – 5:00 PM\nMonday, November 9 | 7:00 AM – 7:00 PM*\nTuesday, November 10 | 7:30 AM – 6:15 PM*",
+    "ID Check Station Hours:\nSunday, November 8 | 8:00 AM – 5:00 PM\nMonday, November 9 | 7:00 AM – 7:00 PM*\nTuesday, November 10 | 7:30 AM – 6:15 PM*",
     "*ID check stations will also be available during the reception."
    ],
    "links": [
@@ -106,7 +106,7 @@
    "tags": [],
    "description": [
     "Got your badge? Next, make sure to visit any Info Desk for an ID check and a 21+ wristband to redeem your drink tickets at event receptions.",
-    "Info Desk ID Check Hours:\nSunday, November 8 | 8:00 AM – 5:00 PM\nMonday, November 9 | 7:00 AM – 7:00 PM*\nTuesday, November 10 | 7:30 AM – 6:15 PM*",
+    "ID Check Station Hours:\nSunday, November 8 | 8:00 AM – 5:00 PM\nMonday, November 9 | 7:00 AM – 7:00 PM*\nTuesday, November 10 | 7:30 AM – 6:15 PM*",
     "*ID check stations will also be available during the reception."
    ],
    "links": [
@@ -852,13 +852,32 @@
    ],
    "track": "Project Lightning Talks",
    "level": "",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Every container image you pull is someone else's build you chose to trust. Most homelab operators grab pre-built images from Docker Hub and hope for the best. Building from source is a longstanding practice, but with modern dependency management the build process itself is an attack surface.",
     "This talk demos a self-hosted pipeline built on Tekton to securely build and deploy service containers. Services' code is mirrored internally, built, then deployed. Dependencies are fetched securely and the build runs hermetically. Tekton Chains signs the image and generates an attestation without any extra scripting. Push code to Forgejo, get a signed image deployed to the cluster.",
     "Not everyone needs to run their own build infrastructure. But the tooling has gotten simple enough that a single Tekton install on commodity hardware gives you hermetic builds, signed artifacts, and provenance attestations. The same stuff enterprises pay platform teams to set up runs on a box under your desk."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/itzacvez~RTF6h4qbATXPmK8nvZ6Yay.pdf~slides.pdf"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/tektoncd/pipeline"
+    },
+    {
+     "label": "Project Demo",
+     "url": "https://git.sr.ht/~athorp96/software-security-at-home"
+    },
+    {
+     "label": "Website",
+     "url": "https://tekton.dev/"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370530"
   },
   {
@@ -1054,8 +1073,7 @@
    "end": "2026-11-09T12:32:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "Mitchell Davis",
-    "Jared Watts"
+    "Mitchell Davis"
    ],
    "track": "Project Lightning Talks",
    "level": "",
@@ -1387,7 +1405,7 @@
    "end": "2026-11-09T14:34:00",
    "room": "Hyatt Regency | Level 4 | Regency Ballroom B-D",
    "speakers": [
-    "Suhani ‎"
+    "Jim Bugwadia"
    ],
    "track": "Project Lightning Talks",
    "level": "",
@@ -1910,12 +1928,18 @@
    "track": "Keynote Sessions",
    "level": "",
    "tags": [
-    "Sponsored"
+    "Sponsored",
+    "↓ Slides"
    ],
    "description": [
     "AI changed what Kubernetes has to handle: container images in the tens of gigabytes, clusters approaching 100,000 nodes, and accelerators a device count can’t describe. At AWS we hit those limits early, and when we do, we fix them upstream. This keynote covers three layers. In containerd, parallel layer unpack takes the long pole out of pulling large AI images. In the control plane, we removed lock contention in the API server watch cache and the Horizontal Pod Autoscaler and fixed a scheduler hot path, all in Kubernetes 1.37. For accelerators, Dynamic Resource Allocation lets a pod ask for a GPU and network adapter on the same PCIe root, and Karpenter can now provision for it, even for nodes that don’t exist yet."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ickawdeh~as3XoEgoVC6mbpbFKLaLAV.pptx~kubecon-na-2026-keynote-v2.pptx"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1301696"
   },
   {
@@ -2411,7 +2435,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ipvabsex~c7MhkBciofycsRdNfNMRG.pdf~kubecon-cloudnativecon-na-2026-wg-ai-gateway-nir-rozenbaum-keith-mattix.pdf"
+     "url": "https://sessionize.com/download/itnavsez~3oi92p1pXpZK4cxAobdcaJ.pdf~kubecon-cloudnativecon-na-2026-wg-ai-gateway-nir-rozenbaum-keith-mattix.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289716"
@@ -2495,7 +2519,8 @@
    "room": "Salt Palace | Level 2 | 250 A-C",
    "speakers": [
     "Catherine Fang",
-    "David Ashpole"
+    "David Ashpole",
+    "Stephen Lang"
    ],
    "track": "Maintainer Track",
    "level": "",
@@ -3627,8 +3652,8 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334796"
   },
   {
-   "id": "1370500",
-   "title": "CNCF Project Demos",
+   "id": "1372568",
+   "title": "Open Cluster Management (OCM): Live Demo Using k3d/KIND",
    "start": "2026-11-10T13:40:00",
    "end": "2026-11-10T14:05:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
@@ -3636,9 +3661,13 @@
    "track": "Project Pavilion Stage",
    "level": "",
    "tags": [],
-   "description": [],
+   "description": [
+    "When deploying workloads from a central hub cluster to multiple managed clusters, two key questions often arise: How long does it take for a workload to reach each cluster, and how can you confirm it arrived successfully?",
+    "In this live demo, we'll launch two local Kubernetes clusters using k3d, connect one to the other as a managed cluster through OCM, and deploy a ManifestWork from the hub.",
+    "We'll then track the deployment using two timestamps: T1, recorded when the hub's admission webhook accepts the write, and T2, recorded when the managed cluster's work agent begins applying that generation. OCM v1.4 supports this capability through the alpha ManifestWorkApplyLogs feature gate."
+   ],
    "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370500"
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372568"
   },
   {
    "id": "1334797",
@@ -11063,7 +11092,7 @@
    "level": "",
    "tags": [],
    "description": [
-    "P-1A Helm\nP-1B TBD\nP-2A Drasi\nP-2B Flux\nP-3A Rook\nP-3B Karmada\nP-4A Linkerd\nP-4B Microcks\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B SIG-etcd\nP-6A Project Capsule\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A Cilium\nP-8B Kagent\nP-9A Lima\nP-9B KServe\nP-10A Longhorn\nP-10B Hive Commons\nP-11A Falco\nP-11B Open Policy Agent\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Metal3.io\nP-14A LitmusChaos\nP-14B Cartography\nP-15A TAG Infrastructure\nP-15B Spin\nP-16A OpenTelemetry\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B Score\nP-18A Argo\nP-18B Dapr"
+    "P-1A Helm\nP-1B TBD\nP-2A Drasi\nP-2B Flux\nP-3A Rook\nP-3B Karmada\nP-4A Linkerd\nP-4B Microcks\nP-5A Kueue / Workload Aware Scheduling (SIG Subproject)\nP-5B SIG-etcd\nP-6A Project Capsule\nP-6B Istio\nP-7A Crossplane\nP-7B Envoyproxy\nP-8A Cilium\nP-8B Kagent\nP-9A Lima\nP-9B KServe\nP-10A Longhorn\nP-10B Hive Commons\nP-11A Falco\nP-11B Open Policy Agent\nP-12A Fluent Bit\nP-12B Kyverno\nP-13A SPIFFE\nP-13B Metal3.io\nP-14A Kubescape\nP-14B Cartography\nP-15A TAG Infrastructure\nP-15B Spin\nP-16A OpenTelemetry\nP-16B Technical Community Group\nP-17A Cloud Native Community Groups/KCDs\nP-17B Score\nP-18A Argo\nP-18B Dapr"
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1373668"
@@ -13168,13 +13197,20 @@
    ],
    "track": "Observability",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "What does an OpenTelemetry trace look like when there's no HTTP request to start it? What does the collector do when the network disappears for ten minutes? What's the right batch size when your \"host\" is a Raspberry Pi slapped onto a child’s toy?",
     "We added an OTel collector to a toy RC car to find out.",
     "A large automotive manufacturer is working through similar questions in every car coming off their production line, at a very different scale. We'll drive our RC car around the stage, show what happens when an edge device loses its connection, and dig into the OTel collector features that make edge deployments work."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ifzasden~scsyyRDvE7xdQ6PH2ErRc2.pdf~fast_and_furious_otel_drift.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1245970"
   },
   {
@@ -13482,8 +13518,8 @@
    "end": "2026-11-12T16:00:00",
    "room": "Salt Palace | Level 2 | 254",
    "speakers": [
-    "Chris Plank",
-    "Colin Griffin"
+    "Colin Griffin",
+    "Avinash Sabat"
    ],
    "track": "Experiences",
    "level": "",
