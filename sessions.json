@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-10T02:44:30Z",
+ "updated": "2026-11-10T12:39:54Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2481,7 +2481,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ilzalceq~DjMKKJqakhubjrUrHgei2C.pdf~aicr-kubecon-na-2026-one-recipe-five-clouds-one-query-slides-1-30.pdf"
+     "url": "https://sessionize.com/download/cipcayse~fkaVUi61Dou6HpXzTGvePu.pdf~aicr-kubecon-na-2026-one-recipe-five-clouds-one-query-slides-1-32.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246765"
@@ -5574,7 +5574,12 @@
     "Along the way: writing KFP components that call Docling Serve in-cluster, extracting quality metrics from the DoclingDocument JSON to filter bad conversions before indexing, and using KFP step caching so unchanged documents never reprocess.",
     "You leave with a running cluster, working pipeline code, and a repo you can extend."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/KrishnaRekapalli/doc-ingestion-kfp"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250975"
   },
   {
@@ -8265,20 +8270,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1333709"
   },
   {
-   "id": "1370896",
-   "title": "CNCF Project Demos",
-   "start": "2026-11-11T13:40:00",
-   "end": "2026-11-11T15:15:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
-   "track": "Project Pavilion Stage",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370896"
-  },
-  {
    "id": "1371079",
    "title": "From Cloud Native to Agent Native with MCP",
    "start": "2026-11-11T13:45:00",
@@ -8318,6 +8309,23 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369675"
+  },
+  {
+   "id": "1372858",
+   "title": "Fireside Chat: Future of Kubernetes and Agents with Tim Hokin and Kelsey Hightower",
+   "start": "2026-11-11T13:50:00",
+   "end": "2026-11-11T14:20:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Kubernetes was built for long-running services. AI agents are different: mostly idle, bursty, running untrusted code, and needing to resume instantly with their state intact. What does that mean for the platform underneath?",
+    "Join Kubernetes co-founder Tim Hockin and cloud native leader Kelsey Hightower for a live conversation hosted by Savannah Peterson. They’ll explore how Agent Substrate builds on Kubernetes for the agent era, and what the next decade holds for platform teams and the open source community. Expect candid opinions, a little history, and time for audience questions."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372858"
   },
   {
    "id": "1362669",
@@ -10615,14 +10623,20 @@
    "track": "AI Inference + Agentic",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Distributed AI training fails fast: if a single GPU pod in a multi-node job cannot schedule, accelerators sit idle or the workload fails with collective-op timeouts. To compensate, the ecosystem evolved many external schedulers, including Kueue, Volcano, and KAI, each forcing controllers to pick a side.",
     "Kubernetes 1.36 changes this. The new Workload and PodGroup APIs (KEP-4671) introduce scheduler-native primitives for gang-scheduling, topology-aware placement, and coordinated use of high-bandwidth interconnects such as IMEX. TrainJob, JobSet, and LeaderWorkerSet are converging on these APIs.",
     "This session covers Kubeflow Trainer’s adoption (KEP-3015): why TrainJob owns Workload composition and how its plugin architecture enables advanced scheduling features. Attendees will see a demo of multi-node fine-tuning on modern accelerators, how the Workload API unifies a fragmented ecosystem, and how to adopt it in their own controllers."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iwpaqtep~X12j4qP9jui29zi4gVBcRX.pdf~one_workload_to_rule_them_all_workload-aware_scheduling_for-distributed_ai_training_on-kubernetes.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250239"
   },
   {
