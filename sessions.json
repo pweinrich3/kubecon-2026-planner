@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-11T16:10:44Z",
+ "updated": "2026-11-11T22:42:05Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2097,7 +2097,7 @@
    "title": "Gold In-Booth Demos: Cloudsmith, Temporal",
    "start": "2026-11-10T10:45:00",
    "end": "2026-11-10T11:15:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "Solutions Showcase",
    "level": "",
@@ -2117,7 +2117,7 @@
    "title": "☕ Coffee Break",
    "start": "2026-11-10T10:45:00",
    "end": "2026-11-10T11:30:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "",
    "level": "",
@@ -2147,7 +2147,7 @@
    "title": "Solutions Showcase",
    "start": "2026-11-10T10:45:00",
    "end": "2026-11-10T17:15:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "Solutions Showcase",
    "level": "",
@@ -2163,7 +2163,7 @@
    "title": "Explore the Poster Showcase",
    "start": "2026-11-10T10:45:00",
    "end": "2026-11-10T19:30:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "🪧 Poster Sessions",
    "level": "",
@@ -3460,7 +3460,7 @@
    "title": "🍲 Lunch",
    "start": "2026-11-10T12:50:00",
    "end": "2026-11-10T14:50:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "",
    "level": "",
@@ -3557,7 +3557,7 @@
    "title": "Gold In-Booth Demos: Komodor, Vultr",
    "start": "2026-11-10T13:15:00",
    "end": "2026-11-10T13:45:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "Solutions Showcase",
    "level": "",
@@ -3736,7 +3736,7 @@
    "title": "Gold In-Booth Demos: vCluster",
    "start": "2026-11-10T13:45:00",
    "end": "2026-11-10T14:15:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "Solutions Showcase",
    "level": "",
@@ -3874,7 +3874,7 @@
    "title": "Gold In-Booth Demos: Couchbase, Tigera, Veeam Kasten",
    "start": "2026-11-10T14:15:00",
    "end": "2026-11-10T14:45:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "Solutions Showcase",
    "level": "",
@@ -3974,22 +3974,6 @@
    "description": [],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334803"
-  },
-  {
-   "id": "1372851",
-   "title": "OpenTelemetry – OBI",
-   "start": "2026-11-10T14:50:00",
-   "end": "2026-11-10T15:15:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
-   "track": "Project Pavilion Stage",
-   "level": "",
-   "tags": [],
-   "description": [
-    "OBI is the new automatic instrumentation solution using eBPF. It offers users the ability to add o11y to applications with low overhead and no code changes. In this demo we'll show how to install and use OBI."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372851"
   },
   {
    "id": "1289633",
@@ -4389,14 +4373,20 @@
    "track": "Cloud Native Experience",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Every mature codebase earns a backlog item that's too daunting to complete. For Kubeflow Pipelines it was the frontend: an aging Create React App on end-of-life packages with a dated Jest + Enzyme suite – attempted before, never finished.",
     "What changed was timing. An inflection point in AI coding agents made this kind of work – mechanical, well-specified, backed by tests – finally tractable: CRA to Vite, Enzyme to Vitest + Testing Library, React 16 to 19.",
     "But agents didn't do it alone, and neither did I. This talk is what a career in engineering still brings: spotting patterns, steering an agent with the right questions, knowing when it's confidently wrong, and earning the trust of a community of contributors and maintainers who shaped and reviewed the work. You'll leave knowing how to spot the work that fits this AI moment, and to do it in a way maintainers welcome."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ihpadxei~YZ9e4oexy7HzJZsYoQ1yce.pdf~zero-to-maintainer.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250961"
   },
   {
@@ -5103,7 +5093,7 @@
    "title": "☕ Coffee Break",
    "start": "2026-11-10T16:10:00",
    "end": "2026-11-10T16:40:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "",
    "level": "",
@@ -5243,13 +5233,19 @@
    "track": "Cloud Native Experience",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "OSS communities are sounding the alarm that AI-generated contributions are flooding their projects. Much like a DDoS attack overwhelms a server with excessive requests until it goes offline, this flood can overwhelm maintainers and push projects to shut their doors. We call it AI-DDoS. Some projects are already responding defensively: closing bug bounties, moving to invitation-only models, or rejecting unsolicited pull requests. These responses may address the immediate symptoms, yet they risk closing the door to new contributors, upending their ecosystem.",
     "We analyzed over 2 million PRs and issues from 350,000+ contributors across 294 widely used repositories. Our findings show that AI-DDoS is a structural, ecosystem-wide pressure on the OSS contribution pipeline. From this evidence, we developed 11 practitioner-driven strategies that projects can use to manage AI-DDoS while balancing openness, maintainer capacity, and their stance toward AI-assisted contributions."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/icyavded~w1ybP3ju8uST3tw9DVJkDA.pdf~ai-ddos-kubecon-north-america-2026.pptx-1.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246066"
   },
   {
@@ -5670,7 +5666,7 @@
    "speakers": [
     "Reza Jelveh",
     "Mengxuan Li",
-    "Han Shen"
+    "Meng Wang"
    ],
    "track": "🚨 Contribfest",
    "level": "",
@@ -6165,7 +6161,7 @@
    "title": "Gold In-Booth Demos: Heroku",
    "start": "2026-11-10T18:00:00",
    "end": "2026-11-10T18:30:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "Solutions Showcase",
    "level": "",
@@ -6201,7 +6197,7 @@
    "title": "🎉 #KubeCrawl + #CloudNativeFest",
    "start": "2026-11-10T18:00:00",
    "end": "2026-11-10T19:30:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "Solutions Showcase",
    "level": "",
@@ -6575,7 +6571,7 @@
    "title": "Gold In-Booth Demos: Octopus Deploy, Sysdig",
    "start": "2026-11-11T10:30:00",
    "end": "2026-11-11T11:00:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "Solutions Showcase",
    "level": "",
@@ -6595,7 +6591,7 @@
    "title": "☕ Coffee Break",
    "start": "2026-11-11T10:30:00",
    "end": "2026-11-11T11:00:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "",
    "level": "",
@@ -6625,7 +6621,7 @@
    "title": "Solutions Showcase",
    "start": "2026-11-11T10:30:00",
    "end": "2026-11-11T17:00:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "Solutions Showcase",
    "level": "",
@@ -6896,14 +6892,25 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Step one: get the model running. Step two: realize that was the easy part.",
     "Once you're in production and start to scale, you're suddenly thinking about cost, efficiency, and why adding a second replica didn't help as much as you hoped. Requests route naively, missing the cache. GPU time adds up fast, and your costs reflect it. Whether you're running a multi-GPU model or scaling out to handle more traffic, you're probably leaving performance and cost savings on the table.",
     "llm-d, a CNCF sandbox project, was built to solve these problems with efficient, cost-aware LLM inference on Kubernetes through features like disaggregated prefill/decode, prefix cache-aware routing, and flow control.",
     "From an engineer who's spent years in inference infrastructure and is now digging into llm-d, we'll walk through each feature practically: what it is, why it matters, and when an optimization is right for your setup. Expect real explanations, honest tradeoffs, and as always, fun drawings."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/lubwal~BNr5DNv9rtVGWPSyvoU6pY.pdf~cache-me-public.pdf"
+    },
+    {
+     "label": "Website",
+     "url": "https://docs.google.com/presentation/d/18BlnFdX_STb8LjMp4MCbcUa64KyXViR9-vbF7aSb-wM/view"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250427"
   },
   {
@@ -7260,12 +7267,18 @@
    "track": "📚 Tutorials",
    "level": "Any Level",
    "tags": [
-    "Observability"
+    "Observability",
+    "↓ Slides"
    ],
    "description": [
     "OTTL is already everywhere in advanced OpenTelemetry Collector pipelines. It is the tool teams use to filter noisy data, transform telemetry in flight, route signals, enforce conventions, and shape pipelines without writing custom code. But using OTTL effectively requires a practical understanding of how to apply it to real pipeline problems.\nThis hands-on tutorial is framed around exactly those problems. Through live Collector configs, running examples, and tools like ottl.run, attendees will learn how to write maintainable statements, debug unexpected behavior, and solve common pipeline challenges. The session also covers advanced patterns, practical OTTL tips and hacks, extending OTTL in a custom Collector distribution, and newer capabilities to watch.\nLed by OpenTelemetry and OTTL maintainers, this tutorial gives beginners, intermediate users, and advanced practitioners practical techniques they can apply immediately as well as insight into the design decisions shaping OTTL."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/sowqaf~hHrkDMwUu8rms3kq9Kvcrc.pdf~filter-transform-route_-mastering-ottl-in-the-opentelemetry-collector.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249896"
   },
   {
@@ -7585,12 +7598,18 @@
    "track": "Operations + Performance",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "At 50,000 nodes, component failure is a statistical certainty—but total control-plane collapse shouldn't be. When Anthropic and Google pushed GKE to these limits on production AI workloads, the real threat wasn't the initial faults; it was the catastrophic loss of graceful degradation. Default upstream mechanics frequently turned localized anomalies into cascading, fleet-wide stalls.\nThis talk explores six joint war stories where Kubernetes' built-in self-healing broke down: from a CNI startup probe that couldn't outlast its own informer sync, to an APF cost-misestimation that triggered master OOMs.\nWe will detail the exact failure modes, the joint debugging, and the upstream PRs that enforced blast-radius isolation. Finally, we’ll examine how these lessons drive forward-looking community work—like queue isolation and stateless controllers—ensuring Kubernetes handles massive scale gracefully without breaking."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/tvaopo~4hLi7jR1wGapRpfqmTXsrM.pdf~kubecon-na-2026-how-anthropic-almost-melted-gke-flattened-hd-lossless.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247612"
   },
   {
@@ -7627,13 +7646,20 @@
    ],
    "track": "Platform Engineering",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "MCP makes it easy to connect AI agents to internal tools. It does not, however, tell you how to enforce least-privilege access to each of them consistently. Without a standardized approach, individual teams are forced to implement their own authorization layers. The result is not just security vulnerabilities, but platform sprawl.",
     "Enforcing least-privilege access for AI agents raises three challenges: verifying which user an agent is acting on behalf of, proving the agent's own identity as a workload, and controlling tool access based on both contexts. This session addresses each in turn by propagating user identity across trust boundaries via OAuth 2.0 Token Exchange, attesting agents as verified workloads via SPIFFE/SPIRE, and enforcing identity-aware access decisions via ABAC. It then packages these approaches as a reusable Golden Path that platform teams can adopt.",
     "Leave with a security model for least-privilege AI agent access and a Golden Path ready to ship as a platform."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/inmagceh~JeRNVpyeKHL9MR61dxaJfj.pdf~kubeconna2026_least-privilege-by-default.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246681"
   },
   {
@@ -7868,7 +7894,7 @@
    "title": "🍲 Lunch",
    "start": "2026-11-11T12:20:00",
    "end": "2026-11-11T14:20:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "",
    "level": "",
@@ -7924,7 +7950,8 @@
    "end": "2026-11-11T12:50:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
-    "Andrey Velichkevich"
+    "Andrey Velichkevich",
+    "Valentina Rodriguez Sosa"
    ],
    "track": "Cloud Native Theater",
    "level": "",
@@ -8040,7 +8067,6 @@
    "end": "2026-11-11T13:35:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
-    "Akshay Chitneni",
     "Aniket Shaha",
     "Ricardo Aravena"
    ],
@@ -8060,7 +8086,7 @@
    "title": "Gold In-Booth Demos: Tailscale",
    "start": "2026-11-11T13:15:00",
    "end": "2026-11-11T13:45:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "Solutions Showcase",
    "level": "",
@@ -8079,7 +8105,7 @@
    "title": "2,000+ Customer Calls About AI In Production – Here's What You Need To Know",
    "start": "2026-11-11T13:20:00",
    "end": "2026-11-11T14:20:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [
     "Michael Levan"
    ],
@@ -8102,7 +8128,7 @@
    "title": "Beyond HPA: An Explainable, Agentic Autoscaler for Kubernetes",
    "start": "2026-11-11T13:20:00",
    "end": "2026-11-11T14:20:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [
     "Alexis Ngoga"
    ],
@@ -8123,7 +8149,7 @@
    "title": "Beyond Harnesses and Sandboxes: Runtime Protection for AI Agents with eBPF",
    "start": "2026-11-11T13:20:00",
    "end": "2026-11-11T14:20:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [
     "Yusheng Zheng",
     "Lebin Cheng"
@@ -8145,7 +8171,7 @@
    "title": "Beyond QEMU/KVM: Re-Architecting KubeVirt for Heterogeneous Virtualization Backends",
    "start": "2026-11-11T13:20:00",
    "end": "2026-11-11T14:20:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [
     "Harshit Gupta",
     "Vladik Romanovsky"
@@ -8184,7 +8210,7 @@
    "title": "Developing Cloud-Native Infrastructure in the Age of AI",
    "start": "2026-11-11T13:20:00",
    "end": "2026-11-11T14:20:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [
     "Mert Toslali",
     "Dipanwita Guhathakurta"
@@ -8213,7 +8239,7 @@
    "title": "Extending NetworkPolicy to RDMA: Hardware-Enforced Tenant Isolation for AI Clusters",
    "start": "2026-11-11T13:20:00",
    "end": "2026-11-11T14:20:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [
     "Pavani Panakanti",
     "Jayanth Varavani"
@@ -8240,7 +8266,7 @@
    "title": "GitOps for AI Infrastructure: The Operational Gaps Nobody Talks About",
    "start": "2026-11-11T13:20:00",
    "end": "2026-11-11T14:20:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [
     "Kim Schaefer"
    ],
@@ -8269,7 +8295,7 @@
    "title": "Many Agents, One Platform: Production Multi-Agent Apps on K8s with CNCF Building Blocks",
    "start": "2026-11-11T13:20:00",
    "end": "2026-11-11T14:20:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [
     "Daniel Oh"
    ],
@@ -8295,7 +8321,7 @@
    "title": "Snapshot, Replay, Verify: A KWOK CI Pattern for Kubernetes Platform Operators",
    "start": "2026-11-11T13:20:00",
    "end": "2026-11-11T14:20:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [
     "Dibyo Mukherjee"
    ],
@@ -8318,7 +8344,7 @@
    "title": "Your GPU Dashboard Is Lying: Per-Tenant Blind Spots in MIG, MPS, and HAMi",
    "start": "2026-11-11T13:20:00",
    "end": "2026-11-11T14:20:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [
     "Saiyam Pathak",
     "Saloni Narang"
@@ -8419,11 +8445,27 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1371079"
   },
   {
+   "id": "1372851",
+   "title": "OpenTelemetry – OBI",
+   "start": "2026-11-11T13:45:00",
+   "end": "2026-11-11T14:10:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "OBI is the new automatic instrumentation solution using eBPF. It offers users the ability to add o11y to applications with low overhead and no code changes. In this demo we'll show how to install and use OBI."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372851"
+  },
+  {
    "id": "1369675",
    "title": "Gold In-Booth Demos: ControlTheory, New Relic, OpenObserve",
    "start": "2026-11-11T13:45:00",
    "end": "2026-11-11T14:15:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "Solutions Showcase",
    "level": "",
@@ -8519,6 +8561,23 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1333711"
+  },
+  {
+   "id": "1372870",
+   "title": "What's New in Podman 6: From 6.0 to 6.2",
+   "start": "2026-11-11T14:15:00",
+   "end": "2026-11-11T14:40:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Podman is a daemonless, rootless, CNCF sandbox container engine for finding, running, building, sharing, and deploying OCI containers and images. Since last year, Podman has shipped a major release line: 6.0, 6.1, and now 6.2 RC (Hopefully 6.2 by the time of demo).\nThis short Project Pavilion Stage demo walks through what changed for developers and maintainers — with live demos where it helps — covering:",
+    "Attendees will leave knowing what to expect when upgrading to Podman 6.x, which breaking changes matter in practice, and which new workflows are worth trying first. There will be time for Q&A at the end."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372870"
   },
   {
    "id": "1362678",
@@ -8865,12 +8924,19 @@
    ],
    "track": "Security",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "For years, the Kubernetes community has lived with a \"necessary evil\": granting monitoring agents and health checkers the nodes/proxy permission. While intended for simple metrics scraping, this permission is effectively a node-level superuser capability. Recent security research in early 2026 demonstrated that even a simple GET request on this subresource could be exploited via WebSockets to achieve unlogged Remote Code Execution (RCE) in any pod.",
     "The wait for a fix is over. With the graduation of Fine-Grained Kubelet API Authorization to General Availability in v1.36, Kubernetes finally provides a robust, least-privilege alternative."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iupxazke~QyRj4QLMHCBkwGsXd91TNf.pdf~kubecon-na-2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1203350"
   },
   {
@@ -9215,7 +9281,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/vzajfel~p1kYR5Pb2xbopGS3YSxiKo.pdf~kubecon-na-2026-5000-nodes-in-3-minutes-twice-in-a-week.pdf"
+     "url": "https://sessionize.com/download/ynaoji~3wnvyHazKja8b9S2cNH9hY.pdf~kubecon-na-2026-5000-nodes-in-3-minutes-twice-in-a-week-1.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247641"
@@ -9442,14 +9508,21 @@
    ],
    "track": "Cloud Native Novice",
    "level": "Beginner",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "What actually happens before a Kubernetes Pod can send or receive traffic?",
     "Before the first packet is ever transmitted, Kubernetes performs a complex series of networking operations behind the scenes. Without understanding these steps and the potential errors along the way, troubleshooting Pod startup networking issues becomes extremely difficult.",
     "This session follows the networking lifecycle of a Pod from startup to first packet using live demos and packet tracing. We will walk through how Kubernetes creates the Pod sandbox, establishes shared networking through the pause container, and invokes the CNI. We will also dive into namespace setup, veth pair creation, IPAM, routing, and overlay configuration step by step before a Pod becomes reachable.",
     "Attendees will gain a deep understanding of Pod networking at startup which will help them debug common failures including CNI errors, missing routes, overlay issues, and broken Pod connectivity."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/nxagneh~E9p71tUAoaq8iUtT7B3ooF.pdf~kubeconna-2026_-from-pod-creation-to-first-packet.pptx.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247552"
   },
   {
@@ -9560,12 +9633,18 @@
    "track": "Operations + Performance",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Deploying Kubernetes onto mobile hardware like humanoid robots introduces severe physical risks. While GitOps tools can use \"Sync Windows\", applying an automated update or restarting a container while a heavy robot is moving can have real-world consequences.\nTo achieve true defense-in-depth, we implemented a custom Kubernetes Admission Controller directly on the edge cluster. Acting as an infrastructure-level gatekeeper, it intercepts all API requests and evaluates them against the robot's state. Regardless of GitOps schedules, modifications are safely blocked if the hardware is in a high-risk state.\nThis session explores a production architecture designed to bridge the gap between cloud-native infrastructure and live hardware We will detail how the admission webhook interfaces directly with the active robot, how it catches risks missed by static schedules, and the essential considerations of \"break-glass\" overrides to prevent lockout during edge cases"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iwtanheq~NUrFHfR6a1ixB5nVfLaLUn.pdf~kubecon-talk-2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250470"
   },
   {
@@ -9741,8 +9820,25 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250962"
   },
   {
+   "id": "1372878",
+   "title": "Your Go-to Compliance-as-Skill: OSCAL Compass",
+   "start": "2026-11-11T15:25:00",
+   "end": "2026-11-11T15:50:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "OSCAL Compass CNCF Sandbox Project transforms compliance from a documentation nightmare into an interactive dialogue where your security posture evolves alongside your codebase. On top of automating compliance, we are making it conversational, collaborative, and… actually enjoyable. Come see how agentic workflows and our MCP servers are turning compliance-as-code into compliance-as-skill.",
+    "In this talk you will see how compliance integrates directly into the dev workflow via OSCAL Compass, rather than acting as a late-stage gate. Perfect for platform engineers and AI/ML ops shipping regulated AI."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372878"
+  },
+  {
    "id": "1364856",
-   "title": "CLBO: ClashLoopBackOff: Attendee Edition",
+   "title": "CANCELLED – CLBO: ClashLoopBackOff: Attendee Edition",
    "start": "2026-11-11T15:25:00",
    "end": "2026-11-11T16:25:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
@@ -9841,7 +9937,7 @@
    "title": "☕ Coffee Break",
    "start": "2026-11-11T15:40:00",
    "end": "2026-11-11T16:10:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "",
    "level": "",
@@ -10105,7 +10201,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iuhozga~925SqDUpyEczpiSva1MUMy.pptx~kubecon-vlm-kubernetes-v18.pptx"
+     "url": "https://sessionize.com/download/ydayseu~LVp5QMPYiXfiAXNjbsdmam.pptx~kubecon-vlm-kubernetes-v19.pptx"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249812"
@@ -10549,7 +10645,7 @@
   },
   {
    "id": "1372858",
-   "title": "Fireside Chat: Future of Kubernetes and Agents with Tim Hokin and Kelsey Hightower",
+   "title": "Fireside Chat: Future of Kubernetes and Agents with Tim Hockin and Kelsey Hightower",
    "start": "2026-11-11T16:30:00",
    "end": "2026-11-11T17:00:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
@@ -10563,20 +10659,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372858"
-  },
-  {
-   "id": "1370902",
-   "title": "CNCF Project Demos",
-   "start": "2026-11-11T16:35:00",
-   "end": "2026-11-11T17:00:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
-   "track": "Project Pavilion Stage",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370902"
   },
   {
    "id": "1289661",
@@ -10732,7 +10814,6 @@
    "end": "2026-11-11T17:30:00",
    "room": "Salt Palace | Level 2 | 255 EF",
    "speakers": [
-    "Antoine Roy",
     "Léonard Suslian"
    ],
    "track": "Platform Engineering",
@@ -11249,7 +11330,7 @@
    "title": "☕ Coffee Break",
    "start": "2026-11-12T10:30:00",
    "end": "2026-11-12T11:00:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "",
    "level": "",
@@ -11279,7 +11360,7 @@
    "title": "Solutions Showcase",
    "start": "2026-11-12T10:30:00",
    "end": "2026-11-12T14:00:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "Solutions Showcase",
    "level": "",
@@ -11941,6 +12022,25 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334868"
   },
   {
+   "id": "1372877",
+   "title": "Map your K8s Clusters with Cartography",
+   "start": "2026-11-12T11:50:00",
+   "end": "2026-11-12T12:15:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
+   "speakers": [],
+   "track": "Project Pavilion Stage",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Map your K8s infrastructure with Cartography in 2026.",
+    "Any team can list their clusters, but they struggle to answer questions like:\n– which workloads are running which container images\n– what cloud IAM roles those pods can assume\n– which services are reachable from the internet\n– what happens downstream if one of them is compromised.",
+    "Cartography pulls your Kubernetes resources into a single graph alongside everything else it already tracks (AWS, GCP, Azure, GitHub, Okta, and more), so you can query across cluster, cloud, and identity boundaries instead of stitching answers together from kubectl and three different consoles.",
+    "The demo walks through ingesting a live cluster, connecting pods to the images, roles, and cloud resources behind them, and running a few blast radius queries end to end. Everything shown is open source and runs with standard cluster read access, no agents or sidecars required."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372877"
+  },
+  {
    "id": "1247981",
    "title": "Deep Dive Into the DRA Driver for NVIDIA GPUs: What Works Today, What’s Coming and Why It Matters",
    "start": "2026-11-12T11:50:00",
@@ -12292,20 +12392,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289724"
   },
   {
-   "id": "1370905",
-   "title": "CNCF Project Demos",
-   "start": "2026-11-12T11:50:00",
-   "end": "2026-11-12T14:00:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
-   "track": "Project Pavilion Stage",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370905"
-  },
-  {
    "id": "1336060",
    "title": "Seeing Inside LLM Inference: Observability and Cost Visibility for llm-d on Kubernetes",
    "start": "2026-11-12T11:55:00",
@@ -12371,7 +12457,7 @@
    "title": "🍲 Lunch",
    "start": "2026-11-12T12:20:00",
    "end": "2026-11-12T13:50:00",
-   "room": "Salt Palace | Level 1 | Halls A-C, Halls 1-5",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon | Poster Pavilion",
    "speakers": [],
    "track": "",
    "level": "",
@@ -12988,7 +13074,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/irhardeu~3gfpvysUpVPVHKS5svj3nR.pdf~final-agents-fail-workflows-recover-kubecon-upload.pdf"
+     "url": "https://sessionize.com/download/iqlanlem~VSPEcFo2JuRTyziTetEzAe.pdf~agents-fail-workflows-recover-sessionize.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1238002"
