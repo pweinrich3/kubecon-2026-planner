@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-11T06:20:53Z",
+ "updated": "2026-11-11T16:10:44Z",
  "sessions": [
   {
    "id": "1304040",
@@ -5501,7 +5501,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ifrawseu~S7MycsmitiCXFjHx43MWuW.pdf~the_promises_we_keep_at_scale_-_preview.pdf"
+     "url": "https://sessionize.com/download/nnarjes~siNxFRoyke1HF6JoFjv6wG.pdf~the-promises-we-keep-at-scale.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247858"
@@ -5570,7 +5570,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/nbafxeb~BGagURuA7x6e2FcHoCqyLK.pdf~why-are-you-still-wasting-whole-gpus_-hardware-level-sharing-scheduled-with-dra.pdf"
+     "url": "https://sessionize.com/download/isvauiu~LVmdB5kzju4UbCA5cgFGRN.pdf~why-are-you-still-wasting-whole-gpus_-hardware-level-sharing-scheduled-with-dra.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1243199"
@@ -7527,13 +7527,20 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "When a Kubernetes cluster needs another inference replica, the clock starts. Image pull, model download, CUDA initialization, tensor loading. For large models, that takes minutes. The alternative, pre-warming GPU pods, trades latency for cost. Neither scales.",
     "This session presents a better path. The speakers show how they extended Kata Containers and Cloud Hypervisor to snapshot an entire pod VM, including GPU state, after model initialization. New pods restore in seconds. Because Kata runs each pod in a VM, the snapshot captures everything at once, a clean boundary that process-level checkpointing cannot match.",
     "The talk covers snapshot-capable Kata architecture, GPU state capture, and tradeoffs in snapshot size and restore latency. Attendees will see startup times move from minutes to seconds and learn how copy-on-write keeps density high. The session also explores how VM isolation opens a path to confidential containers, keeping model weights invisible to infrastructure operators."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/fqattel~wd2UCYcWSbzKqKeTyvNRDr.pptx~groundhog-pod-kubecon-2026-rev2.pptx"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250683"
   },
   {
@@ -7549,14 +7556,20 @@
    "track": "Security",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Building and running Kubernetes in production is a challenge; doing so in AWS GovCloud while hunting for a FedRAMP Moderate Authorization to Operate (ATO) is a multi-year marathon. In this talk, we trace our 3-year journey from an initial design to a fully authorized, compliant platform, pulling back the curtain on what it actually takes to survive federal audits without destroying developer velocity.",
     "We'll cover our initial design choices and the lessons learned when cloud-native assumptions collided with rigid federal regulations. Next, we will discuss the changes required to scale environment access to more engineers as we got our first customers.",
     "Finally, we will deep-dive into the two most critical operational hurdles of our journey:\n– why standard CI/CD tools fell short, and how we engineered a dedicated deployment system to meet strict regulatory isolation and access controls.\n– how we tackled the required patching and reporting mandates of FedRAMP for open-source software."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/gmavdex~NFKkzpPF7CxgNpdRdU1F47.pdf~hardening-kubernetes-for-govcloud-kubecon-na-2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1251004"
   },
   {
@@ -7645,7 +7658,15 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iwxafhen~nQmQrER8SWEjevUzQYe1B1.pdf~preview.pdf"
+     "url": "https://sessionize.com/download/ihvasneb~XpnSYj7qfcSkzhcRTvtRv2.pdf~slides.pdf"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://codeberg.org/pojntfx/pushrod"
+    },
+    {
+     "label": "Website",
+     "url": "https://felicitas.pojtinger.com/"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1243680"
@@ -8419,23 +8440,6 @@
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1369675"
   },
   {
-   "id": "1372858",
-   "title": "Fireside Chat: Future of Kubernetes and Agents with Tim Hokin and Kelsey Hightower",
-   "start": "2026-11-11T13:50:00",
-   "end": "2026-11-11T14:20:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
-   "track": "Project Pavilion Stage",
-   "level": "",
-   "tags": [],
-   "description": [
-    "Kubernetes was built for long-running services. AI agents are different: mostly idle, bursty, running untrusted code, and needing to resume instantly with their state intact. What does that mean for the platform underneath?",
-    "Join Kubernetes co-founder Tim Hockin and cloud native leader Kelsey Hightower for a live conversation hosted by Savannah Peterson. They’ll explore how Agent Substrate builds on Kubernetes for the agent era, and what the next decade holds for platform teams and the open source community. Expect candid opinions, a little history, and time for audience questions."
-   ],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372858"
-  },
-  {
    "id": "1362669",
    "title": "Demo Theater: Do you trust your AI agent? Pod Sandboxing on OKE",
    "start": "2026-11-11T13:55:00",
@@ -8823,7 +8827,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/qcaiko~KZsYsmvEcH4aiva81FT248.pdf~progressive-delivery-for-trust-how-agents-earn-the-right-to-merge.pdf"
+     "url": "https://sessionize.com/download/ydamqel~WrWYrVtXPJffc9FS1LdtWh.pdf~progressive-delivery-for-trust_-how-agents-earn-the-right-to-merge.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250982"
@@ -9689,7 +9693,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ijqakpev~UdkT37BMpgpVkXdFT9DZR8.pdf~kubecon-na-2026_your-ci-s-mistaken-identity.pdf"
+     "url": "https://sessionize.com/download/itkakced~9itVw8du9VH5oPCKiAfkRY.pdf~kubecon-na-2026_your-ci-s-mistaken-identity-v2.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248924"
@@ -10006,7 +10010,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/fuolha~VfA7QcudtDHTRXjrXeWnY2.pdf~binary_version_is_not_behavior_kubecon_na_2026.pdf"
+     "url": "https://sessionize.com/download/iblaopre~nqXmvkBhGXbPJWMyic6KtQ.pdf~binary_version_is_not_behavior.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1251217"
@@ -10101,7 +10105,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/icpasoh~MFnYacmV5qtpmPbhGzPjyL.pptx~kubecon-vlm-kubernetes-v15.pptx"
+     "url": "https://sessionize.com/download/iuhozga~925SqDUpyEczpiSva1MUMy.pptx~kubecon-vlm-kubernetes-v18.pptx"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249812"
@@ -10144,12 +10148,31 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Historically, our ecosystem defaults to a Kubernetes-centric approach, pulling every workload into the cluster. However, autonomous AI agents are not confined to these limits. They are deeply heterogeneous, executing across developer laptops, edge devices, and diverse clouds. Viewing agent networking strictly through Kubernetes creates fragmented, vulnerable silos.",
     "This talk challenges the community to tackle the problem holistically. We provide a blueprint for infrastructure-agnostic routing, breaking free from K8s-only limits via zero-trust, universal OIDC identity, and declarative policies. Through Project Agent Mesh, we share an open-source implementation proving a decentralized data plane can traverse NAT, operate with zero-config, and scale infinitely via Kademlia networks to secure AI workloads everywhere."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/dnabqev~TS5U8jvdMGC3Q9Ux5tdSiu.pdf~kubecon-na-2026-governing-and-scaling-agents-in-heterogeneous-environments-agent-mesh-v0.2.0-1.pdf"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/google/agentmesh"
+    },
+    {
+     "label": "Project Demo",
+     "url": "https://google.github.io/agentmesh/#demos"
+    },
+    {
+     "label": "Website",
+     "url": "https://google.github.io/agentmesh/"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1234729"
   },
   {
@@ -10523,6 +10546,23 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362689"
+  },
+  {
+   "id": "1372858",
+   "title": "Fireside Chat: Future of Kubernetes and Agents with Tim Hokin and Kelsey Hightower",
+   "start": "2026-11-11T16:30:00",
+   "end": "2026-11-11T17:00:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
+   "speakers": [],
+   "track": "Cloud Native Theater",
+   "level": "",
+   "tags": [],
+   "description": [
+    "Kubernetes was built for long-running services. AI agents are different: mostly idle, bursty, running untrusted code, and needing to resume instantly with their state intact. What does that mean for the platform underneath?",
+    "Join Kubernetes co-founder Tim Hockin and cloud native leader Kelsey Hightower for a live conversation hosted by Savannah Peterson. They’ll explore how Agent Substrate builds on Kubernetes for the agent era, and what the next decade holds for platform teams and the open source community. Expect candid opinions, a little history, and time for audience questions."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1372858"
   },
   {
    "id": "1370902",
@@ -13234,18 +13274,13 @@
    "track": "AI Inference + Agentic",
    "level": "Any Level",
    "tags": [
-    "End User Talk",
-    "↓ Slides"
+    "End User Talk"
    ],
    "description": [
     "Open-weight models are rapidly closing the capability gap with the frontier, the friction to run models independently has vanished, making it possible to accomplish more locally than ever before. This session details how to build commercial-grade AI infrastructure using consumer hardware and cloud-native tooling.",
     "Attendees will learn how to configure local GPU scheduling, securely source private datasets, and deploy containerized inference workloads on Kubernetes. The presentation explores deploying open-source inference engines like vLLM and llama.cpp, alongside fine-tuning tooling to run large language models on-premises. The key is to bring these datacenter-native workloads into your private infrastructure using the CNCF tooling we know and love."
    ],
    "links": [
-    {
-     "label": "Slides",
-     "url": "https://sessionize.com/download/jvalfeg~MXN74yGVWcuoHzvK2dv9nS.pdf~jcstryker-local-ai-renaissance.pdf"
-    },
     {
      "label": "GitHub Repository",
      "url": "https://github.com/jcstryker/local-ai-renaissance"
