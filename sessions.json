@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-10T21:48:14Z",
+ "updated": "2026-11-11T06:20:53Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2402,11 +2402,18 @@
    ],
    "track": "Security",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Open source maintainers are facing a double assault. On one side, threat actors like TeamPCP are leveraging LLMs to scale attacks against well-known GitHub Actions misconfigurations, and propagating credential-stealing worms through ecosystems like PyPI and npm. On the other side, well-meaning security researchers are using those same LLMs to hunt for and report issues in good-faith, burying projects under a flood of (at times low-quality) vulnerability reports.\nIn this joint talk, we assume the roles of a combative offensive security researcher and a defensive open source maintainer to grapple with the tsunami of AI slop and irresponsible public disclosures using examples from in-toto’s Witness project. We will:\n+ Recon: use LLMs for targeted vulnerability discovery and exploit writing\n+ Report: attempt to communicate & disclose the discovery\n+ Remediate: provide actionable solutions and actual code via private PRs\n+ Reinforce: use AI to proactively secure the project"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iugotha~986CKKA4SVewC33eCco1kR.pdf~kubecon-na-2026_-mythos-vs-maintainers.pptx.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247249"
   },
   {
@@ -2481,7 +2488,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iyjadxei~ahLvwgcbZ4XK81hBQwXzvM.pdf~aicr-kubecon-na-2026-one-recipe-five-clouds-one-query-final.pdf"
+     "url": "https://sessionize.com/download/icbaivme~9ZHueTBk6jScrRC1uWhxtA.pdf~aicr-kubecon-na-2026-one-recipe-five-clouds-one-query-final.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246765"
@@ -4654,14 +4661,20 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Cortex"
+    "Cortex",
+    "↓ Slides"
    ],
    "description": [
     "High cardinality quietly breaks metrics systems: runaway label sets, exploding series counts, slow queries, and OOMing components. In this session we'll dig into how Cortex, the open source, horizontally scalable, multi-tenant metrics platform, ingests and queries high cardinality data without falling over.",
     "You'll leave knowing which label pattern drives cardinality growth inside a tenant, how to stop one bad query from taking down a querier, and how to query blocks with huge label sets efficiently, thanks to per tenant cardinality tracking, resource based query eviction, and sharded Parquet querying landed in recent releases. We'll close with the roadmap, including the push toward CNCF graduation and what came out of the recent security audit.",
     "Whether you're new to Cortex or already run it in production, you'll leave with practical techniques and a chance for live Q&A with core maintainers."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iyzamcel~YhtiUVSiiAz2YxNguxdnMb.pdf~cortex-surviving-high-cardinality-diagrams-kubecon.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289641"
   },
   {
@@ -5385,7 +5398,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/msazbek~aNiTd939jnGRwaELKKGidZ.pdf~lima-20261104.pdf"
+     "url": "https://sessionize.com/download/xxaivle~L98wuprRnxtWCYnrKWmdz3.pdf~20261110-kubecon-na-lima-as-the-universal-ai-sandbox.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289645"
@@ -5605,13 +5618,19 @@
    "track": "AI Inference + Agentic",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "The rise of AI agents is breaking traditional ML infrastructure. While human experimentation is measured in hours, agents researching new model architectures and running hyperparameter sweeps shrink this to minutes. When running 24/7, Kubernetes pod spin-up times and GPU bottlenecks hinder agentic velocity.\nIn this talk, we’ll explore how to build high-velocity agentic infrastructure using Kubernetes, Volcano, and HAMi. We’ll cover techniques including:",
     "Attendees will leave with strategies to scale 24/7 agentic K8s workloads"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/wqazrec~UxmxXCYHXxP3AJo3kU85cm.pdf~firepool-kubecon-slides.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1240912"
   },
   {
@@ -5656,14 +5675,20 @@
    "track": "🚨 Contribfest",
    "level": "",
    "tags": [
-    "HAMi"
+    "HAMi",
+    "↓ Slides"
    ],
    "description": [
     "HAMi is a CNCF Incubation project for heterogeneous GPU virtualization in Kubernetes, supporting 10+ GPU/NPU vendors.",
     "Attendees set up HAMi on their laptop – with or without a GPU – and trace how the device plugin intercepts GPU requests, allocates vGPU resources, and integrates with the scheduler.",
     "We follow the HAMi architecture and GPU virtualization model (project-hami.io/docs/core-concepts/gpu-virtualization), then explore the DRA integration path. Laptop with Go, kind, and a GitHub account required."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/vtasjer~Xfoep4YGqAc1AziPeVSgzN.pdf~kubecon_na_contribfest.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294775"
   },
   {
@@ -5711,20 +5736,6 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1362599"
-  },
-  {
-   "id": "1370893",
-   "title": "CNCF Project Demos",
-   "start": "2026-11-10T17:10:00",
-   "end": "2026-11-10T17:35:00",
-   "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
-   "speakers": [],
-   "track": "Project Pavilion Stage",
-   "level": "",
-   "tags": [],
-   "description": [],
-   "links": [],
-   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1370893"
   },
   {
    "id": "1336586",
@@ -6170,7 +6181,7 @@
   },
   {
    "id": "1364853",
-   "title": "CLBO: ClashLoopBackOff: Demo Night",
+   "title": "CANCELLED – CLBO: ClashLoopBackOff: Demo Night",
    "start": "2026-11-10T18:00:00",
    "end": "2026-11-10T19:15:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Hall 5 | Cosmic Canyon Zone | Project Pavilion",
@@ -6745,11 +6756,10 @@
    "id": "1334848",
    "title": "Two Drivers, One Topology: GPU:NIC Rail Alignment for RDMA VMs with KubeVirt DRA",
    "start": "2026-11-11T10:50:00",
-   "end": "2026-11-11T11:10:00",
+   "end": "2026-11-11T11:05:00",
    "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
    "speakers": [
     "Jian Li",
-    "Alay Patel",
     "Kazuki Sato"
    ],
    "track": "Cloud Native Theater",
@@ -6759,8 +6769,7 @@
    ],
    "description": [
     "A VM can receive the four GPUs and four RDMA NICs it asked for and still get a fraction of the RDMA bandwidth it paid for. What matters is the pairing: each GPU needs a NIC on its own rail, under the same PCIe root. For multi-site GPU clouds on KubeVirt, this alignment is mandatory for every RDMA-accelerated VM running distributed training, disaggregated inference, or GPUDirect Storage. Device plugins allocate GPUs and SR-IOV VFs separately and cannot express that one device must be chosen relative to another.",
-    "With a demo from our production GPU cloud, this talk shows how KubeVirt's DRA support can request a VM with GPU and NIC aligned on the PCIe root attribute, served by two drivers in a single ResourceClaim. The same path surfaces gaps in Multus DRA networking; we cover them and a proposed fix that keeps the existing CNI chain intact.",
-    "We close with a roadmap of DRA in KubeVirt: CPU DRA integration, KubeVirt-generated and managed ResourceClaims, and remaining work to reach GA."
+    "With a demo from our production GPU cloud, this talk shows how KubeVirt's DRA support can request a VM with GPU and NIC aligned on the PCIe root attribute, served by two drivers in a single ResourceClaim. The same path surfaces gaps in Multus DRA networking; we cover them and a proposed fix that keeps the existing CNI chain intact."
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334848"
@@ -7133,14 +7142,20 @@
    "track": "Emerging + Advanced",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "A compute node in modern cluster contains not only CPU and memory, but also GPUs, NICs and other specialized hardware. The overall performance of the workload nowadays comes not by the characteristics of the single device, but from combination of components and deep understanding on how they interact.",
     "This talk focused on zooming in into hardware topology, explaining what inside physical CPU package is, memory-controller behaviors and locality boundaries, anatomy of I/O hubs and how data flows between components and between devices. This will help to understand deeper about where potential bottlenecks are located for your workload, what are the costs for bandwidth and latencies for each data path and how to potentially mitigate them.",
     "The talk will cover new features and improvements in DRA, NRI and OCI interfaces that are focused on improving flexibility and manageability for devices, node allocatable resources, standard and derived attributes and low-level tuning parameters."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ityaobu~U7JB9SKbApRsH5vDNjiRdz.pdf~time-to-learn-new-tricks-to-improve-performance-on-dra-managed-devices-20261110.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249601"
   },
   {
@@ -7276,6 +7291,26 @@
    ],
    "links": [],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294766"
+  },
+  {
+   "id": "1384474",
+   "title": "DRA in KubeVirt Update",
+   "start": "2026-11-11T11:05:00",
+   "end": "2026-11-11T11:10:00",
+   "room": "Salt Palace | Level 1 | Solutions Showcase | Halls 5 | Cosmic Canyon Zone | Cloud Native Theater",
+   "speakers": [
+    "Alay Patel"
+   ],
+   "track": "Cloud Native Theater",
+   "level": "",
+   "tags": [
+    "KubeVirt Summit"
+   ],
+   "description": [
+    "A roadmap of DRA in KubeVirt: CPU DRA integration, KubeVirt-generated and managed ResourceClaims, and remaining work to reach GA."
+   ],
+   "links": [],
+   "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1384474"
   },
   {
    "id": "1334849",
@@ -8911,7 +8946,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/inbaqtet~PEFHMCoecaBvo1EBVhDao7.pdf~contribfest-deck.pdf"
+     "url": "https://sessionize.com/download/izhajjen~U9c8ehjC9nc8YadyjtECgR.pdf~final-contribfest.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1294751"
@@ -9654,7 +9689,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/irxabnek~XYqxqAzB19WtaZt6oZn4bN.pdf~kubecon-na-2026_your-ci-s-mistaken-identity.pdf"
+     "url": "https://sessionize.com/download/ijqakpev~UdkT37BMpgpVkXdFT9DZR8.pdf~kubecon-na-2026_your-ci-s-mistaken-identity.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248924"
@@ -10066,7 +10101,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ixlagqeb~Ln9FuKtSq5meqnZzqY9bJe.pptx~kubecon-vlm-kubernetes-v13.pptx"
+     "url": "https://sessionize.com/download/icpasoh~MFnYacmV5qtpmPbhGzPjyL.pptx~kubecon-vlm-kubernetes-v15.pptx"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249812"
@@ -11341,8 +11376,8 @@
    "end": "2026-11-12T11:30:00",
    "room": "Hyatt Regency | Level 2 | Salt Lake Ballroom DE",
    "speakers": [
-    "Srikanth Rajan",
-    "Anubhav Dhoot"
+    "Anubhav Dhoot",
+    "Uttam Kumar"
    ],
    "track": "AI Inference + Agentic",
    "level": "Any Level",
@@ -11977,7 +12012,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/tlaptep~BH1m7mj9438Ga8sRk7nNMb.pdf~from-load-balancer-sprawl-to-multicluster-service-discovery.pdf"
+     "url": "https://sessionize.com/download/cvaswel~Bcdax4KXMDL3SyTmqicSnD.pdf~from-load-balancer-sprawl-to-multicluster-service-discovery.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248779"
@@ -13039,7 +13074,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ibmaywec~VdQgcsbZUhf7M4VKu5x2hv.pdf~kubeconna-from-black-box-to-auditable-ai-grid.pdf"
+     "url": "https://sessionize.com/download/imbazdeh~hEh22hQ9Buv8zi2iKGKSBf.pdf~upload-kubeconna-from-black-box-to-auditable-ai-grid.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1237843"
