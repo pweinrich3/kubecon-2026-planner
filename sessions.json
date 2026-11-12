@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-12T07:10:33Z",
+ "updated": "2026-11-12T16:48:10Z",
  "sessions": [
   {
    "id": "1304040",
@@ -11660,12 +11660,18 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "SPIFFE"
+    "SPIFFE",
+    "↓ Slides"
    ],
    "description": [
     "SPIFFE has always issued identity to Pods, it gives each a stable identifier and verifiable credentials. But plenty of things that need identity don't run at all: a CRD that projects remote state, a Secret mirroring an external credential stored in Vault, or a ConfigMap that replicates remote config. Today they inherit the coarse identity of whatever controller manages them, or need dedicated Service Accounts. The SPIFFE Broker API changes that: a trusted broker like a Kubernetes operator can request a short-lived SVID on behalf of any object it represents. Each object receives a dedicated SPIFFE ID and can be given fine-grained access, for instance to a secret vault or a code repository."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/jkaxyen~EKVirYLKsJs4HeDWx7owVt.pdf~every-kubernetes-object-deserves-an-identity.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289711"
   },
   {
@@ -12883,13 +12889,20 @@
    ],
    "track": "Observability",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "GenAI is moving fast, and the fragmentation of AI observability is moving just as fast. Vendors, frameworks, and platforms all capture GenAI telemetry differently. Many advertise OpenTelemetry support, but that can mean anything from OTLP export to SDK integration to partial semantic convention compliance. Without consistency across all layers, telemetry is portable in theory but inconsistent and difficult to use in practice.",
     "This talk demonstrates how OpenTelemetry is fighting that fragmentation. The session covers how GenAI semantic conventions and vendor-agnostic instrumentations are developed, how designs are validated, how conformance testing keeps the ecosystem honest, and how AI itself is utilized to accelerate the work without sacrificing rigor. The ultimate goal is to make GenAI telemetry portable, comparable, and useful across all tools.",
     "Attendees will leave with a clear understanding of what genuine OpenTelemetry support for GenAI actually entails."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/isupqap~G7ESUx9QuaXjkt7aYPJUh.pdf~the-race-to-standardize-ai-observability.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246166"
   },
   {
@@ -13544,7 +13557,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iwfavyec~4QFqQ9VXSYBU3jvBjs6pqg.pdf~cilium_dra_netkit.pdf"
+     "url": "https://sessionize.com/download/ifpaqjez~WYx2KqFdfLcwUYtTHua9YB.pdf~cilium_dra_netkit.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1244000"
