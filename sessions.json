@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-11T22:42:05Z",
+ "updated": "2026-11-12T07:10:33Z",
  "sessions": [
   {
    "id": "1304040",
@@ -8673,7 +8673,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/oblayte~Lzgrhx3XQS2f9LpcprNwZW.pdf~death_by_a_thousand_patches_kubecon_2026.pdf"
+     "url": "https://sessionize.com/download/dmaudo~E3a68Y3FHVjKRWVT9vqR8D.pdf~death_by_a_thousand_patches_kubecon_2026.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250567"
@@ -8696,7 +8696,12 @@
     "Pod startup latency directly impacts service responsiveness, autoscaling speed, and incident recovery on Kubernetes. Yet much of that latency is dominated by the image pull step; which is mostly hidden.",
     "Drawing on a real LinkedIn production case study — over 500K bare-metal hosts, 25M cores, and pod density averaging beyond 50 per host in our densest clusters — we’ll show how we cut the long tail of pod startup latency by 72% through reducing image pull latency by 72% at P99 and 75% at P50. We'll examine how container image pulls contribute to startup latency: taking a deep dive into the image pull path to identify bottlenecks and build a mental model, then covering the practical levers we have — compression, kubelet and containerd configuration, and P2P caching."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "GitHub Repository",
+     "url": "https://kbcn.OmerOz.fyi"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250728"
   },
   {
@@ -10783,7 +10788,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/icwaiwre~EEGAwbT7T9Ywkka16Z6GJz.pptx~kubeconna2026_demystifying_upgrades_for_stateful_dormant_ai_agents.pptx"
+     "url": "https://sessionize.com/download/gnajpey~7R2y75ejDnE6CRgdWs989p.pptx~kubeconna2026_demystifying_upgrades_for_stateful_dormant_ai_agents.pptx"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289663"
@@ -10955,7 +10960,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/rwavlep~sBESVghGRZHy2UtzJyXCyp.pdf~robust-ci-as-a-safety-net_-moving-fast-at-scale-with-ai-generated-gitops.pdf"
+     "url": "https://sessionize.com/download/iuvzahi~QKyfGg2Y2WcneiiNYM3Ken.pdf~robust-ci-as-a-safety-net_-moving-fast-at-scale-with-ai-generated-gitops.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247455"
@@ -11542,7 +11547,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/niyxaq~N8rjDoqz5uRE6ULSVF8nQq.pdf~kubecon-slide-deck.pdf"
+     "url": "https://sessionize.com/download/igxajket~npgdVYdG7M5sPh9B29pDrM.pdf~autoscaling-at-scale-with-keda.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247103"
@@ -13528,13 +13533,20 @@
    ],
    "track": "Connectivity",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Kubernetes Pods have traditionally been blocked from using hardware-level networking acceleration due to namespace isolation. Cilium is changing that by bringing native Dynamic Resource Allocation (DRA) support to manage hardware resources for Pods.",
     "This talk unveils how we built two new DRA drivers for Cilium: an SR-IOV flavor as well as a new hardware queue leasing mechanism recently merged into the Linux kernel’s networking stack and the DRAgons we faced along the way. We’ll dive deep into how queue leasing proxies real physical NIC queues directly to virtual netdevs, how we integrated it into netkit, Cilium’s eBPF datapath, and the tradeoffs between the two flavors.",
     "This architecture brings native io_uring TCP zero-copy into Pods for the first time, enabling high-speed memory-mapped networking. Join us to see how these two new Cilium DRA drivers can be used and how we enable 100G+ single-stream throughput while preserving the operational model cloud native platforms expect today."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iwfavyec~4QFqQ9VXSYBU3jvBjs6pqg.pdf~cilium_dra_netkit.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1244000"
   },
   {
@@ -13715,7 +13727,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ynaitse~a5jq2dvZersgiHnjLi8aj6.pdf~tb-710_-damon-cortesi-kubecon-2026.pdf"
+     "url": "https://sessionize.com/download/ihlahjeu~XaxFvpi2KPNHRxBDEuSQoW.pdf~tb-710_-damon-cortesi-kubecon-2026.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1251249"
@@ -13742,7 +13754,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ijjajreq~axZfFuAzHKW8UWbiPAuCgv.pdf~splitting-the-monolith-at-cloudera-building-fault-tolerant-workflows-with-cadence.pdf"
+     "url": "https://sessionize.com/download/ikbajjet~hEpXM8hc2t4R1aW9PaprvY.pdf~splitting-the-monolith-at-cloudera-building-fault-tolerant-workflows-with-cadence.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247100"
