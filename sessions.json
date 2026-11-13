@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-13T12:12:45Z",
+ "updated": "2026-11-13T19:43:03Z",
  "sessions": [
   {
    "id": "1304040",
@@ -5535,13 +5535,20 @@
    ],
    "track": "Operations + Performance",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "A pod stuck in CreateContainerError for more than 19 hours. containerd rejecting kubelet's create calls repeatedly. But on checking the node, the containers were running fine. So what was kubelet still trying to recreate?",
     "The trigger was a hypervisor reboot. But something subtler was at play; service account tokens were being issued in the future, container name reservations were piling up, and kubelet was trapped in an endless loop, recreating containers that were already running. The root cause? A clock skew during system bootstrap that quietly broke assumptions in the kubelet containerd contract.",
     "This talk is a real world debugging journey from the cloud native stack down to the hardware system clock. We walk through each wrong assumption, the evidence that broke it, and the systematic approach that uncovered the issue. Attendees will come away with practical techniques for debugging CRI interactions, and navigating the boundary where Kubernetes meets infrastructure."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/nfapzel~DKtEZ1D14Ho4isgJgPyVpB.pdf~when-the-clock-lies.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250974"
   },
   {
@@ -6829,13 +6836,28 @@
    ],
    "track": "Operations + Performance",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Since Dynamic Resource Allocation (DRA) graduated to GA in Kubernetes 1.34, the DRA APIs have seen a number of enhancements to expand the types of hardware that can be expressed by DRA and how they can be requested by workloads. While these features are all described in the Kubernetes documentation, working examples are crucial for users to understand them and experiment further.",
     "The Kubernetes-sponsored, vendor-neutral DRA Example Driver aims to implement a wide variety of DRA features compatible with any cluster to serve both device vendors implementing features in their own drivers and DRA users looking to request DRA resources for their workloads.",
     "In this talk, the maintainers of the DRA Example Driver will demonstrate how both DRA driver authors and DRA users can learn about implementing and utilizing the latest DRA features with tested examples showing common use cases and best practices."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/sbaxwes~hSYKrAYdHLJS42SPy7FzB2.pdf~kubecon-na-2026-dra-example-driver-deep-dive.pdf"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/kubernetes-sigs/dra-example-driver"
+    },
+    {
+     "label": "Project Demo",
+     "url": "https://gist.github.com/nojnhuh/aa0906efd582d86091dd9debb390224c"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1248118"
   },
   {
@@ -8363,14 +8385,20 @@
    "level": "Advanced",
    "tags": [
     "Emerging + Advanced",
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Kubernetes control-plane changes are hard to validate before production. Scheduling policy, autoscaling, admission rules, custom controllers, and capacity-management logic can behave differently once many pods, nodes, and API objects interact. Running these scenarios against real staging clusters on every change is rarely practical because of time and cost.",
     "This poster presents a KWOK-based CI pattern for testing control-plane behavior without real kubelets or workloads. The workflow captures snapshots from production clusters, replays those objects into KWOK-backed simulation clusters, applies proposed changes, and verifies the resulting placement, scale-up/down, utilization, and failure-mode behavior.",
     "Attendees will see where KWOK simulation fits between unit tests and real-cluster validation, what regressions it can catch early, and where simulation boundaries remain."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/cohba~7ZwF7dvECMSnxSBAkCgzou.jpg~snapshot-replay-verify-kwok_dibyo_mukherjee_poster.jpg"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250944"
   },
   {
@@ -12121,7 +12149,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ipyazweu~P5p8wHEKG7zifSgDAnhkgg.pdf~deep-dive-on-dra-driver-for-nvidia-gpus.pdf"
+     "url": "https://sessionize.com/download/dpawgey~EPZQgTHiAvM3FpviaYrKjQ.pdf~deep-dive-on-dra-driver-for-nvidia-gpus_kubecon_na_2026.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247981"
@@ -12334,7 +12362,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iwtawseu~YQqwYfYVdmDXr1TjfA2ZGE.pdf~kubecon-2026-slc-rook-intro-and-deep-dive.pdf"
+     "url": "https://sessionize.com/download/nravpeq~XV8pdCpt7wGGVFWrZ9ErLR.pdf~kubecon-2026-slc-rook-intro-and-deep-dive-1.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289717"
@@ -13580,13 +13608,19 @@
    "track": "AI Inference + Agentic",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "AI model gateways start simple: route requests to LLMs, centralize access, and log usage. The harder problem comes later – how does an organization turn single-team proxies into shared platform infrastructure without making model access slow, opaque, or developer-hostile.",
     "This case study traces the evolution of LLM access from users sharing long-lived tokens to a multi-tenant gateway platform serving 20+ teams and users managing 200+ models. Each stage came from a real use case: virtual keys and team-scoped access for isolation, self-service onboarding and discovery for velocity, and legal approval workflows for governance. As adoption scaled, the gateway grew beyond highly available model routing into cost governance: budgets, savings attribution, and cost-optimization intelligence.\nAttendees will leave with a maturity model for AI gateways on Kubernetes: what belongs in the gateway, what belongs in platform automation, and which tradeoffs appear only after many teams depend on it."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/dcaqver~M4mQmhRS4Hh6WTCgctRRYY.pdf~from-proxy-to-platform-kubecon2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250888"
   },
   {
@@ -13891,13 +13925,19 @@
    "track": "Experiences",
    "level": "",
    "tags": [
-    "BoF"
+    "BoF",
+    "↓ Slides"
    ],
    "description": [
     "What is the CNCF User Group? What does it do, who’s it for? What are the Platform Factors we’ve been hearing about this week?",
     "Join co-chairs and members of the CNCF Platform Engineering User Group who will hopefully answer all your question and share the tools and information published by the group to date. Come along and hear directly from some of the group members who have worked on the Platform Factors Initiative."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/imvazheg~Dide1HWXmUpBFDhavo99Fi.pptx~kubecon-cloudnativecon-north-america-2026-platform-engineering-ug-and-platform-capability-factors.pptx"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1375121"
   }
  ]
