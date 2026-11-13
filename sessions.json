@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-13T01:05:12Z",
+ "updated": "2026-11-13T12:12:45Z",
  "sessions": [
   {
    "id": "1304040",
@@ -5848,13 +5848,19 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Infrastructure"
+    "Infrastructure",
+    "↓ Slides"
    ],
    "description": [
     "Infrastructure is having a year. AI workloads are dragging cloud native back down the stack, into GPUs, bare metal, and datacenter realities most of the ecosystem spent a decade abstracting away with commodity hardware. The tooling underneath is straining, and the operators feeling it need guidance on how to navigate this new reality. That's what the Infrastructure Technical Advisory Group is for.",
     "In this panel, the TAG's co-chairs and tech leads dig into where cloud native infrastructure is heading: what operators are telling us about where the stack falls short, how the TAG turns that feedback into community work and initiatives, and where projects and end users can plug in. Bring your hardest infrastructure questions. The gaps you're hitting in production are exactly the input we're looking for, and this session is how they become the community's next priorities."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/imnaqkex~BxL2r3ApS8yYZuh13eBiBC.pdf~final-2026-kubecon-na-tag-infrastructure-panel.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289642"
   },
   {
@@ -11843,12 +11849,18 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Storage"
+    "Storage",
+    "↓ Slides"
    ],
    "description": [
     "Kubernetes SIG Storage is responsible for ensuring that different types of file and block storage are available wherever a container is scheduled, storage capacity management (container ephemeral storage usage, volume resizing, etc.), influencing scheduling of containers based on storage (data gravity, availability, etc.), and generic operations on storage (snapshotting, etc.). SIG Storage also has a project that provides APIs for object storage support in Kubernetes. In this session, we will deep dive into some projects that SIG Storage is currently working on, provide an update on the current status, and discuss what might be coming in the future."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/xwalben~JzJYRfvLWXkWnD5ScrmKdH.pdf~2026-kubecon-na-kubernetes-sig-storage-intro-deep-dive.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289727"
   },
   {
@@ -13350,12 +13362,18 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Data Protection"
+    "Data Protection",
+    "↓ Slides"
    ],
    "description": [
     "Data Protection WG is dedicated to promoting data protection support in Kubernetes. The Working Group is working on identifying missing functionalities and collaborating across multiple SIGs to design features to enable data protection in Kubernetes. In this session, we will discuss what is the current state of data protection in Kubernetes and where it is heading in the future. We will also talk about how interested parties (including storage and backup vendors, cloud providers, application developers, and end users, etc.) can join this WG and contribute to this effort. Details of the WG can be found here: https://github.com/kubernetes/community/tree/master/wg-data-protection."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/imkaxzeb~VUbdJMersbrSjfhYZDNhv1.pdf~2026-kubecon-na-kubernetes-data-protection-wg-deep-dive.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289726"
   },
   {
