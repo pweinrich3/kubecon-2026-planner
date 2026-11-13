@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-12T16:48:10Z",
+ "updated": "2026-11-13T01:05:12Z",
  "sessions": [
   {
    "id": "1304040",
@@ -7000,14 +7000,20 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Harbor"
+    "Harbor",
+    "↓ Slides"
    ],
    "description": [
     "As a CNCF Graduated project, Harbor enables organizations to securely store, scan, sign, replicate, and distribute container images and OCI artifacts across Kubernetes environments and software supply chains.",
     "In this Maintainer Track session, Harbor maintainers will share the latest project updates, highlighting enhancements driven by community feedback and production experience. We'll cover recent improvements in security, registry operations, performance, scalability, day-2 operations, and ecosystem integration, along with architectural changes relevant to operators, platform engineers, and contributors.",
     "We'll also discuss current community initiatives, upcoming roadmap items, and opportunities to contribute. Whether you run Harbor in production, integrate it into your platform, or contribute upstream, you'll leave with a clear understanding of Harbor's current direction and what's next for the project."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ixpahlew~Mdoq6abFUGsqZp9ThSg2ZU.pdf~harbor-maintainers-track-kubecon-cloudnativecon-north-america-2026.pptx.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289697"
   },
   {
@@ -7023,12 +7029,18 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Vitess"
+    "Vitess",
+    "↓ Slides"
    ],
    "description": [
     "We'll first introduce you to Vitess and the Vitess Operator and how it allows you to horizontally scale your MySQL databases. We will then walk through a live demo with a Vitess cluster running in k8s under load and demonstrate how we can shard that database in order to reduce the load and improve query performance."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iitkasne~NaD8fDbT2UpoGfhazFgrB8.pptx~kubecon-na-2026-horizontally-scale-mysql-on-kubernetes.pptx"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289668"
   },
   {
@@ -7709,14 +7721,24 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "OpenFGA"
+    "OpenFGA",
+    "↓ Slides"
    ],
    "description": [
     "OpenFGA helps teams move beyond role checks to relationship-based authorization for cloud native apps, APIs, and AI agents. Prior OpenFGA talks have introduced the project, shown SaaS and gateway adoption, and sketched the agent delegation model. This session goes one layer deeper.",
     "We will walk through OpenFGA as a working project: authorization models, tuples, checks, local testing, CLI/SDK workflows, and production concerns. Then we will show a concrete agent-tool authorization flow: a user delegates a scoped task to an agent, a gateway extracts user/agent/task/tool/resource context, OpenFGA decides before the tool runs, and an audit trace records the request, decision, and result.",
     "Attendees will leave knowing when OpenFGA fits, how to try it, and where to contribute across server, CLI, SDKs, docs, tests, and agent authorization examples."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/izwaxqeg~MQiyDLkuBQTDjrbbyGaTeS.pdf~presentation.pdf"
+    },
+    {
+     "label": "GitHub Repository",
+     "url": "https://github.com/willvedd/kubecon-2026-openfga-presentation"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289672"
   },
   {
@@ -7775,12 +7797,18 @@
    "track": "Application Development + Delivery",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "At LinkedIn, some of our most critical Kubernetes platform services deploy multiple times a week, including infrastructure components that affect every pod and data-processing job in the cluster. Traditional canary tools based on traffic splitting don’t work well for these services because there is no user-facing L7 traffic to gradually shift.\nIn this talk, we’ll share how we built a Kubernetes-native canary pipeline to safely validate cluster-critical services before production rollout. By combining admission controls, isolated canary environments, GitOps workflows, and automated end-to-end validation, we reduced deployment verification from days of manual testing to under an hour.\nAttendees will learn practical patterns for deploying infrastructure services safely at scale when traditional service-mesh canary approaches are not enough."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/mlawlep~s87tpQmbHcjCuv65CfnAU4.pdf~kubecon-ship-faster-ship-safer-.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247840"
   },
   {
@@ -10560,7 +10588,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/idupyah~T5rKxNy8VmCoDXWS6n4pGH.pdf~sandboxing-fall-2026-wasmcloud-and-workshop.pdf"
+     "url": "https://sessionize.com/download/cmagkep~7KiGDpNz1uquuhYcSF1oM4.pdf~sandboxing-fall-2026-wasmcloud-and-workshop.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1245965"
@@ -11685,7 +11713,9 @@
    ],
    "track": "Platform Engineering",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "With Ingress NGINX read-only since March 2026, teams are migrating to Gateway API. On Envoy Gateway, one resource becomes four: HTTPRoute plus traffic, security, and client policies. Each can silently dangle when its parent disappears. No error, no warning.",
     "This isn't a bug. Gateway API maintainers acknowledge it: policy attachment is opaque by design. The spec delegates composition to you.",
@@ -11693,7 +11723,12 @@
     "We'll compare Helm, Crossplane, and hand-written operators, not to declare a winner, but to give you a framework for when an RGD is enough and when you need a full operator.",
     "You leave with a reusable RGD and a concrete answer to the question the spec left open."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/icbahyeb~T4sy3x772f1pL7KmSzib8r.pdf~four_resources_one_object_kubecon_na_2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1251205"
   },
   {
@@ -11739,7 +11774,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/idtaudme~Q4bA3Kn2Pr2dxrVjNH982B.pdf~cilium_istiotalkkubecon26-google-slides.pdf"
+     "url": "https://sessionize.com/download/ilmabux~pkbNNWYJseMqGEvAeHeYTZ.pdf~cilium_istiotalkkubecon26.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247970"
@@ -12063,13 +12098,20 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "You’ve probably heard a lot about Dynamic Resource Allocation (DRA), which is quickly becoming a de-facto standard for allocating hardware accelerators in Kubernetes. DRA Driver for NVIDIA GPUs is one of the early implementations of this and is evolving far beyond simple GPU allocation. This talk is a deep dive into the latest capabilities that we have added this year and what comes next for supporting large-scale AI infrastructure.",
     "We will cover the latest on GPU sharing models including MIG, time-slicing, MPS, and vGPU along with topology-aware scheduling across GPUs, NICs, and Data Direct (DMA) interfaces. We will also share about device health monitoring, running sandbox workloads, integration with the GPU Operator and lastly how existing workloads can migrate to use DRA.",
     "Using real examples from GB200 and next-generation Vera Rubin NVL72 systems, we will discuss the infrastructure challenges DRA solves using Compute Domains and where the accelerator ecosystem is headed next."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ipyazweu~P5p8wHEKG7zifSgDAnhkgg.pdf~deep-dive-on-dra-driver-for-nvidia-gpus.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247981"
   },
   {
@@ -12674,7 +12716,8 @@
    "track": "Platform Engineering",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Most workload platforms force users to choose early: stateless or stateful. While useful labels, they are the wrong API boundary.",
@@ -12682,7 +12725,12 @@
     "Users shouldn't need a new platform every time a dimension changes, nor should they care which cluster serves their compute needs.",
     "This talk shares how LinkedIn built a composable, natively multi-cluster API for both stateless & stateful workloads. Users express intent once: the platform places & rebalances replicas globally. Treating pod template, update strategy, persistence and placement as independent concerns allows us to abstract cluster boundaries, enables rainbow deployments, improves global efficiency, and preserves required workload guarantees."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iywacded~MHQt3Q6DgxqkGrUEgs6Dza.pdf~beyond-stateless-vs-stateful-a-unified-workload-api-for-multi-cluster-kubernetes.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249027"
   },
   {
@@ -12900,7 +12948,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/isupqap~G7ESUx9QuaXjkt7aYPJUh.pdf~the-race-to-standardize-ai-observability.pdf"
+     "url": "https://sessionize.com/download/ptadyev~ZrsaUT7oZEFNS23c33dgG.pdf~the-race-to-standardize-ai-observability-1.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1246166"
@@ -13059,12 +13107,18 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Cluster Lifecycle"
+    "Cluster Lifecycle",
+    "↓ Slides"
    ],
    "description": [
     "Originally developed at Google 10 years ago, minikube has become the most popular local Kubernetes tool with more than 15M github downloads. overview of journey of Minikube from an internal google project to migrating it out of Google ! This talk explores a history of 10 years of minikube and also shared exciting new AI features of minikube, such as using macbook's GPU in minikube."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ipdatnep~KPcnBdf3UipSZANEfr1Y92.pdf~2026_10-years-of-minikube-and-the-future-of-millions-of-users_final.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289720"
   },
   {
@@ -13092,7 +13146,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iqlanlem~VSPEcFo2JuRTyziTetEzAe.pdf~agents-fail-workflows-recover-sessionize.pdf"
+     "url": "https://sessionize.com/download/xjavdep~Bi64NzrQHkXAVLo7pvyQdv.pdf~agents-fail-workflows-recover-audience-slides.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1238002"
@@ -13157,14 +13211,20 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Falco"
+    "Falco",
+    "↓ Slides"
    ],
    "description": [
     "Falco has never flown alone. Around the runtime security engine at its core, a whole ecosystem has taken shape: the Operator that runs it, the connectors that carry its events, and the projects that turn detections into action. In this maintainer track session, the maintainers will look at how that ecosystem is maturing and where the project is heading next.",
     "We will share the most relevant developments in Falco itself, from detection and performance to a smoother experience for writing and maintaining rules, and give particular attention to the ecosystem growing around it. With the Operator now production-ready, deploying and managing Falco across Kubernetes clusters is simpler than ever, and the projects around it keep expanding what teams can do once an event leaves the engine.",
     "Join the maintainers for a look at what has changed since we last met, an honest view of where the project stands today, and a preview of the directions we are most excited about for the releases ahead."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/kzapbeb~J3nhmmXZ9qSMGx4u26rsoz.pdf~falco-maintainer-track-kubecon-na-2026.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289719"
   },
   {
@@ -13524,14 +13584,20 @@
    "track": "Application Development + Delivery",
    "level": "Beginner",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "A dental cabinet manufacturer in Texas now runs their corporate website and systems on a globally distributed CDN, autoscaling serverless compute, and a managed NoSQL datastore. They have no engineers. They vibe-coded it.",
     "This story is only possible because of fifteen years of cloud-native work. Managed platforms are opinionated wrappers around primitives the CNCF community made boring: container orchestration, serverless compute, federated identity, managed observability. Vibe coding is the cloud-native community's success story, even if most of its users will never know we exist.",
     "In this talk, we will share what it took to get from prompt to production, what the cloud-native foundation gave us, and where it left edges that still required human judgment. What is \"production-ready\" when the platform team is an LLM and how should cloud-native builders think about the wave of AI-assisted, non-engineer-built apps now landing on our infrastructure?"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/pcackez~Td4W35EBbCaqU5XhpDsMs7.pdf~from-vibe-to-live.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1251069"
   },
   {
