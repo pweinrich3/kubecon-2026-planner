@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-13T19:43:03Z",
+ "updated": "2026-11-14T00:53:31Z",
  "sessions": [
   {
    "id": "1304040",
@@ -4679,13 +4679,20 @@
    ],
    "track": "Security",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Imagine this: you've locked down your Kubernetes cluster with admission webhooks and ValidatingAdmissionPolicies. Life is great, until someone runs \"kubectl delete validatingwebhookconfiguration\" and your entire policy layer vanishes. That's the catch: the thing enforcing your security rules can be deleted by the very API it's supposed to protect. Your policies don't exist during bootstrap either, and they disappear if etcd goes down.",
     "What if you could load those same webhooks and policies from files on disk, active before the API server serves its very first request, and invisible to the REST API? Even better, what if they could protect admission resources themselves, something REST-based policies were never allowed to do?",
     "In this session, we'll show how Manifest-Based Admission Control (k8s.dev/resources/keps/5793) works, live-demo an attacker deleting critical policies and getting stopped cold, and share patterns for shipping tamper-proof configs across your fleet."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/cbalnewla~hzLjagxSNqCR29bv1NB1Qt.pdf~kubecon-na-2026-5793-slides-v10.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1245768"
   },
   {
@@ -5980,7 +5987,8 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "KubeVirt"
+    "KubeVirt",
+    "↓ Slides"
    ],
    "description": [
     "KubeVirt has made an enormous leap over the past year as we advance toward CNCF graduation. We have shifted to an extended pluggability model via VEP-190, introducing a new Plugin CRD and hooks that enable powerful community extensions. The Hypervisor Abstraction Layer is opening the door to multiple VMMs beyond QEMU/KVM.",
@@ -5988,7 +5996,12 @@
     "Governance has matured dramatically, too. A surge in enhancement proposals is now supported by our custom AI agent that helps manage the VEP lifecycle.",
     "Join us to discover the roadmap, modern capabilities, and how to contribute!"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/cidgacxe~WbKZfTJ7pkZH6YGa3UesMP.pdf~kubevirts-architectural-leap.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289648"
   },
   {
