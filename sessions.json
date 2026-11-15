@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-14T11:27:58Z",
+ "updated": "2026-11-15T15:39:59Z",
  "sessions": [
   {
    "id": "1304040",
@@ -8983,13 +8983,24 @@
    ],
    "track": "Emerging + Advanced",
    "level": "Advanced",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "When NVIDIA released drivers for the GB200 and GB300, it changed the way GPU memory was exposed to the system. Both GPU and CPU memory now appeared as standard NUMA nodes, unified in a single coherent address space accessible to any application. This model was extremely powerful — but it also broke Kubernetes in ways nobody anticipated: CPU-only pods silently consumed GPU memory, pod memory limits began firing on CUDA allocations, and pods that should have been queued under memory pressure scheduled and crashed instead.",
     "Adapting Kubernetes quickly proved too complex. Instead, a new model called Coherent Driver-based Memory Management (CDMM) was introduced, returning control of GPU memory to the underlying driver and hiding it from the OS. While CDMM closed the most critical gaps in Kubernetes, some lingering issues remain.",
     "In this talk we'll walk through the initial set of failures, the path to CDMM, and the patches still needed to run Kubernetes reliably on memory-coherent hardware."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/inkacsef~pW2ujMYKo5VmXnZbweriCF.pdf~kubecon-na-2026-when-gpus-become-numa-nodes_-challenges-running-kubernetes-with-memory-coherent-hardware.pdf"
+    },
+    {
+     "label": "Website",
+     "url": "https://docs.google.com/presentation/d/1wkqz_vmQWlSA_7y-zZFrbWpUXyzgHuLYgbrkFSoGtT8"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1229671"
   },
   {
