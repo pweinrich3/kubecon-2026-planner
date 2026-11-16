@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-15T21:02:12Z",
+ "updated": "2026-11-16T18:33:01Z",
  "sessions": [
   {
    "id": "1304040",
@@ -3057,14 +3057,21 @@
    ],
    "track": "Cloud Native Novice",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Have you managed to build your application as a container image, with Docker or Podman, and push it into an image/artifact registry? Congratulations… but the work is not finished 🙂.\nNow it’s time to implement the best practices of Supply Chain Security Software!",
     "In this talk, step by step, with a mix of slides and live demos, we will see all that, and much more.",
     "You will know how to implement these best practices, locally and even in your CI/CD pipelines.",
     "And bonus track, after this talk terms like 'cosign', 'sbom', 'vex', 'in-toto'… will no longer have any secrets for you!"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/izmaprez~BfwV2MxqFbAmRA8rzjmiz6.pdf~kubecon-na-2026-i-packaged-my-application-in-a-container-image-and-now-what_.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1202627"
   },
   {
@@ -12319,13 +12326,20 @@
    ],
    "track": "Application Development + Delivery",
    "level": "Any Level",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "A team ships an AI-powered support feature on a Friday. By Monday, token spend is eight times the forecast, a quality regression is annoying a swath of customers, a prompt injection slipped past the output guardrails and the comms team is dealing with a viral screenshot of the response.",
     "Shipping AI features responsibly is an experimentation problem. The cloud native community already has the primitives (flags, cohorts, telemetry, experiments, kill-switches), and AI workloads need them more than a CRUD service. Non-determinism means the same input can produce different outputs, so a green pre-prod eval is evidence of nothing; real traffic, real prompts, and real adversaries are the only meaningful test data. When a one-line prompt change can 10x a tenant's bill, progressive rollout and kill-switches cease to be optional.",
     "Todd covers the three axes (quality, cost, risk) and a reference loop using OpenFeature, flagd, and OpenTelemetry attendees can build next sprint."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ituksax~ErbDWpMTQkpMiFXhtjDdyV.pdf~hope-is-not-a-rollout-strategy.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250076"
   },
   {
@@ -13889,7 +13903,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ihlahjeu~XaxFvpi2KPNHRxBDEuSQoW.pdf~tb-710_-damon-cortesi-kubecon-2026.pdf"
+     "url": "https://sessionize.com/download/ognahu~sYAT1FKbU5JFzobDydEAcU.pdf~tb-710_-damon-cortesi-kubecon-2026.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1251249"
