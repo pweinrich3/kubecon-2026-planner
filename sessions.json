@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-16T18:33:01Z",
+ "updated": "2026-11-17T02:56:00Z",
  "sessions": [
   {
    "id": "1304040",
@@ -2936,12 +2936,18 @@
    "track": "Cloud Native Theater",
    "level": "",
    "tags": [
-    "Cloud Native University"
+    "Cloud Native University",
+    "↓ Slides"
    ],
    "description": [
     "Security is often overwhelming, this talk provides an overview of what problems are which (Supply Chain of the Software itself, CICD and gitops, Runtime protection and detection).\nI present the concepts commonly referred to (attestations, signatures, SBOM, Rules, Policies, Identity, Secrets, Isolation and Encryption) and highlight in the CNCF landscape, which projects cover the different aspects.\nI will also discuss how AI agents and zero-days are shifting the exposure in 2026 versus what best-practises still hold."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iyuhlax~VeoWi8P5KrjrP58MPaMVyE.pdf~kcna26short-security-overview-constanze-roedig.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1334787"
   },
   {
@@ -4233,13 +4239,19 @@
    "track": "Platform Engineering",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Kubernetes made infrastructure scalable, but not always cost-efficient.Organizations have adopted various resource optimization strategies to improve resource utilization and reduce overprovisioning. Some work well across a broad range of workloads, while others show limitations at scale.\nWith its GA graduation in Kubernetes 1.33, in-place pod resizing has become a new resource optimization capability for platform teams. Like any approach, it has its fit, limits, and ideal workloads. For some applications, it can be a game changer, improving utilization without disruption. For others, especially legacy applications, the journey is more complex and often requires alternatives.",
     "In this session, Dolis from Nirmata will share lessons from enterprise optimization efforts, focusing on in-place pod resizing. They will discuss where it works, where it falls short, common adoption challenges, and how to evaluate the right optimization strategy across workloads."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ixxabod~QbftoygYgJ9QsphVPqzDB9.pdf~kubecon_cloudnativecon_north_america_2026_-_branded_powerpoint.pptx.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1250487"
   },
   {
@@ -11716,12 +11728,18 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Containerd"
+    "Containerd",
+    "↓ Slides"
    ],
    "description": [
     "Join containerd maintainers for project update and deep dive into the latest updates on containerd. LLM-assisted vulnerability discovery has had a big impact on containerd: we'll discuss the impact on the project and changes we've made to improve our security response. For Kubernetes users, we will cover how the new containerd release cycle, support window, and upgrade safety changes make feature availability faster and make long-term support available across Kubernetes versions. We’ll then dive into the exciting work going on in the containerd ecosystem, including further developments in the Node Resource Interface (NRI) and EROFS snapshotter."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/iyuzwat~J93Xw1HUKPyukHJxkK74Xq.pdf~kubecon-2026-na-containerd_-project-update-and-deep-dive.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289714"
   },
   {
@@ -12813,7 +12831,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/iywacded~MHQt3Q6DgxqkGrUEgs6Dza.pdf~beyond-stateless-vs-stateful-a-unified-workload-api-for-multi-cluster-kubernetes.pdf"
+     "url": "https://sessionize.com/download/iznanfew~R737ckeGaUWwfQs62gHYfw.pdf~beyond-stateless-vs-stateful-a-unified-workload-api-for-multi-cluster-kubernetes.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249027"
