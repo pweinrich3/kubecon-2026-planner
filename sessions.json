@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-17T13:26:39Z",
+ "updated": "2026-11-17T23:30:13Z",
  "sessions": [
   {
    "id": "1304040",
@@ -5368,14 +5368,20 @@
    "track": "Cloud Native Experience",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "As with many large organizations, cloud native adoption and use often begins in pockets. However, even as innovative patterns are developed and usage increases, some teams within the same organization can remain unaware.",
     "This was true at Adobe. While the public cloud platform team were building leadership internally and credibility in the cloud native community, Adobe’s private cloud teams were busy focusing on other efforts. When business needs shifted, it needed to move quickly to a cloud-first architecture.",
     "In this session, learn how a team managing traditional infrastructure rapidly pivoted their technology stack and approaches using solutions such as Kubernetes, Argo CD, and KubeVirt. We’ll highlight the traits that made their journey successful, including developing reusable assets, establishing strong partnerships, and community engagement. Beyond the technology, this talk shows how tough transformation challenges can be achieved with the right ingredients and approach."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/cfawui~L7V5ujZ4vYyqLNJA1wFoXR.pdf~ground_control_to_major_tom.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249724"
   },
   {
@@ -6971,7 +6977,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/lubwal~BNr5DNv9rtVGWPSyvoU6pY.pdf~cache-me-public.pdf"
+     "url": "https://sessionize.com/download/xhabjey~NyDCBtjjSQFGn5hcUe4xmD.pdf~cache-me-public.pdf"
     },
     {
      "label": "Website",
@@ -12762,14 +12768,21 @@
    ],
    "track": "AI Inference + Agentic",
    "level": "",
-   "tags": [],
+   "tags": [
+    "↓ Slides"
+   ],
    "description": [
     "Building AI applications on Kubernetes involves more than calling a model API. Teams need to route requests across model providers, distribute traffic among self-hosted inference instances, and connect applications to tools through MCP. Managing these paths together raises practical questions around routing, reliability, scheduling, and protocol compatibility.",
     "This session explores these challenges through a Kubernetes gateway implementation. We start with model routing across providers, including fallback when a provider becomes unavailable. We then look at self-hosted models and how Gateway API and its Inference Extension can connect application traffic to inference pools.",
     "For inference scheduling, we compare an embedded endpoint picker with an external Endpoint Picker (EPP), such as the one used by llm-d. We discuss the trade-offs between these approaches, their deployment and scheduling implications, and how they behave when inference instances become unavailable. Gateway API and Inference Extension conformance results provide context for which behaviors align with upstream specifications.",
     "Finally, we examine how a gateway can connect applications to tools through MCP, including exposing existing REST APIs as MCP tools, proxying MCP servers, and bridging clients and servers that use different transport approaches. Attendees will leave with practical configuration examples and a clearer understanding of the design choices involved in managing model access, inference traffic, and MCP tools through a shared gateway.\n[1:25 PM]"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/idbayneq~JPXvEyEp7RqsJ53WQAiaDt.pdf~ai-gateways-in-practice-kubecon-na26.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1346926"
   },
   {
@@ -13665,7 +13678,7 @@
    "links": [
     {
      "label": "Slides",
-     "url": "https://sessionize.com/download/ifzasden~scsyyRDvE7xdQ6PH2ErRc2.pdf~fast_and_furious_otel_drift.pdf"
+     "url": "https://sessionize.com/download/dtakseg~QpSRxat541VFaU3bTDxezT.pdf~fast_and_furious_otel_drift.pdf"
     }
    ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1245970"
