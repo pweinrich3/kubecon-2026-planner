@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-17T02:56:00Z",
+ "updated": "2026-11-17T13:26:39Z",
  "sessions": [
   {
    "id": "1304040",
@@ -10464,14 +10464,20 @@
    "track": "AI Inference + Agentic",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "GB200s and GB300s are here! Fragmentation is widening the gap between “I have GPU quota” and “my job is actually running.” NVLink domains, rack boundaries, and the physical layout of the data center now shape whether a large training job can start, where it lands, and how efficiently it runs. On modern GPU clusters, quota is no longer enough. Topology has become a scheduling requirement. Kueue’s Topology Aware Scheduling (TAS) brings that reality into Kubernetes.",
     "We will cover three things. First, how TAS works and the configuration choices that matter, including preferred versus required topologies and PodSet slices. Second, how topology-aware placement affects workload performance. Third, the production lessons that do not show up in the happy path: sticky scheduling, quota debugging, fragmentation, and node hot swaps.",
     "Attendees will leave understanding how topology-aware scheduling helps AI teams turn expensive GPU capacity into actual training progress."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/mqadcey~HdPa7udyZ7DvKezkfk2jaP.pdf~quota-isnt-enough_-topology-aware-scheduling-on-modern-gpu-clusters.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1236394"
   },
   {
@@ -10790,12 +10796,18 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Metal3.io"
+    "Metal3.io",
+    "↓ Slides"
    ],
    "description": [
     "Metal3 manages baremetal host lifecycle declaratively through Kubernetes APIs. This session introduces three extensions covering tenancy, placement, and physical network automation, and demonstrates each.\nMultitenancy lets teams share a common hardware pool. Workload owners select hosts by capability, while management credentials and hardware details stay with infrastructure admins. No per-team hardware silos, no credential leakage across namespaces.\nFailure domain support spreads control plane nodes across racks using Cluster API semantics. Losing a rack does not lose quorum.\nTop-of-rack (ToR) switch automation declares switch inventory and VLAN intent as Kubernetes resources. LLDP discovery maps hosts to physical switch ports. Metal3 configures port VLANs during provisioning and reverts them on decommission — no manual switch configuration.\nThe result: isolated, rack-aware, network-automated clusters for many teams on one fleet — for AI, edge, and sovereign cloud platforms."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/ilwarpet~sSxDWE1TtxqhFvLUgVqTFW.pdf~beyond-provisioning_-multi-tenancy-rack-awareness-and-declarative-networking-in-metal3-kashif-khan-sunnatillo-samadov.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289661"
   },
   {
