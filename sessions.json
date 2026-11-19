@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-17T23:30:13Z",
+ "updated": "2026-11-19T01:52:31Z",
  "sessions": [
   {
    "id": "1304040",
@@ -6999,14 +6999,20 @@
    "track": "Observability",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "In past Kubecons, we have spoken about AI assisted explainers as a strategy to explain telemetry pillars such as traces and logs. Over the last year, we at eBay have worked towards furthering triage by explaining telemetry and reasoning on top of it. To be able to make troubleshooting with AI more promising, we have indexed on dashboards.",
     "Why dashboards? Dashboards contain relevant signals grouped together, they have descriptions and they are battle tested across debugging incidents and day to day operational analysis. Having the right signals to analyze is half the battle. The rest?",
     "This talk, describes how we built AI assisted dashboard analyzers on top of data sitting in Prometheus and ClickHouse. Does this mean that AI can do it all? Not yet, but we are edging closer and closer."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/icyahweq~nvMGtwPtGuozPMsUC4gQE6.pdf~dashboard-analyzer-kubecon-slc.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1249181"
   },
   {
@@ -12507,14 +12513,20 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Multicluster"
+    "Multicluster",
+    "↓ Slides"
    ],
    "description": [
     "SIG-Multicluster is focused on solving common challenges related to the management of many Kubernetes clusters, and applications deployed across many clusters, or even across cloud providers.",
     "In this session, we'll give attendees an overview of the current status of the multi-cluster problem space in Kubernetes and of the SIG. We’ll discuss current thinking around best practices for multi-cluster deployments and what it means to be part of a ClusterSet. Then we’ll highlight current SIG projects, focused use cases, and ideas for what’s next.",
     "Most importantly, we’ll provide information on how you can get involved either as a contributor or as a user who wants to provide feedback about the SIG's current efforts and future direction. Bring your questions, problems, and ideas – help us expand the multi-cluster Kubernetes landscape!"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/quihsa~STegKJMzhkAjZy7gJcxyKw.pdf~sig-multicluster-kubecon-na-2026-intro-deep-dive-aspresented.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289712"
   },
   {
