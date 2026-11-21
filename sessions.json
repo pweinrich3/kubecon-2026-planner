@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-21T01:31:36Z",
+ "updated": "2026-11-21T21:39:19Z",
  "sessions": [
   {
    "id": "1304040",
@@ -12573,14 +12573,20 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Batch"
+    "Batch",
+    "↓ Slides"
    ],
    "description": [
     "The Kubernetes AI/ML workload orchestration ecosystem is maturing from a collection of isolated tools into a unified, high-scale computing suite.",
     "In this session, WG Batch maintainers will present a comprehensive status report on our interconnected projects, including Job, Kueue, and JobSet. We will highlight What's New in recent releases, focusing on core API stability, advanced fair-sharing algorithms, and seamless multi-project integrations that power modern AI platforms.",
     "Looking ahead, we will preview the working group's plans, revealing our long-term vision for scalability and resource optimization through 2027. Whether you are a platform engineer or a prospective contributor, this session equips you with insights into the future of cloud-native AI/ML workloads orchestration."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/zsajreu~pqde1aRrEy674mA5H7ZTJj.pdf~wg-batch-updates-whats-new-and-what-is-next.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289724"
   },
   {
