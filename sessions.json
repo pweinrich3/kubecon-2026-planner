@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-19T01:52:31Z",
+ "updated": "2026-11-21T01:31:36Z",
  "sessions": [
   {
    "id": "1304040",
@@ -3230,14 +3230,20 @@
    "track": "Security",
    "level": "Any Level",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Your image is signed. But does its evidence meet deployment requirements, and can you prove that to an auditor? Repeating shared controls and evidence collection across app teams makes compliance costly and inconsistent.",
     "AT&T and Nirmata explore an architecture for platform-managed controls: GitHub Actions emits Sigstore-backed Artifact Attestations; Kyverno's ImageValidatingPolicy evaluates artifacts, signed evidence, and destination rules at admission. Every decision is retained as audit evidence.",
     "As long-time Kyverno users, AT&T wanted expressive CEL policies in the engine it already trusted, not a new engine and language. The challenge: internal builds using GitHub's private Sigstore alongside upstream images with different trust roots. This deep dive highlights Kyverno 1.19 and 1.20 capabilities for mixed-source verification and admission performance, plus patterns for exceptions, failure handling, and evidence retention."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/knaqzev~RVf9QmUrbJWreNsQcbQKod.pdf~kubeconna26-signed-sealed-denied-attestation-driven-admission-kyverno-ivpol.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247300"
   },
   {
