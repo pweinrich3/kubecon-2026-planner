@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-21T21:39:19Z",
+ "updated": "2026-11-23T20:13:55Z",
  "sessions": [
   {
    "id": "1304040",
@@ -11119,14 +11119,20 @@
    "track": "AI Inference + Agentic",
    "level": "Advanced",
    "tags": [
-    "End User Talk"
+    "End User Talk",
+    "↓ Slides"
    ],
    "description": [
     "Building secure and scalable agents at scale is hard. From multi-tenancy and noisy-neighbor risk to tool access and data boundaries, teams need more than a prompt and a container image—they need a deliberate execution model.",
     "At Adobe, we are running agents on the CNCF Agent Sandbox project: a sandboxed runtime for AI agents that manages their full lifecycle—provision, execute, observe, and tear down—while keeping workloads isolated from the rest of the platform. Sandboxes enforce resource limits, reduce blast radius, and give operators a consistent place to apply policy.\nWe have applied optimizations so that development teams can run agents without the need to understand the sandboxing mechanism or worry much about the increased complexity of single tenant agent execution.",
     "In this session we’ll share the problems we hit running agents for real customers, how Agent Sandbox addresses them, and what we’d do differently next time."
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/cirhadce~JLZQ2uRHz8msyvVTVtjivx.pdf~kubecon-na.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1247666"
   },
   {
