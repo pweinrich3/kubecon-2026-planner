@@ -1,6 +1,6 @@
 {
  "source": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/",
- "updated": "2026-11-23T20:13:55Z",
+ "updated": "2026-11-28T00:02:20Z",
  "sessions": [
   {
    "id": "1304040",
@@ -7615,14 +7615,20 @@
    "track": "Maintainer Track",
    "level": "",
    "tags": [
-    "Cilium"
+    "Cilium",
+    "↓ Slides"
    ],
    "description": [
     "Cilium continues to evolve across every layer of the cloud native networking stack, from new Kubernetes APIs at the top to innovations in the Linux kernel underneath.",
     "Join us for a technical tour of the latest work happening across the Cilium project. We'll cover recent developments including Gateway API features such as TCPRoute and ListenerSet, new eBPF datapath plugins that make kernel networking more extensible, and the architectural work shaping the next generation of cloud native networking, observability, and security. You'll also hear from an end user on why they chose Cilium.",
     "We'll close with community activities around the Cilium project and learning how to get involved as the project moves into its second decade!"
    ],
-   "links": [],
+   "links": [
+    {
+     "label": "Slides",
+     "url": "https://sessionize.com/download/lbaxned~KGCXdLbHaRyVsz2FMeU6EK.pdf~kubecon-na2026-from-listenersets-to-ebpf-plugins.pdf"
+    }
+   ],
    "url": "https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/program/schedule/?id=1289674"
   },
   {
